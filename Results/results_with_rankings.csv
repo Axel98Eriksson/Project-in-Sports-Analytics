@@ -1,0 +1,747 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,home_ranking,away_ranking
+1992-06-10,Sweden,France,1.0,1.0,UEFA Euro,Solna,Sweden,False,4,19
+1992-06-11,Denmark,England,0.0,0.0,UEFA Euro,Malmö,Sweden,True,9,5
+1992-06-12,Netherlands,Scotland,1.0,0.0,UEFA Euro,Gothenburg,Sweden,True,7,23
+1992-06-12,Russia,Germany,1.0,1.0,UEFA Euro,Norrköping,Sweden,True,8,1
+1992-06-14,France,England,0.0,0.0,UEFA Euro,Malmö,Sweden,True,19,5
+1992-06-14,Sweden,Denmark,1.0,0.0,UEFA Euro,Solna,Sweden,False,4,9
+1992-06-15,Netherlands,Russia,0.0,0.0,UEFA Euro,Gothenburg,Sweden,True,7,8
+1992-06-15,Scotland,Germany,0.0,2.0,UEFA Euro,Norrköping,Sweden,True,23,1
+1992-06-17,France,Denmark,1.0,2.0,UEFA Euro,Malmö,Sweden,True,19,9
+1992-06-17,Sweden,England,2.0,1.0,UEFA Euro,Solna,Sweden,False,4,5
+1992-06-18,Netherlands,Germany,3.0,1.0,UEFA Euro,Gothenburg,Sweden,True,7,1
+1992-06-18,Scotland,Russia,3.0,0.0,UEFA Euro,Norrköping,Sweden,True,23,8
+1992-06-21,Sweden,Germany,2.0,3.0,UEFA Euro,Solna,Sweden,False,4,1
+1992-06-22,Netherlands,Denmark,2.0,2.0,UEFA Euro,Gothenburg,Sweden,True,7,9
+1992-06-26,Denmark,Germany,2.0,0.0,UEFA Euro,Gothenburg,Sweden,True,9,1
+1996-06-08,England,Switzerland,1.0,1.0,UEFA Euro,London,England,False,24,21
+1996-06-09,Denmark,Portugal,1.0,1.0,UEFA Euro,Sheffield,England,True,11,18
+1996-06-09,Germany,Czech Republic,2.0,0.0,UEFA Euro,Manchester,England,True,2,0
+1996-06-09,Spain,Bulgaria,1.0,1.0,UEFA Euro,Leeds,England,True,6,28
+1996-06-10,Netherlands,Scotland,0.0,0.0,UEFA Euro,Birmingham,England,True,13,31
+1996-06-10,Romania,France,0.0,1.0,UEFA Euro,Newcastle,England,True,16,5
+1996-06-11,Italy,Russia,2.0,1.0,UEFA Euro,Liverpool,England,True,7,3
+1996-06-11,Turkey,Croatia,0.0,1.0,UEFA Euro,Nottingham,England,True,30,27
+1996-06-13,Bulgaria,Romania,1.0,0.0,UEFA Euro,Newcastle,England,True,28,16
+1996-06-13,Switzerland,Netherlands,0.0,2.0,UEFA Euro,Birmingham,England,True,21,13
+1996-06-14,Czech Republic,Italy,2.0,1.0,UEFA Euro,Liverpool,England,True,0,7
+1996-06-14,Portugal,Turkey,1.0,0.0,UEFA Euro,Nottingham,England,True,18,30
+1996-06-15,England,Scotland,2.0,0.0,UEFA Euro,London,England,False,24,31
+1996-06-15,France,Spain,1.0,1.0,UEFA Euro,Leeds,England,True,5,6
+1996-06-16,Croatia,Denmark,3.0,0.0,UEFA Euro,Sheffield,England,True,27,11
+1996-06-16,Russia,Germany,0.0,3.0,UEFA Euro,Manchester,England,True,3,2
+1996-06-18,England,Netherlands,4.0,1.0,UEFA Euro,London,England,False,24,13
+1996-06-18,France,Bulgaria,3.0,1.0,UEFA Euro,Newcastle,England,True,5,28
+1996-06-18,Romania,Spain,1.0,2.0,UEFA Euro,Leeds,England,True,16,6
+1996-06-18,Scotland,Switzerland,1.0,0.0,UEFA Euro,Birmingham,England,True,31,21
+1996-06-19,Croatia,Portugal,0.0,3.0,UEFA Euro,Nottingham,England,True,27,18
+1996-06-19,Italy,Germany,0.0,0.0,UEFA Euro,Manchester,England,True,7,2
+1996-06-19,Russia,Czech Republic,3.0,3.0,UEFA Euro,Liverpool,England,True,3,0
+1996-06-19,Turkey,Denmark,0.0,3.0,UEFA Euro,Sheffield,England,True,30,11
+1996-06-22,England,Spain,0.0,0.0,UEFA Euro,London,England,False,24,6
+1996-06-22,France,Netherlands,0.0,0.0,UEFA Euro,Liverpool,England,True,5,13
+1996-06-23,Czech Republic,Portugal,1.0,0.0,UEFA Euro,Birmingham,England,True,0,18
+1996-06-23,Germany,Croatia,2.0,1.0,UEFA Euro,Manchester,England,True,2,27
+1996-06-26,England,Germany,1.0,1.0,UEFA Euro,London,England,False,24,2
+1996-06-26,France,Czech Republic,0.0,0.0,UEFA Euro,Manchester,England,True,5,0
+1996-06-30,Czech Republic,Germany,1.0,2.0,UEFA Euro,London,England,True,0,2
+2000-06-10,Belgium,Sweden,2.0,1.0,UEFA Euro,Brussels,Belgium,False,30,16
+2000-06-11,France,Denmark,3.0,0.0,UEFA Euro,Bruges,Belgium,True,2,13
+2000-06-11,Netherlands,Czech Republic,1.0,0.0,UEFA Euro,Amsterdam,Netherlands,False,21,0
+2000-06-11,Turkey,Italy,1.0,2.0,UEFA Euro,Arnhem,Netherlands,True,35,14
+2000-06-12,Germany,Romania,1.0,1.0,UEFA Euro,Liège,Belgium,True,6,11
+2000-06-12,Portugal,England,3.0,2.0,UEFA Euro,Eindhoven,Netherlands,True,15,12
+2000-06-13,Serbia,Slovenia,3.0,3.0,UEFA Euro,Charleroi,Belgium,True,47,46
+2000-06-13,Spain,Norway,0.0,1.0,UEFA Euro,Rotterdam,Netherlands,True,4,7
+2000-06-14,Belgium,Italy,0.0,2.0,UEFA Euro,Brussels,Belgium,False,30,14
+2000-06-15,Sweden,Turkey,0.0,0.0,UEFA Euro,Eindhoven,Netherlands,True,16,35
+2000-06-16,Czech Republic,France,1.0,2.0,UEFA Euro,Bruges,Belgium,True,0,2
+2000-06-16,Netherlands,Denmark,3.0,0.0,UEFA Euro,Rotterdam,Netherlands,False,21,13
+2000-06-17,England,Germany,1.0,0.0,UEFA Euro,Charleroi,Belgium,True,12,6
+2000-06-17,Romania,Portugal,0.0,1.0,UEFA Euro,Arnhem,Netherlands,True,11,15
+2000-06-18,Norway,Serbia,0.0,1.0,UEFA Euro,Liège,Belgium,True,7,47
+2000-06-18,Slovenia,Spain,1.0,2.0,UEFA Euro,Amsterdam,Netherlands,True,46,4
+2000-06-19,Belgium,Turkey,0.0,2.0,UEFA Euro,Brussels,Belgium,False,30,35
+2000-06-19,Italy,Sweden,2.0,1.0,UEFA Euro,Eindhoven,Netherlands,True,14,16
+2000-06-20,England,Romania,2.0,3.0,UEFA Euro,Charleroi,Belgium,True,12,11
+2000-06-20,Portugal,Germany,3.0,0.0,UEFA Euro,Rotterdam,Netherlands,True,15,6
+2000-06-21,Denmark,Czech Republic,0.0,2.0,UEFA Euro,Liège,Belgium,True,13,0
+2000-06-21,Netherlands,France,3.0,2.0,UEFA Euro,Amsterdam,Netherlands,False,21,2
+2000-06-21,Serbia,Spain,3.0,4.0,UEFA Euro,Bruges,Belgium,True,47,4
+2000-06-21,Slovenia,Norway,0.0,0.0,UEFA Euro,Arnhem,Netherlands,True,46,7
+2000-06-24,Italy,Romania,2.0,0.0,UEFA Euro,Brussels,Belgium,True,14,11
+2000-06-24,Turkey,Portugal,0.0,2.0,UEFA Euro,Amsterdam,Netherlands,True,35,15
+2000-06-25,Netherlands,Serbia,6.0,1.0,UEFA Euro,Rotterdam,Netherlands,False,21,47
+2000-06-25,Spain,France,1.0,2.0,UEFA Euro,Bruges,Belgium,True,4,2
+2000-06-28,France,Portugal,2.0,1.0,UEFA Euro,Brussels,Belgium,True,2,15
+2000-06-29,Netherlands,Italy,0.0,0.0,UEFA Euro,Amsterdam,Netherlands,False,21,14
+2000-07-02,France,Italy,2.0,1.0,UEFA Euro,Rotterdam,Netherlands,True,2,14
+2004-06-12,Portugal,Greece,1.0,2.0,UEFA Euro,Porto,Portugal,False,22,35
+2004-06-12,Spain,Russia,1.0,0.0,UEFA Euro,Faro,Portugal,True,3,31
+2004-06-13,France,England,2.0,1.0,UEFA Euro,Lisbon,Portugal,True,2,13
+2004-06-13,Switzerland,Croatia,0.0,0.0,UEFA Euro,Leiria,Portugal,True,47,20
+2004-06-14,Denmark,Italy,0.0,0.0,UEFA Euro,Guimarães,Portugal,True,15,10
+2004-06-14,Sweden,Bulgaria,5.0,0.0,UEFA Euro,Lisbon,Portugal,True,18,40
+2004-06-15,Czech Republic,Latvia,2.0,1.0,UEFA Euro,Aveiro,Portugal,True,0,53
+2004-06-15,Germany,Netherlands,1.0,1.0,UEFA Euro,Porto,Portugal,True,8,5
+2004-06-16,Greece,Spain,1.0,1.0,UEFA Euro,Porto,Portugal,True,35,3
+2004-06-16,Portugal,Russia,2.0,0.0,UEFA Euro,Lisbon,Portugal,False,22,31
+2004-06-17,Croatia,France,2.0,2.0,UEFA Euro,Leiria,Portugal,True,20,2
+2004-06-17,England,Switzerland,3.0,0.0,UEFA Euro,Coimbra,Portugal,True,13,47
+2004-06-18,Bulgaria,Denmark,0.0,2.0,UEFA Euro,Braga,Portugal,True,40,15
+2004-06-18,Italy,Sweden,1.0,1.0,UEFA Euro,Porto,Portugal,True,10,18
+2004-06-19,Latvia,Germany,0.0,0.0,UEFA Euro,Porto,Portugal,True,53,8
+2004-06-19,Netherlands,Czech Republic,2.0,3.0,UEFA Euro,Aveiro,Portugal,True,5,0
+2004-06-20,Portugal,Spain,1.0,0.0,UEFA Euro,Lisbon,Portugal,False,22,3
+2004-06-20,Russia,Greece,2.0,1.0,UEFA Euro,Faro,Portugal,True,31,35
+2004-06-21,Croatia,England,2.0,4.0,UEFA Euro,Lisbon,Portugal,True,20,13
+2004-06-21,Switzerland,France,1.0,3.0,UEFA Euro,Coimbra,Portugal,True,47,2
+2004-06-22,Denmark,Sweden,2.0,2.0,UEFA Euro,Porto,Portugal,True,15,18
+2004-06-22,Italy,Bulgaria,2.0,1.0,UEFA Euro,Guimarães,Portugal,True,10,40
+2004-06-23,Germany,Czech Republic,1.0,2.0,UEFA Euro,Lisbon,Portugal,True,8,0
+2004-06-23,Netherlands,Latvia,3.0,0.0,UEFA Euro,Braga,Portugal,True,5,53
+2004-06-24,Portugal,England,2.0,2.0,UEFA Euro,Lisbon,Portugal,False,22,13
+2004-06-25,France,Greece,0.0,1.0,UEFA Euro,Lisbon,Portugal,True,2,35
+2004-06-26,Sweden,Netherlands,0.0,0.0,UEFA Euro,Faro,Portugal,True,18,5
+2004-06-27,Czech Republic,Denmark,3.0,0.0,UEFA Euro,Porto,Portugal,True,0,15
+2004-06-30,Portugal,Netherlands,2.0,1.0,UEFA Euro,Lisbon,Portugal,False,22,5
+2004-07-01,Greece,Czech Republic,1.0,0.0,UEFA Euro,Porto,Portugal,True,35,0
+2004-07-04,Portugal,Greece,0.0,1.0,UEFA Euro,Lisbon,Portugal,False,22,35
+2008-06-07,Portugal,Turkey,2.0,0.0,UEFA Euro,Geneva,Switzerland,True,11,20
+2008-06-07,Switzerland,Czech Republic,0.0,1.0,UEFA Euro,Basel,Switzerland,False,44,0
+2008-06-08,Austria,Croatia,0.0,1.0,UEFA Euro,Vienna,Austria,False,92,15
+2008-06-08,Germany,Poland,2.0,0.0,UEFA Euro,Klagenfurt,Austria,True,5,28
+2008-06-09,Netherlands,Italy,3.0,0.0,UEFA Euro,Berne,Switzerland,True,10,3
+2008-06-09,Romania,France,0.0,0.0,UEFA Euro,Zürich,Switzerland,True,12,7
+2008-06-10,Greece,Sweden,0.0,2.0,UEFA Euro,Salzburg,Austria,True,8,30
+2008-06-10,Spain,Russia,4.0,1.0,UEFA Euro,Innsbruck,Austria,True,4,24
+2008-06-11,Czech Republic,Portugal,1.0,3.0,UEFA Euro,Geneva,Switzerland,True,0,11
+2008-06-11,Switzerland,Turkey,1.0,2.0,UEFA Euro,Basel,Switzerland,False,44,20
+2008-06-12,Austria,Poland,1.0,1.0,UEFA Euro,Vienna,Austria,False,92,28
+2008-06-12,Croatia,Germany,2.0,1.0,UEFA Euro,Klagenfurt,Austria,True,15,5
+2008-06-13,Italy,Romania,1.0,1.0,UEFA Euro,Zürich,Switzerland,True,3,12
+2008-06-13,Netherlands,France,4.0,1.0,UEFA Euro,Berne,Switzerland,True,10,7
+2008-06-14,Greece,Russia,0.0,1.0,UEFA Euro,Salzburg,Austria,True,8,24
+2008-06-14,Sweden,Spain,1.0,2.0,UEFA Euro,Innsbruck,Austria,True,30,4
+2008-06-15,Switzerland,Portugal,2.0,0.0,UEFA Euro,Basel,Switzerland,False,44,11
+2008-06-15,Turkey,Czech Republic,3.0,2.0,UEFA Euro,Geneva,Switzerland,True,20,0
+2008-06-16,Austria,Germany,0.0,1.0,UEFA Euro,Vienna,Austria,False,92,5
+2008-06-16,Poland,Croatia,0.0,1.0,UEFA Euro,Klagenfurt,Austria,True,28,15
+2008-06-17,France,Italy,0.0,2.0,UEFA Euro,Zürich,Switzerland,True,7,3
+2008-06-17,Netherlands,Romania,2.0,0.0,UEFA Euro,Berne,Switzerland,True,10,12
+2008-06-18,Greece,Spain,1.0,2.0,UEFA Euro,Salzburg,Austria,True,8,4
+2008-06-18,Russia,Sweden,2.0,0.0,UEFA Euro,Innsbruck,Austria,True,24,30
+2008-06-19,Portugal,Germany,2.0,3.0,UEFA Euro,Basel,Switzerland,True,11,5
+2008-06-20,Croatia,Turkey,1.0,1.0,UEFA Euro,Vienna,Austria,True,15,20
+2008-06-21,Netherlands,Russia,1.0,3.0,UEFA Euro,Basel,Switzerland,True,10,24
+2008-06-22,Spain,Italy,0.0,0.0,UEFA Euro,Vienna,Austria,True,4,3
+2008-06-25,Germany,Turkey,3.0,2.0,UEFA Euro,Basel,Switzerland,True,5,20
+2008-06-26,Russia,Spain,0.0,3.0,UEFA Euro,Vienna,Austria,True,24,4
+2008-06-29,Germany,Spain,0.0,1.0,UEFA Euro,Vienna,Austria,True,5,4
+2012-06-08,Poland,Greece,1.0,1.0,UEFA Euro,Warsaw,Poland,False,62,15
+2012-06-08,Russia,Czech Republic,4.0,1.0,UEFA Euro,Wrocław,Poland,True,13,0
+2012-06-09,Germany,Portugal,1.0,0.0,UEFA Euro,Lviv,Ukraine,True,3,10
+2012-06-09,Netherlands,Denmark,0.0,1.0,UEFA Euro,Kharkiv,Ukraine,True,4,9
+2012-06-10,Republic of Ireland,Croatia,1.0,3.0,UEFA Euro,Poznań,Poland,True,18,8
+2012-06-10,Spain,Italy,1.0,1.0,UEFA Euro,Gdańsk,Poland,True,1,12
+2012-06-11,France,England,1.0,1.0,UEFA Euro,Donetsk,Ukraine,True,14,6
+2012-06-11,Ukraine,Sweden,2.0,1.0,UEFA Euro,Kyiv,Ukraine,False,52,17
+2012-06-12,Greece,Czech Republic,1.0,2.0,UEFA Euro,Wrocław,Poland,True,15,0
+2012-06-12,Poland,Russia,1.0,1.0,UEFA Euro,Warsaw,Poland,False,62,13
+2012-06-13,Denmark,Portugal,2.0,3.0,UEFA Euro,Lviv,Ukraine,True,9,10
+2012-06-13,Netherlands,Germany,1.0,2.0,UEFA Euro,Kharkiv,Ukraine,True,4,3
+2012-06-14,Italy,Croatia,1.0,1.0,UEFA Euro,Poznań,Poland,True,12,8
+2012-06-14,Spain,Republic of Ireland,4.0,0.0,UEFA Euro,Gdańsk,Poland,True,1,18
+2012-06-15,Sweden,England,2.0,3.0,UEFA Euro,Kyiv,Ukraine,True,17,6
+2012-06-15,Ukraine,France,0.0,2.0,UEFA Euro,Donetsk,Ukraine,False,52,14
+2012-06-16,Greece,Russia,1.0,0.0,UEFA Euro,Warsaw,Poland,True,15,13
+2012-06-16,Poland,Czech Republic,0.0,1.0,UEFA Euro,Wrocław,Poland,False,62,0
+2012-06-17,Denmark,Germany,1.0,2.0,UEFA Euro,Lviv,Ukraine,True,9,3
+2012-06-17,Portugal,Netherlands,2.0,1.0,UEFA Euro,Kharkiv,Ukraine,True,10,4
+2012-06-18,Croatia,Spain,0.0,1.0,UEFA Euro,Gdańsk,Poland,True,8,1
+2012-06-18,Italy,Republic of Ireland,2.0,0.0,UEFA Euro,Poznań,Poland,True,12,18
+2012-06-19,Sweden,France,2.0,0.0,UEFA Euro,Kyiv,Ukraine,True,17,14
+2012-06-19,Ukraine,England,0.0,1.0,UEFA Euro,Donetsk,Ukraine,False,52,6
+2012-06-21,Czech Republic,Portugal,0.0,1.0,UEFA Euro,Warsaw,Poland,True,0,10
+2012-06-22,Germany,Greece,4.0,2.0,UEFA Euro,Gdańsk,Poland,True,3,15
+2012-06-23,Spain,France,2.0,0.0,UEFA Euro,Donetsk,Ukraine,True,1,14
+2012-06-24,England,Italy,0.0,0.0,UEFA Euro,Kyiv,Ukraine,True,6,12
+2012-06-27,Portugal,Spain,0.0,0.0,UEFA Euro,Donetsk,Ukraine,True,10,1
+2012-06-28,Germany,Italy,1.0,2.0,UEFA Euro,Warsaw,Poland,True,3,12
+2012-07-01,Spain,Italy,4.0,0.0,UEFA Euro,Kyiv,Ukraine,True,1,12
+2016-06-10,France,Romania,2.0,1.0,UEFA Euro,Saint-Denis,France,False,17,22
+2016-06-11,Albania,Switzerland,0.0,1.0,UEFA Euro,Lens,France,True,42,15
+2016-06-11,England,Russia,1.0,1.0,UEFA Euro,Marseille,France,True,11,29
+2016-06-11,Wales,Slovakia,2.0,1.0,UEFA Euro,Bordeaux,France,True,26,24
+2016-06-12,Germany,Ukraine,2.0,0.0,UEFA Euro,Villeneuve-d'Ascq,France,True,4,19
+2016-06-12,Poland,Northern Ireland,1.0,0.0,UEFA Euro,Nice,France,True,27,25
+2016-06-12,Turkey,Croatia,0.0,1.0,UEFA Euro,Paris,France,True,18,27
+2016-06-13,Belgium,Italy,0.0,2.0,UEFA Euro,Lyon,France,True,2,12
+2016-06-13,Republic of Ireland,Sweden,1.0,1.0,UEFA Euro,Saint-Denis,France,True,33,35
+2016-06-13,Spain,Czech Republic,1.0,0.0,UEFA Euro,Toulouse,France,True,6,0
+2016-06-14,Austria,Hungary,0.0,2.0,UEFA Euro,Bordeaux,France,True,10,20
+2016-06-14,Portugal,Iceland,1.0,1.0,UEFA Euro,Saint-Étienne,France,True,8,34
+2016-06-15,France,Albania,2.0,0.0,UEFA Euro,Marseille,France,False,17,42
+2016-06-15,Romania,Switzerland,1.0,1.0,UEFA Euro,Paris,France,True,22,15
+2016-06-15,Russia,Slovakia,1.0,2.0,UEFA Euro,Villeneuve-d'Ascq,France,True,29,24
+2016-06-16,England,Wales,2.0,1.0,UEFA Euro,Lens,France,True,11,26
+2016-06-16,Germany,Poland,0.0,0.0,UEFA Euro,Saint-Denis,France,True,4,27
+2016-06-16,Ukraine,Northern Ireland,0.0,2.0,UEFA Euro,Lyon,France,True,19,25
+2016-06-17,Czech Republic,Croatia,2.0,2.0,UEFA Euro,Saint-Étienne,France,True,0,27
+2016-06-17,Italy,Sweden,1.0,0.0,UEFA Euro,Toulouse,France,True,12,35
+2016-06-17,Spain,Turkey,3.0,0.0,UEFA Euro,Nice,France,True,6,18
+2016-06-18,Belgium,Republic of Ireland,3.0,0.0,UEFA Euro,Bordeaux,France,True,2,33
+2016-06-18,Iceland,Hungary,1.0,1.0,UEFA Euro,Marseille,France,True,34,20
+2016-06-18,Portugal,Austria,0.0,0.0,UEFA Euro,Lyon,France,True,8,10
+2016-06-19,France,Switzerland,0.0,0.0,UEFA Euro,Villeneuve-d'Ascq,France,False,17,15
+2016-06-19,Romania,Albania,0.0,1.0,UEFA Euro,Lyon,France,True,22,42
+2016-06-20,Russia,Wales,0.0,3.0,UEFA Euro,Toulouse,France,True,29,26
+2016-06-20,Slovakia,England,0.0,0.0,UEFA Euro,Saint-Étienne,France,True,24,11
+2016-06-21,Croatia,Spain,2.0,1.0,UEFA Euro,Bordeaux,France,True,27,6
+2016-06-21,Czech Republic,Turkey,0.0,2.0,UEFA Euro,Lens,France,True,0,18
+2016-06-21,Northern Ireland,Germany,0.0,1.0,UEFA Euro,Paris,France,True,25,4
+2016-06-21,Ukraine,Poland,0.0,1.0,UEFA Euro,Marseille,France,True,19,27
+2016-06-22,Hungary,Portugal,3.0,3.0,UEFA Euro,Lyon,France,True,20,8
+2016-06-22,Iceland,Austria,2.0,1.0,UEFA Euro,Saint-Denis,France,True,34,10
+2016-06-22,Italy,Republic of Ireland,0.0,1.0,UEFA Euro,Villeneuve-d'Ascq,France,True,12,33
+2016-06-22,Sweden,Belgium,0.0,1.0,UEFA Euro,Nice,France,True,35,2
+2016-06-25,Croatia,Portugal,0.0,1.0,UEFA Euro,Lens,France,True,27,8
+2016-06-25,Switzerland,Poland,1.0,1.0,UEFA Euro,Saint-Étienne,France,True,15,27
+2016-06-25,Wales,Northern Ireland,1.0,0.0,UEFA Euro,Paris,France,True,26,25
+2016-06-26,France,Republic of Ireland,2.0,1.0,UEFA Euro,Lyon,France,False,17,33
+2016-06-26,Germany,Slovakia,3.0,0.0,UEFA Euro,Villeneuve-d'Ascq,France,True,4,24
+2016-06-26,Hungary,Belgium,0.0,4.0,UEFA Euro,Toulouse,France,True,20,2
+2016-06-27,England,Iceland,1.0,2.0,UEFA Euro,Nice,France,True,11,34
+2016-06-27,Italy,Spain,2.0,0.0,UEFA Euro,Saint-Denis,France,True,12,6
+2016-06-30,Poland,Portugal,1.0,1.0,UEFA Euro,Marseille,France,True,27,8
+2016-07-01,Wales,Belgium,3.0,1.0,UEFA Euro,Villeneuve-d'Ascq,France,True,26,2
+2016-07-02,Germany,Italy,1.0,1.0,UEFA Euro,Bordeaux,France,True,4,12
+2016-07-03,France,Iceland,5.0,2.0,UEFA Euro,Saint-Denis,France,False,17,34
+2016-07-06,Portugal,Wales,2.0,0.0,UEFA Euro,Lyon,France,True,8,26
+2016-07-07,France,Germany,2.0,0.0,UEFA Euro,Marseille,France,False,17,4
+2016-07-10,France,Portugal,0.0,1.0,UEFA Euro,Saint-Denis,France,False,17,8
+2018-09-06,Germany,France,0.0,0.0,UEFA Nations League,Munich,Germany,False,15,1
+2018-09-06,Czech Republic,Ukraine,1.0,2.0,UEFA Nations League,Uherské Hradiště,Czech Republic,False,0,35
+2018-09-06,Wales,Republic of Ireland,4.0,1.0,UEFA Nations League,Cardiff,Wales,False,19,29
+2018-09-06,Norway,Cyprus,2.0,0.0,UEFA Nations League,Oslo,Norway,False,53,87
+2018-09-06,Slovenia,Bulgaria,1.0,2.0,UEFA Nations League,Ljubljana,Slovenia,False,55,47
+2018-09-06,Kazakhstan,Georgia,0.0,2.0,UEFA Nations League,Astana,Kazakhstan,False,116,96
+2018-09-06,Latvia,Andorra,0.0,0.0,UEFA Nations League,Riga,Latvia,False,129,130
+2018-09-06,Armenia,Liechtenstein,2.0,1.0,UEFA Nations League,Yerevan,Armenia,False,100,180
+2018-09-06,Gibraltar,North Macedonia,0.0,2.0,UEFA Nations League,Gibraltar,Gibraltar,False,195,70
+2018-09-07,Italy,Poland,1.0,1.0,UEFA Nations League,Bologna,Italy,False,21,18
+2018-09-07,Turkey,Russia,1.0,2.0,UEFA Nations League,Trabzon,Turkey,False,38,49
+2018-09-07,Albania,Israel,1.0,0.0,UEFA Nations League,Elbasan,Albania,False,58,93
+2018-09-07,Lithuania,Serbia,0.0,1.0,UEFA Nations League,Vilnius,Lithuania,False,127,36
+2018-09-07,Romania,Montenegro,0.0,0.0,UEFA Nations League,Ploiești,Romania,False,28,41
+2018-09-07,Faroe Islands,Malta,3.0,1.0,UEFA Nations League,Tórshavn,Faroe Islands,False,90,184
+2018-09-07,Azerbaijan,Kosovo,0.0,0.0,UEFA Nations League,Baku,Azerbaijan,False,105,141
+2018-09-08,Switzerland,Iceland,6.0,0.0,UEFA Nations League,St. Gallen,Switzerland,False,8,32
+2018-09-08,England,Spain,1.0,2.0,UEFA Nations League,London,England,False,6,9
+2018-09-08,Northern Ireland,Bosnia and Herzegovina,1.0,2.0,UEFA Nations League,Belfast,Northern Ireland,False,27,39
+2018-09-08,Finland,Hungary,1.0,0.0,UEFA Nations League,Tampere,Finland,False,62,51
+2018-09-08,Estonia,Greece,0.0,1.0,UEFA Nations League,Tallinn,Estonia,False,94,42
+2018-09-08,Belarus,San Marino,5.0,0.0,UEFA Nations League,Minsk,Belarus,False,78,203
+2018-09-08,Luxembourg,Moldova,4.0,0.0,UEFA Nations League,Luxembourg,Luxembourg,False,85,175
+2018-09-09,France,Netherlands,2.0,1.0,UEFA Nations League,Paris,France,False,1,17
+2018-09-09,Ukraine,Slovakia,1.0,0.0,UEFA Nations League,Lviv,Ukraine,False,35,26
+2018-09-09,Denmark,Wales,2.0,0.0,UEFA Nations League,Aarhus,Denmark,False,9,19
+2018-09-09,Bulgaria,Norway,1.0,0.0,UEFA Nations League,Sofia,Bulgaria,False,47,53
+2018-09-09,Cyprus,Slovenia,2.0,1.0,UEFA Nations League,Nicosia,Cyprus,False,87,55
+2018-09-09,Georgia,Latvia,1.0,0.0,UEFA Nations League,Tbilisi,Georgia,False,96,129
+2018-09-09,North Macedonia,Armenia,2.0,0.0,UEFA Nations League,Skopje,North Macedonia,False,70,100
+2018-09-09,Liechtenstein,Gibraltar,2.0,0.0,UEFA Nations League,Vaduz,Liechtenstein,False,180,195
+2018-09-10,Portugal,Italy,1.0,0.0,UEFA Nations League,Lisbon,Portugal,False,7,21
+2018-09-10,Sweden,Turkey,2.0,3.0,UEFA Nations League,Stockholm,Sweden,False,13,38
+2018-09-10,Scotland,Albania,2.0,0.0,UEFA Nations League,Glasgow,Scotland,False,40,58
+2018-09-10,Montenegro,Lithuania,2.0,0.0,UEFA Nations League,Podgorica,Montenegro,False,41,127
+2018-09-10,Serbia,Romania,2.0,2.0,UEFA Nations League,Belgrade,Serbia,False,36,28
+2018-09-10,Andorra,Kazakhstan,1.0,1.0,UEFA Nations League,Andorra la Vella,Andorra,False,130,116
+2018-09-10,Kosovo,Faroe Islands,2.0,0.0,UEFA Nations League,Pristina,Kosovo,False,141,90
+2018-09-10,Malta,Azerbaijan,1.0,1.0,UEFA Nations League,Attard,Malta,False,184,105
+2018-09-11,Iceland,Belgium,0.0,3.0,UEFA Nations League,Reykjavík,Iceland,False,32,2
+2018-09-11,Spain,Croatia,6.0,0.0,UEFA Nations League,Elche,Spain,False,9,4
+2018-09-11,Bosnia and Herzegovina,Austria,1.0,0.0,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,39,23
+2018-09-11,Hungary,Greece,2.0,1.0,UEFA Nations League,Budapest,Hungary,False,51,42
+2018-09-11,Finland,Estonia,1.0,0.0,UEFA Nations League,Turku,Finland,False,62,94
+2018-09-11,San Marino,Luxembourg,0.0,3.0,UEFA Nations League,Serravalle,San Marino,False,203,85
+2018-09-11,Moldova,Belarus,0.0,0.0,UEFA Nations League,Chișinău,Moldova,False,175,78
+2018-10-11,Poland,Portugal,2.0,3.0,UEFA Nations League,Chorzów,Poland,False,18,7
+2018-10-11,Russia,Sweden,0.0,0.0,UEFA Nations League,Kaliningrad,Russia,False,46,15
+2018-10-11,Israel,Scotland,2.0,1.0,UEFA Nations League,Haifa,Israel,False,94,39
+2018-10-11,Montenegro,Serbia,0.0,2.0,UEFA Nations League,Podgorica,Montenegro,False,41,35
+2018-10-11,Lithuania,Romania,1.0,2.0,UEFA Nations League,Vilnius,Lithuania,False,126,27
+2018-10-11,Faroe Islands,Azerbaijan,0.0,3.0,UEFA Nations League,Tórshavn,Faroe Islands,False,92,108
+2018-10-11,Kosovo,Malta,3.0,1.0,UEFA Nations League,Pristina,Kosovo,False,138,183
+2018-10-12,Belgium,Switzerland,2.0,1.0,UEFA Nations League,Brussels,Belgium,False,1,8
+2018-10-12,Croatia,England,0.0,0.0,UEFA Nations League,Rijeka,Croatia,False,4,6
+2018-10-12,Austria,Northern Ireland,1.0,0.0,UEFA Nations League,Vienna,Austria,False,24,28
+2018-10-12,Estonia,Finland,0.0,1.0,UEFA Nations League,Tallinn,Estonia,False,98,58
+2018-10-12,Greece,Hungary,1.0,0.0,UEFA Nations League,Athens,Greece,False,42,49
+2018-10-12,Belarus,Luxembourg,1.0,0.0,UEFA Nations League,Minsk,Belarus,False,80,82
+2018-10-12,Moldova,San Marino,2.0,0.0,UEFA Nations League,Chișinău,Moldova,False,173,204
+2018-10-13,Netherlands,Germany,3.0,0.0,UEFA Nations League,Amsterdam,Netherlands,False,17,12
+2018-10-13,Slovakia,Czech Republic,1.0,2.0,UEFA Nations League,Trnava,Slovakia,False,26,0
+2018-10-13,Republic of Ireland,Denmark,0.0,0.0,UEFA Nations League,Dublin,Republic of Ireland,False,30,10
+2018-10-13,Norway,Slovenia,1.0,0.0,UEFA Nations League,Oslo,Norway,False,52,61
+2018-10-13,Bulgaria,Cyprus,2.0,1.0,UEFA Nations League,Sofia,Bulgaria,False,44,86
+2018-10-13,Latvia,Kazakhstan,1.0,1.0,UEFA Nations League,Riga,Latvia,False,131,118
+2018-10-13,Georgia,Andorra,3.0,0.0,UEFA Nations League,Tbilisi,Georgia,False,93,128
+2018-10-13,Armenia,Gibraltar,0.0,1.0,UEFA Nations League,Yerevan,Armenia,False,100,198
+2018-10-13,North Macedonia,Liechtenstein,4.0,1.0,UEFA Nations League,Skopje,North Macedonia,False,68,178
+2018-10-14,Poland,Italy,0.0,1.0,UEFA Nations League,Chorzów,Poland,False,18,20
+2018-10-14,Russia,Turkey,2.0,0.0,UEFA Nations League,Sochi,Russia,False,46,38
+2018-10-14,Israel,Albania,2.0,0.0,UEFA Nations League,Beer Sheva,Israel,False,94,57
+2018-10-14,Romania,Serbia,0.0,0.0,UEFA Nations League,Bucharest,Romania,False,27,35
+2018-10-14,Lithuania,Montenegro,1.0,4.0,UEFA Nations League,Vilnius,Lithuania,False,126,41
+2018-10-14,Faroe Islands,Kosovo,1.0,1.0,UEFA Nations League,Tórshavn,Faroe Islands,False,92,138
+2018-10-14,Azerbaijan,Malta,1.0,1.0,UEFA Nations League,Baku,Azerbaijan,False,108,183
+2018-10-15,Iceland,Switzerland,1.0,2.0,UEFA Nations League,Reykjavík,Iceland,False,36,8
+2018-10-15,Spain,England,2.0,3.0,UEFA Nations League,Seville,Spain,False,9,6
+2018-10-15,Bosnia and Herzegovina,Northern Ireland,2.0,0.0,UEFA Nations League,Sarajevo,Bosnia and Herzegovina,False,34,28
+2018-10-15,Estonia,Hungary,3.0,3.0,UEFA Nations League,Tallinn,Estonia,False,98,49
+2018-10-15,Finland,Greece,2.0,0.0,UEFA Nations League,Tampere,Finland,False,58,42
+2018-10-15,Luxembourg,San Marino,3.0,0.0,UEFA Nations League,Luxembourg,Luxembourg,False,82,204
+2018-10-15,Belarus,Moldova,0.0,0.0,UEFA Nations League,Minsk,Belarus,False,80,173
+2018-10-16,France,Germany,2.0,1.0,UEFA Nations League,Paris,France,False,1,12
+2018-10-16,Ukraine,Czech Republic,1.0,0.0,UEFA Nations League,Kharkiv,Ukraine,False,29,0
+2018-10-16,Republic of Ireland,Wales,0.0,1.0,UEFA Nations League,Dublin,Republic of Ireland,False,30,19
+2018-10-16,Norway,Bulgaria,1.0,0.0,UEFA Nations League,Oslo,Norway,False,52,44
+2018-10-16,Slovenia,Cyprus,1.0,1.0,UEFA Nations League,Ljubljana,Slovenia,False,61,86
+2018-10-16,Kazakhstan,Andorra,4.0,0.0,UEFA Nations League,Astana,Kazakhstan,False,118,128
+2018-10-16,Latvia,Georgia,0.0,3.0,UEFA Nations League,Riga,Latvia,False,131,93
+2018-10-16,Armenia,North Macedonia,4.0,0.0,UEFA Nations League,Yerevan,Armenia,False,100,68
+2018-10-16,Gibraltar,Liechtenstein,2.0,1.0,UEFA Nations League,Gibraltar,Gibraltar,False,198,178
+2018-11-15,Belgium,Iceland,2.0,0.0,UEFA Nations League,Brussels,Belgium,False,1,36
+2018-11-15,Croatia,Spain,3.0,2.0,UEFA Nations League,Zagreb,Croatia,False,4,9
+2018-11-15,Austria,Bosnia and Herzegovina,0.0,0.0,UEFA Nations League,Vienna,Austria,False,24,32
+2018-11-15,Hungary,Estonia,2.0,0.0,UEFA Nations League,Budapest,Hungary,False,55,98
+2018-11-15,Greece,Finland,1.0,0.0,UEFA Nations League,Athens,Greece,False,42,56
+2018-11-15,Andorra,Georgia,1.0,1.0,UEFA Nations League,Andorra la Vella,Andorra,False,133,92
+2018-11-15,Kazakhstan,Latvia,1.0,1.0,UEFA Nations League,Astana,Kazakhstan,False,117,132
+2018-11-15,Luxembourg,Belarus,0.0,2.0,UEFA Nations League,Luxembourg,Luxembourg,False,84,78
+2018-11-15,San Marino,Moldova,0.0,1.0,UEFA Nations League,Serravalle,San Marino,False,209,171
+2018-11-16,Netherlands,France,2.0,0.0,UEFA Nations League,Rotterdam,Netherlands,False,15,2
+2018-11-16,Slovakia,Ukraine,4.0,1.0,UEFA Nations League,Trnava,Slovakia,False,28,27
+2018-11-16,Wales,Denmark,1.0,2.0,UEFA Nations League,Cardiff,Wales,False,18,10
+2018-11-16,Slovenia,Norway,1.0,1.0,UEFA Nations League,Ljubljana,Slovenia,False,62,48
+2018-11-16,Cyprus,Bulgaria,1.0,1.0,UEFA Nations League,Nicosia,Cyprus,False,86,45
+2018-11-16,Gibraltar,Armenia,2.0,6.0,UEFA Nations League,Gibraltar,Gibraltar,False,190,101
+2018-11-16,Liechtenstein,North Macedonia,0.0,2.0,UEFA Nations League,Vaduz,Liechtenstein,False,182,68
+2018-11-17,Italy,Portugal,0.0,0.0,UEFA Nations League,Milan,Italy,False,19,7
+2018-11-17,Turkey,Sweden,0.0,1.0,UEFA Nations League,Konya,Turkey,False,38,17
+2018-11-17,Albania,Scotland,0.0,4.0,UEFA Nations League,Shkodër,Albania,False,60,40
+2018-11-17,Serbia,Montenegro,2.0,1.0,UEFA Nations League,Belgrade,Serbia,False,35,39
+2018-11-17,Romania,Lithuania,3.0,0.0,UEFA Nations League,Ploiești,Romania,False,26,129
+2018-11-17,Malta,Kosovo,0.0,5.0,UEFA Nations League,Attard,Malta,False,183,137
+2018-11-17,Azerbaijan,Faroe Islands,2.0,0.0,UEFA Nations League,Baku,Azerbaijan,False,107,95
+2018-11-18,Switzerland,Belgium,5.0,2.0,UEFA Nations League,Lucerne,Switzerland,False,8,1
+2018-11-18,England,Croatia,2.0,1.0,UEFA Nations League,London,England,False,5,4
+2018-11-18,Northern Ireland,Austria,1.0,2.0,UEFA Nations League,Belfast,Northern Ireland,False,34,24
+2018-11-18,Greece,Estonia,0.0,1.0,UEFA Nations League,Athens,Greece,False,42,98
+2018-11-18,Hungary,Finland,2.0,0.0,UEFA Nations League,Budapest,Hungary,False,55,56
+2018-11-18,San Marino,Belarus,0.0,2.0,UEFA Nations League,Serravalle,San Marino,False,209,78
+2018-11-18,Moldova,Luxembourg,1.0,1.0,UEFA Nations League,Chișinău,Moldova,False,171,84
+2018-11-19,Germany,Netherlands,2.0,2.0,UEFA Nations League,Gelsenkirchen,Germany,False,14,15
+2018-11-19,Czech Republic,Slovakia,1.0,0.0,UEFA Nations League,Prague,Czech Republic,False,0,28
+2018-11-19,Denmark,Republic of Ireland,0.0,0.0,UEFA Nations League,Aarhus,Denmark,False,10,33
+2018-11-19,Bulgaria,Slovenia,1.0,1.0,UEFA Nations League,Sofia,Bulgaria,False,45,62
+2018-11-19,Cyprus,Norway,0.0,2.0,UEFA Nations League,Nicosia,Cyprus,False,86,48
+2018-11-19,Andorra,Latvia,0.0,0.0,UEFA Nations League,Andorra la Vella,Andorra,False,133,132
+2018-11-19,Georgia,Kazakhstan,2.0,1.0,UEFA Nations League,Tbilisi,Georgia,False,92,117
+2018-11-19,North Macedonia,Gibraltar,4.0,0.0,UEFA Nations League,Skopje,North Macedonia,False,68,190
+2018-11-19,Liechtenstein,Armenia,2.0,2.0,UEFA Nations League,Vaduz,Liechtenstein,False,182,101
+2018-11-20,Portugal,Poland,1.0,1.0,UEFA Nations League,Guimarães,Portugal,False,7,21
+2018-11-20,Sweden,Russia,2.0,0.0,UEFA Nations League,Stockholm,Sweden,False,17,41
+2018-11-20,Scotland,Israel,3.0,2.0,UEFA Nations League,Glasgow,Scotland,False,40,91
+2018-11-20,Montenegro,Romania,0.0,1.0,UEFA Nations League,Podgorica,Montenegro,False,39,26
+2018-11-20,Serbia,Lithuania,4.0,1.0,UEFA Nations League,Belgrade,Serbia,False,35,129
+2018-11-20,Kosovo,Azerbaijan,4.0,0.0,UEFA Nations League,Pristina,Kosovo,False,137,107
+2018-11-20,Malta,Faroe Islands,1.0,1.0,UEFA Nations League,Attard,Malta,False,183,95
+2019-06-05,Portugal,Switzerland,3.0,1.0,UEFA Nations League,Porto,Portugal,False,7,8
+2019-06-06,England,Netherlands,1.0,3.0,UEFA Nations League,Guimarães,Portugal,True,4,16
+2019-06-09,Switzerland,England,0.0,0.0,UEFA Nations League,Guimarães,Portugal,True,8,4
+2019-06-09,Portugal,Netherlands,1.0,0.0,UEFA Nations League,Porto,Portugal,False,7,16
+2020-09-03,Germany,Spain,1.0,1.0,UEFA Nations League,Stuttgart,Germany,False,15,8
+2020-09-03,Ukraine,Switzerland,2.0,1.0,UEFA Nations League,Lviv,Ukraine,False,24,12
+2020-09-03,Russia,Serbia,3.0,1.0,UEFA Nations League,Moscow,Russia,False,38,29
+2020-09-03,Turkey,Hungary,0.0,1.0,UEFA Nations League,Sivas,Turkey,False,29,52
+2020-09-03,Bulgaria,Republic of Ireland,1.0,1.0,UEFA Nations League,Sofia,Bulgaria,False,59,34
+2020-09-03,Finland,Wales,0.0,1.0,UEFA Nations League,Helsinki,Finland,False,58,23
+2020-09-03,Moldova,Kosovo,1.0,1.0,UEFA Nations League,Parma,Italy,True,175,115
+2020-09-03,Slovenia,Greece,0.0,0.0,UEFA Nations League,Ljubljana,Slovenia,False,64,54
+2020-09-03,Latvia,Andorra,0.0,0.0,UEFA Nations League,Riga,Latvia,False,137,135
+2020-09-03,Faroe Islands,Malta,3.0,2.0,UEFA Nations League,Tórshavn,Faroe Islands,False,110,184
+2020-09-04,Italy,Bosnia and Herzegovina,1.0,1.0,UEFA Nations League,Florence,Italy,False,13,49
+2020-09-04,Netherlands,Poland,1.0,0.0,UEFA Nations League,Amsterdam,Netherlands,False,14,19
+2020-09-04,Norway,Austria,1.0,2.0,UEFA Nations League,Oslo,Norway,False,44,26
+2020-09-04,Romania,Northern Ireland,1.0,1.0,UEFA Nations League,Bucharest,Romania,False,37,36
+2020-09-04,Scotland,Israel,1.0,1.0,UEFA Nations League,Glasgow,Scotland,False,50,93
+2020-09-04,Slovakia,Czech Republic,1.0,3.0,UEFA Nations League,Bratislava,Slovakia,False,32,0
+2020-09-04,Lithuania,Kazakhstan,0.0,2.0,UEFA Nations League,Vilnius,Lithuania,False,131,118
+2020-09-04,Belarus,Albania,0.0,2.0,UEFA Nations League,Minsk,Belarus,False,87,66
+2020-09-05,Iceland,England,0.0,1.0,UEFA Nations League,Reykjavík,Iceland,False,39,4
+2020-09-05,Denmark,Belgium,0.0,2.0,UEFA Nations League,Copenhagen,Denmark,False,16,1
+2020-09-05,Portugal,Croatia,4.0,1.0,UEFA Nations League,Porto,Portugal,False,7,6
+2020-09-05,Sweden,France,0.0,1.0,UEFA Nations League,Stockholm,Sweden,False,17,2
+2020-09-05,Cyprus,Montenegro,0.0,2.0,UEFA Nations League,Nicosia,Cyprus,False,95,64
+2020-09-05,Azerbaijan,Luxembourg,1.0,2.0,UEFA Nations League,Baku,Azerbaijan,False,114,98
+2020-09-05,North Macedonia,Armenia,2.0,1.0,UEFA Nations League,Skopje,North Macedonia,False,68,102
+2020-09-05,Estonia,Georgia,0.0,1.0,UEFA Nations League,Tallinn,Estonia,False,104,91
+2020-09-05,Gibraltar,San Marino,1.0,0.0,UEFA Nations League,Gibraltar,Gibraltar,False,196,209
+2020-09-06,Spain,Ukraine,4.0,0.0,UEFA Nations League,Madrid,Spain,False,8,24
+2020-09-06,Switzerland,Germany,1.0,1.0,UEFA Nations League,Basel,Switzerland,False,12,15
+2020-09-06,Hungary,Russia,2.0,3.0,UEFA Nations League,Budapest,Hungary,False,52,38
+2020-09-06,Serbia,Turkey,0.0,0.0,UEFA Nations League,Belgrade,Serbia,False,29,29
+2020-09-06,Wales,Bulgaria,1.0,0.0,UEFA Nations League,Cardiff,Wales,False,23,59
+2020-09-06,Republic of Ireland,Finland,0.0,1.0,UEFA Nations League,Dublin,Republic of Ireland,False,34,58
+2020-09-06,Slovenia,Moldova,1.0,0.0,UEFA Nations League,Ljubljana,Slovenia,False,64,175
+2020-09-06,Kosovo,Greece,1.0,2.0,UEFA Nations League,Pristina,Kosovo,False,115,54
+2020-09-06,Andorra,Faroe Islands,0.0,1.0,UEFA Nations League,Andorra la Vella,Andorra,False,135,110
+2020-09-06,Malta,Latvia,1.0,1.0,UEFA Nations League,Attard,Malta,False,184,137
+2020-09-07,Bosnia and Herzegovina,Poland,1.0,2.0,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,49,19
+2020-09-07,Netherlands,Italy,0.0,1.0,UEFA Nations League,Amsterdam,Netherlands,False,14,13
+2020-09-07,Northern Ireland,Norway,1.0,5.0,UEFA Nations League,Belfast,Northern Ireland,False,36,44
+2020-09-07,Austria,Romania,2.0,3.0,UEFA Nations League,Klagenfurt,Austria,False,26,37
+2020-09-07,Czech Republic,Scotland,1.0,2.0,UEFA Nations League,Olomouc,Czech Republic,False,0,50
+2020-09-07,Israel,Slovakia,1.0,1.0,UEFA Nations League,Netanya,Israel,False,93,32
+2020-09-07,Kazakhstan,Belarus,1.0,2.0,UEFA Nations League,Almaty,Kazakhstan,False,118,87
+2020-09-07,Albania,Lithuania,0.0,1.0,UEFA Nations League,Tirana,Albania,False,66,131
+2020-09-08,Belgium,Iceland,5.0,1.0,UEFA Nations League,Brussels,Belgium,False,1,39
+2020-09-08,Denmark,England,0.0,0.0,UEFA Nations League,Copenhagen,Denmark,False,16,4
+2020-09-08,France,Croatia,4.0,2.0,UEFA Nations League,Paris,France,False,2,6
+2020-09-08,Sweden,Portugal,0.0,2.0,UEFA Nations League,Stockholm,Sweden,False,17,7
+2020-09-08,Luxembourg,Montenegro,0.0,1.0,UEFA Nations League,Luxembourg,Luxembourg,False,98,64
+2020-09-08,Cyprus,Azerbaijan,0.0,1.0,UEFA Nations League,Nicosia,Cyprus,False,95,114
+2020-09-08,Armenia,Estonia,2.0,0.0,UEFA Nations League,Yerevan,Armenia,False,102,104
+2020-09-08,Georgia,North Macedonia,1.0,1.0,UEFA Nations League,Tbilisi,Georgia,False,91,68
+2020-09-08,San Marino,Liechtenstein,0.0,2.0,UEFA Nations League,Rimini,Italy,True,209,180
+2020-10-10,Spain,Switzerland,1.0,0.0,UEFA Nations League,Madrid,Spain,False,7,15
+2020-10-10,Ukraine,Germany,1.0,2.0,UEFA Nations League,Kyiv,Ukraine,False,24,14
+2020-10-10,Luxembourg,Cyprus,2.0,0.0,UEFA Nations League,Luxembourg,Luxembourg,False,97,98
+2020-10-10,Montenegro,Azerbaijan,2.0,0.0,UEFA Nations League,Podgorica,Montenegro,False,63,112
+2020-10-10,Faroe Islands,Latvia,1.0,1.0,UEFA Nations League,Tórshavn,Faroe Islands,False,107,137
+2020-10-10,Andorra,Malta,0.0,0.0,UEFA Nations League,Andorra la Vella,Andorra,False,137,186
+2020-10-10,Liechtenstein,Gibraltar,0.0,1.0,UEFA Nations League,Vaduz,Liechtenstein,False,180,195
+2020-10-11,Bosnia and Herzegovina,Netherlands,0.0,0.0,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,50,13
+2020-10-11,Poland,Italy,0.0,0.0,UEFA Nations League,Gdańsk,Poland,False,19,12
+2020-10-11,England,Belgium,2.0,1.0,UEFA Nations League,London,England,False,4,1
+2020-10-11,Iceland,Denmark,0.0,3.0,UEFA Nations League,Reykjavík,Iceland,False,41,16
+2020-10-11,Croatia,Sweden,2.0,1.0,UEFA Nations League,Zagreb,Croatia,False,8,18
+2020-10-11,France,Portugal,0.0,0.0,UEFA Nations League,Paris,France,False,2,5
+2020-10-11,Norway,Romania,4.0,0.0,UEFA Nations League,Oslo,Norway,False,44,34
+2020-10-11,Northern Ireland,Austria,0.0,1.0,UEFA Nations League,Belfast,Northern Ireland,False,38,27
+2020-10-11,Scotland,Slovakia,1.0,0.0,UEFA Nations League,Glasgow,Scotland,False,49,36
+2020-10-11,Israel,Czech Republic,1.0,2.0,UEFA Nations League,Haifa,Israel,False,93,0
+2020-10-11,Serbia,Hungary,0.0,1.0,UEFA Nations League,Belgrade,Serbia,False,31,52
+2020-10-11,Russia,Turkey,1.0,1.0,UEFA Nations League,Moscow,Russia,False,32,32
+2020-10-11,Republic of Ireland,Wales,0.0,0.0,UEFA Nations League,Dublin,Republic of Ireland,False,37,21
+2020-10-11,Finland,Bulgaria,2.0,0.0,UEFA Nations League,Helsinki,Finland,False,56,60
+2020-10-11,Armenia,Georgia,2.0,2.0,UEFA Nations League,Tychy,Poland,True,101,89
+2020-10-11,Estonia,North Macedonia,3.0,3.0,UEFA Nations League,Tallinn,Estonia,False,108,66
+2020-10-11,Kosovo,Slovenia,0.0,1.0,UEFA Nations League,Pristina,Kosovo,False,116,64
+2020-10-11,Greece,Moldova,2.0,0.0,UEFA Nations League,Athens,Greece,False,53,175
+2020-10-11,Kazakhstan,Albania,0.0,0.0,UEFA Nations League,Almaty,Kazakhstan,False,118,66
+2020-10-11,Lithuania,Belarus,2.0,2.0,UEFA Nations League,Vilnius,Lithuania,False,131,87
+2020-10-13,Germany,Switzerland,3.0,3.0,UEFA Nations League,Cologne,Germany,False,14,15
+2020-10-13,Ukraine,Spain,1.0,0.0,UEFA Nations League,Kyiv,Ukraine,False,24,7
+2020-10-13,Azerbaijan,Cyprus,0.0,0.0,UEFA Nations League,Elbasan,Albania,True,112,98
+2020-10-13,Montenegro,Luxembourg,1.0,2.0,UEFA Nations League,Podgorica,Montenegro,False,63,97
+2020-10-13,Latvia,Malta,0.0,1.0,UEFA Nations League,Riga,Latvia,False,137,186
+2020-10-13,Faroe Islands,Andorra,2.0,0.0,UEFA Nations League,Tórshavn,Faroe Islands,False,107,137
+2020-10-13,Liechtenstein,San Marino,0.0,0.0,UEFA Nations League,Vaduz,Liechtenstein,False,180,210
+2020-10-14,Italy,Netherlands,1.0,1.0,UEFA Nations League,Bergamo,Italy,False,12,13
+2020-10-14,Poland,Bosnia and Herzegovina,3.0,0.0,UEFA Nations League,Wrocław,Poland,False,19,50
+2020-10-14,Iceland,Belgium,1.0,2.0,UEFA Nations League,Reykjavík,Iceland,False,41,1
+2020-10-14,England,Denmark,0.0,1.0,UEFA Nations League,London,England,False,4,16
+2020-10-14,Portugal,Sweden,3.0,0.0,UEFA Nations League,Lisbon,Portugal,False,5,18
+2020-10-14,Croatia,France,1.0,2.0,UEFA Nations League,Zagreb,Croatia,False,8,2
+2020-10-14,Norway,Northern Ireland,1.0,0.0,UEFA Nations League,Oslo,Norway,False,44,38
+2020-10-14,Romania,Austria,0.0,1.0,UEFA Nations League,Ploiești,Romania,False,34,27
+2020-10-14,Scotland,Czech Republic,1.0,0.0,UEFA Nations League,Glasgow,Scotland,False,49,0
+2020-10-14,Slovakia,Israel,2.0,3.0,UEFA Nations League,Trnava,Slovakia,False,36,93
+2020-10-14,Russia,Hungary,0.0,0.0,UEFA Nations League,Moscow,Russia,False,32,52
+2020-10-14,Turkey,Serbia,2.0,2.0,UEFA Nations League,Istanbul,Turkey,False,32,31
+2020-10-14,Finland,Republic of Ireland,1.0,0.0,UEFA Nations League,Helsinki,Finland,False,56,37
+2020-10-14,Bulgaria,Wales,0.0,1.0,UEFA Nations League,Sofia,Bulgaria,False,60,21
+2020-10-14,North Macedonia,Georgia,1.0,1.0,UEFA Nations League,Skopje,North Macedonia,False,66,89
+2020-10-14,Estonia,Armenia,1.0,1.0,UEFA Nations League,Tallinn,Estonia,False,108,101
+2020-10-14,Greece,Kosovo,0.0,0.0,UEFA Nations League,Athens,Greece,False,53,116
+2020-10-14,Moldova,Slovenia,0.0,4.0,UEFA Nations League,Chișinău,Moldova,False,175,64
+2020-10-14,Lithuania,Albania,0.0,0.0,UEFA Nations League,Vilnius,Lithuania,False,131,66
+2020-10-14,Belarus,Kazakhstan,2.0,0.0,UEFA Nations League,Minsk,Belarus,False,87,118
+2020-11-14,Portugal,France,0.0,1.0,UEFA Nations League,Lisbon,Portugal,False,5,2
+2020-11-14,Sweden,Croatia,2.0,1.0,UEFA Nations League,Stockholm,Sweden,False,19,9
+2020-11-14,Germany,Ukraine,3.0,1.0,UEFA Nations League,Leipzig,Germany,False,14,23
+2020-11-14,Switzerland,Spain,1.0,1.0,UEFA Nations League,Basel,Switzerland,False,16,6
+2020-11-14,Azerbaijan,Montenegro,0.0,0.0,UEFA Nations League,Zaprešić,Croatia,True,114,64
+2020-11-14,Cyprus,Luxembourg,2.0,1.0,UEFA Nations League,Nicosia,Cyprus,False,99,95
+2020-11-14,Malta,Andorra,3.0,1.0,UEFA Nations League,Ta' Qali,Malta,False,180,145
+2020-11-14,Latvia,Faroe Islands,1.0,1.0,UEFA Nations League,Riga,Latvia,False,142,107
+2020-11-14,San Marino,Gibraltar,0.0,0.0,UEFA Nations League,Serravalle,San Marino,False,210,195
+2020-11-15,Netherlands,Bosnia and Herzegovina,3.0,1.0,UEFA Nations League,Amsterdam,Netherlands,False,15,51
+2020-11-15,Italy,Poland,2.0,0.0,UEFA Nations League,Reggio Emilia,Italy,False,12,18
+2020-11-15,Belgium,England,2.0,0.0,UEFA Nations League,Leuven,Belgium,False,1,4
+2020-11-15,Denmark,Iceland,2.0,1.0,UEFA Nations League,Copenhagen,Denmark,False,13,39
+2020-11-15,Austria,Northern Ireland,2.0,1.0,UEFA Nations League,Vienna,Austria,False,25,41
+2020-11-15,Romania,Norway,3.0,0.0,UEFA Nations League,Bucharest,Romania,False,44,43
+2020-11-15,Slovakia,Scotland,1.0,0.0,UEFA Nations League,Trnava,Slovakia,False,37,45
+2020-11-15,Czech Republic,Israel,1.0,0.0,UEFA Nations League,Plzeň,Czech Republic,False,0,88
+2020-11-15,Turkey,Russia,3.0,2.0,UEFA Nations League,Istanbul,Turkey,False,33,34
+2020-11-15,Hungary,Serbia,1.0,1.0,UEFA Nations League,Budapest,Hungary,False,47,30
+2020-11-15,Wales,Republic of Ireland,1.0,0.0,UEFA Nations League,Cardiff,Wales,False,20,36
+2020-11-15,Bulgaria,Finland,1.0,2.0,UEFA Nations League,Sofia,Bulgaria,False,66,55
+2020-11-15,North Macedonia,Estonia,2.0,1.0,UEFA Nations League,Skopje,North Macedonia,False,65,109
+2020-11-15,Georgia,Armenia,1.0,2.0,UEFA Nations League,Tbilisi,Georgia,False,86,101
+2020-11-15,Slovenia,Kosovo,2.0,1.0,UEFA Nations League,Ljubljana,Slovenia,False,62,117
+2020-11-15,Moldova,Greece,0.0,2.0,UEFA Nations League,Chișinău,Moldova,False,175,54
+2020-11-15,Albania,Kazakhstan,3.0,1.0,UEFA Nations League,Tirana,Albania,False,69,119
+2020-11-15,Belarus,Lithuania,2.0,0.0,UEFA Nations League,Minsk,Belarus,False,90,130
+2020-11-17,Croatia,Portugal,2.0,3.0,UEFA Nations League,Split,Croatia,False,9,5
+2020-11-17,France,Sweden,4.0,2.0,UEFA Nations League,Paris,France,False,2,19
+2020-11-17,Spain,Germany,6.0,0.0,UEFA Nations League,Seville,Spain,False,6,14
+2020-11-17,Switzerland,Ukraine,3.0,0.0,UEFA Nations League,Lucerne,Switzerland,False,16,23
+2020-11-17,Luxembourg,Azerbaijan,0.0,0.0,UEFA Nations League,Luxembourg,Luxembourg,False,95,114
+2020-11-17,Montenegro,Cyprus,4.0,0.0,UEFA Nations League,Podgorica,Montenegro,False,64,99
+2020-11-17,Andorra,Latvia,0.0,5.0,UEFA Nations League,Andorra la Vella,Andorra,False,145,142
+2020-11-17,Malta,Faroe Islands,1.0,1.0,UEFA Nations League,Ta' Qali,Malta,False,180,107
+2020-11-17,Gibraltar,Liechtenstein,1.0,1.0,UEFA Nations League,Gibraltar,Gibraltar,False,195,181
+2020-11-18,Bosnia and Herzegovina,Italy,0.0,2.0,UEFA Nations League,Sarajevo,Bosnia and Herzegovina,False,51,12
+2020-11-18,Poland,Netherlands,1.0,2.0,UEFA Nations League,Chorzów,Poland,False,18,15
+2020-11-18,England,Iceland,4.0,0.0,UEFA Nations League,London,England,False,4,39
+2020-11-18,Belgium,Denmark,4.0,2.0,UEFA Nations League,Leuven,Belgium,False,1,13
+2020-11-18,Northern Ireland,Romania,1.0,1.0,UEFA Nations League,Belfast,Northern Ireland,False,41,44
+2020-11-18,Austria,Norway,1.0,1.0,UEFA Nations League,Vienna,Austria,False,25,43
+2020-11-18,Czech Republic,Slovakia,2.0,0.0,UEFA Nations League,Plzeň,Czech Republic,False,0,37
+2020-11-18,Israel,Scotland,1.0,0.0,UEFA Nations League,Netanya,Israel,False,88,45
+2020-11-18,Hungary,Turkey,2.0,0.0,UEFA Nations League,Budapest,Hungary,False,47,33
+2020-11-18,Serbia,Russia,5.0,0.0,UEFA Nations League,Belgrade,Serbia,False,30,34
+2020-11-18,Republic of Ireland,Bulgaria,0.0,0.0,UEFA Nations League,Dublin,Republic of Ireland,False,36,66
+2020-11-18,Wales,Finland,3.0,1.0,UEFA Nations League,Cardiff,Wales,False,20,55
+2020-11-18,Armenia,North Macedonia,1.0,0.0,UEFA Nations League,Nicosia,Cyprus,True,101,65
+2020-11-18,Georgia,Estonia,0.0,0.0,UEFA Nations League,Tbilisi,Georgia,False,86,109
+2020-11-18,Kosovo,Moldova,1.0,0.0,UEFA Nations League,Pristina,Kosovo,False,117,175
+2020-11-18,Greece,Slovenia,0.0,0.0,UEFA Nations League,Athens,Greece,False,54,62
+2020-11-18,Albania,Belarus,3.0,2.0,UEFA Nations League,Tirana,Albania,False,69,90
+2020-11-18,Kazakhstan,Lithuania,1.0,2.0,UEFA Nations League,Almaty,Kazakhstan,False,119,130
+2021-06-11,Italy,Turkey,3.0,0.0,UEFA Euro,Rome,Italy,False,7,29
+2021-06-12,Wales,Switzerland,1.0,1.0,UEFA Euro,Cardiff,Wales,False,17,13
+2021-06-12,Denmark,Finland,0.0,1.0,UEFA Euro,Copenhagen,Denmark,False,10,54
+2021-06-12,Russia,Belgium,0.0,3.0,UEFA Euro,Saint Petersburg,Russia,False,38,1
+2021-06-13,Austria,North Macedonia,3.0,1.0,UEFA Euro,Bucharest,Romania,True,23,62
+2021-06-13,Netherlands,Ukraine,3.0,2.0,UEFA Euro,Amsterdam,Netherlands,False,16,24
+2021-06-13,England,Croatia,1.0,0.0,UEFA Euro,London,England,False,4,14
+2021-06-14,Scotland,Czech Republic,0.0,2.0,UEFA Euro,Glasgow,Scotland,False,44,0
+2021-06-14,Poland,Slovakia,1.0,2.0,UEFA Euro,Saint Petersburg,Russia,True,21,36
+2021-06-14,Spain,Sweden,0.0,0.0,UEFA Euro,Seville,Spain,False,6,18
+2021-06-15,Hungary,Portugal,0.0,3.0,UEFA Euro,Budapest,Hungary,False,37,5
+2021-06-15,Germany,France,0.0,1.0,UEFA Euro,Munich,Germany,False,12,2
+2021-06-16,Turkey,Wales,0.0,2.0,UEFA Euro,Baku,Azerbaijan,True,29,17
+2021-06-16,Italy,Switzerland,3.0,0.0,UEFA Euro,Rome,Italy,False,7,13
+2021-06-16,Russia,Finland,1.0,0.0,UEFA Euro,Saint Petersburg,Russia,False,38,54
+2021-06-17,Denmark,Belgium,1.0,2.0,UEFA Euro,Copenhagen,Denmark,False,10,1
+2021-06-17,Ukraine,North Macedonia,2.0,1.0,UEFA Euro,Bucharest,Romania,True,24,62
+2021-06-17,Netherlands,Austria,2.0,0.0,UEFA Euro,Amsterdam,Netherlands,False,16,23
+2021-06-18,Croatia,Czech Republic,1.0,1.0,UEFA Euro,Glasgow,Scotland,True,14,0
+2021-06-18,England,Scotland,0.0,0.0,UEFA Euro,London,England,False,4,44
+2021-06-18,Sweden,Slovakia,1.0,0.0,UEFA Euro,Saint Petersburg,Russia,True,18,36
+2021-06-19,Spain,Poland,1.0,1.0,UEFA Euro,Seville,Spain,False,6,21
+2021-06-19,Hungary,France,1.0,1.0,UEFA Euro,Budapest,Hungary,False,37,2
+2021-06-19,Germany,Portugal,4.0,2.0,UEFA Euro,Munich,Germany,False,12,5
+2021-06-20,Italy,Wales,1.0,0.0,UEFA Euro,Rome,Italy,False,7,17
+2021-06-20,Switzerland,Turkey,3.0,1.0,UEFA Euro,Baku,Azerbaijan,True,13,29
+2021-06-21,Denmark,Russia,4.0,1.0,UEFA Euro,Copenhagen,Denmark,False,10,38
+2021-06-21,Finland,Belgium,0.0,2.0,UEFA Euro,Saint Petersburg,Russia,True,54,1
+2021-06-21,Netherlands,North Macedonia,3.0,0.0,UEFA Euro,Amsterdam,Netherlands,False,16,62
+2021-06-21,Ukraine,Austria,0.0,1.0,UEFA Euro,Bucharest,Romania,True,24,23
+2021-06-22,Scotland,Croatia,1.0,3.0,UEFA Euro,Glasgow,Scotland,False,44,14
+2021-06-22,England,Czech Republic,1.0,0.0,UEFA Euro,London,England,False,4,0
+2021-06-23,Spain,Slovakia,5.0,0.0,UEFA Euro,Seville,Spain,False,6,36
+2021-06-23,Sweden,Poland,3.0,2.0,UEFA Euro,Saint Petersburg,Russia,True,18,21
+2021-06-23,Germany,Hungary,2.0,2.0,UEFA Euro,Munich,Germany,False,12,37
+2021-06-23,Portugal,France,2.0,2.0,UEFA Euro,Budapest,Hungary,True,5,2
+2021-06-26,Italy,Austria,2.0,1.0,UEFA Euro,London,England,True,7,23
+2021-06-26,Wales,Denmark,0.0,4.0,UEFA Euro,Amsterdam,Netherlands,True,17,10
+2021-06-27,Netherlands,Czech Republic,0.0,2.0,UEFA Euro,Budapest,Hungary,True,16,0
+2021-06-27,Belgium,Portugal,1.0,0.0,UEFA Euro,Seville,Spain,True,1,5
+2021-06-28,Croatia,Spain,3.0,5.0,UEFA Euro,Copenhagen,Denmark,True,14,6
+2021-06-28,France,Switzerland,3.0,3.0,UEFA Euro,Bucharest,Romania,True,2,13
+2021-06-29,England,Germany,2.0,0.0,UEFA Euro,London,England,False,4,12
+2021-06-29,Sweden,Ukraine,1.0,2.0,UEFA Euro,Glasgow,Scotland,True,18,24
+2021-07-02,Switzerland,Spain,1.0,1.0,UEFA Euro,Saint Petersburg,Russia,True,13,6
+2021-07-02,Belgium,Italy,1.0,2.0,UEFA Euro,Munich,Germany,True,1,7
+2021-07-03,Czech Republic,Denmark,1.0,2.0,UEFA Euro,Baku,Azerbaijan,True,0,10
+2021-07-03,Ukraine,England,0.0,4.0,UEFA Euro,Rome,Italy,True,24,4
+2021-07-06,Italy,Spain,1.0,1.0,UEFA Euro,London,England,True,7,6
+2021-07-07,England,Denmark,2.0,1.0,UEFA Euro,London,England,False,4,10
+2021-07-11,England,Italy,1.0,1.0,UEFA Euro,London,England,False,4,7
+2021-10-06,Italy,Spain,1.0,2.0,UEFA Nations League,Milan,Italy,False,5,8
+2021-10-07,Belgium,France,2.0,3.0,UEFA Nations League,Turin,Italy,True,1,4
+2021-10-10,Italy,Belgium,2.0,1.0,UEFA Nations League,Turin,Italy,False,5,1
+2021-10-10,Spain,France,1.0,2.0,UEFA Nations League,Milan,Italy,True,8,4
+2022-03-24,Estonia,Cyprus,0.0,0.0,UEFA Nations League,Tallinn,Estonia,False,106,105
+2022-03-24,Moldova,Kazakhstan,1.0,2.0,UEFA Nations League,Chișinău,Moldova,False,181,120
+2022-03-29,Cyprus,Estonia,2.0,0.0,UEFA Nations League,Larnaca,Cyprus,False,105,106
+2022-03-29,Kazakhstan,Moldova,0.0,1.0,UEFA Nations League,Nur-Sultan,Kazakhstan,False,120,181
+2022-06-01,Poland,Wales,2.0,1.0,UEFA Nations League,Wrocław,Poland,False,26,18
+2022-06-02,Czech Republic,Switzerland,2.0,1.0,UEFA Nations League,Prague,Czech Republic,False,0,14
+2022-06-02,Spain,Portugal,1.0,1.0,UEFA Nations League,Seville,Spain,False,7,8
+2022-06-02,Israel,Iceland,2.0,2.0,UEFA Nations League,Haifa,Israel,False,76,63
+2022-06-02,Serbia,Norway,0.0,1.0,UEFA Nations League,Belgrade,Serbia,False,25,41
+2022-06-02,Slovenia,Sweden,0.0,2.0,UEFA Nations League,Ljubljana,Slovenia,False,65,19
+2022-06-02,Northern Ireland,Greece,0.0,1.0,UEFA Nations League,Belfast,Northern Ireland,False,54,55
+2022-06-02,Cyprus,Kosovo,0.0,2.0,UEFA Nations League,Larnaca,Cyprus,False,105,107
+2022-06-02,Georgia,Gibraltar,4.0,0.0,UEFA Nations League,Tbilisi,Georgia,False,85,203
+2022-06-02,Bulgaria,North Macedonia,1.0,1.0,UEFA Nations League,Razgrad,Bulgaria,False,73,62
+2022-06-02,Estonia,San Marino,2.0,0.0,UEFA Nations League,Tallinn,Estonia,False,110,211
+2022-06-03,Croatia,Austria,0.0,3.0,UEFA Nations League,Osijek,Croatia,False,16,34
+2022-06-03,France,Denmark,1.0,2.0,UEFA Nations League,Paris,France,False,3,11
+2022-06-03,Belgium,Netherlands,1.0,4.0,UEFA Nations League,Brussels,Belgium,False,2,10
+2022-06-03,Kazakhstan,Azerbaijan,2.0,0.0,UEFA Nations League,Nur-Sultan,Kazakhstan,False,125,129
+2022-06-03,Belarus,Slovakia,0.0,1.0,UEFA Nations League,Novi Sad,Serbia,True,93,45
+2022-06-03,Liechtenstein,Moldova,0.0,2.0,UEFA Nations League,Vaduz,Liechtenstein,False,192,180
+2022-06-03,Latvia,Andorra,3.0,0.0,UEFA Nations League,Riga,Latvia,False,135,153
+2022-06-04,Hungary,England,1.0,0.0,UEFA Nations League,Budapest,Hungary,False,40,5
+2022-06-04,Italy,Germany,1.0,1.0,UEFA Nations League,Bologna,Italy,False,6,12
+2022-06-04,Armenia,Republic of Ireland,1.0,0.0,UEFA Nations League,Yerevan,Armenia,False,92,47
+2022-06-04,Finland,Bosnia and Herzegovina,1.0,1.0,UEFA Nations League,Helsinki,Finland,False,57,59
+2022-06-04,Montenegro,Romania,2.0,0.0,UEFA Nations League,Podgorica,Montenegro,False,70,48
+2022-06-04,Lithuania,Luxembourg,0.0,2.0,UEFA Nations League,Vilnius,Lithuania,False,138,94
+2022-06-04,Turkey,Faroe Islands,4.0,0.0,UEFA Nations League,Istanbul,Turkey,False,43,124
+2022-06-05,Portugal,Switzerland,4.0,0.0,UEFA Nations League,Lisbon,Portugal,False,8,14
+2022-06-05,Czech Republic,Spain,2.0,2.0,UEFA Nations League,Prague,Czech Republic,False,0,7
+2022-06-05,Serbia,Slovenia,4.0,1.0,UEFA Nations League,Belgrade,Serbia,False,25,65
+2022-06-05,Sweden,Norway,1.0,2.0,UEFA Nations League,Stockholm,Sweden,False,19,41
+2022-06-05,Cyprus,Northern Ireland,0.0,0.0,UEFA Nations League,Larnaca,Cyprus,False,105,54
+2022-06-05,Kosovo,Greece,0.0,1.0,UEFA Nations League,Pristina,Kosovo,False,107,55
+2022-06-05,Gibraltar,North Macedonia,0.0,2.0,UEFA Nations League,Gibraltar,Gibraltar,False,203,62
+2022-06-05,Bulgaria,Georgia,2.0,5.0,UEFA Nations League,Razgrad,Bulgaria,False,73,85
+2022-06-05,San Marino,Malta,0.0,2.0,UEFA Nations League,Serravalle,San Marino,False,211,169
+2022-06-06,Austria,Denmark,1.0,2.0,UEFA Nations League,Vienna,Austria,False,34,11
+2022-06-06,Croatia,France,1.0,1.0,UEFA Nations League,Split,Croatia,False,16,3
+2022-06-06,Iceland,Albania,1.0,1.0,UEFA Nations League,Reykjavík,Iceland,False,63,66
+2022-06-06,Belarus,Azerbaijan,0.0,0.0,UEFA Nations League,Novi Sad,Serbia,True,93,129
+2022-06-06,Slovakia,Kazakhstan,0.0,1.0,UEFA Nations League,Trnava,Slovakia,False,45,125
+2022-06-06,Latvia,Liechtenstein,1.0,0.0,UEFA Nations League,Riga,Latvia,False,135,192
+2022-06-06,Andorra,Moldova,0.0,0.0,UEFA Nations League,Andorra la Vella,Andorra,False,153,180
+2022-06-07,Germany,England,1.0,1.0,UEFA Nations League,Munich,Germany,False,12,5
+2022-06-07,Italy,Hungary,2.0,1.0,UEFA Nations League,Cesena,Italy,False,6,40
+2022-06-07,Finland,Montenegro,2.0,0.0,UEFA Nations League,Helsinki,Finland,False,57,70
+2022-06-07,Bosnia and Herzegovina,Romania,1.0,0.0,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,59,48
+2022-06-07,Faroe Islands,Luxembourg,0.0,1.0,UEFA Nations League,Tórshavn,Faroe Islands,False,124,94
+2022-06-07,Lithuania,Turkey,0.0,6.0,UEFA Nations League,Vilnius,Lithuania,False,138,43
+2022-06-08,Wales,Netherlands,1.0,2.0,UEFA Nations League,Cardiff,Wales,False,18,10
+2022-06-08,Belgium,Poland,6.0,1.0,UEFA Nations League,Brussels,Belgium,False,2,26
+2022-06-08,Republic of Ireland,Ukraine,0.0,1.0,UEFA Nations League,Dublin,Republic of Ireland,False,47,27
+2022-06-08,Scotland,Armenia,2.0,0.0,UEFA Nations League,Glasgow,Scotland,False,39,92
+2022-06-09,Portugal,Czech Republic,2.0,0.0,UEFA Nations League,Lisbon,Portugal,False,8,0
+2022-06-09,Switzerland,Spain,0.0,1.0,UEFA Nations League,Geneva,Switzerland,False,14,7
+2022-06-09,Norway,Slovenia,0.0,0.0,UEFA Nations League,Oslo,Norway,False,41,65
+2022-06-09,Sweden,Serbia,0.0,1.0,UEFA Nations League,Stockholm,Sweden,False,19,25
+2022-06-09,Kosovo,Northern Ireland,3.0,2.0,UEFA Nations League,Pristina,Kosovo,False,107,54
+2022-06-09,Greece,Cyprus,3.0,0.0,UEFA Nations League,Vólos,Greece,False,55,105
+2022-06-09,Gibraltar,Bulgaria,1.0,1.0,UEFA Nations League,Gibraltar,Gibraltar,False,203,73
+2022-06-09,North Macedonia,Georgia,0.0,3.0,UEFA Nations League,Skopje,North Macedonia,False,62,85
+2022-06-09,Malta,Estonia,1.0,2.0,UEFA Nations League,Ta' Qali,Malta,False,169,110
+2022-06-10,Austria,France,1.0,1.0,UEFA Nations League,Vienna,Austria,False,34,3
+2022-06-10,Denmark,Croatia,0.0,1.0,UEFA Nations League,Copenhagen,Denmark,False,11,16
+2022-06-10,Albania,Israel,1.0,2.0,UEFA Nations League,Tirana,Albania,False,66,76
+2022-06-10,Azerbaijan,Slovakia,0.0,1.0,UEFA Nations League,Mardakan,Azerbaijan,False,129,45
+2022-06-10,Belarus,Kazakhstan,1.0,1.0,UEFA Nations League,Novi Sad,Serbia,True,93,125
+2022-06-10,Moldova,Latvia,2.0,4.0,UEFA Nations League,Chișinău,Moldova,False,180,135
+2022-06-10,Andorra,Liechtenstein,2.0,1.0,UEFA Nations League,Andorra la Vella,Andorra,False,153,192
+2022-06-11,England,Italy,0.0,0.0,UEFA Nations League,Wolverhampton,England,False,5,6
+2022-06-11,Hungary,Germany,1.0,1.0,UEFA Nations League,Budapest,Hungary,False,40,12
+2022-06-11,Wales,Belgium,1.0,1.0,UEFA Nations League,Cardiff,Wales,False,18,2
+2022-06-11,Netherlands,Poland,2.0,2.0,UEFA Nations League,Rotterdam,Netherlands,False,10,26
+2022-06-11,Ukraine,Armenia,3.0,0.0,UEFA Nations League,Łódź,Poland,True,27,92
+2022-06-11,Republic of Ireland,Scotland,3.0,0.0,UEFA Nations League,Dublin,Republic of Ireland,False,47,39
+2022-06-11,Montenegro,Bosnia and Herzegovina,1.0,1.0,UEFA Nations League,Podgorica,Montenegro,False,70,59
+2022-06-11,Romania,Finland,1.0,0.0,UEFA Nations League,Bucharest,Romania,False,48,57
+2022-06-11,Faroe Islands,Lithuania,2.0,1.0,UEFA Nations League,Tórshavn,Faroe Islands,False,124,138
+2022-06-11,Luxembourg,Turkey,0.0,2.0,UEFA Nations League,Luxembourg,Luxembourg,False,94,43
+2022-06-12,Spain,Czech Republic,2.0,0.0,UEFA Nations League,Málaga,Spain,False,7,0
+2022-06-12,Switzerland,Portugal,1.0,0.0,UEFA Nations League,Geneva,Switzerland,False,14,8
+2022-06-12,Norway,Sweden,3.0,2.0,UEFA Nations League,Oslo,Norway,False,41,19
+2022-06-12,Slovenia,Serbia,2.0,2.0,UEFA Nations League,Ljubljana,Slovenia,False,65,25
+2022-06-12,Northern Ireland,Cyprus,2.0,2.0,UEFA Nations League,Belfast,Northern Ireland,False,54,105
+2022-06-12,Greece,Kosovo,2.0,0.0,UEFA Nations League,Vólos,Greece,False,55,107
+2022-06-12,North Macedonia,Gibraltar,4.0,0.0,UEFA Nations League,Skopje,North Macedonia,False,62,203
+2022-06-12,Georgia,Bulgaria,0.0,0.0,UEFA Nations League,Tbilisi,Georgia,False,85,73
+2022-06-12,Malta,San Marino,1.0,0.0,UEFA Nations League,Ta' Qali,Malta,False,169,211
+2022-06-13,Denmark,Austria,2.0,0.0,UEFA Nations League,Copenhagen,Denmark,False,11,34
+2022-06-13,France,Croatia,0.0,1.0,UEFA Nations League,Paris,France,False,3,16
+2022-06-13,Iceland,Israel,2.0,2.0,UEFA Nations League,Reykjavík,Iceland,False,63,76
+2022-06-13,Azerbaijan,Belarus,2.0,0.0,UEFA Nations League,Mardakan,Azerbaijan,False,129,93
+2022-06-13,Kazakhstan,Slovakia,2.0,1.0,UEFA Nations League,Nur-Sultan,Kazakhstan,False,125,45
+2022-06-14,England,Hungary,0.0,4.0,UEFA Nations League,Wolverhampton,England,False,5,40
+2022-06-14,Germany,Italy,5.0,2.0,UEFA Nations League,Mönchengladbach,Germany,False,12,6
+2022-06-14,Netherlands,Wales,3.0,2.0,UEFA Nations League,Rotterdam,Netherlands,False,10,18
+2022-06-14,Poland,Belgium,0.0,1.0,UEFA Nations League,Warsaw,Poland,False,26,2
+2022-06-14,Armenia,Scotland,1.0,4.0,UEFA Nations League,Yerevan,Armenia,False,92,39
+2022-06-14,Ukraine,Republic of Ireland,1.0,1.0,UEFA Nations League,Łódź,Poland,True,27,47
+2022-06-14,Bosnia and Herzegovina,Finland,3.0,2.0,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,59,57
+2022-06-14,Romania,Montenegro,0.0,3.0,UEFA Nations League,Bucharest,Romania,False,48,70
+2022-06-14,Luxembourg,Faroe Islands,2.0,2.0,UEFA Nations League,Luxembourg,Luxembourg,False,94,124
+2022-06-14,Turkey,Lithuania,2.0,0.0,UEFA Nations League,İzmir,Turkey,False,43,138
+2022-06-14,Moldova,Andorra,2.0,1.0,UEFA Nations League,Chișinău,Moldova,False,180,153
+2022-06-14,Liechtenstein,Latvia,0.0,2.0,UEFA Nations League,Vaduz,Liechtenstein,False,192,135
+2022-09-21,Scotland,Ukraine,3.0,0.0,UEFA Nations League,Glasgow,Scotland,False,45,27
+2022-09-22,Croatia,Denmark,2.0,1.0,UEFA Nations League,Zagreb,Croatia,False,15,10
+2022-09-22,France,Austria,2.0,0.0,UEFA Nations League,Paris,France,False,4,33
+2022-09-22,Belgium,Wales,2.0,1.0,UEFA Nations League,Brussels,Belgium,False,2,19
+2022-09-22,Poland,Netherlands,0.0,2.0,UEFA Nations League,Warsaw,Poland,False,26,8
+2022-09-22,Lithuania,Faroe Islands,1.0,1.0,UEFA Nations League,Vilnius,Lithuania,False,142,125
+2022-09-22,Turkey,Luxembourg,3.0,3.0,UEFA Nations League,Istanbul,Turkey,False,42,93
+2022-09-22,Kazakhstan,Belarus,2.0,1.0,UEFA Nations League,Astana,Kazakhstan,False,114,96
+2022-09-22,Slovakia,Azerbaijan,1.0,2.0,UEFA Nations League,Trnava,Slovakia,False,51,128
+2022-09-22,Latvia,Moldova,1.0,2.0,UEFA Nations League,Riga,Latvia,False,129,177
+2022-09-22,Liechtenstein,Andorra,0.0,2.0,UEFA Nations League,Vaduz,Liechtenstein,False,194,152
+2022-09-23,Germany,Hungary,0.0,1.0,UEFA Nations League,Leipzig,Germany,False,11,37
+2022-09-23,Italy,England,1.0,0.0,UEFA Nations League,Milan,Italy,False,7,5
+2022-09-23,Bosnia and Herzegovina,Montenegro,1.0,0.0,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,57,67
+2022-09-23,Finland,Romania,1.0,1.0,UEFA Nations League,Helsinki,Finland,False,59,54
+2022-09-23,Georgia,North Macedonia,2.0,0.0,UEFA Nations League,Tbilisi,Georgia,False,82,64
+2022-09-23,Bulgaria,Gibraltar,5.0,1.0,UEFA Nations League,Razgrad,Bulgaria,False,74,200
+2022-09-23,Estonia,Malta,2.0,1.0,UEFA Nations League,Tallinn,Estonia,False,110,169
+2022-09-24,Czech Republic,Portugal,0.0,4.0,UEFA Nations League,Prague,Czech Republic,False,0,9
+2022-09-24,Spain,Switzerland,1.0,2.0,UEFA Nations League,Zaragoza,Spain,False,6,16
+2022-09-24,Armenia,Ukraine,0.0,5.0,UEFA Nations League,Yerevan,Armenia,False,92,27
+2022-09-24,Scotland,Republic of Ireland,2.0,1.0,UEFA Nations League,Glasgow,Scotland,False,45,47
+2022-09-24,Israel,Albania,2.0,1.0,UEFA Nations League,Tel Aviv,Israel,False,76,66
+2022-09-24,Slovenia,Norway,2.0,1.0,UEFA Nations League,Ljubljana,Slovenia,False,65,36
+2022-09-24,Serbia,Sweden,4.0,1.0,UEFA Nations League,Belgrade,Serbia,False,25,20
+2022-09-24,Northern Ireland,Kosovo,2.0,1.0,UEFA Nations League,Belfast,Northern Ireland,False,58,106
+2022-09-24,Cyprus,Greece,1.0,0.0,UEFA Nations League,Larnaca,Cyprus,False,108,49
+2022-09-25,Austria,Croatia,1.0,3.0,UEFA Nations League,Vienna,Austria,False,33,15
+2022-09-25,Denmark,France,2.0,0.0,UEFA Nations League,Copenhagen,Denmark,False,10,4
+2022-09-25,Wales,Poland,0.0,1.0,UEFA Nations League,Cardiff,Wales,False,19,26
+2022-09-25,Netherlands,Belgium,1.0,0.0,UEFA Nations League,Amsterdam,Netherlands,False,8,2
+2022-09-25,Faroe Islands,Turkey,2.0,1.0,UEFA Nations League,Tórshavn,Faroe Islands,False,125,42
+2022-09-25,Luxembourg,Lithuania,1.0,0.0,UEFA Nations League,Luxembourg,Luxembourg,False,93,142
+2022-09-25,Slovakia,Belarus,1.0,1.0,UEFA Nations League,Bačka Topola,Serbia,True,51,96
+2022-09-25,Azerbaijan,Kazakhstan,3.0,0.0,UEFA Nations League,Baku,Azerbaijan,False,128,114
+2022-09-25,Andorra,Latvia,1.0,1.0,UEFA Nations League,Andorra la Vella,Andorra,False,152,129
+2022-09-25,Moldova,Liechtenstein,2.0,0.0,UEFA Nations League,Chișinău,Moldova,False,177,194
+2022-09-26,England,Germany,3.0,3.0,UEFA Nations League,London,England,False,5,11
+2022-09-26,Hungary,Italy,0.0,2.0,UEFA Nations League,Budapest,Hungary,False,37,7
+2022-09-26,Montenegro,Finland,0.0,2.0,UEFA Nations League,Podgorica,Montenegro,False,67,59
+2022-09-26,Romania,Bosnia and Herzegovina,4.0,1.0,UEFA Nations League,Bucharest,Romania,False,54,57
+2022-09-26,Gibraltar,Georgia,1.0,2.0,UEFA Nations League,Gibraltar,Gibraltar,False,200,82
+2022-09-26,North Macedonia,Bulgaria,0.0,1.0,UEFA Nations League,Skopje,North Macedonia,False,64,74
+2022-09-26,San Marino,Estonia,0.0,4.0,UEFA Nations League,Serravalle,San Marino,False,211,110
+2022-09-27,Portugal,Spain,0.0,1.0,UEFA Nations League,Braga,Portugal,False,9,6
+2022-09-27,Switzerland,Czech Republic,2.0,1.0,UEFA Nations League,St. Gallen,Switzerland,False,16,0
+2022-09-27,Republic of Ireland,Armenia,3.0,2.0,UEFA Nations League,Dublin,Republic of Ireland,False,47,92
+2022-09-27,Ukraine,Scotland,0.0,0.0,UEFA Nations League,Kraków,Poland,True,27,45
+2022-09-27,Albania,Iceland,1.0,1.0,UEFA Nations League,Tirana,Albania,False,66,63
+2022-09-27,Norway,Serbia,0.0,2.0,UEFA Nations League,Oslo,Norway,False,36,25
+2022-09-27,Sweden,Slovenia,1.0,1.0,UEFA Nations League,Stockholm,Sweden,False,20,65
+2022-09-27,Kosovo,Cyprus,5.0,1.0,UEFA Nations League,Pristina,Kosovo,False,106,108
+2022-09-27,Greece,Northern Ireland,3.0,1.0,UEFA Nations League,Athens,Greece,False,49,58
+2023-06-14,Netherlands,Croatia,2.0,4.0,UEFA Nations League,Rotterdam,Netherlands,False,6,7
+2023-06-15,Spain,Italy,2.0,1.0,UEFA Nations League,Enschede,Netherlands,True,10,8
+2023-06-18,Netherlands,Italy,2.0,3.0,UEFA Nations League,Enschede,Netherlands,False,6,8
+2023-06-18,Croatia,Spain,0.0,0.0,UEFA Nations League,Rotterdam,Netherlands,True,7,10
+2024-03-21,Gibraltar,Lithuania,0.0,1.0,UEFA Nations League,Faro-Loulé,Portugal,True,201,138
+2024-03-26,Lithuania,Gibraltar,1.0,0.0,UEFA Nations League,Kaunas,Lithuania,False,138,201

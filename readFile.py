@@ -20,36 +20,32 @@ csvFile['away_ranking'] = 0
 
 
 
+def get_team_ranking(team, match_date):
+    team_rankings = rankings[rankings['country_full'] == team]
+    closest_date = team_rankings[team_rankings['rank_date'] <= match_date]['rank_date'].max()
+    if pandas.isna(closest_date):
+        #return the first found rank for the team
+        if len(team_rankings) > 0:
+            return team_rankings['rank'].values[0]
+        else:
+            return 0
+        
+    return team_rankings[team_rankings['rank_date'] == closest_date]['rank'].values[0]
+
+
 for index, row in csvFile.iterrows():
     home_team = row['home_team']
     away_team = row['away_team']
+    match_date = row['date']
     
-    date = str(row['date'])
-    #show only year
-    #date = date[:4]
+    home_ranking = get_team_ranking(home_team, match_date)
+    away_ranking = get_team_ranking(away_team, match_date)
     
-
-    home_ranking = rankings[(str(rankings['rank_date'][:4]) == date[:4]) & (rankings['country_full'] == home_team)]['rank'].rank
-    away_ranking = rankings[(str(rankings['rank_date'][:4]) == date[:4]) & (rankings['country_full'] == away_team)]['rank'].rank
-
-    # home_ranking = rankings[(rankings['rank_date'] == date) & (rankings['country_full'] == home_team)]['rank']
-    # away_ranking = rankings[(rankings['rank_date'] == date) & (rankings['country_full'] == away_team)]['rank']
-    
-
-    print("home: ", home_ranking)
-    print("away: ", away_ranking)
     csvFile.at[index, 'home_ranking'] = home_ranking
     csvFile.at[index, 'away_ranking'] = away_ranking
 
 
+print(csvFile)
 
-
-
-
-#print(csvFile)
-
-
-# with open('data/1872-2024/results.csv', mode ='r')as file:
-#   csvFile = csv.reader(file)
-#   for lines in csvFile:
-#         print(lines)
+#save the updated csvFile to a new file
+#csvFile.to_csv('Results/results_with_rankings.csv', index=False)
