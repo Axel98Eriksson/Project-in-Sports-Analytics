@@ -10,10 +10,14 @@ def predict_match_outcome(home_team, away_team, tournament, home_ranking, away_r
     # Prepare input data for prediction
     home_team_encoded = label_encoders['home_team'].transform([home_team])[0]
     away_team_encoded = label_encoders['away_team'].transform([away_team])[0]
+    tournament_encoded = label_encoders['tournament'].transform([tournament])[0]
+    home_ranking = int(home_ranking)
+    away_ranking = int(away_ranking)
     neutral_encoded = int(neutral)
+
     
     # Create input array for prediction
-    input_data = [[home_team_encoded, away_team_encoded, neutral_encoded]]
+    input_data = [[home_team_encoded, away_team_encoded, neutral_encoded, tournament_encoded, home_ranking, away_ranking]]
     
     # Predict using each model
     predictions = {}
@@ -24,16 +28,22 @@ def predict_match_outcome(home_team, away_team, tournament, home_ranking, away_r
     return predictions
 
 # Example usage
-home_team = 'Sweden'
-home_ranking = 20
-away_team = 'Denmark'
-away_ranking = 10
+home_team = 'Georgia'
+home_ranking = 50
+
+away_team = 'Portugal'
+away_ranking = 5
+
 neutral = True
 tournament = 'UEFA Euro'
 
-
 predictions = predict_match_outcome(home_team, away_team,tournament,home_ranking, away_ranking, neutral)
-print("Predictions for " + home_team +"vs" + away_team)
+print("Predictions for " + home_team +" vs " + away_team)
+
+print(predictions)
 for model, prediction in predictions.items():
-    outcome = "Home Team Wins" if prediction == 1 else "Away Team Wins"
-    print(f"{model}: {outcome}")
+    outcome = home_team + " Wins"if prediction == 1 else away_team + " Wins"
+
+    odds = pd.DataFrame(predictions, index=['accuracy']).T
+
+    print(f"{model}: {outcome} ({odds.loc[model, 'accuracy']:.2f})")
