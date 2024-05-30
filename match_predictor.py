@@ -40,7 +40,6 @@ tournament = 'UEFA Euro'
 predictions = predict_match_outcome(home_team, away_team,tournament,home_ranking, away_ranking, neutral)
 print("Predictions for " + home_team +" vs " + away_team)
 
-print(predictions)
 for model, prediction in predictions.items():
     outcome = home_team + " Wins"if prediction == 1 else away_team + " Wins"
 

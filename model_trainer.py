@@ -1,10 +1,13 @@
 import pandas as pd
 import joblib
 from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.ensemble import RandomForestClassifier
-import xgboost as xgb 
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+import xgboost as xgb
 
 # Data Loading and Preprocessing Component
 def load_and_preprocess_data(file_path):
@@ -39,35 +42,35 @@ def create_features(data):
     
     return X, y
 
-# Model Training Component
-def train_models(X, y):
-    # Split the data into training and test sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    
+# Model Training and Cross-Validation Component
+def train_and_evaluate_models(X_train, y_train, X_test, y_test):
     models = {
         'RandomForest': RandomForestClassifier(random_state=42),
-        'XGBoost': xgb.XGBClassifier(use_label_encoder=False, eval_metric='mlogloss')
+        'XGBoost': xgb.XGBClassifier(use_label_encoder=False, eval_metric='mlogloss'),
+        'GaussianNB': GaussianNB(),
+        'KNeighbors': KNeighborsClassifier(),
+        'DecisionTree': DecisionTreeClassifier(random_state=42)
     }
     
-    trained_models = {}
-    
-    for name, model in models.items():
-        model.fit(X_train, y_train)
-        trained_models[name] = model
-        
-    return trained_models, X_test, y_test
-
-# Model Evaluation Component
-def evaluate_models(trained_models, X_test, y_test):
     results = {}
-    
-    for name, model in trained_models.items():
+    for name, model in models.items():
+        # Perform cross-validation
+        cv_scores = cross_val_score(model, X_train, y_train, cv=10)
+        mean_cv_score = cv_scores.mean()
+        
+        # Train the model on the full training set
+        model.fit(X_train, y_train)
+        
+        # Evaluate on the test set
         y_pred = model.predict(X_test)
         accuracy = accuracy_score(y_test, y_pred)
         report = classification_report(y_test, y_pred)
+        
         results[name] = {
-            'accuracy': accuracy,
-            'report': report
+            'cv_mean_accuracy': mean_cv_score,
+            'test_accuracy': accuracy,
+            'classification_report': report,
+            'model': model
         }
     
     return results
@@ -80,31 +83,25 @@ def main(file_path):
     # Create features
     X, y = create_features(data)
     
-    # Check target variable distribution
-    print(y.value_counts(normalize=True))
+    # Split the data into training and test sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
-    # Train models
-    trained_models, X_test, y_test = train_models(X, y)
-    
-    # Evaluate models
-    results = evaluate_models(trained_models, X_test, y_test)
+    # Train and evaluate models with cross-validation
+    results = train_and_evaluate_models(X_train, y_train, X_test, y_test)
     
     # Print results
     for name, metrics in results.items():
         print(f"Model: {name}")
-        print(f"Accuracy: {metrics['accuracy']}")
-        print(f"Classification Report:\n{metrics['report']}\n")
+        print(f"CV Mean Accuracy: {metrics['cv_mean_accuracy']}")
+        print(f"Test Accuracy: {metrics['test_accuracy']}")
+        print(f"Classification Report:\n{metrics['classification_report']}\n")
     
-    return trained_models, label_encoders
-
+    return results, label_encoders
 
 # Example usage
 file_path = 'Results\\results_with_rankings.csv'
-trained_models, label_encoders = main(file_path)
+results, label_encoders = main(file_path)
 
 # Save trained models and label encoders for future use with joblib
-
-joblib.dump(trained_models, 'models\\trained_models.joblib')
-joblib.dump(label_encoders, 'models\\label_encoders.joblib')
-
-
+#joblib.dump({name: metrics['model'] for name, metrics in results.items()}, 'models\\trained_models.joblib')
+#joblib.dump(label_encoders, 'models\\label_encoders.joblib')
