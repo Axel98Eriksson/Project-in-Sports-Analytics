@@ -1,0 +1,41 @@
+RandomForestClassifier: 
+Total Correct Home Goals Predictions: 27
+Total Correct Away Goals Predictions: 37
+Total Correct Predictions: 64
+Total Correct Winner Predictions: 32
+Model Accuracy: 0.31
+
+RandomForestRegressor:
+Total Correct Home Goals Predictions: 32
+Total Correct Away Goals Predictions: 32
+Total Correct Predictions: 64
+Total Correct Winner Predictions: 32
+Model Accuracy: 0.31
+
+XGBClassifier:
+Total Correct Home Goals Predictions: 24
+Total Correct Away Goals Predictions: 36
+Total Correct Predictions: 60
+Total Correct Winner Predictions: 32
+Model Accuracy: 0.31
+
+GaussianNB:
+Total Correct Home Goals Predictions: 20
+Total Correct Away Goals Predictions: 38
+Total Correct Predictions: 58
+Total Correct Winner Predictions: 32
+Model Accuracy: 0.31
+
+KNeighborsClassifier:
+Total Correct Home Goals Predictions: 13
+Total Correct Away Goals Predictions: 38
+Total Correct Predictions: 51
+Total Correct Winner Predictions: 32
+Model Accuracy: 0.31
+
+DecisionTreeClassifier:
+Total Correct Home Goals Predictions: 16
+Total Correct Away Goals Predictions: 34
+Total Correct Predictions: 50
+Total Correct Winner Predictions: 32
+Model Accuracy: 0.31

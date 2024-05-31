@@ -3,10 +3,17 @@ import pandas
 csvFile = pandas.read_csv('all_games/results.csv')
 #filter out rows with missing values
 csvFile = csvFile.dropna()
+
+euro = csvFile[(csvFile['tournament'] == 'UEFA Euro')]
+
 #filter to only include rows with tournament name "UEFA Euro"
-csvFile = csvFile[(csvFile['tournament'] == 'UEFA Euro') | (csvFile['tournament'] == 'UEFA Euro Qualifying') | (csvFile['tournament'] == 'UEFA Nations League')]
+csvFile = csvFile[(csvFile['tournament'] == 'Friendly')]
+
+#filter to only include rows that have teams from UEFA
+csvFile = csvFile[(csvFile['home_team'].isin(euro['home_team'])) & (csvFile['away_team'].isin(euro['away_team']))]
+
 #filter to only include rows with date after 1980-01-01
-csvFile = csvFile[csvFile['date'] > '1992-01-01']
+csvFile = csvFile[csvFile['date'] > '2020-01-01']
 csvFile['date'] = pandas.to_datetime(csvFile['date'])
 
 rankings = pandas.read_csv('fifa_rankings/fifa_ranking-2024-04-04.csv')
@@ -48,4 +55,4 @@ for index, row in csvFile.iterrows():
 print(csvFile)
 
 #save the updated csvFile to a new file
-#csvFile.to_csv('Results/results_with_rankings.csv', index=False)
+csvFile.to_csv('Results/results_friendly.csv', index=False)

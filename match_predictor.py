@@ -28,11 +28,11 @@ def predict_match_outcome(home_team, away_team, tournament, home_ranking, away_r
     return predictions
 
 # Example usage
-home_team = 'Georgia'
-home_ranking = 50
+home_team = 'England'
+home_ranking = 4
 
-away_team = 'Portugal'
-away_ranking = 5
+away_team = 'Belgium'
+away_ranking = 3
 
 neutral = True
 tournament = 'UEFA Euro'

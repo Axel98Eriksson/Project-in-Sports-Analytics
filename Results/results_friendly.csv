@@ -1,0 +1,103 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,home_ranking,away_ranking
+2020-10-07,Austria,Greece,2.0,1.0,Friendly,Klagenfurt,Austria,False,27,53
+2020-10-07,France,Ukraine,7.0,1.0,Friendly,Paris,France,False,2,24
+2020-10-07,Germany,Turkey,3.0,3.0,Friendly,Cologne,Germany,False,14,32
+2020-10-07,Poland,Finland,5.0,1.0,Friendly,Gdańsk,Poland,False,19,56
+2020-10-07,Portugal,Spain,0.0,0.0,Friendly,Lisbon,Portugal,False,5,7
+2020-10-07,Switzerland,Croatia,1.0,2.0,Friendly,St. Gallen,Switzerland,False,15,8
+2020-10-08,England,Wales,3.0,0.0,Friendly,London,England,False,4,21
+2020-10-08,Russia,Sweden,1.0,2.0,Friendly,Moscow,Russia,False,32,18
+2020-11-11,Belgium,Switzerland,2.0,1.0,Friendly,Leuven,Belgium,False,1,16
+2020-11-11,Denmark,Sweden,2.0,0.0,Friendly,Brondbyvester,Denmark,False,13,19
+2020-11-11,France,Finland,0.0,2.0,Friendly,Paris,France,False,2,55
+2020-11-11,Germany,Czech Republic,1.0,0.0,Friendly,Leipzig,Germany,False,14,0
+2020-11-11,Netherlands,Spain,1.0,1.0,Friendly,Amsterdam,Netherlands,False,15,6
+2020-11-11,Poland,Ukraine,2.0,0.0,Friendly,Chorzów,Poland,False,18,23
+2020-11-11,Turkey,Croatia,3.0,3.0,Friendly,Istanbul,Turkey,False,33,9
+2020-11-12,England,Republic of Ireland,3.0,0.0,Friendly,London,England,False,4,36
+2021-03-31,Switzerland,Finland,3.0,2.0,Friendly,St. Gallen,Switzerland,False,16,55
+2021-05-29,Sweden,Finland,2.0,0.0,Friendly,Stockholm,Sweden,False,18,54
+2021-06-01,Poland,Russia,1.0,1.0,Friendly,Wrocław,Poland,False,21,38
+2021-06-01,Slovakia,Bulgaria,1.0,1.0,Friendly,Ried im Innkreis,Austria,True,36,71
+2021-06-02,England,Austria,1.0,0.0,Friendly,London,England,False,4,23
+2021-06-02,France,Wales,3.0,0.0,Friendly,Nice,France,False,2,17
+2021-06-02,Germany,Denmark,1.0,1.0,Friendly,Innsbruck,Austria,True,12,10
+2021-06-02,Netherlands,Scotland,2.0,2.0,Friendly,São João da Venda,Portugal,True,16,44
+2021-06-03,Belgium,Greece,1.0,1.0,Friendly,Brussels,Belgium,False,1,51
+2021-06-03,Ukraine,Northern Ireland,1.0,0.0,Friendly,Dnipro,Ukraine,False,24,48
+2021-06-04,Italy,Czech Republic,4.0,0.0,Friendly,Bologna,Italy,False,7,0
+2021-06-04,Spain,Portugal,0.0,0.0,Friendly,Madrid,Spain,False,6,5
+2021-06-05,Russia,Bulgaria,1.0,0.0,Friendly,Moscow,Russia,False,38,71
+2021-06-05,Wales,Albania,0.0,0.0,Friendly,Cardiff,Wales,False,17,66
+2021-06-06,Austria,Slovakia,0.0,0.0,Friendly,Vienna,Austria,False,23,36
+2021-06-06,Belgium,Croatia,1.0,0.0,Friendly,Brussels,Belgium,False,1,14
+2021-06-06,England,Romania,1.0,0.0,Friendly,London,England,False,4,43
+2021-06-06,Norway,Greece,1.0,2.0,Friendly,Málaga,Spain,True,42,51
+2021-06-07,Germany,Latvia,7.0,1.0,Friendly,Düsseldorf,Germany,False,12,138
+2021-06-08,Czech Republic,Albania,3.0,1.0,Friendly,Prague,Czech Republic,False,0,66
+2021-06-08,France,Bulgaria,3.0,0.0,Friendly,Paris,France,False,2,71
+2021-06-08,Hungary,Republic of Ireland,0.0,0.0,Friendly,Budapest,Hungary,False,37,47
+2021-06-08,Poland,Iceland,2.0,2.0,Friendly,Poznań,Poland,False,21,52
+2021-09-01,Finland,Wales,0.0,0.0,Friendly,Helsinki,Finland,False,56,19
+2021-09-01,Switzerland,Greece,2.0,1.0,Friendly,Basel,Switzerland,False,14,48
+2021-09-08,Czech Republic,Ukraine,1.0,1.0,Friendly,Plzeň,Czech Republic,False,0,25
+2021-11-11,Ukraine,Bulgaria,1.0,1.0,Friendly,Odessa,Ukraine,False,26,70
+2022-03-24,Hungary,Serbia,0.0,1.0,Friendly,Budapest,Hungary,False,41,25
+2022-03-24,Scotland,Poland,1.0,1.0,Friendly,Glasgow,Scotland,False,40,28
+2022-03-25,Norway,Slovakia,2.0,0.0,Friendly,Oslo,Norway,False,45,46
+2022-03-25,Romania,Greece,0.0,1.0,Friendly,Bucharest,Romania,False,47,55
+2022-03-26,Croatia,Slovenia,1.0,1.0,Friendly,Al Rayyan,Qatar,True,15,64
+2022-03-26,England,Switzerland,2.0,1.0,Friendly,London,England,False,5,14
+2022-03-26,Finland,Iceland,1.0,1.0,Friendly,Murcia,Spain,True,57,60
+2022-03-26,Netherlands,Denmark,4.0,2.0,Friendly,Amsterdam,Netherlands,False,10,9
+2022-03-26,Republic of Ireland,Belgium,2.0,2.0,Friendly,Dublin,Republic of Ireland,False,49,1
+2022-03-26,Spain,Albania,2.0,1.0,Friendly,Barcelona,Spain,False,7,65
+2022-03-29,Austria,Scotland,2.0,2.0,Friendly,Vienna,Austria,False,30,40
+2022-03-29,Croatia,Bulgaria,2.0,1.0,Friendly,Al Rayyan,Qatar,True,15,71
+2022-03-29,Denmark,Serbia,3.0,0.0,Friendly,Copenhagen,Denmark,False,9,25
+2022-03-29,Finland,Slovakia,0.0,2.0,Friendly,Murcia,Spain,True,57,46
+2022-03-29,Netherlands,Germany,1.0,1.0,Friendly,Amsterdam,Netherlands,False,10,11
+2022-03-29,Northern Ireland,Hungary,0.0,1.0,Friendly,Belfast,Northern Ireland,False,54,41
+2022-03-29,Spain,Iceland,5.0,0.0,Friendly,La Coruña,Spain,False,7,60
+2022-03-29,Turkey,Italy,2.0,3.0,Friendly,Konya,Turkey,False,39,6
+2022-03-29,Wales,Czech Republic,1.0,1.0,Friendly,Cardiff,Wales,False,20,0
+2022-11-16,Albania,Italy,1.0,3.0,Friendly,Tirana,Albania,False,66,6
+2022-11-16,Turkey,Scotland,2.0,1.0,Friendly,Diyarbakir,Turkey,False,45,40
+2022-11-17,Republic of Ireland,Norway,1.0,2.0,Friendly,Dublin,Republic of Ireland,False,49,42
+2022-11-17,Romania,Slovenia,1.0,2.0,Friendly,Cluj-Napoca,Romania,False,53,63
+2022-11-19,Turkey,Czech Republic,2.0,1.0,Friendly,Gaziantep,Turkey,False,45,0
+2022-11-20,Austria,Italy,2.0,0.0,Friendly,Vienna,Austria,False,34,6
+2022-11-20,Hungary,Greece,2.0,1.0,Friendly,Budapest,Hungary,False,36,52
+2022-11-20,Norway,Finland,1.0,1.0,Friendly,Oslo,Norway,False,42,56
+2023-01-09,Sweden,Finland,2.0,0.0,Friendly,Faro-Loulé,Portugal,True,23,56
+2023-01-12,Sweden,Iceland,2.0,1.0,Friendly,Faro-Loulé,Portugal,True,23,63
+2023-03-22,Republic of Ireland,Latvia,3.0,2.0,Friendly,Dublin,Republic of Ireland,False,48,133
+2023-03-28,Germany,Belgium,2.0,3.0,Friendly,Cologne,Germany,False,14,4
+2023-06-12,Germany,Ukraine,3.0,3.0,Friendly,Bremen,Germany,False,14,30
+2023-06-16,Poland,Germany,1.0,0.0,Friendly,Warsaw,Poland,False,23,14
+2023-09-10,Hungary,Czech Republic,1.0,1.0,Friendly,Budapest,Hungary,False,36,0
+2023-09-12,Germany,France,2.0,1.0,Friendly,Dortmund,Germany,False,15,2
+2023-09-12,Scotland,England,1.0,3.0,Friendly,Glasgow,Scotland,False,30,4
+2023-10-17,Albania,Bulgaria,2.0,0.0,Friendly,Tirana,Albania,False,62,78
+2023-10-17,France,Scotland,4.0,1.0,Friendly,Lille,France,False,2,31
+2023-11-15,Belgium,Serbia,1.0,0.0,Friendly,Leuven,Belgium,False,5,29
+2023-11-18,Germany,Turkey,2.0,3.0,Friendly,Berlin,Germany,False,16,38
+2023-11-21,Austria,Germany,2.0,0.0,Friendly,Vienna,Austria,False,25,16
+2023-11-21,Poland,Latvia,2.0,0.0,Friendly,Warsaw,Poland,False,31,132
+2024-03-21,Portugal,Sweden,5.0,2.0,Friendly,Guimarães,Portugal,False,7,26
+2024-03-22,Hungary,Turkey,1.0,0.0,Friendly,Budapest,Hungary,False,27,35
+2024-03-22,Netherlands,Scotland,4.0,0.0,Friendly,Amsterdam,Netherlands,False,6,34
+2024-03-22,Norway,Czech Republic,1.0,2.0,Friendly,Oslo,Norway,False,46,0
+2024-03-22,Romania,Northern Ireland,1.0,1.0,Friendly,Bucharest,Romania,False,45,74
+2024-03-23,Denmark,Switzerland,0.0,0.0,Friendly,Copenhagen,Denmark,False,21,19
+2024-03-23,France,Germany,0.0,2.0,Friendly,Lyon,France,False,2,16
+2024-03-23,Republic of Ireland,Belgium,0.0,0.0,Friendly,Dublin,Republic of Ireland,False,62,4
+2024-03-23,Slovakia,Austria,0.0,2.0,Friendly,Bratislava,Slovakia,False,48,25
+2024-03-25,Sweden,Albania,1.0,0.0,Friendly,Stockholm,Sweden,False,26,64
+2024-03-26,Austria,Turkey,6.0,1.0,Friendly,Vienna,Austria,False,25,35
+2024-03-26,England,Belgium,2.0,2.0,Friendly,London,England,False,3,4
+2024-03-26,Germany,Netherlands,2.0,1.0,Friendly,Frankfurt,Germany,False,16,6
+2024-03-26,Norway,Slovakia,1.0,1.0,Friendly,Oslo,Norway,False,46,48
+2024-03-26,Republic of Ireland,Switzerland,0.0,1.0,Friendly,Dublin,Republic of Ireland,False,62,19
+2024-03-26,Scotland,Northern Ireland,0.0,1.0,Friendly,Glasgow,Scotland,False,34,74
+2024-03-26,Slovenia,Portugal,2.0,0.0,Friendly,Ljubljana,Slovenia,False,55,7
