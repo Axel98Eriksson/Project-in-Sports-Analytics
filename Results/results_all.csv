@@ -1,0 +1,512 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,home_ranking,away_ranking
+2020-09-03,Germany,Spain,1.0,1.0,UEFA Nations League,Stuttgart,Germany,False,15,8
+2020-09-03,Ukraine,Switzerland,2.0,1.0,UEFA Nations League,Lviv,Ukraine,False,24,12
+2020-09-03,Russia,Serbia,3.0,1.0,UEFA Nations League,Moscow,Russia,False,38,29
+2020-09-03,Turkey,Hungary,0.0,1.0,UEFA Nations League,Sivas,Turkey,False,29,52
+2020-09-03,Bulgaria,Republic of Ireland,1.0,1.0,UEFA Nations League,Sofia,Bulgaria,False,59,34
+2020-09-03,Finland,Wales,0.0,1.0,UEFA Nations League,Helsinki,Finland,False,58,23
+2020-09-03,Slovenia,Greece,0.0,0.0,UEFA Nations League,Ljubljana,Slovenia,False,64,54
+2020-09-04,Netherlands,Poland,1.0,0.0,UEFA Nations League,Amsterdam,Netherlands,False,14,19
+2020-09-04,Norway,Austria,1.0,2.0,UEFA Nations League,Oslo,Norway,False,44,26
+2020-09-04,Romania,Northern Ireland,1.0,1.0,UEFA Nations League,Bucharest,Romania,False,37,36
+2020-09-04,Slovakia,Czech Republic,1.0,3.0,UEFA Nations League,Bratislava,Slovakia,False,32,0
+2020-09-05,Iceland,England,0.0,1.0,UEFA Nations League,Reykjavík,Iceland,False,39,4
+2020-09-05,Denmark,Belgium,0.0,2.0,UEFA Nations League,Copenhagen,Denmark,False,16,1
+2020-09-05,Portugal,Croatia,4.0,1.0,UEFA Nations League,Porto,Portugal,False,7,6
+2020-09-05,Sweden,France,0.0,1.0,UEFA Nations League,Stockholm,Sweden,False,17,2
+2020-09-06,Spain,Ukraine,4.0,0.0,UEFA Nations League,Madrid,Spain,False,8,24
+2020-09-06,Switzerland,Germany,1.0,1.0,UEFA Nations League,Basel,Switzerland,False,12,15
+2020-09-06,Hungary,Russia,2.0,3.0,UEFA Nations League,Budapest,Hungary,False,52,38
+2020-09-06,Serbia,Turkey,0.0,0.0,UEFA Nations League,Belgrade,Serbia,False,29,29
+2020-09-06,Wales,Bulgaria,1.0,0.0,UEFA Nations League,Cardiff,Wales,False,23,59
+2020-09-06,Republic of Ireland,Finland,0.0,1.0,UEFA Nations League,Dublin,Republic of Ireland,False,34,58
+2020-09-07,Netherlands,Italy,0.0,1.0,UEFA Nations League,Amsterdam,Netherlands,False,14,13
+2020-09-07,Northern Ireland,Norway,1.0,5.0,UEFA Nations League,Belfast,Northern Ireland,False,36,44
+2020-09-07,Austria,Romania,2.0,3.0,UEFA Nations League,Klagenfurt,Austria,False,26,37
+2020-09-07,Czech Republic,Scotland,1.0,2.0,UEFA Nations League,Olomouc,Czech Republic,False,0,50
+2020-09-08,Belgium,Iceland,5.0,1.0,UEFA Nations League,Brussels,Belgium,False,1,39
+2020-09-08,Denmark,England,0.0,0.0,UEFA Nations League,Copenhagen,Denmark,False,16,4
+2020-09-08,France,Croatia,4.0,2.0,UEFA Nations League,Paris,France,False,2,6
+2020-09-08,Sweden,Portugal,0.0,2.0,UEFA Nations League,Stockholm,Sweden,False,17,7
+2020-10-07,Austria,Greece,2.0,1.0,Friendly,Klagenfurt,Austria,False,27,53
+2020-10-07,France,Ukraine,7.0,1.0,Friendly,Paris,France,False,2,24
+2020-10-07,Germany,Turkey,3.0,3.0,Friendly,Cologne,Germany,False,14,32
+2020-10-07,Poland,Finland,5.0,1.0,Friendly,Gdańsk,Poland,False,19,56
+2020-10-07,Portugal,Spain,0.0,0.0,Friendly,Lisbon,Portugal,False,5,7
+2020-10-07,Switzerland,Croatia,1.0,2.0,Friendly,St. Gallen,Switzerland,False,15,8
+2020-10-08,England,Wales,3.0,0.0,Friendly,London,England,False,4,21
+2020-10-08,Russia,Sweden,1.0,2.0,Friendly,Moscow,Russia,False,32,18
+2020-10-08,Iceland,Romania,2.0,1.0,UEFA Euro qualification,Reykjavík,Iceland,False,41,34
+2020-10-08,Bulgaria,Hungary,1.0,3.0,UEFA Euro qualification,Sofia,Bulgaria,False,60,52
+2020-10-08,Slovakia,Republic of Ireland,0.0,0.0,UEFA Euro qualification,Bratislava,Slovakia,False,36,37
+2020-10-08,Norway,Serbia,1.0,2.0,UEFA Euro qualification,Oslo,Norway,False,44,31
+2020-10-10,Spain,Switzerland,1.0,0.0,UEFA Nations League,Madrid,Spain,False,7,15
+2020-10-10,Ukraine,Germany,1.0,2.0,UEFA Nations League,Kyiv,Ukraine,False,24,14
+2020-10-11,Poland,Italy,0.0,0.0,UEFA Nations League,Gdańsk,Poland,False,19,12
+2020-10-11,England,Belgium,2.0,1.0,UEFA Nations League,London,England,False,4,1
+2020-10-11,Iceland,Denmark,0.0,3.0,UEFA Nations League,Reykjavík,Iceland,False,41,16
+2020-10-11,Croatia,Sweden,2.0,1.0,UEFA Nations League,Zagreb,Croatia,False,8,18
+2020-10-11,France,Portugal,0.0,0.0,UEFA Nations League,Paris,France,False,2,5
+2020-10-11,Norway,Romania,4.0,0.0,UEFA Nations League,Oslo,Norway,False,44,34
+2020-10-11,Northern Ireland,Austria,0.0,1.0,UEFA Nations League,Belfast,Northern Ireland,False,38,27
+2020-10-11,Scotland,Slovakia,1.0,0.0,UEFA Nations League,Glasgow,Scotland,False,49,36
+2020-10-11,Serbia,Hungary,0.0,1.0,UEFA Nations League,Belgrade,Serbia,False,31,52
+2020-10-11,Russia,Turkey,1.0,1.0,UEFA Nations League,Moscow,Russia,False,32,32
+2020-10-11,Republic of Ireland,Wales,0.0,0.0,UEFA Nations League,Dublin,Republic of Ireland,False,37,21
+2020-10-11,Finland,Bulgaria,2.0,0.0,UEFA Nations League,Helsinki,Finland,False,56,60
+2020-10-13,Germany,Switzerland,3.0,3.0,UEFA Nations League,Cologne,Germany,False,14,15
+2020-10-13,Ukraine,Spain,1.0,0.0,UEFA Nations League,Kyiv,Ukraine,False,24,7
+2020-10-14,Italy,Netherlands,1.0,1.0,UEFA Nations League,Bergamo,Italy,False,12,13
+2020-10-14,Iceland,Belgium,1.0,2.0,UEFA Nations League,Reykjavík,Iceland,False,41,1
+2020-10-14,England,Denmark,0.0,1.0,UEFA Nations League,London,England,False,4,16
+2020-10-14,Portugal,Sweden,3.0,0.0,UEFA Nations League,Lisbon,Portugal,False,5,18
+2020-10-14,Croatia,France,1.0,2.0,UEFA Nations League,Zagreb,Croatia,False,8,2
+2020-10-14,Norway,Northern Ireland,1.0,0.0,UEFA Nations League,Oslo,Norway,False,44,38
+2020-10-14,Romania,Austria,0.0,1.0,UEFA Nations League,Ploiești,Romania,False,34,27
+2020-10-14,Scotland,Czech Republic,1.0,0.0,UEFA Nations League,Glasgow,Scotland,False,49,0
+2020-10-14,Russia,Hungary,0.0,0.0,UEFA Nations League,Moscow,Russia,False,32,52
+2020-10-14,Turkey,Serbia,2.0,2.0,UEFA Nations League,Istanbul,Turkey,False,32,31
+2020-10-14,Finland,Republic of Ireland,1.0,0.0,UEFA Nations League,Helsinki,Finland,False,56,37
+2020-10-14,Bulgaria,Wales,0.0,1.0,UEFA Nations League,Sofia,Bulgaria,False,60,21
+2020-11-11,Belgium,Switzerland,2.0,1.0,Friendly,Leuven,Belgium,False,1,16
+2020-11-11,Denmark,Sweden,2.0,0.0,Friendly,Brondbyvester,Denmark,False,13,19
+2020-11-11,France,Finland,0.0,2.0,Friendly,Paris,France,False,2,55
+2020-11-11,Germany,Czech Republic,1.0,0.0,Friendly,Leipzig,Germany,False,14,0
+2020-11-11,Netherlands,Spain,1.0,1.0,Friendly,Amsterdam,Netherlands,False,15,6
+2020-11-11,Poland,Ukraine,2.0,0.0,Friendly,Chorzów,Poland,False,18,23
+2020-11-11,Turkey,Croatia,3.0,3.0,Friendly,Istanbul,Turkey,False,33,9
+2020-11-12,Hungary,Iceland,2.0,1.0,UEFA Euro qualification,Budapest,Hungary,False,47,39
+2020-11-12,Northern Ireland,Slovakia,1.0,2.0,UEFA Euro qualification,Belfast,Northern Ireland,False,41,37
+2020-11-12,Serbia,Scotland,1.0,1.0,UEFA Euro qualification,Belgrade,Serbia,False,30,45
+2020-11-12,England,Republic of Ireland,3.0,0.0,Friendly,London,England,False,4,36
+2020-11-14,Portugal,France,0.0,1.0,UEFA Nations League,Lisbon,Portugal,False,5,2
+2020-11-14,Sweden,Croatia,2.0,1.0,UEFA Nations League,Stockholm,Sweden,False,19,9
+2020-11-14,Germany,Ukraine,3.0,1.0,UEFA Nations League,Leipzig,Germany,False,14,23
+2020-11-14,Switzerland,Spain,1.0,1.0,UEFA Nations League,Basel,Switzerland,False,16,6
+2020-11-15,Italy,Poland,2.0,0.0,UEFA Nations League,Reggio Emilia,Italy,False,12,18
+2020-11-15,Belgium,England,2.0,0.0,UEFA Nations League,Leuven,Belgium,False,1,4
+2020-11-15,Denmark,Iceland,2.0,1.0,UEFA Nations League,Copenhagen,Denmark,False,13,39
+2020-11-15,Austria,Northern Ireland,2.0,1.0,UEFA Nations League,Vienna,Austria,False,25,41
+2020-11-15,Romania,Norway,3.0,0.0,UEFA Nations League,Bucharest,Romania,False,44,43
+2020-11-15,Slovakia,Scotland,1.0,0.0,UEFA Nations League,Trnava,Slovakia,False,37,45
+2020-11-15,Turkey,Russia,3.0,2.0,UEFA Nations League,Istanbul,Turkey,False,33,34
+2020-11-15,Hungary,Serbia,1.0,1.0,UEFA Nations League,Budapest,Hungary,False,47,30
+2020-11-15,Wales,Republic of Ireland,1.0,0.0,UEFA Nations League,Cardiff,Wales,False,20,36
+2020-11-15,Bulgaria,Finland,1.0,2.0,UEFA Nations League,Sofia,Bulgaria,False,66,55
+2020-11-17,Croatia,Portugal,2.0,3.0,UEFA Nations League,Split,Croatia,False,9,5
+2020-11-17,France,Sweden,4.0,2.0,UEFA Nations League,Paris,France,False,2,19
+2020-11-17,Spain,Germany,6.0,0.0,UEFA Nations League,Seville,Spain,False,6,14
+2020-11-17,Switzerland,Ukraine,3.0,0.0,UEFA Nations League,Lucerne,Switzerland,False,16,23
+2020-11-18,Poland,Netherlands,1.0,2.0,UEFA Nations League,Chorzów,Poland,False,18,15
+2020-11-18,England,Iceland,4.0,0.0,UEFA Nations League,London,England,False,4,39
+2020-11-18,Belgium,Denmark,4.0,2.0,UEFA Nations League,Leuven,Belgium,False,1,13
+2020-11-18,Northern Ireland,Romania,1.0,1.0,UEFA Nations League,Belfast,Northern Ireland,False,41,44
+2020-11-18,Austria,Norway,1.0,1.0,UEFA Nations League,Vienna,Austria,False,25,43
+2020-11-18,Czech Republic,Slovakia,2.0,0.0,UEFA Nations League,Plzeň,Czech Republic,False,0,37
+2020-11-18,Hungary,Turkey,2.0,0.0,UEFA Nations League,Budapest,Hungary,False,47,33
+2020-11-18,Serbia,Russia,5.0,0.0,UEFA Nations League,Belgrade,Serbia,False,30,34
+2020-11-18,Republic of Ireland,Bulgaria,0.0,0.0,UEFA Nations League,Dublin,Republic of Ireland,False,36,66
+2020-11-18,Wales,Finland,3.0,1.0,UEFA Nations League,Cardiff,Wales,False,20,55
+2020-11-18,Greece,Slovenia,0.0,0.0,UEFA Nations League,Athens,Greece,False,54,62
+2021-03-24,Serbia,Republic of Ireland,3.0,2.0,FIFA World Cup qualification,Belgrade,Serbia,False,30,42
+2021-03-24,France,Ukraine,1.0,1.0,FIFA World Cup qualification,Paris,France,False,2,24
+2021-03-24,Belgium,Wales,3.0,1.0,FIFA World Cup qualification,Leuven,Belgium,False,1,18
+2021-03-24,Turkey,Netherlands,4.0,2.0,FIFA World Cup qualification,Istanbul,Turkey,False,32,14
+2021-03-24,Slovenia,Croatia,1.0,0.0,FIFA World Cup qualification,Ljubljana,Slovenia,False,62,11
+2021-03-25,Spain,Greece,1.0,1.0,FIFA World Cup qualification,Granada,Spain,False,6,53
+2021-03-25,Bulgaria,Switzerland,1.0,3.0,FIFA World Cup qualification,Sofia,Bulgaria,False,68,16
+2021-03-25,Italy,Northern Ireland,2.0,0.0,FIFA World Cup qualification,Parma,Italy,False,10,45
+2021-03-25,Scotland,Austria,2.0,2.0,FIFA World Cup qualification,Glasgow,Scotland,False,48,23
+2021-03-25,Hungary,Poland,3.0,3.0,FIFA World Cup qualification,Budapest,Hungary,False,40,19
+2021-03-25,Germany,Iceland,3.0,0.0,FIFA World Cup qualification,Duisburg,Germany,False,13,46
+2021-03-25,Romania,North Macedonia,3.0,2.0,FIFA World Cup qualification,Bucharest,Romania,False,37,65
+2021-03-27,Serbia,Portugal,2.0,2.0,FIFA World Cup qualification,Belgrade,Serbia,False,30,5
+2021-03-27,Czech Republic,Belgium,1.0,1.0,FIFA World Cup qualification,Prague,Czech Republic,False,0,1
+2021-03-27,Netherlands,Latvia,2.0,0.0,FIFA World Cup qualification,Amsterdam,Netherlands,False,14,136
+2021-03-27,Norway,Turkey,0.0,3.0,FIFA World Cup qualification,Málaga,Spain,True,44,32
+2021-03-27,Russia,Slovenia,2.0,1.0,FIFA World Cup qualification,Sochi,Russia,False,39,62
+2021-03-28,Bulgaria,Italy,0.0,2.0,FIFA World Cup qualification,Sofia,Bulgaria,False,68,10
+2021-03-28,Ukraine,Finland,1.0,1.0,FIFA World Cup qualification,Kyiv,Ukraine,False,24,55
+2021-03-28,Albania,England,0.0,2.0,FIFA World Cup qualification,Tirana,Albania,False,66,4
+2021-03-28,Romania,Germany,0.0,1.0,FIFA World Cup qualification,Bucharest,Romania,False,37,13
+2021-03-30,Wales,Czech Republic,1.0,0.0,FIFA World Cup qualification,Cardiff,Wales,False,18,0
+2021-03-30,Turkey,Latvia,3.0,3.0,FIFA World Cup qualification,Istanbul,Turkey,False,32,136
+2021-03-30,Slovakia,Russia,2.0,1.0,FIFA World Cup qualification,Trnava,Slovakia,False,34,39
+2021-03-31,Switzerland,Finland,3.0,2.0,Friendly,St. Gallen,Switzerland,False,16,55
+2021-03-31,Northern Ireland,Bulgaria,0.0,0.0,FIFA World Cup qualification,Belfast,Northern Ireland,False,45,68
+2021-03-31,Austria,Denmark,0.0,4.0,FIFA World Cup qualification,Vienna,Austria,False,23,12
+2021-03-31,England,Poland,2.0,1.0,FIFA World Cup qualification,London,England,False,4,19
+2021-03-31,Germany,North Macedonia,1.0,2.0,FIFA World Cup qualification,Duisburg,Germany,False,13,65
+2021-05-29,Sweden,Finland,2.0,0.0,Friendly,Stockholm,Sweden,False,18,54
+2021-06-01,Poland,Russia,1.0,1.0,Friendly,Wrocław,Poland,False,21,38
+2021-06-01,Slovakia,Bulgaria,1.0,1.0,Friendly,Ried im Innkreis,Austria,True,36,71
+2021-06-02,England,Austria,1.0,0.0,Friendly,London,England,False,4,23
+2021-06-02,France,Wales,3.0,0.0,Friendly,Nice,France,False,2,17
+2021-06-02,Germany,Denmark,1.0,1.0,Friendly,Innsbruck,Austria,True,12,10
+2021-06-02,Netherlands,Scotland,2.0,2.0,Friendly,São João da Venda,Portugal,True,16,44
+2021-06-03,Belgium,Greece,1.0,1.0,Friendly,Brussels,Belgium,False,1,51
+2021-06-03,Ukraine,Northern Ireland,1.0,0.0,Friendly,Dnipro,Ukraine,False,24,48
+2021-06-04,Italy,Czech Republic,4.0,0.0,Friendly,Bologna,Italy,False,7,0
+2021-06-04,Spain,Portugal,0.0,0.0,Friendly,Madrid,Spain,False,6,5
+2021-06-05,Russia,Bulgaria,1.0,0.0,Friendly,Moscow,Russia,False,38,71
+2021-06-05,Wales,Albania,0.0,0.0,Friendly,Cardiff,Wales,False,17,66
+2021-06-06,Austria,Slovakia,0.0,0.0,Friendly,Vienna,Austria,False,23,36
+2021-06-06,Belgium,Croatia,1.0,0.0,Friendly,Brussels,Belgium,False,1,14
+2021-06-06,England,Romania,1.0,0.0,Friendly,London,England,False,4,43
+2021-06-06,Norway,Greece,1.0,2.0,Friendly,Málaga,Spain,True,42,51
+2021-06-07,Germany,Latvia,7.0,1.0,Friendly,Düsseldorf,Germany,False,12,138
+2021-06-08,Czech Republic,Albania,3.0,1.0,Friendly,Prague,Czech Republic,False,0,66
+2021-06-08,France,Bulgaria,3.0,0.0,Friendly,Paris,France,False,2,71
+2021-06-08,Hungary,Republic of Ireland,0.0,0.0,Friendly,Budapest,Hungary,False,37,47
+2021-06-08,Poland,Iceland,2.0,2.0,Friendly,Poznań,Poland,False,21,52
+2021-06-11,Italy,Turkey,3.0,0.0,UEFA Euro,Rome,Italy,False,7,29
+2021-06-12,Wales,Switzerland,1.0,1.0,UEFA Euro,Cardiff,Wales,False,17,13
+2021-06-12,Denmark,Finland,0.0,1.0,UEFA Euro,Copenhagen,Denmark,False,10,54
+2021-06-12,Russia,Belgium,0.0,3.0,UEFA Euro,Saint Petersburg,Russia,False,38,1
+2021-06-13,Austria,North Macedonia,3.0,1.0,UEFA Euro,Bucharest,Romania,True,23,62
+2021-06-13,Netherlands,Ukraine,3.0,2.0,UEFA Euro,Amsterdam,Netherlands,False,16,24
+2021-06-13,England,Croatia,1.0,0.0,UEFA Euro,London,England,False,4,14
+2021-06-14,Scotland,Czech Republic,0.0,2.0,UEFA Euro,Glasgow,Scotland,False,44,0
+2021-06-14,Poland,Slovakia,1.0,2.0,UEFA Euro,Saint Petersburg,Russia,True,21,36
+2021-06-14,Spain,Sweden,0.0,0.0,UEFA Euro,Seville,Spain,False,6,18
+2021-06-15,Hungary,Portugal,0.0,3.0,UEFA Euro,Budapest,Hungary,False,37,5
+2021-06-15,Germany,France,0.0,1.0,UEFA Euro,Munich,Germany,False,12,2
+2021-06-16,Turkey,Wales,0.0,2.0,UEFA Euro,Baku,Azerbaijan,True,29,17
+2021-06-16,Italy,Switzerland,3.0,0.0,UEFA Euro,Rome,Italy,False,7,13
+2021-06-16,Russia,Finland,1.0,0.0,UEFA Euro,Saint Petersburg,Russia,False,38,54
+2021-06-17,Denmark,Belgium,1.0,2.0,UEFA Euro,Copenhagen,Denmark,False,10,1
+2021-06-17,Ukraine,North Macedonia,2.0,1.0,UEFA Euro,Bucharest,Romania,True,24,62
+2021-06-17,Netherlands,Austria,2.0,0.0,UEFA Euro,Amsterdam,Netherlands,False,16,23
+2021-06-18,Croatia,Czech Republic,1.0,1.0,UEFA Euro,Glasgow,Scotland,True,14,0
+2021-06-18,England,Scotland,0.0,0.0,UEFA Euro,London,England,False,4,44
+2021-06-18,Sweden,Slovakia,1.0,0.0,UEFA Euro,Saint Petersburg,Russia,True,18,36
+2021-06-19,Spain,Poland,1.0,1.0,UEFA Euro,Seville,Spain,False,6,21
+2021-06-19,Hungary,France,1.0,1.0,UEFA Euro,Budapest,Hungary,False,37,2
+2021-06-19,Germany,Portugal,4.0,2.0,UEFA Euro,Munich,Germany,False,12,5
+2021-06-20,Italy,Wales,1.0,0.0,UEFA Euro,Rome,Italy,False,7,17
+2021-06-20,Switzerland,Turkey,3.0,1.0,UEFA Euro,Baku,Azerbaijan,True,13,29
+2021-06-21,Denmark,Russia,4.0,1.0,UEFA Euro,Copenhagen,Denmark,False,10,38
+2021-06-21,Finland,Belgium,0.0,2.0,UEFA Euro,Saint Petersburg,Russia,True,54,1
+2021-06-21,Netherlands,North Macedonia,3.0,0.0,UEFA Euro,Amsterdam,Netherlands,False,16,62
+2021-06-21,Ukraine,Austria,0.0,1.0,UEFA Euro,Bucharest,Romania,True,24,23
+2021-06-22,Scotland,Croatia,1.0,3.0,UEFA Euro,Glasgow,Scotland,False,44,14
+2021-06-22,England,Czech Republic,1.0,0.0,UEFA Euro,London,England,False,4,0
+2021-06-23,Spain,Slovakia,5.0,0.0,UEFA Euro,Seville,Spain,False,6,36
+2021-06-23,Sweden,Poland,3.0,2.0,UEFA Euro,Saint Petersburg,Russia,True,18,21
+2021-06-23,Germany,Hungary,2.0,2.0,UEFA Euro,Munich,Germany,False,12,37
+2021-06-23,Portugal,France,2.0,2.0,UEFA Euro,Budapest,Hungary,True,5,2
+2021-06-26,Italy,Austria,2.0,1.0,UEFA Euro,London,England,True,7,23
+2021-06-26,Wales,Denmark,0.0,4.0,UEFA Euro,Amsterdam,Netherlands,True,17,10
+2021-06-27,Netherlands,Czech Republic,0.0,2.0,UEFA Euro,Budapest,Hungary,True,16,0
+2021-06-27,Belgium,Portugal,1.0,0.0,UEFA Euro,Seville,Spain,True,1,5
+2021-06-28,Croatia,Spain,3.0,5.0,UEFA Euro,Copenhagen,Denmark,True,14,6
+2021-06-28,France,Switzerland,3.0,3.0,UEFA Euro,Bucharest,Romania,True,2,13
+2021-06-29,England,Germany,2.0,0.0,UEFA Euro,London,England,False,4,12
+2021-06-29,Sweden,Ukraine,1.0,2.0,UEFA Euro,Glasgow,Scotland,True,18,24
+2021-07-02,Switzerland,Spain,1.0,1.0,UEFA Euro,Saint Petersburg,Russia,True,13,6
+2021-07-02,Belgium,Italy,1.0,2.0,UEFA Euro,Munich,Germany,True,1,7
+2021-07-03,Czech Republic,Denmark,1.0,2.0,UEFA Euro,Baku,Azerbaijan,True,0,10
+2021-07-03,Ukraine,England,0.0,4.0,UEFA Euro,Rome,Italy,True,24,4
+2021-07-06,Italy,Spain,1.0,1.0,UEFA Euro,London,England,True,7,6
+2021-07-07,England,Denmark,2.0,1.0,UEFA Euro,London,England,False,4,10
+2021-07-11,England,Italy,1.0,1.0,UEFA Euro,London,England,False,4,7
+2021-09-01,Finland,Wales,0.0,0.0,Friendly,Helsinki,Finland,False,56,19
+2021-09-01,Switzerland,Greece,2.0,1.0,Friendly,Basel,Switzerland,False,14,48
+2021-09-01,Portugal,Republic of Ireland,2.0,1.0,FIFA World Cup qualification,Faro-Loulé,Portugal,False,8,47
+2021-09-01,Denmark,Scotland,2.0,0.0,FIFA World Cup qualification,Copenhagen,Denmark,False,11,49
+2021-09-01,Norway,Netherlands,1.0,1.0,FIFA World Cup qualification,Oslo,Norway,False,43,12
+2021-09-01,Slovenia,Slovakia,1.0,1.0,FIFA World Cup qualification,Ljubljana,Slovenia,False,66,38
+2021-09-01,Russia,Croatia,0.0,0.0,FIFA World Cup qualification,Moscow,Russia,False,41,18
+2021-09-02,Sweden,Spain,2.0,1.0,FIFA World Cup qualification,Stockholm,Sweden,False,17,7
+2021-09-02,Italy,Bulgaria,1.0,1.0,FIFA World Cup qualification,Florence,Italy,False,5,75
+2021-09-02,Hungary,England,0.0,4.0,FIFA World Cup qualification,Budapest,Hungary,False,37,4
+2021-09-02,Poland,Albania,4.0,1.0,FIFA World Cup qualification,Warsaw,Poland,False,27,69
+2021-09-02,Iceland,Romania,0.0,2.0,FIFA World Cup qualification,Reykjavík,Iceland,False,53,45
+2021-09-04,Ukraine,France,1.0,1.0,FIFA World Cup qualification,Kyiv,Ukraine,False,25,3
+2021-09-04,Latvia,Norway,0.0,2.0,FIFA World Cup qualification,Riga,Latvia,False,136,43
+2021-09-04,Slovakia,Croatia,0.0,1.0,FIFA World Cup qualification,Bratislava,Slovakia,False,38,18
+2021-09-05,Switzerland,Italy,0.0,0.0,FIFA World Cup qualification,Basel,Switzerland,False,14,5
+2021-09-05,Belgium,Czech Republic,3.0,0.0,FIFA World Cup qualification,Brussels,Belgium,False,1,0
+2021-09-05,Albania,Hungary,1.0,0.0,FIFA World Cup qualification,Elbasan,Albania,False,69,37
+2021-09-05,Iceland,North Macedonia,2.0,2.0,FIFA World Cup qualification,Reykjavík,Iceland,False,53,72
+2021-09-07,Republic of Ireland,Serbia,1.0,1.0,FIFA World Cup qualification,Dublin,Republic of Ireland,False,47,29
+2021-09-07,France,Finland,2.0,0.0,FIFA World Cup qualification,Lyon,France,False,3,56
+2021-09-07,Austria,Scotland,0.0,1.0,FIFA World Cup qualification,Vienna,Austria,False,23,49
+2021-09-07,Netherlands,Turkey,6.0,1.0,FIFA World Cup qualification,Amsterdam,Netherlands,False,12,39
+2021-09-07,Croatia,Slovenia,3.0,0.0,FIFA World Cup qualification,Split,Croatia,False,18,66
+2021-09-08,Czech Republic,Ukraine,1.0,1.0,Friendly,Plzeň,Czech Republic,False,0,25
+2021-09-08,Greece,Sweden,2.0,1.0,FIFA World Cup qualification,Athens,Greece,False,48,17
+2021-09-08,Northern Ireland,Switzerland,0.0,0.0,FIFA World Cup qualification,Belfast,Northern Ireland,False,51,14
+2021-09-08,Poland,England,1.0,1.0,FIFA World Cup qualification,Warsaw,Poland,False,27,4
+2021-09-08,Iceland,Germany,0.0,4.0,FIFA World Cup qualification,Reykjavík,Iceland,False,53,16
+2021-10-06,Italy,Spain,1.0,2.0,UEFA Nations League,Milan,Italy,False,5,8
+2021-10-07,Belgium,France,2.0,3.0,UEFA Nations League,Turin,Italy,True,1,4
+2021-10-08,Czech Republic,Wales,2.0,2.0,FIFA World Cup qualification,Prague,Czech Republic,False,0,19
+2021-10-08,Latvia,Netherlands,0.0,1.0,FIFA World Cup qualification,Riga,Latvia,False,135,11
+2021-10-08,Turkey,Norway,1.0,1.0,FIFA World Cup qualification,Istanbul,Turkey,False,41,39
+2021-10-08,Russia,Slovakia,1.0,0.0,FIFA World Cup qualification,Kazan,Russia,False,37,38
+2021-10-08,Germany,Romania,2.0,1.0,FIFA World Cup qualification,Hamburg,Germany,False,14,42
+2021-10-09,Switzerland,Northern Ireland,2.0,0.0,FIFA World Cup qualification,Geneva,Switzerland,False,15,47
+2021-10-09,Finland,Ukraine,1.0,2.0,FIFA World Cup qualification,Helsinki,Finland,False,55,27
+2021-10-09,Hungary,Albania,0.0,1.0,FIFA World Cup qualification,Budapest,Hungary,False,40,66
+2021-10-10,Italy,Belgium,2.0,1.0,UEFA Nations League,Turin,Italy,False,5,1
+2021-10-10,Spain,France,1.0,2.0,UEFA Nations League,Milan,Italy,True,8,4
+2021-10-11,Latvia,Turkey,1.0,2.0,FIFA World Cup qualification,Riga,Latvia,False,135,41
+2021-10-11,Croatia,Slovakia,2.0,2.0,FIFA World Cup qualification,Osijek,Croatia,False,17,38
+2021-10-11,Slovenia,Russia,1.0,2.0,FIFA World Cup qualification,Maribor,Slovenia,False,64,37
+2021-10-12,Sweden,Greece,2.0,0.0,FIFA World Cup qualification,Stockholm,Sweden,False,18,46
+2021-10-12,Bulgaria,Northern Ireland,2.0,1.0,FIFA World Cup qualification,Sofia,Bulgaria,False,70,47
+2021-10-12,Denmark,Austria,1.0,0.0,FIFA World Cup qualification,Copenhagen,Denmark,False,10,29
+2021-10-12,England,Hungary,1.0,1.0,FIFA World Cup qualification,London,England,False,3,40
+2021-10-12,Albania,Poland,0.0,1.0,FIFA World Cup qualification,Tirana,Albania,False,66,24
+2021-11-11,Ukraine,Bulgaria,1.0,1.0,Friendly,Odessa,Ukraine,False,26,70
+2021-11-11,Republic of Ireland,Portugal,0.0,0.0,FIFA World Cup qualification,Dublin,Republic of Ireland,False,51,8
+2021-11-11,Greece,Spain,0.0,1.0,FIFA World Cup qualification,Athens,Greece,False,47,7
+2021-11-11,Slovakia,Slovenia,2.0,2.0,FIFA World Cup qualification,Trnava,Slovakia,False,40,64
+2021-11-11,Romania,Iceland,0.0,0.0,FIFA World Cup qualification,Bucharest,Romania,False,41,62
+2021-11-12,Italy,Switzerland,1.0,1.0,FIFA World Cup qualification,Rome,Italy,False,4,14
+2021-11-12,England,Albania,5.0,0.0,FIFA World Cup qualification,London,England,False,5,63
+2021-11-13,Norway,Latvia,0.0,0.0,FIFA World Cup qualification,Oslo,Norway,False,37,136
+2021-11-14,Portugal,Serbia,1.0,2.0,FIFA World Cup qualification,Lisbon,Portugal,False,8,25
+2021-11-14,Spain,Sweden,1.0,0.0,FIFA World Cup qualification,Seville,Spain,False,7,17
+2021-11-14,Croatia,Russia,1.0,0.0,FIFA World Cup qualification,Split,Croatia,False,18,33
+2021-11-15,Northern Ireland,Italy,0.0,0.0,FIFA World Cup qualification,Belfast,Northern Ireland,False,58,4
+2021-11-15,Switzerland,Bulgaria,4.0,0.0,FIFA World Cup qualification,Lucerne,Switzerland,False,14,70
+2021-11-15,Scotland,Denmark,2.0,0.0,FIFA World Cup qualification,Glasgow,Scotland,False,42,10
+2021-11-15,Poland,Hungary,1.0,2.0,FIFA World Cup qualification,Warsaw,Poland,False,23,43
+2021-11-16,Finland,France,0.0,2.0,FIFA World Cup qualification,Helsinki,Finland,False,60,3
+2021-11-16,Wales,Belgium,1.0,1.0,FIFA World Cup qualification,Cardiff,Wales,False,19,1
+2021-11-16,Netherlands,Norway,2.0,0.0,FIFA World Cup qualification,Rotterdam,Netherlands,False,11,37
+2022-03-24,Italy,North Macedonia,0.0,1.0,FIFA World Cup qualification,Palermo,Italy,False,6,67
+2022-03-24,Portugal,Turkey,3.0,1.0,FIFA World Cup qualification,Porto,Portugal,False,8,39
+2022-03-24,Sweden,Czech Republic,1.0,0.0,FIFA World Cup qualification,Stockholm,Sweden,False,17,0
+2022-03-24,Wales,Austria,2.0,1.0,FIFA World Cup qualification,Cardiff,Wales,False,20,30
+2022-03-24,Hungary,Serbia,0.0,1.0,Friendly,Budapest,Hungary,False,41,25
+2022-03-24,Scotland,Poland,1.0,1.0,Friendly,Glasgow,Scotland,False,40,28
+2022-03-25,Norway,Slovakia,2.0,0.0,Friendly,Oslo,Norway,False,45,46
+2022-03-25,Romania,Greece,0.0,1.0,Friendly,Bucharest,Romania,False,47,55
+2022-03-26,Croatia,Slovenia,1.0,1.0,Friendly,Al Rayyan,Qatar,True,15,64
+2022-03-26,England,Switzerland,2.0,1.0,Friendly,London,England,False,5,14
+2022-03-26,Finland,Iceland,1.0,1.0,Friendly,Murcia,Spain,True,57,60
+2022-03-26,Netherlands,Denmark,4.0,2.0,Friendly,Amsterdam,Netherlands,False,10,9
+2022-03-26,Republic of Ireland,Belgium,2.0,2.0,Friendly,Dublin,Republic of Ireland,False,49,1
+2022-03-26,Spain,Albania,2.0,1.0,Friendly,Barcelona,Spain,False,7,65
+2022-03-29,Poland,Sweden,2.0,0.0,FIFA World Cup qualification,Chorzów,Poland,False,28,17
+2022-03-29,Portugal,North Macedonia,2.0,0.0,FIFA World Cup qualification,Porto,Portugal,False,8,67
+2022-03-29,Austria,Scotland,2.0,2.0,Friendly,Vienna,Austria,False,30,40
+2022-03-29,Croatia,Bulgaria,2.0,1.0,Friendly,Al Rayyan,Qatar,True,15,71
+2022-03-29,Denmark,Serbia,3.0,0.0,Friendly,Copenhagen,Denmark,False,9,25
+2022-03-29,Finland,Slovakia,0.0,2.0,Friendly,Murcia,Spain,True,57,46
+2022-03-29,Netherlands,Germany,1.0,1.0,Friendly,Amsterdam,Netherlands,False,10,11
+2022-03-29,Northern Ireland,Hungary,0.0,1.0,Friendly,Belfast,Northern Ireland,False,54,41
+2022-03-29,Spain,Iceland,5.0,0.0,Friendly,La Coruña,Spain,False,7,60
+2022-03-29,Turkey,Italy,2.0,3.0,Friendly,Konya,Turkey,False,39,6
+2022-03-29,Wales,Czech Republic,1.0,1.0,Friendly,Cardiff,Wales,False,20,0
+2022-06-01,Scotland,Ukraine,1.0,3.0,FIFA World Cup qualification,Glasgow,Scotland,False,39,27
+2022-06-01,Poland,Wales,2.0,1.0,UEFA Nations League,Wrocław,Poland,False,26,18
+2022-06-02,Czech Republic,Switzerland,2.0,1.0,UEFA Nations League,Prague,Czech Republic,False,0,14
+2022-06-02,Spain,Portugal,1.0,1.0,UEFA Nations League,Seville,Spain,False,7,8
+2022-06-02,Serbia,Norway,0.0,1.0,UEFA Nations League,Belgrade,Serbia,False,25,41
+2022-06-02,Slovenia,Sweden,0.0,2.0,UEFA Nations League,Ljubljana,Slovenia,False,65,19
+2022-06-02,Northern Ireland,Greece,0.0,1.0,UEFA Nations League,Belfast,Northern Ireland,False,54,55
+2022-06-02,Bulgaria,North Macedonia,1.0,1.0,UEFA Nations League,Razgrad,Bulgaria,False,73,62
+2022-06-03,Croatia,Austria,0.0,3.0,UEFA Nations League,Osijek,Croatia,False,16,34
+2022-06-03,France,Denmark,1.0,2.0,UEFA Nations League,Paris,France,False,3,11
+2022-06-03,Belgium,Netherlands,1.0,4.0,UEFA Nations League,Brussels,Belgium,False,2,10
+2022-06-04,Hungary,England,1.0,0.0,UEFA Nations League,Budapest,Hungary,False,40,5
+2022-06-04,Italy,Germany,1.0,1.0,UEFA Nations League,Bologna,Italy,False,6,12
+2022-06-05,Wales,Ukraine,1.0,0.0,FIFA World Cup qualification,Cardiff,Wales,False,18,27
+2022-06-05,Portugal,Switzerland,4.0,0.0,UEFA Nations League,Lisbon,Portugal,False,8,14
+2022-06-05,Czech Republic,Spain,2.0,2.0,UEFA Nations League,Prague,Czech Republic,False,0,7
+2022-06-05,Serbia,Slovenia,4.0,1.0,UEFA Nations League,Belgrade,Serbia,False,25,65
+2022-06-05,Sweden,Norway,1.0,2.0,UEFA Nations League,Stockholm,Sweden,False,19,41
+2022-06-06,Austria,Denmark,1.0,2.0,UEFA Nations League,Vienna,Austria,False,34,11
+2022-06-06,Croatia,France,1.0,1.0,UEFA Nations League,Split,Croatia,False,16,3
+2022-06-06,Iceland,Albania,1.0,1.0,UEFA Nations League,Reykjavík,Iceland,False,63,66
+2022-06-07,Germany,England,1.0,1.0,UEFA Nations League,Munich,Germany,False,12,5
+2022-06-07,Italy,Hungary,2.0,1.0,UEFA Nations League,Cesena,Italy,False,6,40
+2022-06-08,Wales,Netherlands,1.0,2.0,UEFA Nations League,Cardiff,Wales,False,18,10
+2022-06-08,Belgium,Poland,6.0,1.0,UEFA Nations League,Brussels,Belgium,False,2,26
+2022-06-08,Republic of Ireland,Ukraine,0.0,1.0,UEFA Nations League,Dublin,Republic of Ireland,False,47,27
+2022-06-09,Portugal,Czech Republic,2.0,0.0,UEFA Nations League,Lisbon,Portugal,False,8,0
+2022-06-09,Switzerland,Spain,0.0,1.0,UEFA Nations League,Geneva,Switzerland,False,14,7
+2022-06-09,Norway,Slovenia,0.0,0.0,UEFA Nations League,Oslo,Norway,False,41,65
+2022-06-09,Sweden,Serbia,0.0,1.0,UEFA Nations League,Stockholm,Sweden,False,19,25
+2022-06-10,Austria,France,1.0,1.0,UEFA Nations League,Vienna,Austria,False,34,3
+2022-06-10,Denmark,Croatia,0.0,1.0,UEFA Nations League,Copenhagen,Denmark,False,11,16
+2022-06-11,England,Italy,0.0,0.0,UEFA Nations League,Wolverhampton,England,False,5,6
+2022-06-11,Hungary,Germany,1.0,1.0,UEFA Nations League,Budapest,Hungary,False,40,12
+2022-06-11,Wales,Belgium,1.0,1.0,UEFA Nations League,Cardiff,Wales,False,18,2
+2022-06-11,Netherlands,Poland,2.0,2.0,UEFA Nations League,Rotterdam,Netherlands,False,10,26
+2022-06-11,Republic of Ireland,Scotland,3.0,0.0,UEFA Nations League,Dublin,Republic of Ireland,False,47,39
+2022-06-11,Romania,Finland,1.0,0.0,UEFA Nations League,Bucharest,Romania,False,48,57
+2022-06-12,Spain,Czech Republic,2.0,0.0,UEFA Nations League,Málaga,Spain,False,7,0
+2022-06-12,Switzerland,Portugal,1.0,0.0,UEFA Nations League,Geneva,Switzerland,False,14,8
+2022-06-12,Norway,Sweden,3.0,2.0,UEFA Nations League,Oslo,Norway,False,41,19
+2022-06-12,Slovenia,Serbia,2.0,2.0,UEFA Nations League,Ljubljana,Slovenia,False,65,25
+2022-06-13,Denmark,Austria,2.0,0.0,UEFA Nations League,Copenhagen,Denmark,False,11,34
+2022-06-13,France,Croatia,0.0,1.0,UEFA Nations League,Paris,France,False,3,16
+2022-06-14,England,Hungary,0.0,4.0,UEFA Nations League,Wolverhampton,England,False,5,40
+2022-06-14,Germany,Italy,5.0,2.0,UEFA Nations League,Mönchengladbach,Germany,False,12,6
+2022-06-14,Netherlands,Wales,3.0,2.0,UEFA Nations League,Rotterdam,Netherlands,False,10,18
+2022-06-14,Poland,Belgium,0.0,1.0,UEFA Nations League,Warsaw,Poland,False,26,2
+2022-06-14,Ukraine,Republic of Ireland,1.0,1.0,UEFA Nations League,Łódź,Poland,True,27,47
+2022-09-21,Scotland,Ukraine,3.0,0.0,UEFA Nations League,Glasgow,Scotland,False,45,27
+2022-09-22,Croatia,Denmark,2.0,1.0,UEFA Nations League,Zagreb,Croatia,False,15,10
+2022-09-22,France,Austria,2.0,0.0,UEFA Nations League,Paris,France,False,4,33
+2022-09-22,Belgium,Wales,2.0,1.0,UEFA Nations League,Brussels,Belgium,False,2,19
+2022-09-22,Poland,Netherlands,0.0,2.0,UEFA Nations League,Warsaw,Poland,False,26,8
+2022-09-23,Germany,Hungary,0.0,1.0,UEFA Nations League,Leipzig,Germany,False,11,37
+2022-09-23,Italy,England,1.0,0.0,UEFA Nations League,Milan,Italy,False,7,5
+2022-09-23,Finland,Romania,1.0,1.0,UEFA Nations League,Helsinki,Finland,False,59,54
+2022-09-24,Czech Republic,Portugal,0.0,4.0,UEFA Nations League,Prague,Czech Republic,False,0,9
+2022-09-24,Spain,Switzerland,1.0,2.0,UEFA Nations League,Zaragoza,Spain,False,6,16
+2022-09-24,Scotland,Republic of Ireland,2.0,1.0,UEFA Nations League,Glasgow,Scotland,False,45,47
+2022-09-24,Slovenia,Norway,2.0,1.0,UEFA Nations League,Ljubljana,Slovenia,False,65,36
+2022-09-24,Serbia,Sweden,4.0,1.0,UEFA Nations League,Belgrade,Serbia,False,25,20
+2022-09-25,Austria,Croatia,1.0,3.0,UEFA Nations League,Vienna,Austria,False,33,15
+2022-09-25,Denmark,France,2.0,0.0,UEFA Nations League,Copenhagen,Denmark,False,10,4
+2022-09-25,Wales,Poland,0.0,1.0,UEFA Nations League,Cardiff,Wales,False,19,26
+2022-09-25,Netherlands,Belgium,1.0,0.0,UEFA Nations League,Amsterdam,Netherlands,False,8,2
+2022-09-26,England,Germany,3.0,3.0,UEFA Nations League,London,England,False,5,11
+2022-09-26,Hungary,Italy,0.0,2.0,UEFA Nations League,Budapest,Hungary,False,37,7
+2022-09-27,Portugal,Spain,0.0,1.0,UEFA Nations League,Braga,Portugal,False,9,6
+2022-09-27,Switzerland,Czech Republic,2.0,1.0,UEFA Nations League,St. Gallen,Switzerland,False,16,0
+2022-09-27,Ukraine,Scotland,0.0,0.0,UEFA Nations League,Kraków,Poland,True,27,45
+2022-09-27,Albania,Iceland,1.0,1.0,UEFA Nations League,Tirana,Albania,False,66,63
+2022-09-27,Norway,Serbia,0.0,2.0,UEFA Nations League,Oslo,Norway,False,36,25
+2022-09-27,Sweden,Slovenia,1.0,1.0,UEFA Nations League,Stockholm,Sweden,False,20,65
+2022-09-27,Greece,Northern Ireland,3.0,1.0,UEFA Nations League,Athens,Greece,False,49,58
+2022-11-16,Albania,Italy,1.0,3.0,Friendly,Tirana,Albania,False,66,6
+2022-11-16,Turkey,Scotland,2.0,1.0,Friendly,Diyarbakir,Turkey,False,45,40
+2022-11-17,Republic of Ireland,Norway,1.0,2.0,Friendly,Dublin,Republic of Ireland,False,49,42
+2022-11-17,Romania,Slovenia,1.0,2.0,Friendly,Cluj-Napoca,Romania,False,53,63
+2022-11-19,Turkey,Czech Republic,2.0,1.0,Friendly,Gaziantep,Turkey,False,45,0
+2022-11-19,Latvia,Iceland,1.0,1.0,Baltic Cup,Riga,Latvia,False,134,62
+2022-11-20,Austria,Italy,2.0,0.0,Friendly,Vienna,Austria,False,34,6
+2022-11-20,Hungary,Greece,2.0,1.0,Friendly,Budapest,Hungary,False,36,52
+2022-11-20,Norway,Finland,1.0,1.0,Friendly,Oslo,Norway,False,42,56
+2022-11-26,France,Denmark,2.0,1.0,FIFA World Cup,Doha,Qatar,True,4,10
+2022-11-27,Spain,Germany,1.0,1.0,FIFA World Cup,Al Khor,Qatar,True,7,11
+2022-11-29,Wales,England,0.0,3.0,FIFA World Cup,Al Rayyan,Qatar,True,19,5
+2022-12-01,Croatia,Belgium,0.0,0.0,FIFA World Cup,Al Rayyan,Qatar,True,12,2
+2022-12-02,Serbia,Switzerland,2.0,3.0,FIFA World Cup,Doha,Qatar,True,21,15
+2022-12-04,France,Poland,3.0,1.0,FIFA World Cup,Doha,Qatar,True,4,26
+2022-12-06,Portugal,Switzerland,6.0,1.0,FIFA World Cup,Lusail,Qatar,True,9,15
+2022-12-10,England,France,1.0,2.0,FIFA World Cup,Al Khor,Qatar,True,5,4
+2023-01-09,Sweden,Finland,2.0,0.0,Friendly,Faro-Loulé,Portugal,True,23,56
+2023-01-12,Sweden,Iceland,2.0,1.0,Friendly,Faro-Loulé,Portugal,True,23,63
+2023-03-22,Republic of Ireland,Latvia,3.0,2.0,Friendly,Dublin,Republic of Ireland,False,48,133
+2023-03-23,Italy,England,1.0,2.0,UEFA Euro qualification,Napoli,Italy,False,8,5
+2023-03-23,Denmark,Finland,3.0,1.0,UEFA Euro qualification,Copenhagen,Denmark,False,18,56
+2023-03-24,France,Netherlands,4.0,0.0,UEFA Euro qualification,Paris,France,False,3,6
+2023-03-24,Czech Republic,Poland,3.0,1.0,UEFA Euro qualification,Prague,Czech Republic,False,0,22
+2023-03-24,Sweden,Belgium,0.0,3.0,UEFA Euro qualification,Stockholm,Sweden,False,23,4
+2023-03-25,Spain,Norway,3.0,0.0,UEFA Euro qualification,Málaga,Spain,False,10,43
+2023-03-25,Croatia,Wales,1.0,1.0,UEFA Euro qualification,Split,Croatia,False,7,28
+2023-03-26,England,Ukraine,2.0,0.0,UEFA Euro qualification,London,England,False,5,26
+2023-03-26,Northern Ireland,Finland,0.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,59,56
+2023-03-27,Republic of Ireland,France,0.0,1.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,48,3
+2023-03-27,Poland,Albania,1.0,0.0,UEFA Euro qualification,Warsaw,Poland,False,22,66
+2023-03-27,Hungary,Bulgaria,3.0,0.0,UEFA Euro qualification,Budapest,Hungary,False,36,71
+2023-03-28,Germany,Belgium,2.0,3.0,Friendly,Cologne,Germany,False,14,4
+2023-03-28,Scotland,Spain,2.0,0.0,UEFA Euro qualification,Glasgow,Scotland,False,42,10
+2023-03-28,Wales,Latvia,1.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,28,133
+2023-03-28,Turkey,Croatia,0.0,2.0,UEFA Euro qualification,Bursa,Turkey,False,44,7
+2023-06-12,Germany,Ukraine,3.0,3.0,Friendly,Bremen,Germany,False,14,30
+2023-06-14,Netherlands,Croatia,2.0,4.0,UEFA Nations League,Rotterdam,Netherlands,False,6,7
+2023-06-15,Spain,Italy,2.0,1.0,UEFA Nations League,Enschede,Netherlands,True,10,8
+2023-06-16,Poland,Germany,1.0,0.0,Friendly,Warsaw,Poland,False,23,14
+2023-06-16,Greece,Republic of Ireland,2.0,1.0,UEFA Euro qualification,Athens,Greece,False,52,49
+2023-06-16,Latvia,Turkey,2.0,3.0,UEFA Euro qualification,Riga,Latvia,False,132,43
+2023-06-16,Finland,Slovenia,2.0,0.0,UEFA Euro qualification,Helsinki,Finland,False,56,59
+2023-06-16,Denmark,Northern Ireland,1.0,0.0,UEFA Euro qualification,Copenhagen,Denmark,False,19,62
+2023-06-17,Norway,Scotland,1.0,2.0,UEFA Euro qualification,Oslo,Norway,False,44,36
+2023-06-17,Belgium,Austria,1.0,1.0,UEFA Euro qualification,Brussels,Belgium,False,4,32
+2023-06-17,Iceland,Slovakia,1.0,2.0,UEFA Euro qualification,Reykjavík,Iceland,False,64,51
+2023-06-18,Netherlands,Italy,2.0,3.0,UEFA Nations League,Enschede,Netherlands,False,6,8
+2023-06-18,Croatia,Spain,0.0,0.0,UEFA Nations League,Rotterdam,Netherlands,True,7,10
+2023-06-19,France,Greece,1.0,0.0,UEFA Euro qualification,Paris,France,False,2,52
+2023-06-19,England,North Macedonia,7.0,0.0,UEFA Euro qualification,Manchester,England,False,5,65
+2023-06-19,Turkey,Wales,2.0,0.0,UEFA Euro qualification,Samsun,Turkey,False,43,26
+2023-06-19,Slovenia,Denmark,1.0,1.0,UEFA Euro qualification,Ljubljana,Slovenia,False,59,19
+2023-06-19,Switzerland,Romania,2.0,2.0,UEFA Euro qualification,Lucerne,Switzerland,False,12,46
+2023-06-20,Austria,Sweden,2.0,0.0,UEFA Euro qualification,Vienna,Austria,False,32,22
+2023-06-20,Bulgaria,Serbia,1.0,1.0,UEFA Euro qualification,Razgrad,Bulgaria,False,76,25
+2023-06-20,Iceland,Portugal,0.0,1.0,UEFA Euro qualification,Reykjavík,Iceland,False,64,9
+2023-09-07,France,Republic of Ireland,2.0,0.0,UEFA Euro qualification,Paris,France,False,2,53
+2023-09-07,Netherlands,Greece,3.0,0.0,UEFA Euro qualification,Eindhoven,Netherlands,False,7,50
+2023-09-07,Czech Republic,Albania,1.0,1.0,UEFA Euro qualification,Prague,Czech Republic,False,0,65
+2023-09-07,Serbia,Hungary,1.0,2.0,UEFA Euro qualification,Belgrade,Serbia,False,25,36
+2023-09-07,Slovenia,Northern Ireland,4.0,2.0,UEFA Euro qualification,Ljubljana,Slovenia,False,61,64
+2023-09-08,Croatia,Latvia,5.0,0.0,UEFA Euro qualification,Rijeka,Croatia,False,6,134
+2023-09-08,Slovakia,Portugal,0.0,1.0,UEFA Euro qualification,Bratislava,Slovakia,False,47,9
+2023-09-09,Ukraine,England,1.0,1.0,UEFA Euro qualification,Wrocław,Poland,True,24,4
+2023-09-10,Hungary,Czech Republic,1.0,1.0,Friendly,Budapest,Hungary,False,36,0
+2023-09-10,Republic of Ireland,Netherlands,1.0,2.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,53,7
+2023-09-10,Albania,Poland,2.0,0.0,UEFA Euro qualification,Tirana,Albania,False,65,26
+2023-09-10,Finland,Denmark,0.0,1.0,UEFA Euro qualification,Helsinki,Finland,False,55,19
+2023-09-11,Latvia,Wales,0.0,2.0,UEFA Euro qualification,Riga,Latvia,False,134,35
+2023-09-12,Germany,France,2.0,1.0,Friendly,Dortmund,Germany,False,15,2
+2023-09-12,Scotland,England,1.0,3.0,Friendly,Glasgow,Scotland,False,30,4
+2023-09-12,Italy,Ukraine,2.0,1.0,UEFA Euro qualification,Milan,Italy,False,8,24
+2023-09-12,Sweden,Austria,1.0,3.0,UEFA Euro qualification,Stockholm,Sweden,False,23,29
+2023-10-12,Spain,Scotland,2.0,0.0,UEFA Euro qualification,Seville,Spain,False,10,31
+2023-10-12,Croatia,Turkey,0.0,1.0,UEFA Euro qualification,Osijek,Croatia,False,6,42
+2023-10-12,Albania,Czech Republic,3.0,0.0,UEFA Euro qualification,Tirana,Albania,False,62,0
+2023-10-13,Republic of Ireland,Greece,0.0,2.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,55,51
+2023-10-13,Netherlands,France,1.0,2.0,UEFA Euro qualification,Amsterdam,Netherlands,False,7,2
+2023-10-13,Austria,Belgium,2.0,3.0,UEFA Euro qualification,Vienna,Austria,False,25,5
+2023-10-13,Portugal,Slovakia,3.0,2.0,UEFA Euro qualification,Porto,Portugal,False,8,48
+2023-10-14,Ukraine,North Macedonia,2.0,0.0,UEFA Euro qualification,Prague,Czech Republic,True,24,66
+2023-10-14,Hungary,Serbia,2.0,1.0,UEFA Euro qualification,Budapest,Hungary,False,32,28
+2023-10-14,Slovenia,Finland,3.0,0.0,UEFA Euro qualification,Ljubljana,Slovenia,False,59,54
+2023-10-15,Norway,Spain,0.0,1.0,UEFA Euro qualification,Oslo,Norway,False,43,10
+2023-10-15,Wales,Croatia,2.0,1.0,UEFA Euro qualification,Cardiff,Wales,False,33,6
+2023-10-15,Turkey,Latvia,4.0,0.0,UEFA Euro qualification,Konya,Turkey,False,42,136
+2023-10-16,Greece,Netherlands,0.0,1.0,UEFA Euro qualification,Athens,Greece,False,51,7
+2023-10-16,Belgium,Sweden,1.0,1.0,UEFA Euro qualification,Brussels,Belgium,False,5,23
+2023-10-17,Albania,Bulgaria,2.0,0.0,Friendly,Tirana,Albania,False,62,78
+2023-10-17,France,Scotland,4.0,1.0,Friendly,Lille,France,False,2,31
+2023-10-17,England,Italy,3.0,1.0,UEFA Euro qualification,London,England,False,4,9
+2023-10-17,Northern Ireland,Slovenia,0.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,74,59
+2023-11-15,Belgium,Serbia,1.0,0.0,Friendly,Leuven,Belgium,False,5,29
+2023-11-16,Bulgaria,Hungary,2.0,2.0,UEFA Euro qualification,Sofia,Bulgaria,False,84,30
+2023-11-16,Slovakia,Iceland,4.0,2.0,UEFA Euro qualification,Bratislava,Slovakia,False,50,67
+2023-11-17,Italy,North Macedonia,5.0,2.0,UEFA Euro qualification,Rome,Italy,False,9,66
+2023-11-17,Poland,Czech Republic,1.0,1.0,UEFA Euro qualification,Warsaw,Poland,False,31,0
+2023-11-17,Finland,Northern Ireland,4.0,0.0,UEFA Euro qualification,Helsinki,Finland,False,62,75
+2023-11-17,Denmark,Slovenia,2.0,1.0,UEFA Euro qualification,Copenhagen,Denmark,False,19,54
+2023-11-18,Germany,Turkey,2.0,3.0,Friendly,Berlin,Germany,False,16,38
+2023-11-18,Netherlands,Republic of Ireland,1.0,0.0,UEFA Euro qualification,Amsterdam,Netherlands,False,7,58
+2023-11-18,Latvia,Croatia,0.0,2.0,UEFA Euro qualification,Riga,Latvia,False,132,10
+2023-11-19,Scotland,Norway,3.0,3.0,UEFA Euro qualification,Glasgow,Scotland,False,34,42
+2023-11-19,Serbia,Bulgaria,2.0,2.0,UEFA Euro qualification,Leskovac,Serbia,False,29,84
+2023-11-19,Portugal,Iceland,2.0,0.0,UEFA Euro qualification,Lisbon,Portugal,False,6,67
+2023-11-20,Ukraine,Italy,0.0,0.0,UEFA Euro qualification,Leverkusen,Germany,True,22,9
+2023-11-20,Northern Ireland,Denmark,2.0,0.0,UEFA Euro qualification,Belfast,Northern Ireland,False,75,19
+2023-11-21,Austria,Germany,2.0,0.0,Friendly,Vienna,Austria,False,25,16
+2023-11-21,Poland,Latvia,2.0,0.0,Friendly,Warsaw,Poland,False,31,132
+2023-11-21,Greece,France,2.0,2.0,UEFA Euro qualification,Athens,Greece,False,51,2
+2023-11-21,Wales,Turkey,1.0,1.0,UEFA Euro qualification,Cardiff,Wales,False,28,38
+2023-11-21,Romania,Switzerland,1.0,0.0,UEFA Euro qualification,Bucharest,Romania,False,48,14
+2024-03-21,Wales,Finland,4.0,1.0,UEFA Euro qualification,Cardiff,Wales,False,29,60
+2024-03-21,Portugal,Sweden,5.0,2.0,Friendly,Guimarães,Portugal,False,7,26
+2024-03-22,Hungary,Turkey,1.0,0.0,Friendly,Budapest,Hungary,False,27,35
+2024-03-22,Netherlands,Scotland,4.0,0.0,Friendly,Amsterdam,Netherlands,False,6,34
+2024-03-22,Norway,Czech Republic,1.0,2.0,Friendly,Oslo,Norway,False,46,0
+2024-03-22,Romania,Northern Ireland,1.0,1.0,Friendly,Bucharest,Romania,False,45,74
+2024-03-23,Denmark,Switzerland,0.0,0.0,Friendly,Copenhagen,Denmark,False,21,19
+2024-03-23,France,Germany,0.0,2.0,Friendly,Lyon,France,False,2,16
+2024-03-23,Republic of Ireland,Belgium,0.0,0.0,Friendly,Dublin,Republic of Ireland,False,62,4
+2024-03-23,Slovakia,Austria,0.0,2.0,Friendly,Bratislava,Slovakia,False,48,25
+2024-03-25,Sweden,Albania,1.0,0.0,Friendly,Stockholm,Sweden,False,26,64
+2024-03-26,Wales,Poland,0.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,29,30
+2024-03-26,Ukraine,Iceland,2.0,1.0,UEFA Euro qualification,Wrocław,Poland,True,24,73
+2024-03-26,Austria,Turkey,6.0,1.0,Friendly,Vienna,Austria,False,25,35
+2024-03-26,England,Belgium,2.0,2.0,Friendly,London,England,False,3,4
+2024-03-26,Germany,Netherlands,2.0,1.0,Friendly,Frankfurt,Germany,False,16,6
+2024-03-26,Norway,Slovakia,1.0,1.0,Friendly,Oslo,Norway,False,46,48
+2024-03-26,Republic of Ireland,Switzerland,0.0,1.0,Friendly,Dublin,Republic of Ireland,False,62,19
+2024-03-26,Scotland,Northern Ireland,0.0,1.0,Friendly,Glasgow,Scotland,False,34,74
+2024-03-26,Slovenia,Portugal,2.0,0.0,Friendly,Ljubljana,Slovenia,False,55,7

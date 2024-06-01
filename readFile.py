@@ -4,10 +4,10 @@ csvFile = pandas.read_csv('all_games/results.csv')
 #filter out rows with missing values
 csvFile = csvFile.dropna()
 
-euro = csvFile[(csvFile['tournament'] == 'UEFA Euro')]
+euro = csvFile[(csvFile['tournament'] == 'UEFA Euro') | (csvFile['tournament'] == 'Friendly') | (csvFile['tournament'] == 'FIFA World Cup') | (csvFile['tournament'] == 'FIFA World Cup qualification') | (csvFile['tournament'] == 'FIFA World Cup qualification (UEFA)')  | (csvFile['tournament'] == 'UEFA Euro qualification') | (csvFile['tournament'] == 'FIFA World Cup qualification (UEFA)') ]
 
 #filter to only include rows with tournament name "UEFA Euro"
-csvFile = csvFile[(csvFile['tournament'] == 'Friendly')]
+#csvFile = csvFile[(csvFile['tournament'] == 'Friendly')]
 
 #filter to only include rows that have teams from UEFA
 csvFile = csvFile[(csvFile['home_team'].isin(euro['home_team'])) & (csvFile['away_team'].isin(euro['away_team']))]
@@ -55,4 +55,4 @@ for index, row in csvFile.iterrows():
 print(csvFile)
 
 #save the updated csvFile to a new file
-csvFile.to_csv('Results/results_friendly.csv', index=False)
+csvFile.to_csv('Results/results_some.csv', index=False)

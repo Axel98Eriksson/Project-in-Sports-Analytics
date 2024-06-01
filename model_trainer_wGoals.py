@@ -60,8 +60,8 @@ def train_models(X, y_home, y_away):
         '6': DecisionTreeClassifier(random_state=42)
     }
 
-    model_home = models['6']
-    model_away = models['6']
+    model_home = models['5']
+    model_away = models['5']
 
 
     
@@ -101,9 +101,10 @@ def main(file_path):
 
 # Example usage
 file_path = 'Results/results_with_rankings_wo_conference.csv'  # Ensure this path is correct
+#file_path = 'Results/results_all.csv'
 model_home, model_away, label_encoders = main(file_path)
 
 # Save trained models and label encoders for future use with joblib
-joblib.dump(model_home, 'models/model_home.joblib')
-joblib.dump(model_away, 'models/model_away.joblib')
-joblib.dump(label_encoders, 'models/label_encoders.joblib')
+# joblib.dump(model_home, 'models/model_home.joblib')
+# joblib.dump(model_away, 'models/model_away.joblib')
+# joblib.dump(label_encoders, 'models/label_encoders.joblib')
