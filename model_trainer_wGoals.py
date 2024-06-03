@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 from sklearn.ensemble import RandomForestRegressor
-import xgboost as xgb
+#import xgboost as xgb
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -54,7 +54,7 @@ def train_models(X, y_home, y_away):
     models = {
         '1': RandomForestClassifier(random_state=42),
         '2': RandomForestRegressor(random_state=42),
-        '3': xgb.XGBClassifier(use_label_encoder=False, eval_metric='mlogloss'),
+       # '3': xgb.XGBClassifier(use_label_encoder=False, eval_metric='mlogloss'),
         '4': GaussianNB(),
         '5': KNeighborsClassifier(),
         '6': DecisionTreeClassifier(random_state=42)
@@ -99,12 +99,13 @@ def main(file_path):
     
     return model_home, model_away, label_encoders
 
-# Example usage
-file_path = 'Results/results_with_rankings_wo_conference.csv'  # Ensure this path is correct
-#file_path = 'Results/results_all.csv'
-model_home, model_away, label_encoders = main(file_path)
+if __name__ == "main":
+    # Example usage
+    file_path = 'Results/results_with_rankings_wo_conference.csv'  # Ensure this path is correct
+    #file_path = 'Results/results_all.csv'
+    model_home, model_away, label_encoders = main(file_path)
 
-# Save trained models and label encoders for future use with joblib
-# joblib.dump(model_home, 'models/model_home.joblib')
-# joblib.dump(model_away, 'models/model_away.joblib')
-# joblib.dump(label_encoders, 'models/label_encoders.joblib')
+    # Save trained models and label encoders for future use with joblib
+    # joblib.dump(model_home, 'models/model_home.joblib')
+    # joblib.dump(model_away, 'models/model_away.joblib')
+    # joblib.dump(label_encoders, 'models/label_encoders.joblib')
