@@ -271,5 +271,3 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-07-06,Italy,Spain,1.0,1.0,UEFA Euro,London,England,True,7,6,2.0,0.4,1.6,1.8
 2021-07-07,England,Denmark,2.0,1.0,UEFA Euro,London,England,False,4,10,1.2,0.2,1.6,1.2
 2021-07-11,England,Italy,1.0,1.0,UEFA Euro,London,England,False,4,7,1.2,0.4,1.2,1.4
-2021-07-11,Georgia,San Marino,0.0,0.0,UEFA Euro,London,England,False,77,51,0.0,0.0,0.0,0.0
-2021-07-11,San Marino,Georgia,0.0,0.0,UEFA Euro,London,England,False,111,77,0.0,0.0,0.0,0.0
