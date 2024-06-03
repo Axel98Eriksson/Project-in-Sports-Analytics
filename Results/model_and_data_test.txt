@@ -296,3 +296,117 @@ Away Model Mean Squared Error: 2.6016042780748663
 Home Model Accuracy: 0.23663101604278075
 Away Model Accuracy: 0.3302139037433155
 
+File: Results/results_with_rankings_wo_conference.csv
+Model: 1
+Home Model Mean Squared Error: 2.241372727272727
+Away Model Mean Squared Error: 0.9639181818181819
+
+File: Results/results_with_rankings_wo_conference.csv
+Model: 2
+Home Model Mean Squared Error: 3.2545454545454544
+Away Model Mean Squared Error: 1.2545454545454546
+Home Model Accuracy: 0.2727272727272727
+Away Model Accuracy: 0.2909090909090909
+
+File: Results/results_with_rankings_wo_conference.csv
+Model: 3
+Home Model Mean Squared Error: 2.67868739285419
+Away Model Mean Squared Error: 1.2837635038267903
+
+File: Results/results_with_rankings_wo_conference.csv
+Model: 4
+Home Model Mean Squared Error: 5.290909090909091
+Away Model Mean Squared Error: 4.163636363636364
+Home Model Accuracy: 0.14545454545454545
+Away Model Accuracy: 0.2727272727272727
+
+File: Results/results_with_rankings_wo_conference.csv
+Model: 5
+Home Model Mean Squared Error: 3.381818181818182
+Away Model Mean Squared Error: 1.8181818181818181
+Home Model Accuracy: 0.2
+Away Model Accuracy: 0.3090909090909091
+
+File: Results/results_with_rankings_wo_conference.csv
+Model: 6
+Home Model Mean Squared Error: 3.2363636363636363
+Away Model Mean Squared Error: 2.290909090909091
+Home Model Accuracy: 0.2727272727272727
+Away Model Accuracy: 0.2
+
+File: Results/results_all.csv
+Model: 1
+Home Model Mean Squared Error: 2.3507446601941746
+Away Model Mean Squared Error: 1.1812300970873788
+
+File: Results/results_all.csv
+Model: 2
+Home Model Mean Squared Error: 2.9805825242718447
+Away Model Mean Squared Error: 1.5922330097087378
+Home Model Accuracy: 0.1941747572815534
+Away Model Accuracy: 0.3300970873786408
+
+File: Results/results_all.csv
+Model: 3
+Home Model Mean Squared Error: 2.8552214861010285
+Away Model Mean Squared Error: 1.4022758998025715
+
+File: Results/results_all.csv
+Model: 4
+Home Model Mean Squared Error: 3.796116504854369
+Away Model Mean Squared Error: 1.8640776699029127
+Home Model Accuracy: 0.2524271844660194
+Away Model Accuracy: 0.3786407766990291
+
+File: Results/results_all.csv
+Model: 5
+Home Model Mean Squared Error: 2.854368932038835
+Away Model Mean Squared Error: 1.6796116504854368
+Home Model Accuracy: 0.22330097087378642
+Away Model Accuracy: 0.36893203883495146
+
+File: Results/results_all.csv
+Model: 6
+Home Model Mean Squared Error: 3.1067961165048543
+Away Model Mean Squared Error: 1.6407766990291262
+Home Model Accuracy: 0.22330097087378642
+Away Model Accuracy: 0.33980582524271846
+
+File: Results/results_some.csv
+Model: 1
+Home Model Mean Squared Error: 3.4393774102686527
+Away Model Mean Squared Error: 1.60256142478355
+
+File: Results/results_some.csv
+Model: 2
+Home Model Mean Squared Error: 4.237967914438503
+Away Model Mean Squared Error: 2.0962566844919786
+Home Model Accuracy: 0.2540106951871658
+Away Model Accuracy: 0.3836898395721925
+
+File: Results/results_some.csv
+Model: 3
+Home Model Mean Squared Error: 3.6487243507979628
+Away Model Mean Squared Error: 1.68579273390876
+
+File: Results/results_some.csv
+Model: 4
+Home Model Mean Squared Error: 20.447860962566846
+Away Model Mean Squared Error: 19.24197860962567
+Home Model Accuracy: 0.196524064171123
+Away Model Accuracy: 0.2606951871657754
+
+File: Results/results_some.csv
+Model: 5
+Home Model Mean Squared Error: 4.201871657754011
+Away Model Mean Squared Error: 2.3997326203208558
+Home Model Accuracy: 0.2887700534759358
+Away Model Accuracy: 0.35427807486631013
+
+File: Results/results_some.csv
+Model: 6
+Home Model Mean Squared Error: 4.449197860962567
+Away Model Mean Squared Error: 2.6016042780748663
+Home Model Accuracy: 0.23663101604278075
+Away Model Accuracy: 0.3302139037433155
+
