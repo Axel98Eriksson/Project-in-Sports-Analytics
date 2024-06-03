@@ -7,8 +7,6 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
-#===================== NOT WORKING =====================
-
 # Load the dataset
 file_path = 'Results/results_with_rankings_wo_conference.csv'
 data = pd.read_csv(file_path)
@@ -37,6 +35,11 @@ X_train, X_test, y_train_home, y_test_home, y_train_away, y_test_away = train_te
     features, target_home, target_away, test_size=0.2, random_state=42
 )
 
+from sklearn.feature_selection import SequentialFeatureSelector
+
+# Ensure that the input to the SequentialFeatureSelector is a DataFrame
+X_train_df = pd.DataFrame(X_train, columns=features.columns)
+X_test_df = pd.DataFrame(X_test, columns=features.columns)
 
 # Create a pipeline that includes preprocessing and the model
 model_pipeline = Pipeline(steps=[
@@ -48,7 +51,7 @@ model_pipeline = Pipeline(steps=[
 sfs = SequentialFeatureSelector(model_pipeline, n_features_to_select='auto', direction='forward', scoring='neg_mean_squared_error', cv=5)
 
 # Fit the selector for home_score
-sfs.fit(X_train, y_train_home)
+sfs.fit(X_train_df, y_train_home)
 
 # Get the selected features
 selected_features_home = sfs.get_support()
@@ -57,8 +60,8 @@ selected_features_names_home = features.columns[selected_features_home]
 print("Selected features for home_score predictions:", selected_features_names_home)
 
 # Transform the training and testing sets to include only the selected features
-X_train_selected_home = sfs.transform(X_train)
-X_test_selected_home = sfs.transform(X_test)
+X_train_selected_home = sfs.transform(X_train_df)
+X_test_selected_home = sfs.transform(X_test_df)
 
 # Train the model on the selected features
 model_pipeline.fit(X_train_selected_home, y_train_home)
@@ -70,8 +73,9 @@ preds_home = model_pipeline.predict(X_test_selected_home)
 mse_home = mean_squared_error(y_test_home, preds_home)
 print(f"Mean Squared Error for home_score predictions with selected features: {mse_home}")
 
+
 # Perform sequential feature selection for away_score
-sfs.fit(X_train, y_train_away)
+sfs.fit(X_train_df, y_train_away)
 
 # Get the selected features
 selected_features_away = sfs.get_support()
@@ -80,8 +84,8 @@ selected_features_names_away = features.columns[selected_features_away]
 print("Selected features for away_score predictions:", selected_features_names_away)
 
 # Transform the training and testing sets to include only the selected features
-X_train_selected_away = sfs.transform(X_train)
-X_test_selected_away = sfs.transform(X_test)
+X_train_selected_away = sfs.transform(X_train_df)
+X_test_selected_away = sfs.transform(X_test_df)
 
 # Train the model on the selected features
 model_pipeline.fit(X_train_selected_away, y_train_away)

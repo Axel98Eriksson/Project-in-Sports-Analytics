@@ -1,0 +1,309 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,home_ranking,away_ranking,home_avg_goals,away_avg_goals,home_wins,away_wins,home_losses,away_losses,home_draws,away_draws
+2023-01-08,Iceland,Estonia,1.0,1.0,Friendly,Albufeira,Portugal,True,63,109,1.0,0.8,1,3,0,0,4,2
+2023-01-09,Sweden,Finland,2.0,0.0,Friendly,Faro-Loulé,Portugal,True,23,56,1.0,2.2,0,1,4,1,1,3
+2023-01-12,Finland,Estonia,0.0,1.0,Friendly,Albufeira,Portugal,True,56,109,1.0,1.0,1,3,1,0,3,2
+2023-01-12,Sweden,Iceland,2.0,1.0,Friendly,Faro-Loulé,Portugal,True,23,63,1.2,1.8,1,0,3,0,1,5
+2023-03-22,Republic of Ireland,Latvia,3.0,2.0,Friendly,Dublin,Republic of Ireland,False,48,133,1.4,1.4,2,1,2,1,1,3
+2023-03-23,Hungary,Estonia,1.0,0.0,Friendly,Budapest,Hungary,False,36,109,1.8,1.0,3,3,1,0,1,2
+2023-03-23,Italy,England,1.0,2.0,UEFA Euro qualification,Napoli,Italy,False,8,5,1.6,1.6,3,1,2,3,0,1
+2023-03-23,North Macedonia,Malta,2.0,1.0,UEFA Euro qualification,Skopje,North Macedonia,False,65,167,1.2,1.4,1,2,3,2,1,1
+2023-03-23,Denmark,Finland,3.0,1.0,UEFA Euro qualification,Copenhagen,Denmark,False,18,56,1.2,1.0,2,1,3,2,0,2
+2023-03-23,San Marino,Northern Ireland,0.0,2.0,UEFA Euro qualification,Serravalle,San Marino,False,211,59,0.0,2.0,0,1,5,2,0,2
+2023-03-23,Kazakhstan,Slovenia,1.0,2.0,UEFA Euro qualification,Astana,Kazakhstan,False,115,62,1.2,1.2,3,3,1,0,1,2
+2023-03-23,Portugal,Liechtenstein,4.0,0.0,UEFA Euro qualification,Lisbon,Portugal,False,9,198,2.4,0.6,3,0,2,5,0,0
+2023-03-23,Bosnia and Herzegovina,Iceland,3.0,0.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,57,63,1.4,1.4,3,0,1,1,1,4
+2023-03-23,Slovakia,Luxembourg,0.0,0.0,UEFA Euro qualification,Trnava,Slovakia,False,54,92,1.2,1.4,1,1,2,0,2,4
+2023-03-24,Gibraltar,Greece,0.0,3.0,UEFA Euro qualification,Faro-Loulé,Portugal,True,200,51,1.0,2.2,2,2,3,2,0,1
+2023-03-24,France,Netherlands,4.0,0.0,UEFA Euro qualification,Paris,France,False,3,6,1.8,1.0,4,4,1,0,0,1
+2023-03-24,Czech Republic,Poland,3.0,1.0,UEFA Euro qualification,Prague,Czech Republic,False,0,22,1.4,2.0,1,1,4,3,0,1
+2023-03-24,Moldova,Faroe Islands,1.0,1.0,UEFA Euro qualification,Chișinău,Moldova,False,174,123,1.4,1.8,3,1,2,1,0,3
+2023-03-24,Austria,Azerbaijan,4.0,1.0,UEFA Euro qualification,Pasching,Austria,False,34,121,0.8,1.4,2,5,3,0,0,0
+2023-03-24,Sweden,Belgium,0.0,3.0,UEFA Euro qualification,Stockholm,Sweden,False,23,4,1.6,1.8,2,2,2,1,1,2
+2023-03-24,Bulgaria,Montenegro,0.0,1.0,UEFA Euro qualification,Razgrad,Bulgaria,False,71,69,1.6,0.2,3,1,0,3,2,1
+2023-03-24,Serbia,Lithuania,2.0,0.0,UEFA Euro qualification,Belgrade,Serbia,False,29,144,2.2,1.2,3,0,1,3,1,2
+2023-03-25,Scotland,Cyprus,3.0,0.0,UEFA Euro qualification,Glasgow,Scotland,False,42,110,2.0,0.8,3,2,1,2,1,1
+2023-03-25,Spain,Norway,3.0,0.0,UEFA Euro qualification,Málaga,Spain,False,10,43,1.2,0.6,3,2,1,2,1,1
+2023-03-25,Croatia,Wales,1.0,1.0,UEFA Euro qualification,Split,Croatia,False,7,28,1.4,0.4,4,0,0,4,1,1
+2023-03-25,Armenia,Turkey,1.0,2.0,UEFA Euro qualification,Yerevan,Armenia,False,95,44,1.0,3.2,0,3,4,1,1,1
+2023-03-25,Belarus,Switzerland,0.0,5.0,UEFA Euro qualification,Novi Sad,Serbia,True,97,12,0.6,1.2,0,4,2,1,3,0
+2023-03-25,Israel,Kosovo,1.0,1.0,UEFA Euro qualification,Tel Aviv,Israel,False,76,107,1.8,1.8,2,1,2,2,1,2
+2023-03-25,Andorra,Romania,0.0,2.0,UEFA Euro qualification,Andorra la Vella,Andorra,False,153,52,0.8,1.0,1,2,3,2,1,1
+2023-03-26,England,Ukraine,2.0,0.0,UEFA Euro qualification,London,England,False,5,26,1.8,1.4,2,2,2,1,1,2
+2023-03-26,Malta,Italy,0.0,2.0,UEFA Euro qualification,Ta' Qali,Malta,False,167,8,1.2,1.6,1,3,3,2,1,0
+2023-03-26,Slovenia,San Marino,2.0,0.0,UEFA Euro qualification,Ljubljana,Slovenia,False,62,211,1.6,0.8,4,0,0,5,1,0
+2023-03-26,Kazakhstan,Denmark,3.0,2.0,UEFA Euro qualification,Astana,Kazakhstan,False,115,18,1.2,1.6,2,3,2,2,1,0
+2023-03-26,Northern Ireland,Finland,0.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,59,56,1.8,1.8,2,0,2,3,1,2
+2023-03-26,Liechtenstein,Iceland,0.0,7.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,198,63,0.0,2.4,0,0,5,2,0,3
+2023-03-26,Luxembourg,Portugal,0.0,6.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,92,9,1.2,1.0,1,3,0,2,4,0
+2023-03-26,Slovakia,Bosnia and Herzegovina,2.0,0.0,UEFA Euro qualification,Bratislava,Slovakia,False,54,57,1.0,1.4,0,3,2,1,3,1
+2023-03-27,Greece,Lithuania,0.0,0.0,Friendly,Athens,Greece,False,51,144,1.8,1.2,2,0,2,3,1,2
+2023-03-27,North Macedonia,Faroe Islands,1.0,0.0,Friendly,Skopje,North Macedonia,False,65,123,0.8,1.6,1,1,3,1,1,3
+2023-03-27,Republic of Ireland,France,0.0,1.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,48,3,1.8,1.6,3,4,2,1,0,0
+2023-03-27,Netherlands,Gibraltar,3.0,0.0,UEFA Euro qualification,Rotterdam,Netherlands,False,6,200,1.6,1.6,3,2,1,3,1,0
+2023-03-27,Poland,Albania,1.0,0.0,UEFA Euro qualification,Warsaw,Poland,False,22,66,0.6,1.8,1,1,4,2,0,2
+2023-03-27,Moldova,Czech Republic,0.0,0.0,UEFA Euro qualification,Chișinău,Moldova,False,174,0,1.2,1.8,2,2,2,3,1,0
+2023-03-27,Austria,Estonia,2.0,1.0,UEFA Euro qualification,Pasching,Austria,False,34,109,1.6,1.2,3,2,2,1,0,2
+2023-03-27,Sweden,Azerbaijan,5.0,0.0,UEFA Euro qualification,Stockholm,Sweden,False,23,121,1.2,1.8,2,4,2,1,1,0
+2023-03-27,Hungary,Bulgaria,3.0,0.0,UEFA Euro qualification,Budapest,Hungary,False,36,71,1.2,1.0,3,3,1,1,1,1
+2023-03-27,Montenegro,Serbia,0.0,2.0,UEFA Euro qualification,Podgorica,Montenegro,False,69,29,0.6,1.2,1,3,3,1,1,1
+2023-03-28,Armenia,Cyprus,2.0,2.0,Friendly,Yerevan,Armenia,False,95,110,1.0,2.8,0,2,4,3,1,0
+2023-03-28,Germany,Belgium,2.0,3.0,Friendly,Cologne,Germany,False,14,4,2.0,1.6,1,3,1,1,3,1
+2023-03-28,Scotland,Spain,2.0,0.0,UEFA Euro qualification,Glasgow,Scotland,False,42,10,1.8,0.6,3,3,1,1,1,1
+2023-03-28,Georgia,Norway,1.0,1.0,UEFA Euro qualification,Batumi,Georgia,False,78,43,2.4,0.6,4,1,0,3,1,1
+2023-03-28,Wales,Latvia,1.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,28,133,0.8,2.0,0,0,4,2,1,3
+2023-03-28,Turkey,Croatia,0.0,2.0,UEFA Euro qualification,Bursa,Turkey,False,44,7,2.0,1.6,3,3,1,0,1,2
+2023-03-28,Kosovo,Andorra,1.0,1.0,UEFA Euro qualification,Pristina,Kosovo,False,107,153,2.0,1.4,1,1,1,3,3,1
+2023-03-28,Switzerland,Israel,3.0,0.0,UEFA Euro qualification,Geneva,Switzerland,False,12,76,2.6,2.0,4,1,1,2,0,2
+2023-03-28,Romania,Belarus,2.0,1.0,UEFA Euro qualification,Bucharest,Romania,False,52,97,2.6,0.8,3,0,1,3,1,2
+2023-06-09,Luxembourg,Malta,0.0,1.0,Friendly,Luxembourg,Luxembourg,False,91,172,0.6,1.6,1,1,1,3,3,1
+2023-06-12,Germany,Ukraine,3.0,3.0,Friendly,Bremen,Germany,False,14,30,2.2,2.0,1,1,2,2,2,2
+2023-06-14,Netherlands,Croatia,2.0,4.0,UEFA Nations League,Rotterdam,Netherlands,False,6,7,1.8,1.2,4,3,1,0,0,2
+2023-06-15,Spain,Italy,2.0,1.0,UEFA Nations League,Enschede,Netherlands,True,10,8,1.2,1.0,2,3,2,2,1,0
+2023-06-16,Poland,Germany,1.0,0.0,Friendly,Warsaw,Poland,False,23,14,0.8,1.6,2,0,3,2,0,3
+2023-06-16,Gibraltar,France,0.0,3.0,UEFA Euro qualification,Faro-Loulé,Portugal,True,201,2,0.8,1.6,2,5,3,0,0,0
+2023-06-16,Greece,Republic of Ireland,2.0,1.0,UEFA Euro qualification,Athens,Greece,False,52,49,1.8,1.0,2,3,1,2,2,0
+2023-06-16,Malta,England,0.0,4.0,UEFA Euro qualification,Ta' Qali,Malta,False,172,5,0.8,1.4,1,3,3,1,1,1
+2023-06-16,North Macedonia,Ukraine,2.0,3.0,UEFA Euro qualification,Skopje,North Macedonia,False,65,30,1.0,1.2,2,1,2,2,1,2
+2023-06-16,Wales,Armenia,2.0,4.0,UEFA Euro qualification,Cardiff,Wales,False,26,97,0.6,1.4,1,0,3,3,1,2
+2023-06-16,Latvia,Turkey,2.0,3.0,UEFA Euro qualification,Riga,Latvia,False,132,43,1.0,1.4,0,3,2,2,3,0
+2023-06-16,Finland,Slovenia,2.0,0.0,UEFA Euro qualification,Helsinki,Finland,False,56,59,0.6,1.4,1,4,3,0,1,1
+2023-06-16,Denmark,Northern Ireland,1.0,0.0,UEFA Euro qualification,Copenhagen,Denmark,False,19,62,1.8,1.6,2,2,3,2,0,1
+2023-06-16,San Marino,Kazakhstan,0.0,3.0,UEFA Euro qualification,Parma,Italy,True,211,112,0.0,2.0,0,3,5,2,0,0
+2023-06-16,Andorra,Switzerland,1.0,2.0,UEFA Euro qualification,Andorra la Vella,Andorra,False,153,12,0.4,1.2,0,4,3,1,2,0
+2023-06-16,Belarus,Israel,1.0,2.0,UEFA Euro qualification,Budapest,Hungary,True,98,78,0.6,2.4,0,1,4,3,1,1
+2023-06-16,Kosovo,Romania,0.0,0.0,UEFA Euro qualification,Pristina,Kosovo,False,107,46,2.0,1.2,1,4,0,1,4,0
+2023-06-17,Norway,Scotland,1.0,2.0,UEFA Euro qualification,Oslo,Norway,False,44,36,0.8,1.6,1,3,2,1,2,1
+2023-06-17,Cyprus,Georgia,1.0,2.0,UEFA Euro qualification,Larnaca,Cyprus,False,111,77,1.2,2.8,1,3,3,0,1,2
+2023-06-17,Faroe Islands,Czech Republic,0.0,3.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,125,0,0.8,1.8,1,2,2,2,2,1
+2023-06-17,Albania,Moldova,2.0,0.0,UEFA Euro qualification,Tirana,Albania,False,68,171,1.0,1.4,1,1,3,2,1,2
+2023-06-17,Azerbaijan,Estonia,1.0,1.0,UEFA Euro qualification,Baku,Azerbaijan,False,124,108,1.8,2.2,3,2,2,2,0,1
+2023-06-17,Belgium,Austria,1.0,1.0,UEFA Euro qualification,Brussels,Belgium,False,4,32,1.6,0.8,3,4,1,1,1,0
+2023-06-17,Lithuania,Bulgaria,1.0,1.0,UEFA Euro qualification,Kaunas,Lithuania,False,146,76,0.0,1.0,0,2,3,2,2,1
+2023-06-17,Montenegro,Hungary,0.0,0.0,UEFA Euro qualification,Podgorica,Montenegro,False,69,33,0.6,1.4,1,3,3,1,1,1
+2023-06-17,Luxembourg,Liechtenstein,2.0,0.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,91,199,0.4,1.8,0,0,2,5,3,0
+2023-06-17,Iceland,Slovakia,1.0,2.0,UEFA Euro qualification,Reykjavík,Iceland,False,64,51,2.0,1.4,1,1,2,1,2,3
+2023-06-17,Portugal,Bosnia and Herzegovina,3.0,0.0,UEFA Euro qualification,Lisbon,Portugal,False,9,57,4.0,0.4,4,3,1,2,0,0
+2023-06-18,Netherlands,Italy,2.0,3.0,UEFA Nations League,Enschede,Netherlands,False,6,8,1.6,1.6,3,2,2,3,0,0
+2023-06-18,Croatia,Spain,0.0,0.0,UEFA Nations League,Rotterdam,Netherlands,True,7,10,2.0,0.8,3,3,0,1,2,1
+2023-06-19,Republic of Ireland,Gibraltar,3.0,0.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,49,201,1.2,1.4,2,2,3,3,0,0
+2023-06-19,France,Greece,1.0,0.0,UEFA Euro qualification,Paris,France,False,2,52,2.6,0.4,5,2,0,1,0,2
+2023-06-19,Ukraine,Malta,1.0,0.0,UEFA Euro qualification,Trnava,Slovakia,True,30,172,2.2,1.4,2,1,1,4,2,0
+2023-06-19,England,North Macedonia,7.0,0.0,UEFA Euro qualification,Manchester,England,False,5,65,2.4,0.6,4,2,1,2,0,1
+2023-06-19,Armenia,Latvia,2.0,1.0,UEFA Euro qualification,Yerevan,Armenia,False,97,132,1.8,2.0,1,0,2,3,2,2
+2023-06-19,Turkey,Wales,2.0,0.0,UEFA Euro qualification,Samsun,Turkey,False,43,26,1.8,1.4,4,1,1,3,0,1
+2023-06-19,Finland,San Marino,6.0,0.0,UEFA Euro qualification,Helsinki,Finland,False,56,211,0.8,1.2,2,0,3,5,0,0
+2023-06-19,Northern Ireland,Kazakhstan,0.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,62,112,1.0,1.2,2,3,3,2,0,0
+2023-06-19,Slovenia,Denmark,1.0,1.0,UEFA Euro qualification,Ljubljana,Slovenia,False,59,19,1.4,0.8,4,3,1,2,0,0
+2023-06-19,Belarus,Kosovo,2.0,1.0,UEFA Euro qualification,Budapest,Hungary,True,98,107,0.8,2.4,0,0,4,0,1,5
+2023-06-19,Switzerland,Romania,2.0,2.0,UEFA Euro qualification,Lucerne,Switzerland,False,12,46,2.8,1.8,4,3,1,1,0,1
+2023-06-19,Israel,Andorra,2.0,1.0,UEFA Euro qualification,Jerusalem,Israel,False,78,153,1.2,2.0,1,0,3,4,1,1
+2023-06-20,Montenegro,Czech Republic,1.0,4.0,Friendly,Podgorica,Montenegro,False,69,0,0.6,1.0,1,3,2,1,2,1
+2023-06-20,Scotland,Georgia,2.0,0.0,UEFA Euro qualification,Glasgow,Scotland,False,36,77,1.6,0.6,3,3,1,0,1,2
+2023-06-20,Norway,Cyprus,3.0,1.0,UEFA Euro qualification,Oslo,Norway,False,44,111,1.0,1.6,1,1,2,3,2,1
+2023-06-20,Faroe Islands,Albania,1.0,3.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,125,68,0.4,2.2,0,2,3,2,2,1
+2023-06-20,Moldova,Poland,3.0,2.0,UEFA Euro qualification,Chișinău,Moldova,False,171,23,0.4,2.0,0,3,3,2,2,0
+2023-06-20,Austria,Sweden,2.0,0.0,UEFA Euro qualification,Vienna,Austria,False,32,22,2.0,0.6,4,3,0,1,1,1
+2023-06-20,Estonia,Belgium,0.0,3.0,UEFA Euro qualification,Tallinn,Estonia,False,108,4,0.8,1.0,1,2,2,1,2,2
+2023-06-20,Hungary,Lithuania,2.0,0.0,UEFA Euro qualification,Budapest,Hungary,False,33,146,1.6,0.6,3,0,0,2,2,3
+2023-06-20,Bulgaria,Serbia,1.0,1.0,UEFA Euro qualification,Razgrad,Bulgaria,False,76,25,0.6,1.0,1,4,2,1,2,0
+2023-06-20,Iceland,Portugal,0.0,1.0,UEFA Euro qualification,Reykjavík,Iceland,False,64,9,2.0,1.6,1,4,3,1,1,0
+2023-06-20,Bosnia and Herzegovina,Luxembourg,0.0,2.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,57,91,1.0,1.8,2,1,3,2,0,2
+2023-06-20,Liechtenstein,Slovakia,0.0,1.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,199,51,0.0,3.4,0,2,5,0,0,3
+2023-09-06,Malta,Gibraltar,1.0,0.0,Friendly,Ta' Qali,Malta,False,171,198,0.4,1.8,1,1,4,4,0,0
+2023-09-07,Austria,Moldova,1.0,1.0,Friendly,Pasching,Austria,False,29,164,2.2,0.6,4,1,0,2,1,2
+2023-09-07,France,Republic of Ireland,2.0,0.0,UEFA Euro qualification,Paris,France,False,2,53,2.2,0.2,5,3,0,2,0,0
+2023-09-07,Netherlands,Greece,3.0,0.0,UEFA Euro qualification,Eindhoven,Netherlands,False,7,50,1.6,2.2,2,2,3,2,0,1
+2023-09-07,Czech Republic,Albania,1.0,1.0,UEFA Euro qualification,Prague,Czech Republic,False,0,65,2.2,0.8,3,3,1,2,1,0
+2023-09-07,Poland,Faroe Islands,2.0,0.0,UEFA Euro qualification,Warsaw,Poland,False,26,129,1.2,1.8,2,0,3,3,0,2
+2023-09-07,Serbia,Hungary,1.0,2.0,UEFA Euro qualification,Belgrade,Serbia,False,25,36,1.8,0.8,3,4,1,0,1,1
+2023-09-07,Lithuania,Montenegro,2.0,2.0,UEFA Euro qualification,Kaunas,Lithuania,False,144,71,0.2,1.4,0,1,3,3,2,1
+2023-09-07,Kazakhstan,Finland,0.0,1.0,UEFA Euro qualification,Astana,Kazakhstan,False,104,55,1.6,1.4,3,3,2,2,0,0
+2023-09-07,Denmark,San Marino,4.0,0.0,UEFA Euro qualification,Copenhagen,Denmark,False,19,208,1.6,1.4,2,0,2,5,1,0
+2023-09-07,Slovenia,Northern Ireland,4.0,2.0,UEFA Euro qualification,Ljubljana,Slovenia,False,61,64,1.2,0.8,3,1,1,4,1,0
+2023-09-08,Georgia,Spain,1.0,7.0,UEFA Euro qualification,Tbilisi,Georgia,False,78,10,1.4,1.0,3,2,1,1,1,2
+2023-09-08,Cyprus,Scotland,0.0,3.0,UEFA Euro qualification,Larnaca,Cyprus,False,118,30,1.4,2.4,1,4,3,1,1,0
+2023-09-08,Croatia,Latvia,5.0,0.0,UEFA Euro qualification,Rijeka,Croatia,False,6,134,1.4,0.6,2,0,0,4,3,1
+2023-09-08,Turkey,Armenia,1.0,1.0,UEFA Euro qualification,Eskişehir,Turkey,False,41,90,1.8,1.2,4,2,1,2,0,1
+2023-09-08,Bosnia and Herzegovina,Liechtenstein,2.0,1.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,62,200,0.8,2.2,1,0,4,5,0,0
+2023-09-08,Luxembourg,Iceland,3.0,1.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,89,67,0.8,1.4,2,1,2,4,1,0
+2023-09-08,Slovakia,Portugal,0.0,1.0,UEFA Euro qualification,Bratislava,Slovakia,False,47,9,1.4,0.6,3,5,0,0,2,0
+2023-09-09,Ukraine,England,1.0,1.0,UEFA Euro qualification,Wrocław,Poland,True,24,4,1.4,1.4,2,4,1,1,2,0
+2023-09-09,North Macedonia,Italy,1.0,1.0,UEFA Euro qualification,Skopje,North Macedonia,False,68,8,1.2,2.8,2,2,3,3,0,0
+2023-09-09,Azerbaijan,Belgium,0.0,1.0,UEFA Euro qualification,Baku,Azerbaijan,False,121,5,1.4,2.4,2,3,2,0,1,2
+2023-09-09,Estonia,Sweden,0.0,5.0,UEFA Euro qualification,Tallinn,Estonia,False,111,23,0.6,1.4,1,3,3,2,1,0
+2023-09-09,Andorra,Belarus,0.0,0.0,UEFA Euro qualification,Andorra la Vella,Andorra,False,154,98,0.6,1.6,0,1,4,3,1,1
+2023-09-09,Kosovo,Switzerland,2.0,2.0,UEFA Euro qualification,Pristina,Kosovo,False,109,13,0.8,1.0,0,3,1,1,4,1
+2023-09-09,Romania,Israel,1.0,1.0,UEFA Euro qualification,Bucharest,Romania,False,48,76,2.2,0.6,3,2,0,2,2,1
+2023-09-10,Hungary,Czech Republic,1.0,1.0,Friendly,Budapest,Hungary,False,36,0,1.6,0.2,4,3,0,0,1,2
+2023-09-10,Republic of Ireland,Netherlands,1.0,2.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,53,7,1.4,1.4,2,2,3,3,0,0
+2023-09-10,Greece,Gibraltar,5.0,0.0,UEFA Euro qualification,Athens,Greece,False,50,198,1.0,1.0,2,0,2,5,1,0
+2023-09-10,Faroe Islands,Moldova,0.0,1.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,129,164,0.4,2.0,0,1,4,1,1,3
+2023-09-10,Albania,Poland,2.0,0.0,UEFA Euro qualification,Tirana,Albania,False,65,26,1.6,0.6,3,3,1,2,1,0
+2023-09-10,Montenegro,Bulgaria,2.0,1.0,UEFA Euro qualification,Podgorica,Montenegro,False,71,77,0.8,1.6,1,0,2,2,2,3
+2023-09-10,Lithuania,Serbia,1.0,3.0,UEFA Euro qualification,Kaunas,Lithuania,False,144,25,0.6,1.4,0,2,2,2,3,1
+2023-09-10,Finland,Denmark,0.0,1.0,UEFA Euro qualification,Helsinki,Finland,False,55,19,2.2,0.6,4,3,1,1,0,1
+2023-09-10,Kazakhstan,Northern Ireland,1.0,0.0,UEFA Euro qualification,Astana,Kazakhstan,False,104,64,1.6,1.0,3,1,2,4,0,0
+2023-09-10,San Marino,Slovenia,0.0,4.0,UEFA Euro qualification,Serravalle,San Marino,False,208,61,0.0,3.4,0,3,5,1,0,1
+2023-09-11,Armenia,Croatia,0.0,1.0,UEFA Euro qualification,Yerevan,Armenia,False,90,6,2.0,1.6,2,3,1,0,2,2
+2023-09-11,Latvia,Wales,0.0,2.0,UEFA Euro qualification,Riga,Latvia,False,134,35,1.0,2.8,0,1,5,3,0,1
+2023-09-11,Iceland,Bosnia and Herzegovina,1.0,0.0,UEFA Euro qualification,Reykjavík,Iceland,False,67,62,1.8,1.8,1,2,4,3,0,0
+2023-09-11,Portugal,Luxembourg,9.0,0.0,UEFA Euro qualification,São João da Venda,Portugal,False,9,89,3.0,0.0,5,3,0,2,0,0
+2023-09-11,Slovakia,Liechtenstein,3.0,0.0,UEFA Euro qualification,Bratislava,Slovakia,False,47,200,1.0,0.4,3,0,1,5,1,0
+2023-09-12,Germany,France,2.0,1.0,Friendly,Dortmund,Germany,False,15,2,1.8,2.2,0,5,2,0,3,0
+2023-09-12,Scotland,England,1.0,3.0,Friendly,Glasgow,Scotland,False,30,4,2.4,0.2,5,4,0,0,0,1
+2023-09-12,Norway,Georgia,2.0,1.0,UEFA Euro qualification,Oslo,Norway,False,44,78,1.2,1.6,1,2,2,2,2,1
+2023-09-12,Spain,Cyprus,6.0,0.0,UEFA Euro qualification,Granada,Spain,False,10,118,2.4,0.8,3,0,1,4,1,1
+2023-09-12,Italy,Ukraine,2.0,1.0,UEFA Euro qualification,Milan,Italy,False,8,24,1.6,1.4,2,2,2,1,1,2
+2023-09-12,Malta,North Macedonia,0.0,2.0,UEFA Euro qualification,Ta' Qali,Malta,False,171,68,0.4,1.4,2,2,3,2,0,1
+2023-09-12,Belgium,Estonia,5.0,0.0,UEFA Euro qualification,Brussels,Belgium,False,5,111,2.2,0.6,4,0,0,4,1,1
+2023-09-12,Sweden,Austria,1.0,3.0,UEFA Euro qualification,Stockholm,Sweden,False,23,29,2.4,1.2,3,3,2,0,0,2
+2023-09-12,Switzerland,Andorra,3.0,0.0,UEFA Euro qualification,Sion,Switzerland,False,13,154,2.8,1.0,3,0,0,3,2,2
+2023-09-12,Israel,Belarus,1.0,0.0,UEFA Euro qualification,Tel Aviv,Israel,False,76,98,1.2,1.4,2,1,1,3,2,1
+2023-09-12,Romania,Kosovo,2.0,0.0,UEFA Euro qualification,Bucharest,Romania,False,48,109,1.4,0.8,2,0,0,1,3,4
+2023-10-11,Wales,Gibraltar,4.0,0.0,Friendly,Wrexham,Wales,False,33,198,1.2,1.4,2,0,2,5,1,0
+2023-10-12,Sweden,Moldova,3.0,1.0,Friendly,Stockholm,Sweden,False,23,159,2.2,1.6,2,2,3,1,0,2
+2023-10-12,Spain,Scotland,2.0,0.0,UEFA Euro qualification,Seville,Spain,False,10,31,3.0,0.8,3,4,1,1,1,0
+2023-10-12,Cyprus,Norway,0.0,4.0,UEFA Euro qualification,Larnaca,Cyprus,False,120,43,0.8,3.2,0,2,4,2,1,1
+2023-10-12,Latvia,Armenia,2.0,0.0,UEFA Euro qualification,Riga,Latvia,False,136,91,0.6,2.6,0,2,5,1,0,2
+2023-10-12,Croatia,Turkey,0.0,1.0,UEFA Euro qualification,Osijek,Croatia,False,6,42,2.4,0.4,4,3,0,1,1,1
+2023-10-12,Faroe Islands,Poland,0.0,2.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,131,30,0.2,2.0,0,3,5,2,0,0
+2023-10-12,Albania,Czech Republic,3.0,0.0,UEFA Euro qualification,Tirana,Albania,False,62,0,1.6,0.6,3,2,1,0,1,3
+2023-10-12,Andorra,Kosovo,0.0,3.0,UEFA Euro qualification,Andorra la Vella,Andorra,False,153,111,0.6,1.6,0,0,3,2,2,3
+2023-10-12,Belarus,Romania,0.0,0.0,UEFA Euro qualification,Budapest,Hungary,True,105,47,0.8,1.2,1,2,3,0,1,3
+2023-10-13,Republic of Ireland,Greece,0.0,2.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,55,51,1.0,1.4,1,2,4,2,0,1
+2023-10-13,Netherlands,France,1.0,2.0,UEFA Euro qualification,Amsterdam,Netherlands,False,7,2,2.4,1.6,3,4,2,1,0,0
+2023-10-13,Estonia,Azerbaijan,0.0,2.0,UEFA Euro qualification,Tallinn,Estonia,False,115,121,0.4,3.2,0,1,4,3,1,1
+2023-10-13,Austria,Belgium,2.0,3.0,UEFA Euro qualification,Vienna,Austria,False,25,5,1.8,0.8,3,4,0,0,2,1
+2023-10-13,Iceland,Luxembourg,1.0,1.0,UEFA Euro qualification,Reykjavík,Iceland,False,67,85,2.0,1.2,2,3,3,2,0,0
+2023-10-13,Portugal,Slovakia,3.0,2.0,UEFA Euro qualification,Porto,Portugal,False,8,48,4.0,0.0,5,4,0,1,0,0
+2023-10-13,Liechtenstein,Bosnia and Herzegovina,0.0,2.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,199,63,0.2,3.0,0,1,5,4,0,0
+2023-10-14,Ukraine,North Macedonia,2.0,0.0,UEFA Euro qualification,Prague,Czech Republic,True,24,66,1.8,1.6,2,2,1,2,2,1
+2023-10-14,Italy,Malta,4.0,0.0,UEFA Euro qualification,Bari,Italy,False,9,171,1.8,1.2,3,2,1,3,1,0
+2023-10-14,Bulgaria,Lithuania,0.0,2.0,UEFA Euro qualification,Sofia,Bulgaria,False,78,143,0.6,1.6,0,0,3,2,2,3
+2023-10-14,Hungary,Serbia,2.0,1.0,UEFA Euro qualification,Budapest,Hungary,False,32,28,1.6,0.4,3,3,0,1,2,1
+2023-10-14,Northern Ireland,San Marino,3.0,0.0,UEFA Euro qualification,Belfast,Northern Ireland,False,74,207,0.4,1.6,0,0,5,5,0,0
+2023-10-14,Slovenia,Finland,3.0,0.0,UEFA Euro qualification,Ljubljana,Slovenia,False,59,54,2.2,1.0,3,4,1,1,1,0
+2023-10-14,Denmark,Kazakhstan,3.0,1.0,UEFA Euro qualification,Copenhagen,Denmark,False,18,100,1.8,0.8,3,4,1,1,1,0
+2023-10-15,Georgia,Cyprus,4.0,0.0,UEFA Euro qualification,Tbilisi,Georgia,False,79,120,1.0,2.6,1,0,3,5,1,0
+2023-10-15,Norway,Spain,0.0,1.0,UEFA Euro qualification,Oslo,Norway,False,43,10,2.2,1.0,3,4,1,0,1,1
+2023-10-15,Wales,Croatia,2.0,1.0,UEFA Euro qualification,Cardiff,Wales,False,33,6,1.8,1.2,3,3,2,1,0,1
+2023-10-15,Turkey,Latvia,4.0,0.0,UEFA Euro qualification,Konya,Turkey,False,42,136,1.4,1.0,3,1,1,4,1,0
+2023-10-15,Czech Republic,Faroe Islands,1.0,0.0,UEFA Euro qualification,Plzeň,Czech Republic,False,0,131,1.8,1.2,2,0,1,5,2,0
+2023-10-15,Poland,Moldova,1.0,1.0,UEFA Euro qualification,Warsaw,Poland,False,30,159,1.4,1.0,3,2,2,2,0,1
+2023-10-15,Switzerland,Belarus,3.0,3.0,UEFA Euro qualification,St. Gallen,Switzerland,False,14,105,2.4,1.0,3,1,0,2,2,2
+2023-10-15,Romania,Andorra,4.0,0.0,UEFA Euro qualification,Bucharest,Romania,False,47,153,1.0,0.6,1,0,0,4,4,1
+2023-10-16,Gibraltar,Republic of Ireland,0.0,4.0,UEFA Euro qualification,Faro-Loulé,Portugal,True,198,55,0.0,3.2,0,1,5,4,0,0
+2023-10-16,Greece,Netherlands,0.0,1.0,UEFA Euro qualification,Athens,Greece,False,51,7,1.8,1.0,3,2,2,3,0,0
+2023-10-16,Azerbaijan,Austria,0.0,1.0,UEFA Euro qualification,Baku,Azerbaijan,False,121,25,0.8,2.2,1,2,3,1,1,2
+2023-10-16,Belgium,Sweden,1.0,1.0,UEFA Euro qualification,Brussels,Belgium,False,5,23,2.6,0.6,4,3,0,2,1,0
+2023-10-16,Iceland,Liechtenstein,4.0,0.0,UEFA Euro qualification,Reykjavík,Iceland,False,67,199,0.8,1.4,1,0,3,5,1,0
+2023-10-16,Bosnia and Herzegovina,Portugal,0.0,5.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,63,8,0.8,1.4,2,5,3,0,0,0
+2023-10-16,Luxembourg,Slovakia,0.0,1.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,85,48,1.6,2.2,3,3,1,2,1,0
+2023-10-17,Albania,Bulgaria,2.0,0.0,Friendly,Tirana,Albania,False,62,78,2.2,0.4,4,0,0,3,1,2
+2023-10-17,France,Scotland,4.0,1.0,Friendly,Lille,France,False,2,31,1.8,0.6,4,3,1,2,0,0
+2023-10-17,North Macedonia,Armenia,3.0,1.0,Friendly,Strumica,North Macedonia,False,66,91,1.0,2.6,1,2,3,2,1,1
+2023-10-17,England,Italy,3.0,1.0,UEFA Euro qualification,London,England,False,4,9,3.4,0.4,4,3,0,1,1,1
+2023-10-17,Malta,Ukraine,1.0,3.0,UEFA Euro qualification,Ta' Qali,Malta,False,171,24,0.2,2.2,1,3,4,1,0,1
+2023-10-17,Serbia,Montenegro,3.0,1.0,UEFA Euro qualification,Belgrade,Serbia,False,28,68,1.6,1.2,2,1,2,2,1,2
+2023-10-17,Lithuania,Hungary,2.0,2.0,UEFA Euro qualification,Kaunas,Lithuania,False,143,32,1.2,1.6,1,3,2,0,2,2
+2023-10-17,Finland,Kazakhstan,1.0,2.0,UEFA Euro qualification,Helsinki,Finland,False,54,100,1.8,0.8,3,3,2,2,0,0
+2023-10-17,Northern Ireland,Slovenia,0.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,74,59,1.0,1.4,1,3,4,1,0,1
+2023-10-17,San Marino,Denmark,1.0,2.0,UEFA Euro qualification,Serravalle,San Marino,False,207,18,0.0,4.0,0,4,5,0,0,1
+2023-11-12,Kosovo,Israel,1.0,0.0,UEFA Euro qualification,Pristina,Kosovo,False,105,71,1.2,1.2,1,3,2,1,2,1
+2023-11-15,Belgium,Serbia,1.0,0.0,Friendly,Leuven,Belgium,False,5,29,2.6,0.6,4,2,0,2,1,1
+2023-11-15,Israel,Switzerland,1.0,1.0,UEFA Euro qualification,Felcsút,Hungary,True,71,14,1.2,0.8,3,2,1,0,1,3
+2023-11-16,Norway,Faroe Islands,2.0,0.0,Friendly,Oslo,Norway,False,42,135,2.0,1.0,3,0,2,5,0,0
+2023-11-16,Cyprus,Spain,1.0,3.0,UEFA Euro qualification,Limassol,Cyprus,False,124,8,0.2,4.0,0,4,5,0,0,1
+2023-11-16,Georgia,Scotland,2.0,2.0,UEFA Euro qualification,Tbilisi,Georgia,False,76,34,1.6,2.4,2,2,3,3,0,0
+2023-11-16,Estonia,Austria,0.0,2.0,UEFA Euro qualification,Tallinn,Estonia,False,118,25,0.2,3.2,0,3,4,1,1,1
+2023-11-16,Azerbaijan,Sweden,3.0,0.0,UEFA Euro qualification,Baku,Azerbaijan,False,120,23,0.6,1.6,1,2,3,2,1,1
+2023-11-16,Bulgaria,Hungary,2.0,2.0,UEFA Euro qualification,Sofia,Bulgaria,False,84,30,0.6,1.6,0,3,3,0,2,2
+2023-11-16,Montenegro,Lithuania,2.0,0.0,UEFA Euro qualification,Podgorica,Montenegro,False,70,134,1.2,2.0,1,1,2,2,2,2
+2023-11-16,Liechtenstein,Portugal,0.0,2.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,200,6,0.2,2.4,0,5,5,0,0,0
+2023-11-16,Luxembourg,Bosnia and Herzegovina,4.0,1.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,87,63,1.2,2.4,2,2,2,3,1,0
+2023-11-16,Slovakia,Iceland,4.0,2.0,UEFA Euro qualification,Bratislava,Slovakia,False,50,67,1.4,0.8,3,2,2,2,0,1
+2023-11-17,England,Malta,2.0,0.0,UEFA Euro qualification,London,England,False,4,171,3.6,0.6,4,1,0,4,1,0
+2023-11-17,Italy,North Macedonia,5.0,2.0,UEFA Euro qualification,Rome,Italy,False,9,66,2.2,1.4,3,2,1,2,1,1
+2023-11-17,Moldova,Albania,1.0,1.0,UEFA Euro qualification,Chișinău,Moldova,False,157,59,1.4,1.4,2,4,1,0,2,1
+2023-11-17,Poland,Czech Republic,1.0,1.0,UEFA Euro qualification,Warsaw,Poland,False,31,0,1.4,1.2,2,2,2,1,1,2
+2023-11-17,Finland,Northern Ireland,4.0,0.0,UEFA Euro qualification,Helsinki,Finland,False,62,75,1.6,1.2,2,1,3,4,0,0
+2023-11-17,Denmark,Slovenia,2.0,1.0,UEFA Euro qualification,Copenhagen,Denmark,False,19,54,2.2,0.6,4,4,0,0,1,1
+2023-11-17,Kazakhstan,San Marino,3.0,1.0,UEFA Euro qualification,Astana,Kazakhstan,False,98,207,1.0,1.0,3,0,2,5,0,0
+2023-11-18,Germany,Turkey,2.0,3.0,Friendly,Berlin,Germany,False,16,38,1.6,1.8,1,4,2,0,2,1
+2023-11-18,France,Gibraltar,14.0,0.0,UEFA Euro qualification,Nice,France,False,2,198,2.0,0.8,4,0,1,5,0,0
+2023-11-18,Netherlands,Republic of Ireland,1.0,0.0,UEFA Euro qualification,Amsterdam,Netherlands,False,7,58,1.8,1.2,3,2,2,3,0,0
+2023-11-18,Armenia,Wales,1.0,1.0,UEFA Euro qualification,Yerevan,Armenia,False,95,28,0.8,1.6,1,3,3,2,1,0
+2023-11-18,Latvia,Croatia,0.0,2.0,UEFA Euro qualification,Riga,Latvia,False,132,10,0.6,2.6,1,2,4,2,0,1
+2023-11-18,Belarus,Andorra,1.0,0.0,UEFA Euro qualification,Budapest,Hungary,True,100,159,1.0,1.0,1,0,1,4,3,1
+2023-11-18,Switzerland,Kosovo,1.0,1.0,UEFA Euro qualification,Basel,Switzerland,False,14,105,2.2,1.6,1,2,0,2,4,1
+2023-11-18,Israel,Romania,1.0,2.0,UEFA Euro qualification,Felcsút,Hungary,True,71,48,1.0,0.8,2,2,1,0,2,3
+2023-11-19,Cyprus,Lithuania,1.0,0.0,Friendly,Limassol,Cyprus,False,124,134,0.2,4.0,0,1,5,2,0,2
+2023-11-19,Scotland,Norway,3.0,3.0,UEFA Euro qualification,Glasgow,Scotland,False,34,42,1.4,2.2,1,4,3,1,1,0
+2023-11-19,Spain,Georgia,3.0,1.0,UEFA Euro qualification,Valladolid,Spain,False,8,76,3.8,0.4,5,1,0,3,0,1
+2023-11-19,Belgium,Azerbaijan,5.0,0.0,UEFA Euro qualification,Brussels,Belgium,False,5,120,2.2,0.6,4,2,0,2,1,1
+2023-11-19,Sweden,Estonia,2.0,0.0,UEFA Euro qualification,Stockholm,Sweden,False,23,118,2.0,1.6,2,0,2,5,1,0
+2023-11-19,Hungary,Montenegro,3.0,1.0,UEFA Euro qualification,Budapest,Hungary,False,30,70,1.8,1.4,2,2,0,2,3,1
+2023-11-19,Serbia,Bulgaria,2.0,2.0,UEFA Euro qualification,Leskovac,Serbia,False,29,84,1.6,1.4,2,0,3,3,0,2
+2023-11-19,Portugal,Iceland,2.0,0.0,UEFA Euro qualification,Lisbon,Portugal,False,6,67,4.0,0.4,5,2,0,2,0,1
+2023-11-19,Bosnia and Herzegovina,Slovakia,1.0,2.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,63,50,1.0,2.2,2,3,3,2,0,0
+2023-11-19,Liechtenstein,Luxembourg,0.0,1.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,200,87,0.2,2.6,0,2,5,2,0,1
+2023-11-20,North Macedonia,England,1.0,1.0,UEFA Euro qualification,Skopje,North Macedonia,False,66,4,1.6,1.8,2,4,2,0,1,1
+2023-11-20,Ukraine,Italy,0.0,0.0,UEFA Euro qualification,Leverkusen,Germany,True,22,9,1.6,0.8,3,3,1,1,1,1
+2023-11-20,Albania,Faroe Islands,0.0,0.0,UEFA Euro qualification,Tirana,Albania,False,59,135,1.8,0.4,3,0,0,5,2,0
+2023-11-20,Czech Republic,Moldova,3.0,0.0,UEFA Euro qualification,Olomouc,Czech Republic,False,0,157,0.8,1.2,1,1,1,1,3,3
+2023-11-20,Northern Ireland,Denmark,2.0,0.0,UEFA Euro qualification,Belfast,Northern Ireland,False,75,19,1.0,2.0,1,5,4,0,0,0
+2023-11-20,San Marino,Finland,1.0,2.0,UEFA Euro qualification,Serravalle,San Marino,False,207,62,0.4,3.2,0,2,5,3,0,0
+2023-11-20,Slovenia,Kazakhstan,2.0,1.0,UEFA Euro qualification,Ljubljana,Slovenia,False,54,98,2.6,0.8,4,3,1,2,0,0
+2023-11-21,Austria,Germany,2.0,0.0,Friendly,Vienna,Austria,False,25,16,1.8,1.0,3,1,1,3,1,1
+2023-11-21,Poland,Latvia,2.0,0.0,Friendly,Warsaw,Poland,False,31,132,1.2,0.8,2,1,1,4,2,0
+2023-11-21,Gibraltar,Netherlands,0.0,6.0,UEFA Euro qualification,Faro-Loulé,Portugal,True,198,7,0.0,5.6,0,4,5,1,0,0
+2023-11-21,Greece,France,2.0,2.0,UEFA Euro qualification,Athens,Greece,False,51,2,1.4,1.0,2,4,3,1,0,0
+2023-11-21,Wales,Turkey,1.0,1.0,UEFA Euro qualification,Cardiff,Wales,False,28,38,1.8,0.8,3,4,1,0,1,1
+2023-11-21,Croatia,Armenia,1.0,0.0,UEFA Euro qualification,Zagreb,Croatia,False,10,95,1.8,0.6,3,0,2,3,0,2
+2023-11-21,Andorra,Israel,0.0,2.0,UEFA Euro qualification,Andorra la Vella,Andorra,False,159,71,0.0,2.2,0,1,4,2,1,2
+2023-11-21,Kosovo,Belarus,0.0,1.0,UEFA Euro qualification,Pristina,Kosovo,False,105,100,1.4,1.0,2,1,1,1,2,3
+2023-11-21,Romania,Switzerland,1.0,0.0,UEFA Euro qualification,Bucharest,Romania,False,48,14,1.8,0.4,3,1,0,0,2,4
+2024-01-12,Sweden,Estonia,2.0,1.0,Friendly,Paphos,Cyprus,True,26,122,1.4,1.6,2,0,2,5,1,0
+2024-03-21,Gibraltar,Lithuania,0.0,1.0,UEFA Nations League,Faro-Loulé,Portugal,True,201,138,0.0,6.6,0,1,5,3,0,1
+2024-03-21,Poland,Estonia,5.0,1.0,UEFA Euro qualification,Warsaw,Poland,False,30,123,1.2,0.8,2,0,1,5,2,0
+2024-03-21,Wales,Finland,4.0,1.0,UEFA Euro qualification,Cardiff,Wales,False,29,60,2.0,0.6,3,2,0,3,2,0
+2024-03-21,Israel,Iceland,1.0,4.0,UEFA Euro qualification,Budapest,Hungary,True,75,73,1.0,0.8,2,2,2,2,1,1
+2024-03-21,Bosnia and Herzegovina,Ukraine,1.0,2.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,71,24,0.8,2.4,1,2,4,1,0,2
+2024-03-21,Georgia,Luxembourg,2.0,0.0,UEFA Euro qualification,Tbilisi,Georgia,False,77,85,1.8,2.8,1,2,3,2,1,1
+2024-03-21,Greece,Kazakhstan,5.0,0.0,UEFA Euro qualification,Athens,Greece,False,49,100,1.8,1.2,2,3,2,2,1,0
+2024-03-21,Cyprus,Latvia,1.0,1.0,Friendly,Larnaca,Cyprus,False,125,136,0.4,3.4,1,1,4,4,0,0
+2024-03-21,Malta,Slovenia,2.0,2.0,Friendly,Ta' Qali,Malta,False,172,55,0.4,2.2,1,4,4,1,0,0
+2024-03-21,Montenegro,Belarus,2.0,0.0,Friendly,Antalya,Turkey,True,72,95,1.6,1.8,2,2,2,1,1,2
+2024-03-21,Portugal,Sweden,5.0,2.0,Friendly,Guimarães,Portugal,False,7,26,4.2,0.4,5,3,0,1,0,1
+2024-03-22,Armenia,Kosovo,0.0,1.0,Friendly,Yerevan,Armenia,False,94,102,0.4,1.6,0,2,4,2,1,1
+2024-03-22,Hungary,Turkey,1.0,0.0,Friendly,Budapest,Hungary,False,27,35,2.0,1.4,2,3,0,0,3,2
+2024-03-22,Liechtenstein,Faroe Islands,0.0,4.0,Friendly,San Pedro Alcántara,Spain,True,203,135,0.0,2.4,0,0,5,4,0,1
+2024-03-22,Netherlands,Scotland,4.0,0.0,Friendly,Amsterdam,Netherlands,False,6,34,2.2,0.6,4,0,1,3,0,2
+2024-03-22,North Macedonia,Moldova,1.0,1.0,Friendly,Antalya,Turkey,True,68,155,1.6,1.8,2,1,2,2,1,2
+2024-03-22,Norway,Czech Republic,1.0,2.0,Friendly,Oslo,Norway,False,46,0,2.2,1.0,3,2,1,1,1,2
+2024-03-22,Romania,Northern Ireland,1.0,1.0,Friendly,Bucharest,Romania,False,45,74,1.8,0.2,4,2,0,3,1,0
+2024-03-23,Denmark,Switzerland,0.0,0.0,Friendly,Copenhagen,Denmark,False,21,19,1.6,1.0,4,1,1,1,0,3
+2024-03-23,France,Germany,0.0,2.0,Friendly,Lyon,France,False,2,16,4.6,1.2,3,1,1,3,1,1
+2024-03-23,Republic of Ireland,Belgium,0.0,0.0,Friendly,Dublin,Republic of Ireland,False,62,4,1.0,1.4,1,4,4,0,0,1
+2024-03-23,Slovakia,Austria,0.0,2.0,Friendly,Bratislava,Slovakia,False,48,25,2.4,1.2,4,4,1,1,0,0
+2024-03-25,Azerbaijan,Bulgaria,1.0,1.0,FIFA Series,Baku,Azerbaijan,False,113,83,1.0,1.4,2,0,3,3,0,2
+2024-03-25,Cyprus,Serbia,0.0,1.0,Friendly,Larnaca,Cyprus,False,125,32,0.6,2.4,1,2,3,2,1,1
+2024-03-25,Montenegro,North Macedonia,1.0,0.0,Friendly,Antalya,Turkey,True,72,68,1.6,1.4,3,1,2,2,0,2
+2024-03-25,Sweden,Albania,1.0,0.0,Friendly,Stockholm,Sweden,False,26,64,1.4,2.0,2,3,2,0,1,2
+2024-03-26,Lithuania,Gibraltar,1.0,0.0,UEFA Nations League,Kaunas,Lithuania,False,138,201,1.0,1.0,2,0,2,5,1,0
+2024-03-26,Wales,Poland,0.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,29,30,2.4,0.8,3,3,0,0,2,2
+2024-03-26,Ukraine,Iceland,2.0,1.0,UEFA Euro qualification,Wrocław,Poland,True,24,73,1.6,0.8,3,2,1,2,1,1
+2024-03-26,Georgia,Greece,0.0,0.0,UEFA Euro qualification,Tbilisi,Georgia,False,77,49,2.0,1.4,2,3,2,1,1,1
+2024-03-26,Austria,Turkey,6.0,1.0,Friendly,Vienna,Austria,False,25,35,1.8,0.6,4,3,1,1,0,1
+2024-03-26,Czech Republic,Armenia,2.0,1.0,Friendly,Prague,Czech Republic,False,0,94,1.4,1.0,3,0,1,4,1,1
+2024-03-26,Denmark,Faroe Islands,2.0,0.0,Friendly,Brondbyvester,Denmark,False,21,135,1.4,1.0,3,1,1,3,1,1
+2024-03-26,England,Belgium,2.0,2.0,Friendly,London,England,False,3,4,2.0,0.8,3,3,0,0,2,2
+2024-03-26,Germany,Netherlands,2.0,1.0,Friendly,Frankfurt,Germany,False,16,6,1.2,1.4,2,4,3,1,0,0
+2024-03-26,Hungary,Kosovo,2.0,0.0,Friendly,Budapest,Hungary,False,27,102,2.0,1.2,3,3,0,1,2,1
+2024-03-26,Latvia,Liechtenstein,1.0,1.0,Friendly,Larnaca,Cyprus,True,136,203,0.6,1.8,1,0,3,5,1,0
+2024-03-26,Malta,Belarus,0.0,0.0,Friendly,Ta' Qali,Malta,False,172,95,0.6,2.6,0,2,4,1,1,2
+2024-03-26,Norway,Slovakia,1.0,1.0,Friendly,Oslo,Norway,False,46,48,2.0,1.2,2,3,2,2,1,0
+2024-03-26,Republic of Ireland,Switzerland,0.0,1.0,Friendly,Dublin,Republic of Ireland,False,62,19,1.0,1.0,1,0,3,1,1,4
+2024-03-26,Scotland,Northern Ireland,0.0,1.0,Friendly,Glasgow,Scotland,False,34,74,1.2,3.0,0,2,3,2,2,1
+2024-03-26,Slovenia,Portugal,2.0,0.0,Friendly,Ljubljana,Slovenia,False,55,7,1.8,1.0,3,5,1,0,1,0
+2024-03-26,Finland,Estonia,2.0,1.0,Friendly,Helsinki,Finland,False,60,123,1.6,2.0,2,0,3,5,0,0
