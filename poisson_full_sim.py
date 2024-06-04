@@ -8,9 +8,9 @@ import joblib
 teams = {
     "A": ["Germany", "Scotland", "Hungary", "Switzerland"],
     "B": ["Spain", "Croatia", "Italy", "Albania"],
-    "C": ["Poland", "Netherlands", "Slovenia", "Denmark"],
-    "D": ["Serbia", "England", "Romania", "Ukraine"],
-    "E": ["Belgium", "Slovakia", "Austria", "France"],
+    "C": ["England", "Serbia", "Slovenia", "Denmark"],
+    "D": ["Netherlands", "France", "Poland", "Austria"],
+    "E": ["Ukraine", "Slovakia", "Belgium", "Romania"],
     "F": ["Turkey", "Georgia", "Portugal", "Czech Republic"]
 }
 
@@ -50,37 +50,49 @@ team_stats = {
 # Group stage matches
 group_stage_matches = [
     ("2024-06-14", "Groupstage", "Germany", "Scotland", "UEFA Euro"),
+
     ("2024-06-15", "Groupstage", "Hungary", "Switzerland", "UEFA Euro"),
     ("2024-06-15", "Groupstage", "Spain", "Croatia", "UEFA Euro"),
     ("2024-06-15", "Groupstage", "Italy", "Albania", "UEFA Euro"),
+
     ("2024-06-16", "Groupstage", "Poland", "Netherlands", "UEFA Euro"),
     ("2024-06-16", "Groupstage", "Slovenia", "Denmark", "UEFA Euro"),
     ("2024-06-16", "Groupstage", "Serbia", "England", "UEFA Euro"),
+
     ("2024-06-17", "Groupstage", "Romania", "Ukraine", "UEFA Euro"),
     ("2024-06-17", "Groupstage", "Belgium", "Slovakia", "UEFA Euro"),
     ("2024-06-17", "Groupstage", "Austria", "France", "UEFA Euro"),
+
     ("2024-06-18", "Groupstage", "Turkey", "Georgia", "UEFA Euro"),
     ("2024-06-18", "Groupstage", "Portugal", "Czech Republic", "UEFA Euro"),
+
     ("2024-06-19", "Groupstage", "Croatia", "Albania", "UEFA Euro"),
     ("2024-06-19", "Groupstage", "Germany", "Hungary", "UEFA Euro"),
     ("2024-06-19", "Groupstage", "Scotland", "Switzerland", "UEFA Euro"),
+
     ("2024-06-20", "Groupstage", "Slovenia", "Serbia", "UEFA Euro"),
     ("2024-06-20", "Groupstage", "Denmark", "England", "UEFA Euro"),
     ("2024-06-20", "Groupstage", "Spain", "Italy", "UEFA Euro"),
+
     ("2024-06-21", "Groupstage", "Slovakia", "Ukraine", "UEFA Euro"),
     ("2024-06-21", "Groupstage", "Poland", "Austria", "UEFA Euro"),
     ("2024-06-21", "Groupstage", "Netherlands", "France", "UEFA Euro"),
+
     ("2024-06-22", "Groupstage", "Georgia", "Czech Republic", "UEFA Euro"),
     ("2024-06-22", "Groupstage", "Turkey", "Portugal", "UEFA Euro"),
     ("2024-06-22", "Groupstage", "Belgium", "Romania", "UEFA Euro"),
+
     ("2024-06-23", "Groupstage", "Switzerland", "Germany", "UEFA Euro"),
     ("2024-06-23", "Groupstage", "Scotland", "Hungary", "UEFA Euro"),
+
     ("2024-06-24", "Groupstage", "Albania", "Spain", "UEFA Euro"),
     ("2024-06-24", "Groupstage", "Croatia", "Italy", "UEFA Euro"),
+
     ("2024-06-25", "Groupstage", "France", "Poland", "UEFA Euro"),
     ("2024-06-25", "Groupstage", "Netherlands", "Austria", "UEFA Euro"),
     ("2024-06-25", "Groupstage", "England", "Slovenia", "UEFA Euro"),
     ("2024-06-25", "Groupstage", "Denmark", "Serbia", "UEFA Euro"),
+
     ("2024-06-26", "Groupstage", "Ukraine", "Belgium", "UEFA Euro"),
     ("2024-06-26", "Groupstage", "Slovakia", "Romania", "UEFA Euro"),
     ("2024-06-26", "Groupstage", "Czech Republic", "Turkey", "UEFA Euro"),
@@ -123,16 +135,11 @@ def match_outcome(home_win_prob, draw_prob, away_win_prob):
     return random.choices(outcomes, weights=probabilities)[0]
 
 # Function to predict match result using Poisson regression models
-def predict_match_result(home_team, away_team):
-    # Create feature vector for the match
-    #print("home: ", home_team, "|| away: ", away_team)
-    
-    #HELP
-    #features = create_prediction_features(home_ranking=1, away_ranking=1,home_avg_goals_scored=1.5, away_avg_goals_scored=1.5, home_avg_goals_conceded=1.0, away_avg_goals_conceded=1.0, neutral=0)
+def predict_match_result(home_team, away_team, group_stage):
     
     for team, stats in team_stats.items():
         if team == home_team:
-            home_ranking,home_avg_goals_scored, home_avg_goals_conceded, home_win , home_loss ,home_draw = stats
+            home_ranking, home_avg_goals_scored, home_avg_goals_conceded, home_win , home_loss ,home_draw = stats
         elif team == away_team:
             away_ranking, away_avg_goals_scored, away_avg_goals_conceded, away_win , away_loss , away_draw = stats
 
@@ -146,6 +153,7 @@ def predict_match_result(home_team, away_team):
     
     home_lambda = poisson_home.predict(features)[0]
     away_lambda = poisson_away.predict(features)[0]
+
     
     max_goals = 5
     goal_distribution_matrix = np.zeros((max_goals + 1, max_goals + 1))
@@ -165,17 +173,26 @@ def predict_match_result(home_team, away_team):
     
     result = match_outcome(home_win_prob, draw_prob, away_win_prob)
     
-    if result == 'Home Win':
-        return (home_team, 3), (away_team, 0), home_team
-    elif result == 'Away Win':
-        return (home_team, 0), (away_team, 3), away_team
+
+    if group_stage is True:
+        if result == 'Home Win':
+            return (home_team, 3), (away_team, 0), home_team
+        elif result == 'Away Win':
+            return (home_team, 0), (away_team, 3), away_team
+        else:
+            return (home_team, 1), (away_team, 1), None
     else:
-        return (home_team, 1), (away_team, 1), None
+        if result == 'Home Win':
+            return (home_team, 3), (away_team, 0), home_team
+        elif result == 'Away Win':
+            return (home_team, 0), (away_team, 3), away_team
+        else:
+            return (home_team, 1), (away_team, 1), random.choice([home_team , away_team])
 
 # Simulate the group stage matches
 results = []
 for index, match in group_stage_df.iterrows():
-    result = predict_match_result(match["Home Team"], match["Away Team"])
+    result = predict_match_result(match["Home Team"], match["Away Team"],group_stage=True)
     results.append(result)
 
 # Process group stage results
@@ -223,17 +240,21 @@ knockout_stage_matches = [
 
 # Function to simulate knockout match
 def simulate_knockout_match(home_team, away_team):
-    result = predict_match_result(home_team, away_team)
+    result = predict_match_result(home_team, away_team,group_stage=False)
+    print(result)
     winner = result[2] if result[2] is not None else random.choice([home_team, away_team])
+    
     return winner
 
-# Simulate knockout stage matches
+# Simulate knockout stage matches with debug info
 round_of_16_winners = []
+print("Round of 16:")
 for match in knockout_stage_matches:
-    winner = simulate_knockout_match(match[2], match[3])
+    winner = predict_match_result(match[2], match[3],group_stage=False)
     round_of_16_winners.append(winner)
+print("Round of 16 winners: ", round_of_16_winners)
 
-# Define quarter-finals
+# Define quarter-finals with debug info
 quarter_final_matches = [
     ("2024-07-05", "Quarter-finals", round_of_16_winners[0], round_of_16_winners[1], "UEFA Euro"),
     ("2024-07-05", "Quarter-finals", round_of_16_winners[2], round_of_16_winners[3], "UEFA Euro"),
@@ -241,26 +262,31 @@ quarter_final_matches = [
     ("2024-07-06", "Quarter-finals", round_of_16_winners[6], round_of_16_winners[7], "UEFA Euro")
 ]
 
-# Simulate Quarter-finals
+print("Quarter-finals:")
 quarter_final_winners = []
 for match in quarter_final_matches:
-    winner = simulate_knockout_match(match[2], match[3])
+    winner = predict_match_result(match[2], match[3],group_stage=False)
     quarter_final_winners.append(winner)
+print("Quarter-final winners: ", quarter_final_winners)
 
-# Define semi-finals
+# Define semi-finals with debug info
 semi_final_matches = [
     ("2024-07-09", "Semi-finals", quarter_final_winners[0], quarter_final_winners[1], "UEFA Euro"),
     ("2024-07-10", "Semi-finals", quarter_final_winners[2], quarter_final_winners[3], "UEFA Euro")
 ]
 
-# Simulate Semi-finals
+print("Semi-finals:")
 semi_final_winners = []
 for match in semi_final_matches:
-    winner = simulate_knockout_match(match[2], match[3])
+    winner = predict_match_result(match[2], match[3], group_stage=False)
     semi_final_winners.append(winner)
+print("Semi-final winners: ", semi_final_winners)
 
-# Define Final
+# Define Final with debug info
 final_match = ("2024-07-14", "Final", semi_final_winners[0], semi_final_winners[1], "UEFA Euro")
+print("Final:")
+final_winner = predict_match_result(final_match[2], final_match[3],group_stage=False)
+print("Final winner: ", final_winner)
 
 # Combine all matches into a DataFrame
 all_matches = group_stage_df.values.tolist() + knockout_stage_matches + quarter_final_matches + semi_final_matches + [final_match]
@@ -277,4 +303,4 @@ all_matches_df["Winner"] = [result[2] for result in results_with_winners]
 # Save to CSV
 all_matches_df.to_csv("UEFA_Euro_2024_Simulation.csv", index=False)
 
-print(all_matches_df)
+#print(all_matches_df)

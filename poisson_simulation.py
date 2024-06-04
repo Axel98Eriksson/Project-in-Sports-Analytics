@@ -8,43 +8,38 @@ import joblib
 teams = {
     "A": ["Germany", "Scotland", "Hungary", "Switzerland"],
     "B": ["Spain", "Croatia", "Italy", "Albania"],
-    "C": ["Poland", "Netherlands", "Slovenia", "Denmark"],
-    "D": ["Serbia", "England", "Romania", "Ukraine"],
-    "E": ["Belgium", "Slovakia", "Austria", "France"],
+    "C": ["England", "Serbia", "Slovenia", "Denmark"],
+    "D": ["Netherlands", "France", "Poland", "Austria"],
+    "E": ["Ukraine", "Slovakia", "Belgium", "Romania"],
     "F": ["Turkey", "Georgia", "Portugal", "Czech Republic"]
 }
 
-#last five games (friendlies and qualification)
+# Last five games (friendlies and qualification)
 team_stats = {
-    "Germany" : [16, 3.4, 0.4, 4, 0, 1], #fifa rank, avg goal scored, avg goal conceded, win ,loss ,draw
-    "Scotland" : [39,  1.4, 2, 1, 2, 2],
-    "Hungary" : [26, 2, 1, 3, 0, 2],
-    "Switzerland" : [19 , 0.6, 0.6, 1, 1, 3],
-    
-    "Spain" : [ 8, 2, 1.4, 3, 1, 1],
-    "Croatia" : [10 , 2, 0.4, 4, 1, 0],
-    "Italy" : [9 , 2, 1.2, 3, 1, 1],
-    "Albania" : [66 , 0.8, 1, 1, 2, 2],
-
-    "Poland" : [28 , 1.8, 0.6, 2, 0, 3],
-    "Netherlands" : [7 , 2.6, 0.4, 4, 1, 0],
-    "Slovenia" : [57 , 1.6, 1, 3, 1, 1],
-    "Denmark" : [21 , 1.2, 0.4, 3, 1, 1],
-    
-    "Serbia" : [33 , 2, 1.2, 3, 1, 1],
-    "England" : [4 , 1.6, 0.8, 2, 1, 2],
-    "Romania" : [46 , 2.0, 1.0, 3 , 1, 1],
-    "Ukraine" : [22 , 1.4, 0.6, 3, 0, 2],
-
-    "Belgium" : [3 , 3.0 , 0.8, 3 , 0, 2],
-    "Slovakia" : [48 ,  1.6, 1.2, 3, 1, 1],
-    "Austria" : [25 , 2.6 , 0.8, 4 , 1, 0],
-    "France" : [2 , 4.2 , 1.4, 3 , 1, 1],
-    
-    "Turkey" : [40 , 1.4 , 1.6, 2 , 2, 1],
-    "Georgia" : [75 ,  1.8, 1, 2 , 1, 2],
-    "Portugal" : [6 , 2.8 , 0.8, 4 , 1, 0],
-    "Czech Republic" : [36, 1.8 , 0.6, 4 , 0, 1]
+    "Germany": [16, 3.4, 0.4, 4, 0, 1],  # fifa rank, avg goal scored, avg goal conceded, win, loss, draw
+    "Scotland": [39, 1.4, 2, 1, 2, 2],
+    "Hungary": [26, 2, 1, 3, 0, 2],
+    "Switzerland": [19, 0.6, 0.6, 1, 1, 3],
+    "Spain": [8, 2, 1.4, 3, 1, 1],
+    "Croatia": [10, 2, 0.4, 4, 1, 0],
+    "Italy": [9, 2, 1.2, 3, 1, 1],
+    "Albania": [66, 0.8, 1, 1, 2, 2],
+    "Poland": [28, 1.8, 0.6, 2, 0, 3],
+    "Netherlands": [7, 2.6, 0.4, 4, 1, 0],
+    "Slovenia": [57, 1.6, 1, 3, 1, 1],
+    "Denmark": [21, 1.2, 0.4, 3, 1, 1],
+    "Serbia": [33, 2, 1.2, 3, 1, 1],
+    "England": [4, 1.6, 0.8, 2, 1, 2],
+    "Romania": [46, 2.0, 1.0, 3, 1, 1],
+    "Ukraine": [22, 1.4, 0.6, 3, 0, 2],
+    "Belgium": [3, 3.0, 0.8, 3, 0, 2],
+    "Slovakia": [48, 1.6, 1.2, 3, 1, 1],
+    "Austria": [25, 2.6, 0.8, 4, 1, 0],
+    "France": [2, 4.2, 1.4, 3, 1, 1],
+    "Turkey": [40, 1.4, 1.6, 2, 2, 1],
+    "Georgia": [75, 1.8, 1, 2, 1, 2],
+    "Portugal": [6, 2.8, 0.8, 4, 1, 0],
+    "Czech Republic": [36, 1.8, 0.6, 4, 0, 1]
 }
 
 # Group stage matches
@@ -113,160 +108,135 @@ def poisson_probability(lmbda, k):
     """Calculate the Poisson probability of k given lambda."""
     return (lmbda**k * np.exp(-lmbda)) / math.factorial(k)
 
-def match_outcome(home_win_prob, draw_prob, away_win_prob):
-    outcomes = ['Home Win', 'Draw', 'Away Win']
-    probabilities = [home_win_prob, draw_prob, away_win_prob]
-    
-    # Ensure probabilities sum to 1
-    assert sum(probabilities) < 1.05 and sum(probabilities) > 0.95, "Probabilities must sum to 1"
-    
-    return random.choices(outcomes, weights=probabilities)[0]
+def match_prediction(home_team, away_team):
+    home_ranking, home_avg_goals_scored, home_avg_goals_conceded, _, _, _ = team_stats[home_team]
+    away_ranking, away_avg_goals_scored, away_avg_goals_conceded, _, _, _ = team_stats[away_team]
 
-# Function to predict match result using Poisson regression models
-def predict_match_result(home_team, away_team):
-    # Create feature vector for the match
-    home_team_id = label_encoders['home_team'].transform([home_team])[0]
-    away_team_id = label_encoders['away_team'].transform([away_team])[0]
-    
-    #HELP
-    features = create_prediction_features(
-        home_ranking=1, away_ranking=1,
-        home_avg_goals_scored=1.5, away_avg_goals_scored=1.5, 
-        home_avg_goals_conceded=1.0, away_avg_goals_conceded=1.0, 
-        neutral=0
-    )
-    
-    home_lambda = poisson_home.predict(features)[0]
-    away_lambda = poisson_away.predict(features)[0]
-    
-    max_goals = 5
-    goal_distribution_matrix = np.zeros((max_goals + 1, max_goals + 1))
-    
-    for i in range(max_goals + 1):
-        for j in range(max_goals + 1):
-            home_goal_prob = poisson_probability(home_lambda, i)
-            away_goal_prob = poisson_probability(away_lambda, j)
-            goal_distribution_matrix[i, j] = home_goal_prob * away_goal_prob
-    
-    goal_distribution_matrix /= goal_distribution_matrix.sum()
-    
-    # Calculate probabilities
-    home_win_prob = np.sum(np.tril(goal_distribution_matrix, -1))
-    draw_prob = np.sum(np.diag(goal_distribution_matrix))
-    away_win_prob = np.sum(np.triu(goal_distribution_matrix, 1))
-    
-    result = match_outcome(home_win_prob, draw_prob, away_win_prob)
-    
-    if result == 'Home Win':
-        return (home_team, 3), (away_team, 0), home_team
-    elif result == 'Away Win':
-        return (home_team, 0), (away_team, 3), away_team
-    else:
-        return (home_team, 1), (away_team, 1), None
+    features = create_prediction_features(home_ranking, away_ranking, home_avg_goals_scored, away_avg_goals_scored, home_avg_goals_conceded, away_avg_goals_conceded, 1)
 
-# Simulate the group stage matches
-results = []
-for index, match in group_stage_df.iterrows():
-    result = predict_match_result(match["Home Team"], match["Away Team"])
-    results.append(result)
+    home_goals_avg = poisson_home.predict(features)[0]
+    away_goals_avg = poisson_away.predict(features)[0]
 
-# Process group stage results
-group_points = {group: {team: 0 for team in teams[group]} for group in teams}
-for result in results:
-    for team, points in result[:2]:
-        for group, group_teams in teams.items():
-            if team in group_teams:
-                group_points[group][team] += points
+    max_goals = 10
+    home_goals_prob = [poisson_probability(home_goals_avg, i) for i in range(max_goals)]
+    away_goals_prob = [poisson_probability(away_goals_avg, i) for i in range(max_goals)]
 
-# Calculate group standings
-group_standings = {}
-for group in teams:
-    sorted_teams = sorted(group_points[group].items(), key=lambda x: x[1], reverse=True)
-    group_standings[group] = sorted_teams
+    probability_matrix = np.outer(home_goals_prob, away_goals_prob)
+    
+    home_win_prob = np.sum(np.tril(probability_matrix, -1))
+    draw_prob = np.sum(np.diag(probability_matrix))
+    away_win_prob = np.sum(np.triu(probability_matrix, 1))
 
-# Identify and rank third-placed teams
-third_placed_teams = []
-for group in group_standings:
-    third_placed_teams.append(group_standings[group][2])
+    return home_win_prob, draw_prob, away_win_prob, home_goals_avg, away_goals_avg
 
-# Sort third-placed teams by points, then by goal difference, then by goals scored
-third_placed_teams.sort(key=lambda x: (x[1]), reverse=True)
+# Calculate the predicted outcomes for each group stage match
+predictions = []
+for index, row in group_stage_df.iterrows():
+    home_team = row["Home Team"]
+    away_team = row["Away Team"]
+    home_win_prob, draw_prob, away_win_prob, home_goals_avg, away_goals_avg = match_prediction(home_team, away_team)
+    predictions.append([home_team, away_team, home_win_prob, draw_prob, away_win_prob, home_goals_avg, away_goals_avg])
 
-# Select top 4 third-placed teams
-top_4_third_placed_teams = third_placed_teams[:4]
+# Create a DataFrame for the predictions
+predictions_df = pd.DataFrame(predictions, columns=["Home Team", "Away Team", "Home Win Probability", "Draw Probability", "Away Win Probability", "Home Goals Average", "Away Goals Average"])
 
-# Determine knockout stage positions
-knockout_positions = {}
-for group in group_standings:
-    knockout_positions[f"1{group}"] = group_standings[group][0][0]
-    knockout_positions[f"2{group}"] = group_standings[group][1][0]
+# Function to simulate a match based on predictions
+def simulate_match(home_win_prob, draw_prob, away_win_prob):
+    outcome = random.choices(["Home Win", "Draw", "Away Win"], [home_win_prob, draw_prob, away_win_prob])[0]
+    return outcome
 
-# Define knockout stage matches with top 4 third-placed teams
-knockout_stage_matches = [
-    ("2024-06-29", "Round of 16", knockout_positions["1B"], top_4_third_placed_teams[0][0], "UEFA Euro"),
-    ("2024-06-29", "Round of 16", knockout_positions["1A"], knockout_positions["2C"], "UEFA Euro"),
-    ("2024-06-30", "Round of 16", knockout_positions["1F"], top_4_third_placed_teams[1][0], "UEFA Euro"),
-    ("2024-06-30", "Round of 16", knockout_positions["2D"], knockout_positions["2E"], "UEFA Euro"),
-    ("2024-07-01", "Round of 16", knockout_positions["1E"], top_4_third_placed_teams[2][0], "UEFA Euro"),
-    ("2024-07-01", "Round of 16", knockout_positions["1D"], knockout_positions["2F"], "UEFA Euro"),
-    ("2024-07-02", "Round of 16", knockout_positions["1C"], top_4_third_placed_teams[3][0], "UEFA Euro"),
-    ("2024-07-02", "Round of 16", knockout_positions["2A"], knockout_positions["2B"], "UEFA Euro")
+# Simulate group stage matches and calculate points
+group_points = {team: 0 for group in teams.values() for team in group}
+group_stats = {team: {"GF": 0, "GA": 0} for group in teams.values() for team in group}
+
+for index, row in predictions_df.iterrows():
+    home_team = row["Home Team"]
+    away_team = row["Away Team"]
+    home_win_prob = row["Home Win Probability"]
+    draw_prob = row["Draw Probability"]
+    away_win_prob = row["Away Win Probability"]
+
+    outcome = simulate_match(home_win_prob, draw_prob, away_win_prob)
+
+    # Update points
+    if outcome == "Home Win":
+        group_points[home_team] += 3
+    elif outcome == "Draw":
+        group_points[home_team] += 1
+        group_points[away_team] += 1
+    elif outcome == "Away Win":
+        group_points[away_team] += 3
+
+    # Update goal statistics
+    home_goals_avg = row["Home Goals Average"]
+    away_goals_avg = row["Away Goals Average"]
+    group_stats[home_team]["GF"] += home_goals_avg
+    group_stats[home_team]["GA"] += away_goals_avg
+    group_stats[away_team]["GF"] += away_goals_avg
+    group_stats[away_team]["GA"] += home_goals_avg
+
+# Create a DataFrame for group points and sort teams within each group
+group_points_df = pd.DataFrame(list(group_points.items()), columns=["Team", "Points"])
+group_points_df["Group"] = group_points_df["Team"].apply(lambda team: [group for group, teams_list in teams.items() if team in teams_list][0])
+group_points_df["Goal Difference"] = group_points_df["Team"].apply(lambda team: group_stats[team]["GF"] - group_stats[team]["GA"])
+group_points_df = group_points_df.sort_values(by=["Group", "Points", "Goal Difference"], ascending=[True, False, False]).reset_index(drop=True)
+
+# Determine top two teams from each group and the best four third-placed teams
+top_teams = group_points_df.groupby("Group").head(2).reset_index(drop=True)
+
+third_placed_teams = group_points_df.groupby("Group").apply(lambda x: x.nlargest(1, "Points").iloc[2]).reset_index(drop=True)
+best_four_third_placed_teams = third_placed_teams.nlargest(4, "Points").reset_index(drop=True)
+
+# Combine top teams and best third-placed teams for the round of 16
+round_of_16_teams = pd.concat([top_teams, best_four_third_placed_teams], ignore_index=True)
+
+# Create pairs for the round of 16 matches
+round_of_16_matches = [
+    (round_of_16_teams.iloc[0]["Team"], round_of_16_teams.iloc[15]["Team"]),
+    (round_of_16_teams.iloc[1]["Team"], round_of_16_teams.iloc[14]["Team"]),
+    (round_of_16_teams.iloc[2]["Team"], round_of_16_teams.iloc[13]["Team"]),
+    (round_of_16_teams.iloc[3]["Team"], round_of_16_teams.iloc[12]["Team"]),
+    (round_of_16_teams.iloc[4]["Team"], round_of_16_teams.iloc[11]["Team"]),
+    (round_of_16_teams.iloc[5]["Team"], round_of_16_teams.iloc[10]["Team"]),
+    (round_of_16_teams.iloc[6]["Team"], round_of_16_teams.iloc[9]["Team"]),
+    (round_of_16_teams.iloc[7]["Team"], round_of_16_teams.iloc[8]["Team"])
 ]
 
-# Function to simulate knockout match
-def simulate_knockout_match(home_team, away_team):
-    result = predict_match_result(home_team, away_team)
-    winner = result[2] if result[2] is not None else random.choice([home_team, away_team])
-    return winner
+# Simulate knockout rounds
+def simulate_knockout_round(matches):
+    winners = []
+    for match in matches:
+        home_team, away_team = match
+        home_win_prob, draw_prob, away_win_prob, _, _ = match_prediction(home_team, away_team)
+        outcome = simulate_match(home_win_prob, draw_prob, away_win_prob)
+        if outcome == "Home Win":
+            winners.append(home_team)
+        else:
+            winners.append(away_team)
+    return winners
 
-# Simulate knockout stage matches
-round_of_16_winners = []
-for match in knockout_stage_matches:
-    winner = simulate_knockout_match(match[2], match[3])
-    round_of_16_winners.append(winner)
+# Simulate Round of 16
+quarter_final_teams = simulate_knockout_round(round_of_16_matches)
 
-# Define quarter-finals
+# Simulate Quarter-Finals
 quarter_final_matches = [
-    ("2024-07-05", "Quarter-finals", round_of_16_winners[0], round_of_16_winners[1], "UEFA Euro"),
-    ("2024-07-05", "Quarter-finals", round_of_16_winners[2], round_of_16_winners[3], "UEFA Euro"),
-    ("2024-07-06", "Quarter-finals", round_of_16_winners[4], round_of_16_winners[5], "UEFA Euro"),
-    ("2024-07-06", "Quarter-finals", round_of_16_winners[6], round_of_16_winners[7], "UEFA Euro")
+    (quarter_final_teams[0], quarter_final_teams[7]),
+    (quarter_final_teams[1], quarter_final_teams[6]),
+    (quarter_final_teams[2], quarter_final_teams[5]),
+    (quarter_final_teams[3], quarter_final_teams[4])
 ]
 
-# Simulate Quarter-finals
-quarter_final_winners = []
-for match in quarter_final_matches:
-    winner = simulate_knockout_match(match[2], match[3])
-    quarter_final_winners.append(winner)
+semi_final_teams = simulate_knockout_round(quarter_final_matches)
 
-# Define semi-finals
+# Simulate Semi-Finals
 semi_final_matches = [
-    ("2024-07-09", "Semi-finals", quarter_final_winners[0], quarter_final_winners[1], "UEFA Euro"),
-    ("2024-07-10", "Semi-finals", quarter_final_winners[2], quarter_final_winners[3], "UEFA Euro")
+    (semi_final_teams[0], semi_final_teams[3]),
+    (semi_final_teams[1], semi_final_teams[2])
 ]
 
-# Simulate Semi-finals
-semi_final_winners = []
-for match in semi_final_matches:
-    winner = simulate_knockout_match(match[2], match[3])
-    semi_final_winners.append(winner)
+final_teams = simulate_knockout_round(semi_final_matches)
 
-# Define Final
-final_match = ("2024-07-14", "Final", semi_final_winners[0], semi_final_winners[1], "UEFA Euro")
+# Simulate Final
+winner = simulate_knockout_round([final_teams])[0]
 
-# Combine all matches into a DataFrame
-all_matches = group_stage_df.values.tolist() + knockout_stage_matches + quarter_final_matches + semi_final_matches + [final_match]
-all_matches_df = pd.DataFrame(all_matches, columns=["Date", "Stage", "Home Team", "Away Team", "Tournament"])
-
-# Add results and winners
-results_with_winners = results + [(match[2], match[3], simulate_knockout_match(match[2], match[3])) for match in knockout_stage_matches] \
-                    + [(match[2], match[3], simulate_knockout_match(match[2], match[3])) for match in quarter_final_matches] \
-                    + [(match[2], match[3], simulate_knockout_match(match[2], match[3])) for match in semi_final_matches] \
-                    + [(final_match[2], final_match[3], simulate_knockout_match(final_match[2], final_match[3]))]
-
-all_matches_df["Winner"] = [result[2] for result in results_with_winners]
-
-# Save to CSV
-all_matches_df.to_csv("UEFA_Euro_2024_Simulation.csv", index=False)
-
-print(all_matches_df)
+print(f"The predicted winner of UEFA Euro 2024 is {winner}")
