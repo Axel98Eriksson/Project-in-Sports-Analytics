@@ -104,3 +104,27 @@ PoissonRegressor: {'alpha': 41.0} with MSE: 1.0598158980063186
 
 
 
+After 100 itterations in bracket system with oskars poisson:
+
+Winner Probabilities:
+Portugal: 0.13
+Germany: 0.12
+France: 0.11
+Spain: 0.10
+Belgium: 0.07
+Hungary: 0.05
+Austria: 0.05
+Denmark: 0.04
+Poland: 0.04
+England: 0.03
+Slovenia: 0.03
+Slovakia: 0.03
+Croatia: 0.03
+Italy: 0.03
+Romania: 0.03
+Serbia: 0.02
+Netherlands: 0.02
+Ukraine: 0.02
+Czech Republic: 0.02
+Turkey: 0.02
+Switzerland: 0.01
