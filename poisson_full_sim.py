@@ -125,16 +125,24 @@ def match_outcome(home_win_prob, draw_prob, away_win_prob):
 # Function to predict match result using Poisson regression models
 def predict_match_result(home_team, away_team):
     # Create feature vector for the match
-    home_team_id = label_encoders['home_team'].transform([home_team])[0]
-    away_team_id = label_encoders['away_team'].transform([away_team])[0]
+    #print("home: ", home_team, "|| away: ", away_team)
     
     #HELP
+    #features = create_prediction_features(home_ranking=1, away_ranking=1,home_avg_goals_scored=1.5, away_avg_goals_scored=1.5, home_avg_goals_conceded=1.0, away_avg_goals_conceded=1.0, neutral=0)
+    
+    for team, stats in team_stats.items():
+        if team == home_team:
+            home_ranking,home_avg_goals_scored, home_avg_goals_conceded, home_win , home_loss ,home_draw = stats
+        elif team == away_team:
+            away_ranking, away_avg_goals_scored, away_avg_goals_conceded, away_win , away_loss , away_draw = stats
+
     features = create_prediction_features(
-        home_ranking=1, away_ranking=1,
-        home_avg_goals_scored=1.5, away_avg_goals_scored=1.5, 
-        home_avg_goals_conceded=1.0, away_avg_goals_conceded=1.0, 
-        neutral=0
+        home_ranking=home_ranking, away_ranking=away_ranking,
+        home_avg_goals_scored=home_avg_goals_scored, away_avg_goals_scored=away_avg_goals_scored, 
+        home_avg_goals_conceded=home_avg_goals_conceded, away_avg_goals_conceded=away_avg_goals_conceded, 
+        neutral=1
     )
+
     
     home_lambda = poisson_home.predict(features)[0]
     away_lambda = poisson_away.predict(features)[0]
