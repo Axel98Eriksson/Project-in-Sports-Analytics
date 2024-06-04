@@ -1,543 +1,127 @@
 date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,home_ranking,away_ranking,home_avg_goals,away_avg_goals,home_wins,away_wins,home_losses,away_losses,home_draws,away_draws
-2014-01-15,Moldova,Norway,1.0,2.0,Friendly,Abu Dhabi,United Arab Emirates,True,96,54,0.0,0.0,0,0,0,0,0,0
-2014-01-17,Moldova,Sweden,1.0,2.0,Friendly,Abu Dhabi,United Arab Emirates,True,96,26,0.2,0.4,0,0,1,0,0,0
-2014-01-18,Norway,Poland,0.0,3.0,Friendly,Abu Dhabi,United Arab Emirates,True,59,77,0.4,0.2,1,0,0,0,0,0
-2014-01-20,Moldova,Poland,0.0,1.0,Friendly,Abu Dhabi,United Arab Emirates,True,96,77,0.4,0.8,0,1,2,0,0,0
-2014-01-21,Iceland,Sweden,0.0,2.0,Friendly,Abu Dhabi,United Arab Emirates,True,49,26,0.0,0.0,0,1,0,0,0,0
-2014-03-01,Gibraltar,Faroe Islands,1.0,4.0,Friendly,Gibraltar,Gibraltar,False,205,172,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Albania,Malta,2.0,0.0,Friendly,Durrës,Albania,False,55,131,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Andorra,Moldova,0.0,3.0,Friendly,Sant Julià de Lòria,Andorra,False,198,107,0.0,0.0,0,0,0,3,0,0
-2014-03-05,Bulgaria,Belarus,2.0,1.0,Friendly,Sofia,Bulgaria,False,72,82,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Cyprus,Northern Ireland,0.0,0.0,Friendly,Nicosia,Cyprus,False,122,85,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Czech Republic,Norway,2.0,2.0,Friendly,Prague,Czech Republic,False,0,60,0.0,0.0,0,1,0,1,0,0
-2014-03-05,England,Denmark,1.0,0.0,Friendly,London,England,False,15,20,0.0,0.0,0,0,0,0,0,0
-2014-03-05,France,Netherlands,2.0,0.0,Friendly,Saint-Denis,France,False,18,10,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Georgia,Liechtenstein,2.0,0.0,Friendly,Tbilisi,Georgia,False,103,150,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Gibraltar,Estonia,0.0,2.0,Friendly,Gibraltar,Gibraltar,False,205,91,0.2,0.8,0,0,1,0,0,0
-2014-03-05,Hungary,Finland,1.0,2.0,Friendly,Győr,Hungary,False,44,65,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Republic of Ireland,Serbia,1.0,2.0,Friendly,Dublin,Republic of Ireland,False,67,29,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Israel,Slovakia,1.0,3.0,Friendly,Netanya,Israel,False,56,54,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Kazakhstan,Lithuania,1.0,1.0,Friendly,Antalya,Turkey,True,128,102,0.0,0.0,0,0,0,0,0,0
-2014-03-05,North Macedonia,Latvia,2.0,1.0,Friendly,Skopje,North Macedonia,False,83,111,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Poland,Scotland,0.0,1.0,Friendly,Warsaw,Poland,False,70,34,0.8,0.0,2,0,0,0,0,0
-2014-03-05,Russia,Armenia,2.0,0.0,Friendly,Krasnodar,Russia,False,22,30,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Spain,Italy,1.0,0.0,Friendly,Madrid,Spain,False,1,8,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Switzerland,Croatia,2.0,2.0,Friendly,St. Gallen,Switzerland,False,6,16,0.0,0.0,0,0,0,0,0,0
-2014-03-05,Turkey,Sweden,2.0,1.0,Friendly,Ankara,Turkey,False,42,25,0.0,0.0,0,2,0,0,0,0
-2014-03-05,Wales,Iceland,3.0,1.0,Friendly,Cardiff,Wales,False,51,48,0.0,0.0,0,0,0,1,0,0
-2014-05-13,Germany,Poland,0.0,0.0,Friendly,Hamburg,Germany,False,2,72,0.0,0.0,0,2,0,1,0,0
-2014-05-21,Finland,Czech Republic,2.0,2.0,Friendly,Helsinki,Finland,False,52,0,0.4,0.2,1,0,0,0,0,1
-2014-05-21,Kosovo,Turkey,1.0,6.0,Friendly,Mitrovica,Kosovo,False,190,39,0.0,0.0,0,1,0,0,0,0
-2014-05-21,Liechtenstein,Belarus,1.0,5.0,Friendly,Vaduz,Liechtenstein,False,150,83,0.0,0.4,0,0,1,1,0,0
-2014-05-22,Hungary,Denmark,2.0,2.0,Friendly,Debrecen,Hungary,False,45,23,0.2,0.4,0,0,1,1,0,0
-2014-05-23,Slovakia,Montenegro,2.0,0.0,Friendly,Senec,Slovakia,False,46,54,0.6,0.2,1,0,0,0,0,0
-2014-05-25,Republic of Ireland,Turkey,1.0,2.0,Friendly,Dublin,Republic of Ireland,False,66,39,0.2,0.4,0,2,1,0,0,0
-2014-05-26,Belgium,Luxembourg,5.0,1.0,Friendly,Genk,Belgium,False,12,112,0.0,0.0,0,0,0,0,0,0
-2014-05-26,Estonia,Gibraltar,1.0,1.0,Friendly,Tallinn,Estonia,False,93,205,0.4,0.0,1,0,0,2,0,0
-2014-05-26,Russia,Slovakia,1.0,0.0,Friendly,Saint Petersburg,Russia,False,18,46,0.4,0.0,1,2,0,0,0,0
-2014-05-27,France,Norway,4.0,0.0,Friendly,Saint-Denis,France,False,16,55,0.4,0.0,1,1,0,1,0,1
-2014-05-28,Denmark,Sweden,1.0,0.0,Friendly,Copenhagen,Denmark,False,23,25,0.4,0.6,0,2,1,1,1,0
-2014-05-29,Finland,Lithuania,0.0,1.0,Baltic Cup,Ventspils,Latvia,True,52,104,0.8,0.6,1,0,0,0,1,1
-2014-05-29,Latvia,Estonia,0.0,0.0,Baltic Cup,Liepāja,Latvia,False,109,93,0.2,0.4,0,1,1,0,0,1
-2014-05-30,Austria,Iceland,1.0,1.0,Friendly,Innsbruck,Austria,False,40,58,0.0,0.0,0,0,0,2,0,0
-2014-05-31,Albania,Romania,0.0,1.0,Friendly,Yverdon-les-Bains,Switzerland,True,70,32,0.4,0.0,1,0,0,0,0,0
-2014-05-31,Finland,Estonia,2.0,0.0,Baltic Cup,Ventspils,Latvia,True,52,93,0.8,0.8,1,1,1,0,1,2
-2014-05-31,Italy,Republic of Ireland,0.0,0.0,Friendly,London,England,True,9,66,0.0,0.2,0,0,1,2,0,0
-2014-05-31,Latvia,Lithuania,1.0,0.0,Baltic Cup,Liepāja,Latvia,False,109,104,0.2,0.4,0,1,1,0,1,1
-2014-05-31,Norway,Russia,1.0,1.0,Friendly,Oslo,Norway,False,55,18,0.8,2.0,1,2,2,0,1,0
-2014-05-31,Portugal,Greece,0.0,0.0,Friendly,Oeiras,Portugal,False,3,10,0.0,0.0,0,0,0,0,0,0
-2014-06-01,Sweden,Belgium,0.0,2.0,Friendly,Solna,Sweden,False,25,12,1.0,0.8,2,1,2,0,0,0
-2014-06-03,Czech Republic,Austria,1.0,2.0,Friendly,Olomouc,Czech Republic,False,0,40,0.8,0.8,0,0,0,0,2,1
-2014-06-04,Gibraltar,Malta,1.0,0.0,Friendly,Faro,Portugal,True,205,128,0.4,1.4,0,0,2,1,1,0
-2014-06-04,Hungary,Albania,1.0,0.0,Friendly,Budapest,Hungary,False,45,70,0.6,0.8,0,1,1,1,1,0
-2014-06-04,Iceland,Estonia,1.0,0.0,Friendly,Reykjavík,Iceland,False,58,93,0.4,1.2,0,1,2,1,1,2
-2014-06-04,Italy,Luxembourg,1.0,1.0,Friendly,Perugia,Italy,False,9,112,0.0,0.2,0,0,1,1,1,0
-2014-06-04,Netherlands,Wales,2.0,0.0,Friendly,Amsterdam,Netherlands,False,15,47,0.0,0.4,0,1,1,0,0,0
-2014-06-06,Germany,Armenia,6.0,1.0,Friendly,Mainz,Germany,False,2,38,0.0,0.0,0,0,0,1,1,0
-2014-06-06,Poland,Lithuania,2.0,1.0,Friendly,Gdańsk,Poland,False,69,106,0.8,0.2,2,1,1,1,1,1
-2014-06-07,Hungary,Kazakhstan,3.0,0.0,Friendly,Budapest,Hungary,False,47,124,0.8,0.8,1,0,1,0,1,1
-2014-06-08,San Marino,Albania,0.0,3.0,Friendly,Serravalle,San Marino,False,207,66,0.0,0.0,0,1,0,2,0,0
-2014-06-10,Republic of Ireland,Portugal,1.0,5.0,Friendly,East Rutherford,United States,True,70,4,0.4,0.8,0,0,2,0,1,1
-2014-06-13,Spain,Netherlands,1.0,5.0,FIFA World Cup,Salvador,Brazil,True,1,15,0.2,0.0,1,1,0,1,0,0
-2014-06-14,England,Italy,1.0,2.0,FIFA World Cup,Manaus,Brazil,True,10,9,0.2,0.0,1,0,0,1,0,2
-2014-06-16,Germany,Portugal,4.0,0.0,FIFA World Cup,Salvador,Brazil,True,2,4,1.2,0.2,1,1,0,0,1,1
-2014-06-20,Switzerland,France,2.0,5.0,FIFA World Cup,Salvador,Brazil,True,6,17,0.4,0.4,0,2,0,0,1,0
-2014-06-22,Belgium,Russia,1.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,True,11,19,1.4,0.2,2,2,0,0,0,1
-2014-07-04,France,Germany,0.0,1.0,FIFA World Cup,Rio de Janeiro,Brazil,True,17,2,2.2,0.4,3,2,0,0,0,1
-2014-09-03,Denmark,Turkey,1.0,2.0,Friendly,Odense,Denmark,False,26,32,0.6,0.6,1,3,1,0,1,0
-2014-09-03,England,Norway,1.0,0.0,Friendly,London,England,False,20,53,0.4,0.4,1,1,1,2,0,2
-2014-09-03,Latvia,Armenia,2.0,0.0,Friendly,Riga,Latvia,False,100,36,0.4,0.4,1,0,1,2,1,0
-2014-09-03,Russia,Azerbaijan,4.0,0.0,Friendly,Khimki,Russia,False,23,73,0.8,0.4,2,0,1,0,1,0
-2014-09-03,Ukraine,Moldova,1.0,0.0,Friendly,Kyiv,Ukraine,False,22,99,0.0,0.0,0,1,0,3,0,0
-2014-09-04,Bosnia and Herzegovina,Liechtenstein,3.0,0.0,Friendly,Tuzla,Bosnia and Herzegovina,False,19,167,0.0,0.0,0,0,0,2,0,0
-2014-09-04,Croatia,Cyprus,2.0,0.0,Friendly,Pula,Croatia,False,16,140,0.4,0.4,0,0,0,0,1,1
-2014-09-04,France,Spain,1.0,0.0,Friendly,Saint-Denis,France,False,10,7,2.2,0.6,3,1,1,1,0,0
-2014-09-04,Italy,Netherlands,2.0,0.0,Friendly,Bari,Italy,False,14,3,0.6,0.6,1,2,1,1,2,0
-2014-09-04,Slovakia,Malta,1.0,0.0,Friendly,Žilina,Slovakia,False,45,150,1.0,0.4,2,0,1,2,0,0
-2014-09-04,Sweden,Estonia,2.0,0.0,Friendly,Solna,Sweden,False,29,93,1.0,1.2,2,1,3,2,0,2
-2014-09-07,Denmark,Armenia,2.0,1.0,UEFA Euro qualification,Copenhagen,Denmark,False,26,36,0.8,1.0,1,0,2,3,1,0
-2014-09-07,Faroe Islands,Finland,1.0,3.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,183,55,0.8,0.2,1,2,0,1,0,1
-2014-09-07,Georgia,Republic of Ireland,1.0,2.0,UEFA Euro qualification,Tbilisi,Georgia,False,95,66,0.4,0.0,1,0,0,3,0,1
-2014-09-07,Germany,Scotland,2.0,1.0,UEFA Euro qualification,Dortmund,Germany,False,1,28,2.2,0.2,3,1,0,0,1,0
-2014-09-07,Gibraltar,Poland,0.0,7.0,UEFA Euro qualification,Faro,Portugal,True,205,61,0.6,1.4,1,3,2,1,1,1
-2014-09-07,Greece,Romania,0.0,1.0,UEFA Euro qualification,Piraeus,Greece,False,13,27,0.0,0.0,0,1,0,0,1,0
-2014-09-07,Hungary,Northern Ireland,1.0,2.0,UEFA Euro qualification,Budapest,Hungary,False,34,95,1.4,0.8,2,0,1,0,1,1
-2014-09-07,Portugal,Albania,0.0,1.0,UEFA Euro qualification,Aveiro,Portugal,False,11,70,1.0,1.0,1,2,1,2,1,0
-2014-09-07,Serbia,France,1.0,1.0,Friendly,Belgrade,Serbia,False,31,10,0.4,0.2,1,4,0,1,0,0
-2014-09-08,Austria,Sweden,1.0,1.0,UEFA Euro qualification,Vienna,Austria,False,40,29,0.6,0.4,1,2,0,3,1,0
-2014-09-08,Estonia,Slovenia,1.0,0.0,UEFA Euro qualification,Tallinn,Estonia,False,93,39,0.2,1.2,0,0,3,0,2,0
-2014-09-08,Luxembourg,Belarus,1.0,1.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,109,88,0.4,1.2,0,1,1,1,1,0
-2014-09-08,Montenegro,Moldova,2.0,0.0,UEFA Euro qualification,Podgorica,Montenegro,False,49,99,0.0,0.4,0,1,1,4,0,0
-2014-09-08,Russia,Liechtenstein,4.0,0.0,UEFA Euro qualification,Khimki,Russia,False,23,167,1.6,0.4,3,0,1,3,1,0
-2014-09-08,San Marino,Lithuania,0.0,2.0,UEFA Euro qualification,Serravalle,San Marino,False,208,103,0.0,0.6,0,1,1,2,0,1
-2014-09-08,Spain,North Macedonia,5.0,1.0,UEFA Euro qualification,Valencia,Spain,False,7,76,0.4,1.2,1,1,2,0,0,0
-2014-09-08,Switzerland,England,0.0,2.0,UEFA Euro qualification,Basel,Switzerland,False,9,20,0.8,1.4,0,2,1,1,1,0
-2014-09-08,Ukraine,Slovakia,0.0,1.0,UEFA Euro qualification,Kyiv,Ukraine,False,22,45,0.2,0.0,1,3,0,1,0,0
-2014-09-09,Andorra,Wales,1.0,2.0,UEFA Euro qualification,Sant Julià de Lòria,Andorra,False,199,41,0.0,0.6,0,1,1,1,0,0
-2014-09-09,Azerbaijan,Bulgaria,1.0,2.0,UEFA Euro qualification,Baku,Azerbaijan,False,73,72,0.0,0.8,0,1,1,0,0,0
-2014-09-09,Bosnia and Herzegovina,Cyprus,1.0,2.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,19,140,0.6,0.0,1,0,0,1,0,1
-2014-09-09,Croatia,Malta,2.0,0.0,UEFA Euro qualification,Zagreb,Croatia,False,16,150,0.8,0.4,1,0,0,3,1,0
-2014-09-09,Czech Republic,Netherlands,2.0,1.0,UEFA Euro qualification,Prague,Czech Republic,False,0,3,1.0,1.2,0,2,1,2,2,0
-2014-09-09,Iceland,Turkey,3.0,0.0,UEFA Euro qualification,Reykjavík,Iceland,False,46,32,0.6,1.2,1,4,2,0,1,0
-2014-09-09,Kazakhstan,Latvia,0.0,0.0,UEFA Euro qualification,Astana,Kazakhstan,False,131,100,0.2,0.8,0,2,1,1,1,1
-2014-09-09,Norway,Italy,0.0,2.0,UEFA Euro qualification,Oslo,Norway,False,53,14,0.6,2.2,0,2,3,1,2,2
-2014-10-09,Belarus,Ukraine,0.0,2.0,UEFA Euro qualification,Barysaw,Belarus,False,89,24,1.4,0.8,1,1,1,1,1,0
-2014-10-09,England,San Marino,5.0,0.0,UEFA Euro qualification,London,England,False,18,208,1.0,0.4,3,0,1,2,0,0
-2014-10-09,Liechtenstein,Montenegro,0.0,0.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,172,43,0.2,2.8,0,1,4,1,0,0
-2014-10-09,Lithuania,Estonia,1.0,0.0,UEFA Euro qualification,Vilnius,Lithuania,False,103,81,1.0,0.8,2,1,2,3,1,1
-2014-10-09,North Macedonia,Luxembourg,3.0,2.0,UEFA Euro qualification,Skopje,North Macedonia,False,112,127,0.6,1.2,1,0,1,1,0,2
-2014-10-09,Moldova,Austria,1.0,2.0,UEFA Euro qualification,Chișinău,Moldova,False,105,39,0.8,1.2,1,1,4,0,0,2
-2014-10-09,Slovakia,Spain,2.0,1.0,UEFA Euro qualification,Žilina,Slovakia,False,40,8,1.4,0.4,4,2,1,2,0,0
-2014-10-09,Slovenia,Switzerland,1.0,0.0,UEFA Euro qualification,Maribor,Slovenia,False,53,10,0.0,0.2,0,0,1,2,0,1
-2014-10-09,Sweden,Russia,1.0,1.0,UEFA Euro qualification,Solna,Sweden,False,32,23,0.8,1.2,1,3,3,1,1,1
-2014-10-10,Belgium,Andorra,6.0,0.0,UEFA Euro qualification,Brussels,Belgium,False,5,203,1.6,0.2,3,0,0,2,0,0
-2014-10-10,Bulgaria,Croatia,0.0,1.0,UEFA Euro qualification,Sofia,Bulgaria,False,46,19,0.8,0.4,2,2,0,0,0,1
-2014-10-10,Cyprus,Israel,1.0,2.0,UEFA Euro qualification,Nicosia,Cyprus,False,85,64,0.4,0.6,1,0,1,1,1,0
-2014-10-10,Italy,Azerbaijan,2.0,1.0,UEFA Euro qualification,Palermo,Italy,False,13,95,1.4,0.4,3,0,0,2,2,0
-2014-10-10,Latvia,Iceland,0.0,3.0,UEFA Euro qualification,Riga,Latvia,False,99,34,0.8,0.4,2,2,1,2,2,1
-2014-10-10,Malta,Norway,0.0,3.0,UEFA Euro qualification,Attard,Malta,False,155,76,0.0,1.2,0,0,4,3,0,2
-2014-10-10,Netherlands,Kazakhstan,3.0,1.0,UEFA Euro qualification,Amsterdam,Netherlands,False,4,127,1.6,1.4,2,0,3,1,0,2
-2014-10-10,Turkey,Czech Republic,1.0,2.0,UEFA Euro qualification,Istanbul,Turkey,False,38,0,2.4,1.4,4,1,1,1,0,2
-2014-10-10,Wales,Bosnia and Herzegovina,0.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,29,25,1.0,0.8,2,1,1,1,0,0
-2014-10-11,Albania,Denmark,1.0,1.0,UEFA Euro qualification,Elbasan,Albania,False,45,27,1.2,0.4,3,2,2,2,0,1
-2014-10-11,Armenia,Serbia,1.0,1.0,UEFA Euro qualification,Yerevan,Armenia,False,52,34,0.4,2.4,0,1,4,0,0,1
-2014-10-11,Finland,Greece,1.0,1.0,UEFA Euro qualification,Helsinki,Finland,False,65,14,1.8,1.0,3,0,1,1,1,1
-2014-10-11,France,Portugal,2.0,1.0,Friendly,Saint-Denis,France,False,9,11,2.2,0.8,3,1,1,2,1,1
-2014-10-11,Republic of Ireland,Gibraltar,7.0,0.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,62,205,1.0,2.0,1,1,3,3,1,1
-2014-10-11,Northern Ireland,Faroe Islands,2.0,0.0,UEFA Euro qualification,Belfast,Northern Ireland,False,71,179,0.4,0.2,1,1,0,1,1,0
-2014-10-11,Poland,Germany,2.0,0.0,UEFA Euro qualification,Warsaw,Poland,False,70,1,2.0,0.4,3,4,1,0,1,1
-2014-10-11,Romania,Hungary,1.0,1.0,UEFA Euro qualification,Bucharest,Romania,False,26,54,0.4,0.0,2,2,0,2,0,1
-2014-10-11,Scotland,Georgia,1.0,0.0,UEFA Euro qualification,Glasgow,Scotland,False,29,110,0.4,0.4,1,1,1,1,0,0
-2014-10-12,Austria,Montenegro,1.0,0.0,UEFA Euro qualification,Vienna,Austria,False,39,43,1.2,0.8,2,1,0,1,2,1
-2014-10-12,Belarus,Slovakia,1.0,3.0,UEFA Euro qualification,Barysaw,Belarus,False,89,40,1.4,1.2,1,4,2,1,1,0
-2014-10-12,Estonia,England,0.0,1.0,UEFA Euro qualification,Tallinn,Estonia,False,81,18,0.2,1.2,1,4,4,1,0,0
-2014-10-12,Lithuania,Slovenia,0.0,2.0,UEFA Euro qualification,Vilnius,Lithuania,False,103,53,1.0,0.6,3,1,2,1,0,0
-2014-10-12,Luxembourg,Spain,0.0,4.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,127,8,1.0,2.0,0,2,2,3,2,0
-2014-10-12,Russia,Moldova,1.0,1.0,UEFA Euro qualification,Moscow,Russia,False,23,105,2.0,0.6,2,1,1,4,2,0
-2014-10-12,Sweden,Liechtenstein,2.0,0.0,UEFA Euro qualification,Solna,Sweden,False,32,172,0.8,1.0,1,0,2,4,2,1
-2014-10-12,Ukraine,North Macedonia,1.0,0.0,UEFA Euro qualification,Lviv,Ukraine,False,24,112,0.6,0.2,2,2,1,1,0,0
-2014-10-13,Andorra,Israel,1.0,4.0,UEFA Euro qualification,Sant Julià de Lòria,Andorra,False,203,64,0.2,2.2,0,1,3,1,0,0
-2014-10-13,Bosnia and Herzegovina,Belgium,1.0,1.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,25,5,0.8,0.4,1,4,1,0,1,0
-2014-10-13,Croatia,Azerbaijan,6.0,0.0,UEFA Euro qualification,Osijek,Croatia,False,19,95,1.4,0.4,3,0,0,3,1,0
-2014-10-13,Iceland,Netherlands,2.0,0.0,UEFA Euro qualification,Reykjavík,Iceland,False,34,4,1.8,0.8,3,3,1,2,1,0
-2014-10-13,Kazakhstan,Czech Republic,2.0,4.0,UEFA Euro qualification,Astana,Kazakhstan,False,127,0,0.4,1.4,0,2,2,1,2,2
-2014-10-13,Latvia,Turkey,1.0,1.0,UEFA Euro qualification,Riga,Latvia,False,99,38,0.6,0.6,2,3,1,2,2,0
-2014-10-13,Malta,Italy,0.0,1.0,UEFA Euro qualification,Attard,Malta,False,155,13,0.0,1.8,0,4,5,0,0,1
-2014-10-13,Norway,Bulgaria,2.0,1.0,UEFA Euro qualification,Oslo,Norway,False,76,46,0.8,1.6,1,2,3,1,1,0
-2014-10-13,Wales,Cyprus,2.0,1.0,UEFA Euro qualification,Cardiff,Wales,False,29,85,1.0,0.8,2,1,1,2,1,1
-2014-10-14,Armenia,France,0.0,3.0,Friendly,Yerevan,Armenia,False,52,9,0.6,2.6,0,3,4,1,1,1
-2014-10-14,Denmark,Portugal,0.0,1.0,UEFA Euro qualification,Copenhagen,Denmark,False,27,11,1.4,1.2,2,1,1,3,2,1
-2014-10-14,Faroe Islands,Hungary,0.0,1.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,179,54,1.0,1.2,1,2,2,1,0,2
-2014-10-14,Finland,Romania,0.0,2.0,UEFA Euro qualification,Helsinki,Finland,False,65,26,1.6,1.0,2,2,1,0,2,1
-2014-10-14,Germany,Republic of Ireland,1.0,1.0,UEFA Euro qualification,Gelsenkirchen,Germany,False,1,62,2.6,0.8,4,2,1,2,0,1
-2014-10-14,Gibraltar,Georgia,0.0,3.0,UEFA Euro qualification,Faro,Portugal,True,205,110,0.4,3.4,1,1,3,2,1,0
-2014-10-14,Greece,Northern Ireland,0.0,2.0,UEFA Euro qualification,Piraeus,Greece,False,14,71,0.2,0.4,0,2,1,0,2,1
-2014-10-14,Poland,Scotland,2.0,2.0,UEFA Euro qualification,Warsaw,Poland,False,70,29,2.2,0.4,3,2,1,1,1,0
-2014-10-14,San Marino,Switzerland,0.0,4.0,UEFA Euro qualification,Serravalle,San Marino,False,208,10,0.0,2.0,0,0,3,3,0,1
-2014-10-14,Serbia,Albania,0.0,3.0,UEFA Euro qualification,Belgrade,Serbia,False,34,45,0.8,0.6,1,2,0,2,2,1
-2014-11-12,Belgium,Iceland,3.0,1.0,Friendly,Brussels,Belgium,False,4,28,3.0,0.4,4,4,0,0,1,1
-2014-11-12,Norway,Estonia,0.0,1.0,Friendly,Oslo,Norway,False,68,88,1.2,1.0,2,1,2,4,1,0
-2014-11-14,France,Albania,1.0,1.0,Friendly,Rennes,France,False,7,48,1.4,0.6,3,3,1,1,1,1
-2014-11-14,Georgia,Poland,0.0,4.0,UEFA Euro qualification,Tbilisi,Georgia,False,117,44,1.2,0.6,2,3,2,0,0,2
-2014-11-14,Germany,Gibraltar,4.0,0.0,UEFA Euro qualification,Nuremberg,Germany,False,1,205,1.6,0.8,3,1,1,3,1,1
-2014-11-14,Greece,Faroe Islands,0.0,1.0,UEFA Euro qualification,Piraeus,Greece,False,18,187,0.2,0.8,0,1,2,3,2,0
-2014-11-14,Hungary,Finland,1.0,0.0,UEFA Euro qualification,Budapest,Hungary,False,50,63,1.4,0.6,3,2,1,2,1,1
-2014-11-14,Portugal,Armenia,1.0,0.0,UEFA Euro qualification,Faro,Portugal,False,9,75,1.4,1.6,2,0,3,4,0,1
-2014-11-14,Romania,Northern Ireland,2.0,0.0,UEFA Euro qualification,Bucharest,Romania,False,21,43,1.0,0.2,3,3,0,0,1,1
-2014-11-14,Scotland,Republic of Ireland,1.0,0.0,UEFA Euro qualification,Glasgow,Scotland,False,37,61,1.0,0.8,2,2,1,1,1,2
-2014-11-14,Serbia,Denmark,1.0,3.0,UEFA Euro qualification,Belgrade,Serbia,False,46,32,0.8,1.2,1,2,1,2,2,1
-2014-11-15,Austria,Russia,1.0,0.0,UEFA Euro qualification,Vienna,Austria,False,29,30,1.4,0.8,3,2,0,1,2,2
-2014-11-15,England,Slovenia,3.0,1.0,UEFA Euro qualification,London,England,False,20,36,2.0,0.4,4,2,1,1,0,0
-2014-11-15,Luxembourg,Ukraine,0.0,3.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,126,19,1.0,2.8,0,3,3,1,2,0
-2014-11-15,North Macedonia,Slovakia,0.0,2.0,UEFA Euro qualification,Skopje,North Macedonia,False,99,24,1.2,1.8,2,4,2,1,0,0
-2014-11-15,Moldova,Liechtenstein,0.0,1.0,UEFA Euro qualification,Chișinău,Moldova,False,119,155,1.0,1.2,1,0,3,4,1,1
-2014-11-15,Montenegro,Sweden,1.0,1.0,UEFA Euro qualification,Podgorica,Montenegro,False,64,39,0.4,0.6,1,2,2,1,1,2
-2014-11-15,San Marino,Estonia,0.0,0.0,UEFA Euro qualification,Serravalle,San Marino,False,208,88,0.0,2.8,0,2,4,3,0,0
-2014-11-15,Spain,Belarus,3.0,0.0,UEFA Euro qualification,Huelva,Spain,False,10,106,2.2,1.8,2,1,3,3,0,1
-2014-11-15,Switzerland,Lithuania,4.0,0.0,UEFA Euro qualification,St. Gallen,Switzerland,False,12,92,1.6,2.0,1,2,3,3,1,0
-2014-11-16,Azerbaijan,Norway,0.0,1.0,UEFA Euro qualification,Baku,Azerbaijan,False,126,68,0.4,2.8,0,2,4,3,0,0
-2014-11-16,Belgium,Wales,0.0,0.0,UEFA Euro qualification,Brussels,Belgium,False,4,34,2.6,0.4,4,3,0,1,1,1
-2014-11-16,Bulgaria,Malta,1.0,1.0,UEFA Euro qualification,Sofia,Bulgaria,False,59,157,1.0,1.0,2,0,2,5,0,0
-2014-11-16,Cyprus,Andorra,5.0,0.0,UEFA Euro qualification,Nicosia,Cyprus,False,96,202,0.8,1.4,1,0,3,4,1,0
-2014-11-16,Czech Republic,Iceland,2.0,1.0,UEFA Euro qualification,Plzeň,Czech Republic,False,0,28,2.2,1.6,3,4,1,1,1,0
-2014-11-16,Israel,Bosnia and Herzegovina,3.0,0.0,UEFA Euro qualification,Haifa,Israel,False,45,26,1.4,1.0,2,1,1,1,0,2
-2014-11-16,Italy,Croatia,1.0,1.0,UEFA Euro qualification,Milan,Italy,False,11,14,1.8,0.4,5,4,0,0,0,1
-2014-11-16,Netherlands,Latvia,6.0,0.0,UEFA Euro qualification,Amsterdam,Netherlands,False,5,99,1.8,1.6,2,2,3,1,0,2
-2014-11-16,Turkey,Kazakhstan,3.0,1.0,UEFA Euro qualification,Istanbul,Turkey,False,46,132,1.2,1.6,2,0,2,3,1,2
-2014-11-18,France,Sweden,1.0,0.0,Friendly,Marseille,France,False,7,39,1.6,0.6,3,2,0,0,2,3
-2014-11-18,Greece,Serbia,0.0,2.0,Friendly,Perivólia,Greece,False,18,46,0.2,1.0,0,1,3,2,2,2
-2014-11-18,Hungary,Russia,1.0,2.0,Friendly,Budapest,Hungary,False,50,30,1.4,0.6,3,2,1,1,1,2
-2014-11-18,Italy,Albania,1.0,0.0,Friendly,Genoa,Italy,False,11,48,1.6,0.4,4,3,0,0,1,2
-2014-11-18,Romania,Denmark,2.0,0.0,Friendly,Bucharest,Romania,False,21,32,1.4,0.2,4,2,0,2,1,1
-2014-11-18,Scotland,England,1.0,3.0,Friendly,Glasgow,Scotland,False,37,20,1.2,0.8,3,5,1,0,1,0
-2014-11-18,Slovakia,Finland,2.0,1.0,Friendly,Žilina,Slovakia,False,24,63,1.8,0.4,5,2,0,2,0,1
-2014-11-18,Spain,Germany,0.0,1.0,Friendly,Vigo,Spain,False,10,1,2.6,0.8,3,3,2,1,0,1
-2014-11-18,Ukraine,Lithuania,0.0,0.0,Friendly,Kyiv,Ukraine,False,19,92,1.4,0.2,4,2,1,3,0,0
-2015-01-19,Finland,Sweden,1.0,0.0,Friendly,Abu Dhabi,United Arab Emirates,True,70,44,1.0,1.4,1,1,3,1,1,3
-2015-02-18,Kazakhstan,Moldova,1.0,1.0,Friendly,Antalya,Turkey,True,139,121,0.8,2.6,0,0,4,4,1,1
-2015-03-25,Georgia,Malta,2.0,0.0,Friendly,Tbilisi,Georgia,False,126,145,1.2,1.4,2,0,3,4,0,1
-2015-03-25,Scotland,Northern Ireland,1.0,0.0,Friendly,Glasgow,Scotland,False,39,43,1.2,1.4,2,3,2,1,1,1
-2015-03-27,England,Lithuania,4.0,0.0,UEFA Euro qualification,London,England,False,17,94,2.8,0.4,5,2,0,2,0,1
-2015-03-27,Liechtenstein,Austria,0.0,5.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,123,23,0.2,1.8,1,4,3,0,1,1
-2015-03-27,North Macedonia,Belarus,1.0,2.0,UEFA Euro qualification,Skopje,North Macedonia,False,108,98,1.2,2.2,2,1,3,3,0,1
-2015-03-27,Moldova,Sweden,0.0,2.0,UEFA Euro qualification,Chișinău,Moldova,False,122,45,0.6,1.4,0,1,3,2,2,2
-2015-03-27,Slovakia,Luxembourg,3.0,0.0,UEFA Euro qualification,Žilina,Slovakia,False,22,136,2.0,0.6,5,0,0,3,0,2
-2015-03-27,Slovenia,San Marino,6.0,0.0,UEFA Euro qualification,Ljubljana,Slovenia,False,48,181,0.8,0.8,2,0,2,4,0,1
-2015-03-27,Spain,Ukraine,1.0,0.0,UEFA Euro qualification,Seville,Spain,False,11,31,2.6,0.8,3,3,2,1,0,1
-2015-03-27,Switzerland,Estonia,3.0,0.0,UEFA Euro qualification,Lucerne,Switzerland,False,12,87,2.0,1.6,2,2,3,2,0,1
-2015-03-28,Andorra,Bosnia and Herzegovina,0.0,3.0,UEFA Euro qualification,Sant Julià de Lòria,Andorra,False,201,30,0.4,4.0,0,1,5,2,0,2
-2015-03-28,Azerbaijan,Malta,2.0,0.0,UEFA Euro qualification,Baku,Azerbaijan,False,139,145,0.4,3.0,0,0,5,4,0,1
-2015-03-28,Belgium,Cyprus,5.0,0.0,UEFA Euro qualification,Brussels,Belgium,False,4,85,2.2,0.4,3,2,0,3,2,0
-2015-03-28,Bulgaria,Italy,2.0,2.0,UEFA Euro qualification,Sofia,Bulgaria,False,71,10,1.2,1.2,2,4,2,0,1,1
-2015-03-28,Croatia,Norway,5.0,1.0,UEFA Euro qualification,Zagreb,Croatia,False,19,70,2.4,0.2,4,3,0,2,1,0
-2015-03-28,Czech Republic,Latvia,1.0,1.0,UEFA Euro qualification,Prague,Czech Republic,False,0,95,2.2,1.4,4,1,1,2,0,2
-2015-03-28,Israel,Wales,0.0,3.0,UEFA Euro qualification,Haifa,Israel,False,26,37,2.0,1.0,3,2,1,1,0,2
-2015-03-28,Kazakhstan,Iceland,0.0,3.0,UEFA Euro qualification,Astana,Kazakhstan,False,138,35,1.0,2.2,0,3,3,2,2,0
-2015-03-28,Netherlands,Turkey,1.0,1.0,UEFA Euro qualification,Amsterdam,Netherlands,False,5,56,2.0,1.4,2,2,3,2,0,1
-2015-03-29,Albania,Armenia,2.0,1.0,UEFA Euro qualification,Elbasan,Albania,False,61,79,1.2,0.6,2,0,1,4,2,1
-2015-03-29,France,Denmark,2.0,0.0,Friendly,Saint-Étienne,France,False,8,28,1.6,0.6,3,2,0,2,2,1
-2015-03-29,Georgia,Germany,0.0,2.0,UEFA Euro qualification,Tbilisi,Georgia,False,126,1,1.2,1.4,2,3,3,1,0,1
-2015-03-29,Hungary,Greece,0.0,0.0,UEFA Euro qualification,Budapest,Hungary,False,46,27,1.0,1.0,2,0,2,4,1,1
-2015-03-29,Republic of Ireland,Poland,1.0,1.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,66,34,2.2,1.6,2,4,2,0,1,1
-2015-03-29,Northern Ireland,Finland,2.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,43,78,1.2,0.8,3,1,2,3,0,1
-2015-03-29,Portugal,Serbia,2.0,1.0,UEFA Euro qualification,Lisbon,Portugal,False,7,40,0.6,1.4,2,1,3,2,0,2
-2015-03-29,Romania,Faroe Islands,1.0,0.0,UEFA Euro qualification,Ploiești,Romania,False,14,105,1.6,0.2,4,2,0,3,1,0
-2015-03-29,Scotland,Gibraltar,6.0,1.0,UEFA Euro qualification,Glasgow,Scotland,False,39,205,1.2,1.0,3,1,1,4,1,0
-2015-03-31,Austria,Bosnia and Herzegovina,1.0,1.0,Friendly,Vienna,Austria,False,23,30,2.0,0.4,4,1,0,2,1,2
-2015-03-31,Estonia,Iceland,1.0,1.0,Friendly,Tallinn,Estonia,False,87,35,0.2,1.0,1,3,3,2,1,0
-2015-03-31,Israel,Belgium,0.0,1.0,UEFA Euro qualification,Jerusalem,Israel,False,26,4,2.0,1.6,3,3,2,0,0,2
-2015-03-31,Italy,England,1.0,1.0,Friendly,Turin,Italy,False,10,17,1.4,0.8,3,5,0,0,2,0
-2015-03-31,Liechtenstein,San Marino,1.0,0.0,Friendly,Eschen,Liechtenstein,False,123,181,0.2,2.2,1,0,3,4,1,1
-2015-03-31,Luxembourg,Turkey,1.0,2.0,Friendly,Luxembourg,Luxembourg,False,136,56,0.6,2.8,0,1,4,2,1,2
-2015-03-31,Netherlands,Spain,2.0,0.0,Friendly,Amsterdam,Netherlands,False,5,11,2.2,1.2,2,3,2,2,1,0
-2015-03-31,Russia,Kazakhstan,0.0,0.0,Friendly,Khimki,Russia,False,33,138,1.6,0.8,2,0,1,4,2,1
-2015-03-31,Slovakia,Czech Republic,1.0,0.0,Friendly,Žilina,Slovakia,False,22,0,2.4,0.6,5,4,0,0,0,1
-2015-03-31,Ukraine,Latvia,1.0,1.0,Friendly,Lviv,Ukraine,False,31,95,1.2,0.2,3,0,1,2,1,3
-2015-06-05,Hungary,Lithuania,4.0,0.0,Friendly,Debrecen,Hungary,False,42,96,0.8,0.6,2,1,1,3,2,1
-2015-06-07,Croatia,Gibraltar,4.0,0.0,Friendly,Varaždin,Croatia,False,18,205,3.0,0.4,4,0,0,5,1,0
-2015-06-07,France,Belgium,3.0,4.0,Friendly,Saint-Denis,France,False,9,2,1.8,0.4,4,3,0,0,1,2
-2015-06-07,Republic of Ireland,England,0.0,0.0,Friendly,Dublin,Republic of Ireland,False,60,15,2.2,0.8,2,4,1,0,2,1
-2015-06-07,Russia,Belarus,4.0,2.0,Friendly,Khimki,Russia,False,26,80,0.8,0.8,1,1,1,3,3,1
-2015-06-07,Serbia,Azerbaijan,4.0,1.0,Friendly,Sankt Pölten,Austria,True,45,115,1.0,1.8,1,1,3,4,1,0
-2015-06-08,Denmark,Montenegro,2.0,1.0,Friendly,Viborg,Denmark,False,29,70,0.8,1.4,1,1,3,2,1,2
-2015-06-08,Malta,Lithuania,2.0,0.0,Friendly,Attard,Malta,False,145,96,0.2,1.8,0,0,4,4,1,1
-2015-06-08,Norway,Sweden,0.0,0.0,Friendly,Oslo,Norway,False,64,39,1.4,1.4,3,2,2,2,0,1
-2015-06-08,Turkey,Bulgaria,4.0,0.0,Friendly,Istanbul,Turkey,False,57,62,1.6,1.2,2,1,1,2,2,2
-2015-06-09,Finland,Estonia,0.0,2.0,Friendly,Turku,Finland,False,78,91,0.6,1.4,1,1,4,2,0,2
-2015-06-09,Georgia,Ukraine,1.0,2.0,Friendly,Linz,Austria,True,139,35,1.0,1.4,2,2,3,1,0,2
-2015-06-09,Luxembourg,Moldova,0.0,0.0,Friendly,Luxembourg,Luxembourg,False,131,124,0.6,3.0,0,0,5,3,0,2
-2015-06-10,Switzerland,Liechtenstein,3.0,0.0,Friendly,Thun,Switzerland,False,11,129,2.2,0.6,3,2,2,2,0,1
-2015-06-12,Andorra,Cyprus,1.0,3.0,UEFA Euro qualification,Sant Julià de Lòria,Andorra,False,204,87,0.4,4.0,0,2,5,3,0,0
-2015-06-12,Bosnia and Herzegovina,Israel,3.0,1.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,32,40,1.0,1.0,1,3,1,2,3,0
-2015-06-12,Croatia,Italy,1.0,1.0,UEFA Euro qualification,Split,Croatia,False,18,13,3.4,0.4,4,2,0,0,1,3
-2015-06-12,Iceland,Czech Republic,2.0,1.0,UEFA Euro qualification,Reykjavík,Iceland,False,37,0,1.6,1.2,2,3,2,1,1,1
-2015-06-12,Kazakhstan,Turkey,0.0,1.0,UEFA Euro qualification,Almaty,Kazakhstan,False,133,57,0.8,2.2,0,3,3,0,2,2
-2015-06-12,Latvia,Netherlands,0.0,2.0,UEFA Euro qualification,Riga,Latvia,False,82,6,0.6,2.4,0,3,2,1,3,1
-2015-06-12,Malta,Bulgaria,0.0,1.0,UEFA Euro qualification,Attard,Malta,False,145,62,0.6,1.2,1,0,3,3,1,2
-2015-06-12,Norway,Azerbaijan,0.0,0.0,UEFA Euro qualification,Oslo,Norway,False,64,115,0.8,1.4,2,1,2,4,1,0
-2015-06-12,Wales,Belgium,1.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,22,2,1.4,0.4,3,4,0,0,2,1
-2015-06-13,Albania,France,1.0,0.0,Friendly,Elbasan,Albania,False,51,9,1.4,0.8,2,3,1,1,2,1
-2015-06-13,Armenia,Portugal,2.0,3.0,UEFA Euro qualification,Yerevan,Armenia,False,84,7,0.6,1.8,0,3,4,2,1,0
-2015-06-13,Denmark,Serbia,2.0,0.0,UEFA Euro qualification,Copenhagen,Denmark,False,29,45,1.0,1.4,2,2,3,3,0,0
-2015-06-13,Faroe Islands,Greece,2.0,1.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,102,25,0.4,1.4,1,0,4,3,0,2
-2015-06-13,Finland,Hungary,0.0,1.0,UEFA Euro qualification,Helsinki,Finland,False,78,42,0.6,1.4,1,3,4,1,0,1
-2015-06-13,Gibraltar,Germany,0.0,7.0,UEFA Euro qualification,Faro,Portugal,True,205,1,0.2,4.8,0,3,5,1,0,1
-2015-06-13,Republic of Ireland,Scotland,1.0,1.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,60,28,1.8,0.6,1,3,1,1,3,1
-2015-06-13,Northern Ireland,Romania,0.0,0.0,UEFA Euro qualification,Belfast,Northern Ireland,False,44,12,1.2,0.8,3,4,2,0,0,1
-2015-06-13,Poland,Georgia,4.0,0.0,UEFA Euro qualification,Warsaw,Poland,False,32,139,3.2,0.6,3,2,0,3,2,0
-2015-06-14,Belarus,Spain,0.0,1.0,UEFA Euro qualification,Barysaw,Belarus,False,80,10,1.0,2.6,1,3,4,2,0,0
-2015-06-14,Estonia,San Marino,2.0,0.0,UEFA Euro qualification,Tallinn,Estonia,False,91,192,0.8,0.8,2,0,1,4,2,1
-2015-06-14,Liechtenstein,Moldova,1.0,1.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,129,124,0.4,2.0,2,0,3,2,0,3
-2015-06-14,Lithuania,Switzerland,1.0,2.0,UEFA Euro qualification,Vilnius,Lithuania,False,96,11,0.0,2.8,0,4,4,1,1,0
-2015-06-14,Russia,Austria,0.0,1.0,UEFA Euro qualification,Moscow,Russia,False,26,20,1.4,1.0,2,4,1,0,2,1
-2015-06-14,Slovakia,North Macedonia,2.0,1.0,UEFA Euro qualification,Žilina,Slovakia,False,17,100,2.2,0.4,5,1,0,4,0,0
-2015-06-14,Slovenia,England,2.0,3.0,UEFA Euro qualification,Ljubljana,Slovenia,False,48,15,2.0,0.8,3,3,2,0,0,2
-2015-06-14,Sweden,Montenegro,3.0,1.0,UEFA Euro qualification,Solna,Sweden,False,39,70,0.6,0.6,1,1,2,2,2,2
-2015-06-14,Ukraine,Luxembourg,3.0,0.0,UEFA Euro qualification,Lviv,Ukraine,False,35,131,1.2,0.6,2,0,1,4,2,1
-2015-06-16,Italy,Portugal,0.0,1.0,Friendly,Geneva,Switzerland,True,13,7,1.2,1.0,1,4,0,1,4,0
-2015-06-16,Poland,Greece,0.0,0.0,Friendly,Gdańsk,Poland,False,32,25,2.6,0.6,3,0,0,4,2,1
-2015-09-03,Azerbaijan,Croatia,0.0,0.0,UEFA Euro qualification,Baku,Azerbaijan,False,110,14,0.6,2.2,1,3,3,0,1,2
-2015-09-03,Belgium,Bosnia and Herzegovina,3.0,1.0,UEFA Euro qualification,Brussels,Belgium,False,2,30,2.0,0.8,3,2,1,1,1,2
-2015-09-03,Bulgaria,Norway,0.0,1.0,UEFA Euro qualification,Sofia,Bulgaria,False,68,69,1.0,1.8,1,1,2,2,2,2
-2015-09-03,Cyprus,Wales,0.0,1.0,UEFA Euro qualification,Nicosia,Cyprus,False,86,9,2.0,2.0,2,3,3,0,0,2
-2015-09-03,Czech Republic,Kazakhstan,2.0,1.0,UEFA Euro qualification,Plzeň,Czech Republic,False,0,145,1.6,1.4,2,0,2,3,1,2
-2015-09-03,Israel,Andorra,4.0,0.0,UEFA Euro qualification,Haifa,Israel,False,46,202,1.6,1.6,2,0,3,5,0,0
-2015-09-03,Italy,Malta,1.0,0.0,UEFA Euro qualification,Florence,Italy,False,16,160,1.0,1.0,1,1,1,3,3,1
-2015-09-03,Netherlands,Iceland,0.0,1.0,UEFA Euro qualification,Amsterdam,Netherlands,False,12,23,2.2,0.6,3,2,1,2,1,1
-2015-09-03,Turkey,Latvia,1.0,1.0,UEFA Euro qualification,Konya,Turkey,False,46,90,2.2,0.6,4,0,0,2,1,3
-2015-09-04,Denmark,Albania,0.0,0.0,UEFA Euro qualification,Copenhagen,Denmark,False,22,25,1.4,1.2,3,3,2,1,0,1
-2015-09-04,Faroe Islands,Northern Ireland,1.0,3.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,75,41,0.6,1.0,2,2,3,2,0,1
-2015-09-04,Georgia,Scotland,1.0,0.0,UEFA Euro qualification,Tbilisi,Georgia,False,147,31,0.6,2.4,1,3,4,1,0,1
-2015-09-04,Germany,Poland,3.0,1.0,UEFA Euro qualification,Frankfurt am Main,Germany,False,3,34,3.0,0.2,4,2,0,0,1,3
-2015-09-04,Gibraltar,Republic of Ireland,0.0,4.0,UEFA Euro qualification,Faro,Portugal,True,205,51,0.2,4.8,0,0,5,1,0,4
-2015-09-04,Greece,Finland,0.0,1.0,UEFA Euro qualification,Piraeus,Greece,False,44,92,0.2,1.0,0,1,3,4,2,0
-2015-09-04,Hungary,Romania,0.0,0.0,UEFA Euro qualification,Budapest,Hungary,False,37,7,1.4,0.4,3,4,1,0,1,1
-2015-09-04,Portugal,France,0.0,1.0,Friendly,Lisbon,Portugal,False,6,24,1.6,0.6,5,2,0,2,0,1
-2015-09-04,Serbia,Armenia,2.0,0.0,UEFA Euro qualification,Novi Sad,Serbia,False,66,83,1.6,1.6,2,0,3,4,0,1
-2015-09-05,Austria,Moldova,1.0,0.0,UEFA Euro qualification,Vienna,Austria,False,13,124,1.8,0.2,4,0,0,2,1,3
-2015-09-05,Estonia,Lithuania,1.0,0.0,UEFA Euro qualification,Tallinn,Estonia,False,80,109,1.0,0.8,2,0,1,4,2,1
-2015-09-05,Luxembourg,North Macedonia,1.0,0.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,141,104,0.2,2.2,0,1,4,4,1,0
-2015-09-05,Montenegro,Liechtenstein,2.0,0.0,UEFA Euro qualification,Podgorica,Montenegro,False,77,150,0.6,1.4,0,2,3,2,2,1
-2015-09-05,Russia,Sweden,1.0,0.0,UEFA Euro qualification,Moscow,Russia,False,32,36,1.2,1.0,2,2,2,2,1,1
-2015-09-05,San Marino,England,0.0,6.0,UEFA Euro qualification,Serravalle,San Marino,False,193,10,0.0,2.6,0,3,4,0,1,2
-2015-09-05,Spain,Slovakia,2.0,0.0,UEFA Euro qualification,Oviedo,Spain,False,11,15,1.0,0.6,3,5,2,0,0,0
-2015-09-05,Switzerland,Slovenia,3.0,2.0,UEFA Euro qualification,Basel,Switzerland,False,17,45,3.2,0.2,5,3,0,2,0,0
-2015-09-05,Ukraine,Belarus,3.0,1.0,UEFA Euro qualification,Lviv,Ukraine,False,29,97,1.2,0.6,2,1,1,4,2,0
-2015-09-06,Bosnia and Herzegovina,Andorra,3.0,0.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,30,202,1.6,1.6,2,0,2,5,1,0
-2015-09-06,Cyprus,Belgium,0.0,1.0,UEFA Euro qualification,Nicosia,Cyprus,False,86,2,1.8,1.8,2,4,3,1,0,0
-2015-09-06,Iceland,Kazakhstan,0.0,0.0,UEFA Euro qualification,Reykjavík,Iceland,False,23,145,1.6,0.8,3,0,1,3,1,2
-2015-09-06,Italy,Bulgaria,1.0,0.0,UEFA Euro qualification,Palermo,Italy,False,16,68,1.0,1.0,1,1,1,2,3,2
-2015-09-06,Latvia,Czech Republic,1.0,2.0,UEFA Euro qualification,Riga,Latvia,False,90,0,0.6,2.2,0,2,2,2,3,1
-2015-09-06,Malta,Azerbaijan,2.0,2.0,UEFA Euro qualification,Attard,Malta,False,160,110,0.4,1.2,1,1,4,2,0,2
-2015-09-06,Norway,Croatia,2.0,0.0,UEFA Euro qualification,Oslo,Norway,False,69,14,0.6,1.0,2,2,1,0,2,3
-2015-09-06,Turkey,Netherlands,3.0,0.0,UEFA Euro qualification,Konya,Turkey,False,46,12,1.8,0.6,3,3,0,1,2,1
-2015-09-06,Wales,Israel,0.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,9,46,1.4,0.2,4,2,0,3,1,0
-2015-09-07,Albania,Portugal,0.0,1.0,UEFA Euro qualification,Elbasan,Albania,False,25,6,0.8,0.6,2,4,1,1,2,0
-2015-09-07,Armenia,Denmark,0.0,0.0,UEFA Euro qualification,Yerevan,Armenia,False,83,22,0.6,2.2,0,2,5,2,0,1
-2015-09-07,Finland,Faroe Islands,1.0,0.0,UEFA Euro qualification,Helsinki,Finland,False,92,75,0.6,1.0,2,2,3,3,0,0
-2015-09-07,France,Serbia,2.0,1.0,Friendly,Bordeaux,France,False,24,66,1.4,1.0,3,3,2,2,0,0
-2015-09-07,Republic of Ireland,Georgia,1.0,0.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,51,147,1.2,0.6,1,2,1,3,3,0
-2015-09-07,Northern Ireland,Hungary,1.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,41,37,1.0,1.0,2,2,2,1,1,2
-2015-09-07,Poland,Gibraltar,8.0,1.0,UEFA Euro qualification,Warsaw,Poland,False,34,205,2.0,0.8,2,0,1,5,2,0
-2015-09-07,Romania,Greece,0.0,0.0,UEFA Euro qualification,Bucharest,Romania,False,7,44,1.0,0.0,3,0,0,3,2,2
-2015-09-07,Scotland,Germany,2.0,3.0,UEFA Euro qualification,Glasgow,Scotland,False,31,3,1.8,1.2,2,5,2,0,1,0
-2015-09-08,Belarus,Luxembourg,2.0,0.0,UEFA Euro qualification,Barysaw,Belarus,False,97,141,1.0,2.4,1,1,4,3,0,1
-2015-09-08,England,Switzerland,2.0,0.0,UEFA Euro qualification,London,England,False,10,17,2.8,0.6,3,5,0,0,2,0
-2015-09-08,Liechtenstein,Russia,0.0,7.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,150,32,0.4,2.2,1,3,3,1,1,1
-2015-09-08,Lithuania,San Marino,2.0,1.0,UEFA Euro qualification,Vilnius,Lithuania,False,109,193,0.2,2.6,0,0,5,4,0,1
-2015-09-08,North Macedonia,Spain,0.0,1.0,UEFA Euro qualification,Skopje,North Macedonia,False,104,11,0.4,1.6,0,3,5,2,0,0
-2015-09-08,Moldova,Montenegro,0.0,2.0,UEFA Euro qualification,Chișinău,Moldova,False,124,77,0.4,1.0,0,1,2,3,3,1
-2015-09-08,Slovakia,Ukraine,0.0,0.0,UEFA Euro qualification,Žilina,Slovakia,False,15,29,1.6,0.8,4,3,1,1,0,1
-2015-09-08,Slovenia,Estonia,1.0,0.0,UEFA Euro qualification,Maribor,Slovenia,False,45,80,2.6,1.8,2,3,3,1,0,1
-2015-09-08,Sweden,Austria,1.0,4.0,UEFA Euro qualification,Solna,Sweden,False,36,13,1.0,0.6,2,4,2,0,1,1
-2015-10-08,Albania,Serbia,0.0,2.0,UEFA Euro qualification,Elbasan,Albania,False,32,63,0.6,0.6,2,2,2,3,1,0
-2015-10-08,France,Armenia,4.0,0.0,Friendly,Nice,France,False,22,91,1.6,1.2,3,0,2,4,0,1
-2015-10-08,Georgia,Gibraltar,4.0,0.0,UEFA Euro qualification,Tbilisi,Georgia,False,110,205,0.4,1.8,1,0,4,5,0,0
-2015-10-08,Hungary,Faroe Islands,2.0,1.0,UEFA Euro qualification,Budapest,Hungary,False,33,85,1.2,0.2,2,2,0,3,3,0
-2015-10-08,Republic of Ireland,Germany,1.0,0.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,54,2,1.4,0.4,2,5,0,0,3,0
-2015-10-08,Northern Ireland,Greece,3.0,1.0,UEFA Euro qualification,Belfast,Northern Ireland,False,35,44,1.2,0.8,2,0,1,2,2,3
-2015-10-08,Portugal,Denmark,1.0,0.0,UEFA Euro qualification,Braga,Portugal,False,4,28,1.4,0.8,4,2,1,1,0,2
-2015-10-08,Romania,Finland,1.0,1.0,UEFA Euro qualification,Bucharest,Romania,False,13,64,0.6,0.0,2,2,0,3,3,0
-2015-10-08,Scotland,Poland,2.0,2.0,UEFA Euro qualification,Glasgow,Scotland,False,40,43,2.0,1.2,2,2,2,1,1,2
-2015-10-09,England,Estonia,2.0,0.0,UEFA Euro qualification,London,England,False,10,87,2.4,0.6,3,3,0,1,2,1
-2015-10-09,Liechtenstein,Sweden,0.0,2.0,UEFA Euro qualification,Vaduz,Liechtenstein,False,156,45,0.4,2.6,1,2,3,2,1,1
-2015-10-09,North Macedonia,Ukraine,0.0,2.0,UEFA Euro qualification,Skopje,North Macedonia,False,132,24,0.4,1.6,0,3,5,0,0,2
-2015-10-09,Moldova,Russia,1.0,2.0,UEFA Euro qualification,Chișinău,Moldova,False,132,26,0.2,1.2,0,3,3,1,2,1
-2015-10-09,Montenegro,Austria,2.0,3.0,UEFA Euro qualification,Podgorica,Montenegro,False,72,11,1.4,1.2,2,4,2,0,1,1
-2015-10-09,Slovakia,Belarus,0.0,1.0,UEFA Euro qualification,Žilina,Slovakia,False,18,98,1.2,0.6,3,2,1,3,1,0
-2015-10-09,Slovenia,Lithuania,1.0,1.0,UEFA Euro qualification,Ljubljana,Slovenia,False,46,116,2.4,1.8,2,1,3,4,0,0
-2015-10-09,Spain,Luxembourg,4.0,0.0,UEFA Euro qualification,Logroño,Spain,False,6,142,1.0,0.4,4,1,1,3,0,1
-2015-10-09,Switzerland,San Marino,7.0,0.0,UEFA Euro qualification,St. Gallen,Switzerland,False,12,196,2.2,1.0,4,0,1,5,0,0
-2015-10-10,Andorra,Belgium,1.0,4.0,UEFA Euro qualification,Sant Julià de Lòria,Andorra,False,205,3,0.2,3.6,0,4,5,1,0,0
-2015-10-10,Azerbaijan,Italy,1.0,3.0,UEFA Euro qualification,Baku,Azerbaijan,False,105,17,1.0,1.2,1,2,1,1,3,2
-2015-10-10,Bosnia and Herzegovina,Wales,2.0,0.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,30,8,2.2,1.0,3,3,1,0,1,2
-2015-10-10,Croatia,Bulgaria,3.0,0.0,UEFA Euro qualification,Zagreb,Croatia,False,16,78,2.0,0.8,2,1,1,3,2,1
-2015-10-10,Czech Republic,Turkey,0.0,2.0,UEFA Euro qualification,Prague,Czech Republic,False,0,37,1.2,1.2,2,4,2,0,1,1
-2015-10-10,Iceland,Latvia,2.0,2.0,UEFA Euro qualification,Reykjavík,Iceland,False,23,103,1.4,0.4,3,0,0,2,2,3
-2015-10-10,Israel,Cyprus,1.0,2.0,UEFA Euro qualification,Jerusalem,Israel,False,47,114,1.0,1.4,1,2,3,3,1,0
-2015-10-10,Kazakhstan,Netherlands,1.0,2.0,UEFA Euro qualification,Astana,Kazakhstan,False,142,14,0.2,1.2,0,2,3,2,2,1
-2015-10-10,Norway,Malta,2.0,0.0,UEFA Euro qualification,Oslo,Norway,False,34,157,0.8,1.0,2,1,1,3,2,1
-2015-10-11,Armenia,Albania,0.0,3.0,UEFA Euro qualification,Yerevan,Armenia,False,91,32,0.6,2.2,0,2,4,2,1,1
-2015-10-11,Denmark,France,1.0,2.0,Friendly,Copenhagen,Denmark,False,28,22,0.8,0.4,2,3,1,2,2,0
-2015-10-11,Faroe Islands,Romania,0.0,3.0,UEFA Euro qualification,Tórshavn,Faroe Islands,False,85,13,0.8,1.6,1,1,4,0,0,4
-2015-10-11,Finland,Northern Ireland,1.0,1.0,UEFA Euro qualification,Helsinki,Finland,False,64,35,0.6,0.8,2,3,2,0,1,2
-2015-10-11,Germany,Georgia,2.0,1.0,UEFA Euro qualification,Leipzig,Germany,False,2,110,3.0,0.8,4,2,1,3,0,0
-2015-10-11,Gibraltar,Scotland,0.0,6.0,UEFA Euro qualification,Faro,Portugal,True,205,40,0.2,5.4,0,1,5,2,0,2
-2015-10-11,Greece,Hungary,4.0,3.0,UEFA Euro qualification,Piraeus,Greece,False,44,33,0.4,1.2,0,3,3,0,2,2
-2015-10-11,Poland,Republic of Ireland,2.0,1.0,UEFA Euro qualification,Warsaw,Poland,False,43,54,3.0,1.2,2,3,1,0,2,2
-2015-10-11,Serbia,Portugal,1.0,2.0,UEFA Euro qualification,Belgrade,Serbia,False,63,4,1.8,1.0,3,4,2,1,0,0
-2015-10-12,Austria,Liechtenstein,3.0,0.0,UEFA Euro qualification,Vienna,Austria,False,11,156,2.0,0.8,4,0,0,4,1,1
-2015-10-12,Belarus,North Macedonia,0.0,0.0,UEFA Euro qualification,Barysaw,Belarus,False,98,132,1.2,1.6,2,0,3,5,0,0
-2015-10-12,Estonia,Switzerland,0.0,1.0,UEFA Euro qualification,Tallinn,Estonia,False,87,12,1.0,0.6,3,4,2,1,0,0
-2015-10-12,Lithuania,England,0.0,3.0,UEFA Euro qualification,Vilnius,Lithuania,False,116,10,0.8,1.4,1,4,3,0,1,1
-2015-10-12,Luxembourg,Slovakia,2.0,4.0,UEFA Euro qualification,Luxembourg,Luxembourg,False,142,18,0.2,1.8,1,2,3,2,1,1
-2015-10-12,Russia,Montenegro,2.0,0.0,UEFA Euro qualification,Moscow,Russia,False,26,72,2.8,0.8,4,2,1,3,0,0
-2015-10-12,San Marino,Slovenia,0.0,2.0,UEFA Euro qualification,Serravalle,San Marino,False,196,46,0.2,3.6,0,2,5,2,0,1
-2015-10-12,Sweden,Moldova,2.0,0.0,UEFA Euro qualification,Solna,Sweden,False,45,132,1.2,1.2,2,0,2,3,1,2
-2015-10-12,Ukraine,Spain,0.0,1.0,UEFA Euro qualification,Kyiv,Ukraine,False,24,6,2.0,0.4,4,4,0,1,1,0
-2015-10-13,Belgium,Israel,3.0,1.0,UEFA Euro qualification,Brussels,Belgium,False,3,47,2.4,1.2,4,1,1,3,0,1
-2015-10-13,Bulgaria,Azerbaijan,2.0,0.0,UEFA Euro qualification,Sofia,Bulgaria,False,78,105,0.2,1.8,1,0,4,2,0,3
-2015-10-13,Cyprus,Bosnia and Herzegovina,2.0,3.0,UEFA Euro qualification,Nicosia,Cyprus,False,114,30,1.0,1.8,2,3,3,1,0,1
-2015-10-13,Italy,Norway,2.0,1.0,UEFA Euro qualification,Rome,Italy,False,17,34,1.2,0.6,3,3,1,0,1,2
-2015-10-13,Latvia,Kazakhstan,0.0,1.0,UEFA Euro qualification,Riga,Latvia,False,103,142,1.0,1.6,0,0,2,3,3,2
-2015-10-13,Malta,Croatia,0.0,1.0,UEFA Euro qualification,Attard,Malta,False,157,16,0.8,1.2,1,2,3,1,1,2
-2015-10-13,Netherlands,Czech Republic,2.0,3.0,UEFA Euro qualification,Amsterdam,Netherlands,False,14,0,1.2,1.0,3,2,2,3,0,0
-2015-10-13,Turkey,Iceland,1.0,0.0,UEFA Euro qualification,Konya,Turkey,False,37,23,2.2,0.2,4,2,0,0,1,3
-2015-10-13,Wales,Andorra,2.0,0.0,UEFA Euro qualification,Cardiff,Wales,False,8,205,1.0,0.4,3,0,1,5,1,0
-2015-11-11,Estonia,Georgia,3.0,0.0,Friendly,Tallinn,Estonia,False,90,111,0.6,0.8,2,2,3,3,0,0
-2015-11-12,North Macedonia,Montenegro,4.0,1.0,Friendly,Skopje,North Macedonia,False,139,78,0.2,1.2,0,2,4,3,1,0
-2015-11-12,Norway,Hungary,0.0,1.0,UEFA Euro qualification,Oslo,Norway,False,46,33,1.2,0.4,3,2,1,1,1,2
-2015-11-13,Belgium,Italy,3.0,1.0,Friendly,Brussels,Belgium,False,1,13,2.2,0.8,4,4,1,1,0,0
-2015-11-13,Bosnia and Herzegovina,Republic of Ireland,1.0,1.0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,20,42,2.4,1.2,4,3,1,1,0,1
-2015-11-13,Czech Republic,Serbia,4.0,1.0,Friendly,Ostrava,Czech Republic,False,0,49,1.6,1.6,3,2,2,3,0,0
-2015-11-13,France,Germany,2.0,0.0,Friendly,Saint-Denis,France,False,24,2,1.8,0.6,4,4,1,1,0,0
-2015-11-13,Kosovo,Albania,2.0,2.0,Friendly,Pristina,Kosovo,False,190,36,0.2,1.2,0,2,1,2,0,1
-2015-11-13,Luxembourg,Greece,1.0,0.0,Friendly,Luxembourg,Luxembourg,False,146,37,0.6,2.6,1,1,4,2,0,2
-2015-11-13,Northern Ireland,Latvia,1.0,0.0,Friendly,Belfast,Northern Ireland,False,29,99,1.6,0.8,2,0,0,3,3,2
-2015-11-13,Poland,Iceland,4.0,2.0,Friendly,Warsaw,Poland,False,38,31,2.6,1.4,2,2,1,1,2,2
-2015-11-13,Slovakia,Switzerland,3.0,2.0,Friendly,Trnava,Slovakia,False,27,11,1.2,1.2,2,4,2,1,1,0
-2015-11-13,Spain,England,2.0,0.0,Friendly,Alicante,Spain,False,6,9,1.8,0.0,5,5,0,0,0,0
-2015-11-13,Wales,Netherlands,2.0,3.0,Friendly,Cardiff,Wales,False,15,16,0.8,0.4,3,2,1,3,1,0
-2015-11-14,Russia,Portugal,1.0,0.0,Friendly,Krasnodar,Russia,False,23,4,2.4,0.4,4,4,1,1,0,0
-2015-11-14,Sweden,Denmark,2.0,1.0,UEFA Euro qualification,Solna,Sweden,False,45,35,1.6,1.2,3,1,2,2,0,2
-2015-11-14,Ukraine,Slovenia,2.0,0.0,UEFA Euro qualification,Lviv,Ukraine,False,28,64,1.6,0.4,3,2,1,2,1,1
-2015-11-15,Hungary,Norway,2.0,1.0,UEFA Euro qualification,Budapest,Hungary,False,33,46,1.4,1.2,2,3,1,2,2,0
-2015-11-16,Albania,Georgia,2.0,2.0,Friendly,Tirana,Albania,False,36,111,1.0,1.0,1,2,2,3,2,0
-2015-11-16,Republic of Ireland,Bosnia and Herzegovina,2.0,0.0,UEFA Euro qualification,Dublin,Republic of Ireland,False,42,20,1.6,0.6,3,3,1,1,1,1
-2015-11-17,Austria,Switzerland,1.0,2.0,Friendly,Vienna,Austria,False,10,11,2.4,0.6,5,3,0,2,0,0
-2015-11-17,Azerbaijan,Moldova,2.0,1.0,Friendly,Baku,Azerbaijan,False,115,154,0.6,1.4,0,0,2,4,3,1
-2015-11-17,Denmark,Sweden,2.0,2.0,UEFA Euro qualification,Copenhagen,Denmark,False,35,45,0.4,1.0,0,3,3,2,2,0
-2015-11-17,England,France,2.0,0.0,Friendly,London,England,False,9,24,2.6,0.4,4,5,1,0,0,0
-2015-11-17,Italy,Romania,2.0,2.0,Friendly,Bologna,Italy,False,13,14,1.6,1.0,4,1,1,0,0,4
-2015-11-17,Luxembourg,Portugal,0.0,2.0,Friendly,Luxembourg,Luxembourg,False,146,4,0.8,2.0,2,3,3,2,0,0
-2015-11-17,Poland,Czech Republic,3.0,1.0,Friendly,Wrocław,Poland,False,38,0,3.4,1.8,3,4,1,1,1,0
-2015-11-17,Russia,Croatia,1.0,3.0,Friendly,Rostov-on-Don,Russia,False,23,19,2.6,0.2,5,2,0,1,0,2
-2015-11-17,Slovakia,Iceland,3.0,1.0,Friendly,Žilina,Slovakia,False,27,31,1.4,1.4,2,1,2,2,1,2
-2015-11-17,Slovenia,Ukraine,1.0,1.0,UEFA Euro qualification,Maribor,Slovenia,False,64,28,1.2,1.2,2,3,2,1,1,1
-2015-11-17,Turkey,Greece,0.0,0.0,Friendly,Istanbul,Turkey,False,18,37,1.6,0.2,4,1,0,3,1,1
-2016-01-06,Sweden,Estonia,1.0,1.0,Friendly,Abu Dhabi,United Arab Emirates,True,35,93,1.8,1.4,3,2,1,3,1,0
-2016-01-10,Sweden,Finland,3.0,0.0,Friendly,Abu Dhabi,United Arab Emirates,True,34,44,1.8,0.8,3,2,0,1,2,2
-2016-01-13,Finland,Iceland,0.0,1.0,Friendly,Abu Dhabi,United Arab Emirates,True,44,36,0.8,1.0,2,0,1,3,2,2
-2016-03-23,Croatia,Israel,2.0,0.0,Friendly,Osijek,Croatia,False,18,67,1.4,0.6,3,1,1,3,1,1
-2016-03-23,Gibraltar,Liechtenstein,0.0,0.0,Friendly,Gibraltar,Gibraltar,False,205,163,0.2,5.8,0,0,5,4,0,1
-2016-03-23,Poland,Serbia,1.0,0.0,Friendly,Poznań,Poland,False,31,50,3.8,1.4,4,2,0,3,1,0
-2016-03-23,Romania,Lithuania,1.0,0.0,Friendly,Giurgiu,Romania,False,16,128,1.2,0.6,1,1,0,3,4,1
-2016-03-23,Slovenia,North Macedonia,1.0,0.0,Friendly,Koper,Slovenia,False,54,138,1.0,0.8,2,1,1,3,2,1
-2016-03-24,Czech Republic,Scotland,0.0,1.0,Friendly,Prague,Czech Republic,False,0,45,2.0,1.8,3,1,2,2,0,2
-2016-03-24,Denmark,Iceland,2.0,1.0,Friendly,Herning,Denmark,False,40,38,0.8,1.4,0,1,3,3,2,1
-2016-03-24,Estonia,Norway,0.0,0.0,Friendly,Tallinn,Estonia,False,88,51,0.8,1.0,1,2,3,3,1,0
-2016-03-24,Greece,Montenegro,2.0,1.0,Friendly,Piraeus,Greece,False,39,84,1.0,1.4,1,2,2,3,2,0
-2016-03-24,Italy,Spain,1.0,1.0,Friendly,Udine,Italy,False,14,3,1.8,1.4,3,5,1,0,1,0
-2016-03-24,Malta,Moldova,0.0,0.0,Friendly,Attard,Malta,False,161,156,0.4,1.4,0,0,4,5,1,0
-2016-03-24,Turkey,Sweden,2.0,1.0,Friendly,Antalya,Turkey,False,20,34,1.4,0.2,3,3,0,0,2,2
-2016-03-24,Ukraine,Cyprus,1.0,0.0,Friendly,Odessa,Ukraine,False,27,79,1.0,0.4,2,2,1,3,2,0
-2016-03-24,Wales,Northern Ireland,1.0,1.0,Friendly,Cardiff,Wales,False,17,28,1.0,1.0,2,3,2,0,1,2
-2016-03-25,Armenia,Belarus,0.0,0.0,Friendly,Yerevan,Armenia,False,116,64,0.4,2.4,0,2,4,2,1,1
-2016-03-25,Republic of Ireland,Switzerland,1.0,0.0,Friendly,Dublin,Republic of Ireland,False,29,12,1.2,0.6,3,3,1,2,1,0
-2016-03-25,Luxembourg,Bosnia and Herzegovina,0.0,3.0,Friendly,Luxembourg,Luxembourg,False,142,21,0.6,2.4,1,3,4,1,0,1
-2016-03-25,Netherlands,France,2.0,3.0,Friendly,Amsterdam,Netherlands,False,15,24,1.4,2.0,2,4,3,1,0,0
-2016-03-25,Portugal,Bulgaria,0.0,1.0,Friendly,Leiria,Portugal,False,7,70,1.2,0.4,4,2,1,3,0,0
-2016-03-25,Slovakia,Latvia,0.0,0.0,Friendly,Trnava,Slovakia,False,26,98,2.0,1.2,3,0,1,3,1,2
-2016-03-26,Austria,Albania,2.0,1.0,Friendly,Vienna,Austria,False,10,35,2.4,1.0,4,1,1,2,0,2
-2016-03-26,Azerbaijan,Kazakhstan,0.0,1.0,Friendly,Belek,Turkey,True,112,125,1.0,1.6,1,1,2,3,2,1
-2016-03-26,Germany,England,2.0,3.0,Friendly,Berlin,Germany,False,4,9,1.6,1.4,3,4,2,1,0,0
-2016-03-26,Hungary,Croatia,1.0,1.0,Friendly,Budapest,Hungary,False,19,18,1.8,1.4,3,4,1,1,1,0
-2016-03-26,Poland,Finland,5.0,0.0,Friendly,Wrocław,Poland,False,31,46,2.4,1.2,4,1,0,2,1,2
-2016-03-26,Russia,Lithuania,3.0,0.0,Friendly,Moscow,Russia,False,23,128,2.6,0.8,4,1,1,3,0,1
-2016-03-27,Romania,Spain,0.0,0.0,Friendly,Cluj,Romania,False,16,3,1.4,0.6,2,4,0,0,3,1
-2016-03-28,Andorra,Moldova,0.0,1.0,Friendly,Paola,Malta,True,201,156,0.4,3.2,0,0,5,4,0,1
-2016-03-28,Liechtenstein,Faroe Islands,2.0,3.0,Friendly,Marbella,Spain,True,163,93,0.0,2.8,0,1,4,4,1,0
-2016-03-28,Northern Ireland,Slovenia,1.0,0.0,Friendly,Belfast,Northern Ireland,False,28,54,1.4,0.8,2,2,0,1,3,2
-2016-03-28,Ukraine,Wales,1.0,0.0,Friendly,Kyiv,Ukraine,False,27,17,1.2,0.4,3,1,1,2,1,2
-2016-03-29,Austria,Turkey,1.0,2.0,Friendly,Vienna,Austria,False,10,20,2.6,1.2,4,4,1,0,0,1
-2016-03-29,England,Netherlands,1.0,2.0,Friendly,London,England,False,9,15,2.0,0.8,4,2,1,3,0,0
-2016-03-29,Estonia,Serbia,0.0,1.0,Friendly,Tallinn,Estonia,False,88,50,0.8,0.8,1,1,2,4,2,0
-2016-03-29,France,Russia,4.0,2.0,Friendly,Saint-Denis,France,False,24,23,2.2,1.0,4,4,1,1,0,0
-2016-03-29,Georgia,Kazakhstan,1.0,1.0,Friendly,Tbilisi,Georgia,False,122,125,1.4,1.6,1,2,3,2,1,1
-2016-03-29,Germany,Italy,4.0,1.0,Friendly,Munich,Germany,False,4,14,1.4,1.8,2,2,3,1,0,2
-2016-03-29,Gibraltar,Latvia,0.0,5.0,Friendly,Gibraltar,Gibraltar,False,205,98,0.2,4.4,0,0,4,3,1,2
-2016-03-29,Greece,Iceland,2.0,3.0,Friendly,Piraeus,Greece,False,39,38,1.4,1.6,2,1,2,4,1,0
-2016-03-29,Republic of Ireland,Slovakia,2.0,2.0,Friendly,Dublin,Republic of Ireland,False,29,26,1.2,0.6,3,3,1,1,1,1
-2016-03-29,Luxembourg,Albania,0.0,2.0,Friendly,Luxembourg,Luxembourg,False,142,35,0.6,2.6,1,1,4,2,0,2
-2016-03-29,North Macedonia,Bulgaria,0.0,2.0,Friendly,Skopje,North Macedonia,False,138,70,0.8,1.0,1,2,3,3,1,0
-2016-03-29,Montenegro,Belarus,0.0,0.0,Friendly,Podgorica,Montenegro,False,84,64,1.2,2.2,1,2,4,1,0,2
-2016-03-29,Norway,Finland,2.0,0.0,Friendly,Oslo,Norway,False,51,46,0.8,1.0,1,0,3,3,1,2
-2016-03-29,Portugal,Belgium,2.0,1.0,Friendly,Leiria,Portugal,False,7,1,1.0,0.6,3,5,2,0,0,0
-2016-03-29,Scotland,Denmark,1.0,0.0,Friendly,Glasgow,Scotland,False,45,40,2.2,1.2,2,1,2,3,1,1
-2016-03-29,Sweden,Czech Republic,1.0,1.0,Friendly,Solna,Sweden,False,34,0,1.8,1.2,2,2,1,3,2,0
-2016-03-29,Switzerland,Bosnia and Herzegovina,0.0,2.0,Friendly,Zürich,Switzerland,False,12,21,2.4,1.0,3,3,2,1,0,1
-2016-05-22,England,Turkey,2.0,1.0,Friendly,Manchester,England,False,10,13,1.8,1.2,3,4,2,0,0,1
-2016-05-25,Serbia,Cyprus,2.0,1.0,Friendly,Užice,Serbia,False,56,80,1.0,1.4,2,1,3,4,0,0
-2016-05-26,Azerbaijan,Andorra,0.0,0.0,Friendly,Bad Erlach,Austria,True,133,202,1.0,1.8,1,0,3,5,1,0
-2016-05-27,Croatia,Moldova,1.0,0.0,Friendly,Koprivnica,Croatia,False,23,156,2.0,0.4,4,1,0,3,1,1
-2016-05-27,Czech Republic,Malta,6.0,0.0,Friendly,Kufstein,Austria,True,0,165,1.8,1.6,2,0,2,3,1,2
-2016-05-27,Republic of Ireland,Netherlands,1.0,1.0,Friendly,Dublin,Republic of Ireland,False,31,17,1.4,1.0,2,3,1,2,2,0
-2016-05-27,Northern Ireland,Belarus,3.0,0.0,Friendly,Belfast,Northern Ireland,False,26,77,1.4,0.6,3,2,0,0,2,3
-2016-05-27,Slovakia,Georgia,3.0,1.0,Friendly,Wels,Austria,True,32,123,2.4,1.4,3,1,0,2,2,2
-2016-05-28,Switzerland,Belgium,1.0,2.0,Friendly,Geneva,Switzerland,False,14,2,1.0,1.4,2,4,3,1,0,0
-2016-05-29,Azerbaijan,North Macedonia,1.0,3.0,Friendly,Bad Erlach,Austria,True,133,141,0.6,1.4,1,1,3,3,1,1
-2016-05-29,Bosnia and Herzegovina,Spain,1.0,3.0,Friendly,St. Gallen,Switzerland,True,20,6,1.8,1.0,3,3,1,0,1,2
-2016-05-29,Germany,Slovakia,1.0,3.0,Friendly,Augsburg,Germany,False,5,32,1.6,1.6,2,3,3,0,0,2
-2016-05-29,Italy,Scotland,1.0,0.0,Friendly,Attard,Malta,True,15,40,1.4,2.2,1,3,2,1,2,1
-2016-05-29,Lithuania,Estonia,2.0,0.0,Baltic Cup,Klaipėda,Lithuania,False,138,93,0.6,1.8,1,1,3,2,1,2
-2016-05-29,Portugal,Norway,3.0,0.0,Friendly,Porto,Portugal,False,8,49,1.2,0.8,3,1,2,3,0,1
-2016-05-29,Romania,Ukraine,3.0,4.0,Friendly,Turin,Italy,True,19,22,1.4,0.6,2,3,0,1,3,1
-2016-05-29,Turkey,Montenegro,1.0,0.0,Friendly,Antalya,Turkey,False,13,94,1.2,0.8,3,0,1,4,1,1
-2016-05-30,Sweden,Slovenia,0.0,0.0,Friendly,Malmö,Sweden,False,36,61,1.6,1.2,1,2,1,2,3,1
-2016-05-31,Austria,Malta,2.0,1.0,Friendly,Klagenfurt,Austria,False,11,165,2.0,1.4,3,0,2,3,0,2
-2016-05-31,Republic of Ireland,Belarus,1.0,2.0,Friendly,Cork,Republic of Ireland,False,31,77,1.4,0.8,2,1,0,1,3,3
-2016-05-31,Serbia,Israel,3.0,1.0,Friendly,Novi Sad,Serbia,False,56,76,1.0,1.6,2,1,3,3,0,1
-2016-06-01,Belgium,Finland,1.0,1.0,Friendly,Brussels,Belgium,False,2,61,2.6,1.2,4,0,1,4,0,1
-2016-06-01,Czech Republic,Russia,2.0,1.0,Friendly,Innsbruck,Austria,True,0,27,2.4,1.2,2,3,2,2,1,0
-2016-06-01,Estonia,Andorra,2.0,0.0,Friendly,Tallinn,Estonia,False,93,202,0.8,0.8,1,0,2,4,2,1
-2016-06-01,Latvia,Lithuania,2.0,1.0,Baltic Cup,Liepāja,Latvia,False,107,138,1.4,0.8,1,1,2,3,2,1
-2016-06-01,Norway,Iceland,3.0,2.0,Friendly,Oslo,Norway,False,49,35,0.6,1.2,1,2,3,3,1,0
-2016-06-01,Poland,Netherlands,1.0,2.0,Friendly,Gdańsk,Poland,False,27,17,3.0,0.8,5,2,0,2,0,1
-2016-06-02,England,Portugal,1.0,0.0,Friendly,London,England,False,11,8,1.6,1.4,3,3,2,2,0,0
-2016-06-03,Albania,Ukraine,1.0,3.0,Friendly,Bergamo,Italy,True,42,19,2.0,1.2,2,4,1,0,2,1
-2016-06-03,Bosnia and Herzegovina,Denmark,2.0,2.0,Kirin Cup,Toyota,Japan,True,20,38,1.4,1.2,2,1,2,3,1,1
-2016-06-03,Faroe Islands,Kosovo,0.0,2.0,Friendly,Frankfurt am Main,Germany,True,89,190,1.0,2.2,1,0,4,1,0,1
-2016-06-03,Romania,Georgia,5.0,1.0,Friendly,Bucharest,Romania,False,22,137,1.8,1.2,2,0,1,3,2,2
-2016-06-03,Switzerland,Moldova,2.0,1.0,Friendly,Lugano,Switzerland,False,15,159,1.0,1.8,1,1,4,3,0,1
-2016-06-04,Austria,Netherlands,0.0,2.0,Friendly,Vienna,Austria,False,10,14,1.8,1.2,3,3,2,1,0,1
-2016-06-04,Croatia,San Marino,10.0,0.0,Friendly,Rijeka,Croatia,False,27,200,1.6,0.4,4,0,0,5,1,0
-2016-06-04,Estonia,Latvia,0.0,0.0,Baltic Cup,Tallinn,Estonia,False,94,104,0.6,0.8,1,2,2,2,2,1
-2016-06-04,France,Scotland,3.0,0.0,Friendly,Metz,France,False,17,43,2.2,1.4,4,3,1,1,0,1
-2016-06-04,Germany,Hungary,2.0,0.0,Friendly,Gelsenkirchen,Germany,False,4,20,1.8,2.0,2,3,3,1,0,1
-2016-06-04,Slovakia,Northern Ireland,0.0,0.0,Friendly,Trnava,Slovakia,False,24,25,2.2,1.0,3,3,0,0,2,2
-2016-06-05,Belgium,Norway,3.0,2.0,Friendly,Brussels,Belgium,False,2,51,2.0,1.2,3,2,1,2,1,1
-2016-06-05,Russia,Serbia,1.0,1.0,Friendly,Monaco,Monaco,True,29,54,1.6,1.8,2,3,3,2,0,0
-2016-06-05,Slovenia,Turkey,0.0,1.0,Friendly,Ljubljana,Slovenia,False,57,18,0.4,0.8,1,3,2,1,2,1
-2016-06-05,Sweden,Wales,3.0,0.0,Friendly,Solna,Sweden,False,35,26,1.2,0.8,1,1,1,3,3,1
-2016-06-06,Iceland,Liechtenstein,4.0,0.0,Friendly,Reykjavík,Iceland,False,34,168,1.6,2.0,2,0,3,4,0,1
-2016-06-06,Italy,Finland,2.0,0.0,Friendly,Verona,Italy,False,12,67,1.2,2.0,1,0,2,4,2,1
-2016-06-06,Poland,Lithuania,0.0,0.0,Friendly,Kraków,Poland,False,27,127,2.8,1.0,4,1,1,4,0,0
-2016-06-07,Bulgaria,Denmark,0.0,4.0,Kirin Cup,Suita,Japan,True,69,38,1.0,0.8,3,1,2,2,0,2
-2016-06-07,Spain,Georgia,0.0,1.0,Friendly,Getafe,Spain,False,6,137,1.4,0.4,3,0,0,3,2,2
-2016-06-08,Portugal,Estonia,7.0,0.0,Friendly,Lisbon,Portugal,False,8,94,1.4,0.6,3,1,2,2,0,2
-2016-06-10,France,Romania,2.0,1.0,UEFA Euro,Saint-Denis,France,False,17,22,2.4,1.2,4,2,1,1,0,2
-2016-06-11,Albania,Switzerland,0.0,1.0,UEFA Euro,Lens,France,True,42,15,1.6,1.8,1,2,2,3,2,0
-2016-06-11,England,Russia,1.0,1.0,UEFA Euro,Marseille,France,True,11,29,1.8,1.0,4,1,1,3,0,1
-2016-06-11,Wales,Slovakia,2.0,1.0,UEFA Euro,Bordeaux,France,True,26,24,1.0,1.6,1,2,3,0,1,3
-2016-06-12,Germany,Ukraine,2.0,0.0,UEFA Euro,Villeneuve-d'Ascq,France,True,4,19,1.8,1.8,2,4,3,0,0,1
-2016-06-12,Poland,Northern Ireland,1.0,0.0,UEFA Euro,Nice,France,True,27,25,2.0,0.6,3,3,1,0,1,2
-2016-06-12,Turkey,Croatia,0.0,1.0,UEFA Euro,Paris,France,True,18,27,1.4,0.8,4,4,1,0,0,1
-2016-06-13,Belgium,Italy,0.0,2.0,UEFA Euro,Lyon,France,True,2,12,2.0,1.4,3,2,1,1,1,2
-2016-06-13,Republic of Ireland,Sweden,1.0,1.0,UEFA Euro,Saint-Denis,France,True,33,35,1.4,1.0,2,2,1,1,2,2
-2016-06-13,Spain,Czech Republic,1.0,0.0,UEFA Euro,Toulouse,France,True,6,0,1.2,0.6,2,2,1,2,2,1
-2016-06-14,Austria,Hungary,0.0,2.0,UEFA Euro,Bordeaux,France,True,10,20,1.2,1.6,2,2,3,2,0,1
+2016-01-06,Sweden,Estonia,1.0,1.0,Friendly,Abu Dhabi,United Arab Emirates,True,35,93,0.0,0.0,0,0,0,0,0,0
+2016-01-10,Sweden,Finland,3.0,0.0,Friendly,Abu Dhabi,United Arab Emirates,True,34,44,0.2,0.2,0,0,0,0,1,0
+2016-01-13,Finland,Iceland,0.0,1.0,Friendly,Abu Dhabi,United Arab Emirates,True,44,36,0.0,0.6,0,0,1,0,0,0
+2016-03-23,Croatia,Israel,2.0,0.0,Friendly,Osijek,Croatia,False,18,67,0.0,0.0,0,0,0,0,0,0
+2016-03-23,Gibraltar,Liechtenstein,0.0,0.0,Friendly,Gibraltar,Gibraltar,False,205,163,0.0,0.0,0,0,0,0,0,0
+2016-03-23,Poland,Serbia,1.0,0.0,Friendly,Poznań,Poland,False,31,50,0.0,0.0,0,0,0,0,0,0
+2016-03-23,Romania,Lithuania,1.0,0.0,Friendly,Giurgiu,Romania,False,16,128,0.0,0.0,0,0,0,0,0,0
+2016-03-23,Slovenia,North Macedonia,1.0,0.0,Friendly,Koper,Slovenia,False,54,138,0.0,0.0,0,0,0,0,0,0
+2016-03-24,Czech Republic,Scotland,0.0,1.0,Friendly,Prague,Czech Republic,False,0,45,0.0,0.0,0,0,0,0,0,0
+2016-03-24,Denmark,Iceland,2.0,1.0,Friendly,Herning,Denmark,False,40,38,0.0,0.0,0,1,0,0,0,0
+2016-03-24,Estonia,Norway,0.0,0.0,Friendly,Tallinn,Estonia,False,88,51,0.2,0.2,0,0,0,0,1,0
+2016-03-24,Greece,Montenegro,2.0,1.0,Friendly,Piraeus,Greece,False,39,84,0.0,0.0,0,0,0,0,0,0
+2016-03-24,Italy,Spain,1.0,1.0,Friendly,Udine,Italy,False,14,3,0.0,0.0,0,0,0,0,0,0
+2016-03-24,Malta,Moldova,0.0,0.0,Friendly,Attard,Malta,False,161,156,0.0,0.0,0,0,0,0,0,0
+2016-03-24,Turkey,Sweden,2.0,1.0,Friendly,Antalya,Turkey,False,20,34,0.0,0.0,0,1,0,0,0,1
+2016-03-24,Ukraine,Cyprus,1.0,0.0,Friendly,Odessa,Ukraine,False,27,79,0.0,0.0,0,0,0,0,0,0
+2016-03-24,Wales,Northern Ireland,1.0,1.0,Friendly,Cardiff,Wales,False,17,28,0.0,0.0,0,0,0,0,0,0
+2016-03-25,Armenia,Belarus,0.0,0.0,Friendly,Yerevan,Armenia,False,116,64,0.0,0.0,0,0,0,0,0,0
+2016-03-25,Republic of Ireland,Switzerland,1.0,0.0,Friendly,Dublin,Republic of Ireland,False,29,12,0.0,0.0,0,0,0,0,0,0
+2016-03-25,Luxembourg,Bosnia and Herzegovina,0.0,3.0,Friendly,Luxembourg,Luxembourg,False,142,21,0.0,0.0,0,0,0,0,0,0
+2016-03-25,Netherlands,France,2.0,3.0,Friendly,Amsterdam,Netherlands,False,15,24,0.0,0.0,0,0,0,0,0,0
+2016-03-25,Portugal,Bulgaria,0.0,1.0,Friendly,Leiria,Portugal,False,7,70,0.0,0.0,0,0,0,0,0,0
+2016-03-25,Slovakia,Latvia,0.0,0.0,Friendly,Trnava,Slovakia,False,26,98,0.0,0.0,0,0,0,0,0,0
+2016-03-26,Austria,Albania,2.0,1.0,Friendly,Vienna,Austria,False,10,35,0.0,0.0,0,0,0,0,0,0
+2016-03-26,Azerbaijan,Kazakhstan,0.0,1.0,Friendly,Belek,Turkey,True,112,125,0.0,0.0,0,0,0,0,0,0
+2016-03-26,Germany,England,2.0,3.0,Friendly,Berlin,Germany,False,4,9,0.0,0.0,0,0,0,0,0,0
+2016-03-26,Hungary,Croatia,1.0,1.0,Friendly,Budapest,Hungary,False,19,18,0.0,0.0,0,1,0,0,0,0
+2016-03-26,Poland,Finland,5.0,0.0,Friendly,Wrocław,Poland,False,31,46,0.2,0.0,1,0,0,2,0,0
+2016-03-26,Russia,Lithuania,3.0,0.0,Friendly,Moscow,Russia,False,23,128,0.0,0.0,0,0,0,1,0,0
+2016-03-27,Romania,Spain,0.0,0.0,Friendly,Cluj,Romania,False,16,3,0.2,0.0,1,0,0,0,0,1
+2016-03-28,Andorra,Moldova,0.0,1.0,Friendly,Paola,Malta,True,201,156,0.0,0.0,0,0,0,0,0,1
+2016-03-28,Liechtenstein,Faroe Islands,2.0,3.0,Friendly,Marbella,Spain,True,163,93,0.0,0.0,0,0,0,0,1,0
+2016-03-28,Northern Ireland,Slovenia,1.0,0.0,Friendly,Belfast,Northern Ireland,False,28,54,0.2,0.2,0,1,0,0,1,0
+2016-03-28,Ukraine,Wales,1.0,0.0,Friendly,Kyiv,Ukraine,False,27,17,0.2,0.0,1,0,0,0,0,1
+2016-03-29,Austria,Turkey,1.0,2.0,Friendly,Vienna,Austria,False,10,20,0.4,0.2,1,1,0,0,0,0
+2016-03-29,England,Netherlands,1.0,2.0,Friendly,London,England,False,9,15,0.6,0.4,1,0,0,1,0,0
+2016-03-29,Estonia,Serbia,0.0,1.0,Friendly,Tallinn,Estonia,False,88,50,0.2,0.2,0,0,0,1,2,0
+2016-03-29,France,Russia,4.0,2.0,Friendly,Saint-Denis,France,False,24,23,0.6,0.4,1,1,0,0,0,0
+2016-03-29,Georgia,Kazakhstan,1.0,1.0,Friendly,Tbilisi,Georgia,False,122,125,0.0,0.0,0,1,0,0,0,0
+2016-03-29,Germany,Italy,4.0,1.0,Friendly,Munich,Germany,False,4,14,0.4,0.6,0,0,1,0,0,1
+2016-03-29,Gibraltar,Latvia,0.0,5.0,Friendly,Gibraltar,Gibraltar,False,205,98,0.0,0.0,0,0,0,0,1,1
+2016-03-29,Greece,Iceland,2.0,3.0,Friendly,Piraeus,Greece,False,39,38,0.4,0.2,1,1,0,1,0,0
+2016-03-29,Republic of Ireland,Slovakia,2.0,2.0,Friendly,Dublin,Republic of Ireland,False,29,26,0.2,0.0,1,0,0,0,0,1
+2016-03-29,Luxembourg,Albania,0.0,2.0,Friendly,Luxembourg,Luxembourg,False,142,35,0.0,0.6,0,0,1,1,0,0
+2016-03-29,North Macedonia,Bulgaria,0.0,2.0,Friendly,Skopje,North Macedonia,False,138,70,0.0,0.2,0,1,1,0,0,0
+2016-03-29,Montenegro,Belarus,0.0,0.0,Friendly,Podgorica,Montenegro,False,84,64,0.2,0.4,0,0,1,0,0,1
+2016-03-29,Norway,Finland,2.0,0.0,Friendly,Oslo,Norway,False,51,46,0.0,0.0,0,0,0,3,1,0
+2016-03-29,Portugal,Belgium,2.0,1.0,Friendly,Leiria,Portugal,False,7,1,0.0,0.2,0,0,1,0,0,0
+2016-03-29,Scotland,Denmark,1.0,0.0,Friendly,Glasgow,Scotland,False,45,40,0.2,0.0,1,1,0,0,0,0
+2016-03-29,Sweden,Czech Republic,1.0,1.0,Friendly,Solna,Sweden,False,34,0,1.0,0.6,1,0,1,1,1,0
+2016-03-29,Switzerland,Bosnia and Herzegovina,0.0,2.0,Friendly,Zürich,Switzerland,False,12,21,0.0,0.2,0,1,1,0,0,0
+2016-05-22,England,Turkey,2.0,1.0,Friendly,Manchester,England,False,10,13,0.8,0.8,1,2,1,0,0,0
+2016-05-25,Serbia,Cyprus,2.0,1.0,Friendly,Užice,Serbia,False,56,80,0.2,0.2,1,0,1,1,0,0
+2016-05-26,Azerbaijan,Andorra,0.0,0.0,Friendly,Bad Erlach,Austria,True,133,202,0.0,0.2,0,0,1,1,0,0
+2016-05-27,Croatia,Moldova,1.0,0.0,Friendly,Koprivnica,Croatia,False,23,156,0.6,0.2,1,1,0,0,1,1
+2016-05-27,Czech Republic,Malta,6.0,0.0,Friendly,Kufstein,Austria,True,0,165,0.2,0.4,0,0,1,0,1,1
+2016-05-27,Republic of Ireland,Netherlands,1.0,1.0,Friendly,Dublin,Republic of Ireland,False,31,17,0.6,0.4,1,1,0,1,1,0
+2016-05-27,Northern Ireland,Belarus,3.0,0.0,Friendly,Belfast,Northern Ireland,False,26,77,0.4,0.2,1,0,0,0,1,2
+2016-05-27,Slovakia,Georgia,3.0,1.0,Friendly,Wels,Austria,True,32,123,0.4,0.4,0,0,0,0,2,1
+2016-05-28,Switzerland,Belgium,1.0,2.0,Friendly,Geneva,Switzerland,False,14,2,0.0,0.6,0,0,2,1,0,0
+2016-05-29,Azerbaijan,North Macedonia,1.0,3.0,Friendly,Bad Erlach,Austria,True,133,141,0.0,0.2,0,0,1,2,1,0
+2016-05-29,Bosnia and Herzegovina,Spain,1.0,3.0,Friendly,St. Gallen,Switzerland,True,20,6,1.0,0.0,2,0,0,0,0,2
+2016-05-29,Germany,Slovakia,1.0,3.0,Friendly,Augsburg,Germany,False,5,32,1.2,0.8,1,1,1,0,0,2
+2016-05-29,Italy,Scotland,1.0,0.0,Friendly,Attard,Malta,True,15,40,0.4,1.0,0,2,1,0,1,0
+2016-05-29,Lithuania,Estonia,2.0,0.0,Baltic Cup,Klaipėda,Lithuania,False,138,93,0.0,0.8,0,0,2,1,0,2
+2016-05-29,Portugal,Norway,3.0,0.0,Friendly,Porto,Portugal,False,8,49,0.4,0.4,1,1,1,0,0,1
+2016-05-29,Romania,Ukraine,3.0,4.0,Friendly,Turin,Italy,True,19,22,0.2,0.0,1,2,0,0,1,0
+2016-05-29,Turkey,Montenegro,1.0,0.0,Friendly,Antalya,Turkey,False,13,94,1.0,0.8,2,0,1,1,0,1
+2016-05-30,Sweden,Slovenia,0.0,0.0,Friendly,Malmö,Sweden,False,36,61,1.2,0.8,1,1,1,1,2,0
+2016-05-31,Austria,Malta,2.0,1.0,Friendly,Klagenfurt,Austria,False,11,165,0.6,0.6,1,0,1,1,0,1
+2016-05-31,Republic of Ireland,Belarus,1.0,2.0,Friendly,Cork,Republic of Ireland,False,31,77,0.8,0.6,1,0,0,1,2,2
+2016-05-31,Serbia,Israel,3.0,1.0,Friendly,Novi Sad,Serbia,False,56,76,0.6,0.4,2,0,1,1,0,0
+2016-06-01,Belgium,Finland,1.0,1.0,Friendly,Brussels,Belgium,False,2,61,0.6,0.6,1,0,1,4,0,0
+2016-06-01,Czech Republic,Russia,2.0,1.0,Friendly,Innsbruck,Austria,True,0,27,1.4,0.4,1,1,1,1,1,0
+2016-06-01,Estonia,Andorra,2.0,0.0,Friendly,Tallinn,Estonia,False,93,202,0.2,0.8,0,0,2,1,2,1
+2016-06-01,Latvia,Lithuania,2.0,1.0,Baltic Cup,Liepāja,Latvia,False,107,138,1.0,0.0,1,1,0,2,1,0
+2016-06-01,Norway,Iceland,3.0,2.0,Friendly,Oslo,Norway,False,49,35,0.4,0.6,1,2,1,1,1,0
+2016-06-01,Poland,Netherlands,1.0,2.0,Friendly,Gdańsk,Poland,False,27,17,1.2,0.0,2,1,0,1,0,1
+2016-06-02,England,Portugal,1.0,0.0,Friendly,London,England,False,11,8,1.2,1.0,2,2,1,1,0,0
+2016-06-03,Albania,Ukraine,1.0,3.0,Friendly,Bergamo,Italy,True,42,19,0.6,0.4,1,3,1,0,0,0
+2016-06-03,Bosnia and Herzegovina,Denmark,2.0,2.0,Kirin Cup,Toyota,Japan,True,20,38,1.2,0.6,2,1,1,1,0,0
+2016-06-03,Faroe Islands,Kosovo,0.0,2.0,Friendly,Frankfurt am Main,Germany,True,89,190,0.6,0.4,1,0,0,0,0,0
+2016-06-03,Romania,Georgia,5.0,1.0,Friendly,Bucharest,Romania,False,22,137,0.8,0.8,1,0,1,1,1,1
+2016-06-03,Switzerland,Moldova,2.0,1.0,Friendly,Lugano,Switzerland,False,15,159,0.2,1.0,0,1,3,1,0,1
+2016-06-04,Austria,Netherlands,0.0,2.0,Friendly,Vienna,Austria,False,10,14,1.0,0.8,2,2,1,1,0,1
+2016-06-04,Croatia,San Marino,10.0,0.0,Friendly,Rijeka,Croatia,False,27,200,0.8,0.2,2,0,0,0,1,0
+2016-06-04,Estonia,Latvia,0.0,0.0,Baltic Cup,Tallinn,Estonia,False,94,104,0.6,0.8,1,2,2,0,2,1
+2016-06-04,France,Scotland,3.0,0.0,Friendly,Metz,France,False,17,43,1.4,0.8,2,2,0,1,0,0
+2016-06-04,Germany,Hungary,2.0,0.0,Friendly,Gelsenkirchen,Germany,False,4,20,1.4,1.4,1,0,2,0,0,1
+2016-06-04,Slovakia,Northern Ireland,0.0,0.0,Friendly,Trnava,Slovakia,False,24,25,1.6,0.8,2,2,0,0,2,1
+2016-06-05,Belgium,Norway,3.0,2.0,Friendly,Brussels,Belgium,False,2,51,0.8,0.8,1,2,1,1,1,1
+2016-06-05,Russia,Serbia,1.0,1.0,Friendly,Monaco,Monaco,True,29,54,1.2,1.2,1,3,2,1,0,0
+2016-06-05,Slovenia,Turkey,0.0,1.0,Friendly,Ljubljana,Slovenia,False,57,18,0.2,0.2,1,3,1,1,1,0
+2016-06-05,Sweden,Wales,3.0,0.0,Friendly,Solna,Sweden,False,35,26,1.2,0.8,1,0,1,1,3,1
+2016-06-06,Iceland,Liechtenstein,4.0,0.0,Friendly,Reykjavík,Iceland,False,34,168,1.4,1.4,2,0,2,1,0,1
+2016-06-06,Italy,Finland,2.0,0.0,Friendly,Verona,Italy,False,12,67,0.6,1.0,1,0,1,4,1,1
+2016-06-06,Poland,Lithuania,0.0,0.0,Friendly,Kraków,Poland,False,27,127,1.4,0.4,2,1,1,3,0,0
+2016-06-07,Bulgaria,Denmark,0.0,4.0,Kirin Cup,Suita,Japan,True,69,38,0.6,0.0,2,1,0,1,0,1
+2016-06-07,Spain,Georgia,0.0,1.0,Friendly,Getafe,Spain,False,6,137,0.8,0.4,1,0,0,2,2,1
+2016-06-08,Portugal,Estonia,7.0,0.0,Friendly,Lisbon,Portugal,False,8,94,1.0,0.6,2,1,2,2,0,2
+2016-06-10,France,Romania,2.0,1.0,UEFA Euro,Saint-Denis,France,False,17,22,2.0,0.8,3,2,0,1,0,1
+2016-06-11,Albania,Switzerland,0.0,1.0,UEFA Euro,Lens,France,True,42,15,0.8,1.0,1,1,2,3,0,0
+2016-06-11,England,Russia,1.0,1.0,UEFA Euro,Marseille,France,True,11,29,1.4,1.0,3,1,1,2,0,1
+2016-06-11,Wales,Slovakia,2.0,1.0,UEFA Euro,Bordeaux,France,True,26,24,0.2,1.0,0,2,2,0,1,3
+2016-06-12,Germany,Ukraine,2.0,0.0,UEFA Euro,Villeneuve-d'Ascq,France,True,4,19,1.8,1.4,2,4,2,0,0,0
+2016-06-12,Poland,Northern Ireland,1.0,0.0,UEFA Euro,Nice,France,True,27,25,1.4,0.4,2,2,1,0,1,2
+2016-06-12,Turkey,Croatia,0.0,1.0,UEFA Euro,Paris,France,True,18,27,1.4,0.8,4,3,1,0,0,1
+2016-06-13,Belgium,Italy,0.0,2.0,UEFA Euro,Lyon,France,True,2,12,1.4,1.2,2,2,1,1,1,1
+2016-06-13,Republic of Ireland,Sweden,1.0,1.0,UEFA Euro,Saint-Denis,France,True,33,35,1.0,1.0,1,2,1,1,2,2
+2016-06-13,Spain,Czech Republic,1.0,0.0,UEFA Euro,Toulouse,France,True,6,0,0.8,0.6,1,2,1,1,2,1
+2016-06-14,Austria,Hungary,0.0,2.0,UEFA Euro,Bordeaux,France,True,10,20,1.0,1.2,2,0,2,1,0,1
 2016-06-14,Portugal,Iceland,1.0,1.0,UEFA Euro,Saint-Étienne,France,True,8,34,2.4,0.6,3,3,2,2,0,0
-2016-06-15,France,Albania,2.0,0.0,UEFA Euro,Marseille,France,False,17,42,2.4,1.4,4,1,1,3,0,1
+2016-06-15,France,Albania,2.0,0.0,UEFA Euro,Marseille,France,False,17,42,2.4,1.0,4,1,0,3,0,0
 2016-06-15,Romania,Switzerland,1.0,1.0,UEFA Euro,Paris,France,True,22,15,2.0,1.4,2,2,2,3,1,0
 2016-06-15,Russia,Slovakia,1.0,2.0,UEFA Euro,Villeneuve-d'Ascq,France,True,29,24,1.6,1.6,1,2,2,1,2,2
-2016-06-16,England,Wales,2.0,1.0,UEFA Euro,Lens,France,True,11,26,1.6,1.2,3,1,1,3,1,1
+2016-06-16,England,Wales,2.0,1.0,UEFA Euro,Lens,France,True,11,26,1.6,1.2,3,1,1,2,1,1
 2016-06-16,Germany,Poland,0.0,0.0,UEFA Euro,Saint-Denis,France,True,4,27,2.2,1.4,3,3,2,1,0,1
 2016-06-16,Ukraine,Northern Ireland,0.0,2.0,UEFA Euro,Lyon,France,True,19,25,1.8,1.2,4,2,1,1,0,2
 2016-06-17,Czech Republic,Croatia,2.0,2.0,UEFA Euro,Saint-Étienne,France,True,0,27,1.8,0.8,2,4,2,0,1,1
 2016-06-17,Italy,Sweden,1.0,0.0,UEFA Euro,Toulouse,France,True,12,35,1.4,1.0,3,1,1,1,1,3
 2016-06-17,Spain,Turkey,3.0,0.0,UEFA Euro,Nice,France,True,6,18,1.0,0.6,2,3,1,2,2,0
 2016-06-18,Belgium,Republic of Ireland,3.0,0.0,UEFA Euro,Bordeaux,France,True,2,33,1.4,1.6,2,1,2,1,1,3
-2016-06-18,Iceland,Hungary,1.0,1.0,UEFA Euro,Marseille,France,True,34,20,2.2,1.6,2,3,2,1,1,1
+2016-06-18,Iceland,Hungary,1.0,1.0,UEFA Euro,Marseille,France,True,34,20,2.2,1.6,2,1,2,1,1,1
 2016-06-18,Portugal,Austria,0.0,0.0,UEFA Euro,Lyon,France,True,8,10,2.6,0.6,3,2,1,3,1,0
 2016-06-19,France,Switzerland,0.0,0.0,UEFA Euro,Villeneuve-d'Ascq,France,False,17,15,2.8,1.0,5,2,0,2,0,1
 2016-06-19,Romania,Albania,0.0,1.0,UEFA Euro,Lyon,France,True,22,42,2.0,1.6,1,1,2,4,2,0
@@ -547,7 +131,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2016-06-21,Czech Republic,Turkey,0.0,2.0,UEFA Euro,Lens,France,True,0,18,2.2,1.0,2,2,1,3,2,0
 2016-06-21,Northern Ireland,Germany,0.0,1.0,UEFA Euro,Paris,France,True,25,4,1.2,0.2,3,3,1,1,1,1
 2016-06-21,Ukraine,Poland,0.0,1.0,UEFA Euro,Marseille,France,True,19,27,1.6,1.6,3,2,2,1,0,2
-2016-06-22,Hungary,Portugal,3.0,3.0,UEFA Euro,Lyon,France,True,20,8,1.2,1.0,2,2,1,1,2,2
+2016-06-22,Hungary,Portugal,3.0,3.0,UEFA Euro,Lyon,France,True,20,8,0.8,0.8,1,2,1,1,2,2
 2016-06-22,Iceland,Austria,2.0,1.0,UEFA Euro,Saint-Denis,France,True,34,10,2.2,1.4,2,1,1,3,2,1
 2016-06-22,Italy,Republic of Ireland,0.0,1.0,UEFA Euro,Villeneuve-d'Ascq,France,True,12,33,1.4,0.8,4,0,1,2,0,3
 2016-06-22,Sweden,Belgium,0.0,1.0,UEFA Euro,Nice,France,True,35,2,1.0,0.6,1,3,1,1,3,1
@@ -566,85 +150,85 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2016-07-06,Portugal,Wales,2.0,0.0,UEFA Euro,Lyon,France,True,8,26,1.2,1.0,1,4,0,1,4,0
 2016-07-07,France,Germany,2.0,0.0,UEFA Euro,Marseille,France,False,17,4,2.2,0.8,4,3,0,0,1,2
 2016-07-10,France,Portugal,0.0,1.0,UEFA Euro,Saint-Denis,France,False,17,8,2.2,0.6,4,2,0,0,1,3
-2016-08-31,Czech Republic,Armenia,3.0,0.0,Friendly,Mladá Boleslav,Czech Republic,False,0,102,2.0,1.2,2,0,2,3,1,2
-2016-08-31,Denmark,Liechtenstein,5.0,0.0,Friendly,Horsens,Denmark,False,44,182,2.0,1.2,2,0,1,4,2,1
-2016-08-31,Estonia,Malta,1.0,1.0,Friendly,Pärnu,Estonia,False,117,176,0.4,2.0,1,0,3,4,1,1
+2016-08-31,Czech Republic,Armenia,3.0,0.0,Friendly,Mladá Boleslav,Czech Republic,False,0,102,2.0,1.2,2,0,2,0,1,1
+2016-08-31,Denmark,Liechtenstein,5.0,0.0,Friendly,Horsens,Denmark,False,44,182,1.6,0.8,2,0,1,2,1,1
+2016-08-31,Estonia,Malta,1.0,1.0,Friendly,Pärnu,Estonia,False,117,176,0.4,2.0,1,0,3,2,1,1
 2016-08-31,Germany,Finland,2.0,0.0,Friendly,Mönchengladbach,Germany,False,4,61,1.0,0.6,2,0,1,4,2,1
-2016-08-31,Norway,Belarus,0.0,1.0,Friendly,Oslo,Norway,False,50,70,1.4,1.6,2,1,2,1,1,3
+2016-08-31,Norway,Belarus,0.0,1.0,Friendly,Oslo,Norway,False,50,70,1.4,1.6,2,1,2,1,1,2
 2016-08-31,Turkey,Russia,0.0,0.0,Friendly,Antalya,Turkey,False,19,38,0.8,0.8,3,0,2,3,0,2
 2016-09-01,Belgium,Spain,0.0,2.0,Friendly,Brussels,Belgium,False,2,8,1.8,1.0,3,2,2,3,0,0
 2016-09-01,Italy,France,1.0,3.0,Friendly,Bari,Italy,False,10,7,1.2,0.4,3,3,1,1,1,1
-2016-09-01,Netherlands,Greece,1.0,2.0,Friendly,Eindhoven,Netherlands,False,26,52,1.8,1.2,3,2,1,2,1,1
-2016-09-01,Portugal,Gibraltar,5.0,0.0,Friendly,Porto,Portugal,False,6,205,1.6,0.8,3,0,0,4,2,1
-2016-09-02,Latvia,Luxembourg,3.0,1.0,Friendly,Riga,Latvia,False,110,145,1.4,0.4,2,1,1,4,2,0
+2016-09-01,Netherlands,Greece,1.0,2.0,Friendly,Eindhoven,Netherlands,False,26,52,1.8,1.2,3,1,1,1,1,0
+2016-09-01,Portugal,Gibraltar,5.0,0.0,Friendly,Porto,Portugal,False,6,205,1.6,0.8,3,0,0,1,2,1
+2016-09-02,Latvia,Luxembourg,3.0,1.0,Friendly,Riga,Latvia,False,110,145,1.4,0.2,2,0,0,2,2,0
 2016-09-04,Czech Republic,Northern Ireland,0.0,0.0,FIFA World Cup qualification,Prague,Czech Republic,False,0,28,1.4,1.2,2,1,2,3,1,1
-2016-09-04,Denmark,Armenia,1.0,0.0,FIFA World Cup qualification,Copenhagen,Denmark,False,44,102,2.6,0.8,3,0,1,3,1,2
-2016-09-04,Kazakhstan,Poland,2.0,2.0,FIFA World Cup qualification,Astana,Kazakhstan,False,96,16,0.8,0.6,2,2,1,0,2,3
-2016-09-04,Lithuania,Slovenia,2.0,2.0,FIFA World Cup qualification,Vilnius,Lithuania,False,125,59,0.6,1.2,1,1,3,2,1,2
-2016-09-04,Malta,Scotland,1.0,5.0,FIFA World Cup qualification,Attard,Malta,False,176,51,0.4,2.0,0,3,3,2,2,0
+2016-09-04,Denmark,Armenia,1.0,0.0,FIFA World Cup qualification,Copenhagen,Denmark,False,44,102,2.6,0.8,3,0,1,1,1,1
+2016-09-04,Kazakhstan,Poland,2.0,2.0,FIFA World Cup qualification,Astana,Kazakhstan,False,96,16,0.4,0.2,1,2,0,0,1,3
+2016-09-04,Lithuania,Slovenia,2.0,2.0,FIFA World Cup qualification,Vilnius,Lithuania,False,125,59,0.6,1.2,1,1,3,2,1,1
+2016-09-04,Malta,Scotland,1.0,5.0,FIFA World Cup qualification,Attard,Malta,False,176,51,0.4,1.8,0,2,2,2,2,0
 2016-09-04,Norway,Germany,0.0,3.0,FIFA World Cup qualification,Oslo,Norway,False,50,4,1.4,1.8,2,3,3,1,0,1
-2016-09-04,Romania,Montenegro,1.0,1.0,FIFA World Cup qualification,Cluj,Romania,False,25,95,2.0,1.8,1,0,3,4,1,1
-2016-09-04,San Marino,Azerbaijan,0.0,1.0,FIFA World Cup qualification,Serravalle,San Marino,False,200,136,0.2,5.4,0,1,5,3,0,1
+2016-09-04,Romania,Montenegro,1.0,1.0,FIFA World Cup qualification,Cluj,Romania,False,25,95,2.0,1.8,1,0,3,2,1,1
+2016-09-04,San Marino,Azerbaijan,0.0,1.0,FIFA World Cup qualification,Serravalle,San Marino,False,200,136,0.0,2.0,0,0,1,2,0,1
 2016-09-04,Slovakia,England,0.0,1.0,FIFA World Cup qualification,Trnava,Slovakia,False,24,13,0.6,1.2,1,2,2,1,2,2
-2016-09-05,Albania,North Macedonia,2.0,1.0,FIFA World Cup qualification,Shkodër,Albania,False,37,138,0.8,1.2,2,2,3,2,0,1
+2016-09-05,Albania,North Macedonia,2.0,1.0,FIFA World Cup qualification,Shkodër,Albania,False,37,138,0.8,1.2,2,1,3,2,0,0
 2016-09-05,Croatia,Turkey,1.0,1.0,FIFA World Cup qualification,Zagreb,Croatia,False,15,19,3.0,0.8,3,2,1,2,1,1
-2016-09-05,Finland,Kosovo,1.0,1.0,FIFA World Cup qualification,Turku,Finland,False,61,190,0.2,2.4,0,1,4,1,1,1
-2016-09-05,Georgia,Austria,1.0,2.0,FIFA World Cup qualification,Tbilisi,Georgia,False,118,22,1.2,2.2,1,1,2,3,2,1
-2016-09-05,Israel,Italy,1.0,3.0,FIFA World Cup qualification,Haifa,Israel,False,76,10,0.6,2.0,0,2,4,2,1,1
+2016-09-05,Finland,Kosovo,1.0,1.0,FIFA World Cup qualification,Turku,Finland,False,61,190,0.2,2.4,0,1,4,0,1,0
+2016-09-05,Georgia,Austria,1.0,2.0,FIFA World Cup qualification,Tbilisi,Georgia,False,118,22,0.8,1.8,1,1,2,3,1,1
+2016-09-05,Israel,Italy,1.0,3.0,FIFA World Cup qualification,Haifa,Israel,False,76,10,0.2,1.0,0,2,2,2,0,1
 2016-09-05,Serbia,Republic of Ireland,2.0,2.0,FIFA World Cup qualification,Belgrade,Serbia,False,47,31,1.4,0.8,3,1,1,3,1,1
-2016-09-05,Spain,Liechtenstein,8.0,0.0,FIFA World Cup qualification,León,Spain,False,8,182,1.4,0.8,3,0,2,4,0,1
+2016-09-05,Spain,Liechtenstein,8.0,0.0,FIFA World Cup qualification,León,Spain,False,8,182,1.4,0.8,3,0,2,3,0,1
 2016-09-05,Ukraine,Iceland,1.0,1.0,FIFA World Cup qualification,Kyiv,Ukraine,False,30,23,1.4,1.8,2,2,3,1,0,2
-2016-09-05,Wales,Moldova,4.0,0.0,FIFA World Cup qualification,Cardiff,Wales,False,11,165,1.6,1.0,3,1,2,3,0,1
-2016-09-06,Andorra,Latvia,0.0,1.0,FIFA World Cup qualification,Sant Julià de Lòria,Andorra,False,203,110,0.2,1.8,0,3,4,0,1,2
+2016-09-05,Wales,Moldova,4.0,0.0,FIFA World Cup qualification,Cardiff,Wales,False,11,165,1.6,1.0,3,1,2,2,0,1
+2016-09-06,Andorra,Latvia,0.0,1.0,FIFA World Cup qualification,Sant Julià de Lòria,Andorra,False,203,110,0.0,0.6,0,3,2,0,1,2
 2016-09-06,Belarus,France,0.0,0.0,FIFA World Cup qualification,Barysaw,Belarus,False,70,7,0.6,0.8,2,4,1,1,2,0
-2016-09-06,Bosnia and Herzegovina,Estonia,5.0,0.0,FIFA World Cup qualification,Zenica,Bosnia and Herzegovina,False,29,117,1.6,1.4,2,1,2,2,1,2
-2016-09-06,Bulgaria,Luxembourg,4.0,3.0,FIFA World Cup qualification,Sofia,Bulgaria,False,77,145,1.0,1.4,3,1,2,4,0,0
-2016-09-06,Cyprus,Belgium,0.0,3.0,FIFA World Cup qualification,Nicosia,Cyprus,False,86,2,1.0,1.6,1,3,4,2,0,0
-2016-09-06,Faroe Islands,Hungary,0.0,0.0,FIFA World Cup qualification,Tórshavn,Faroe Islands,False,135,19,0.8,2.0,1,1,4,2,0,2
-2016-09-06,Gibraltar,Greece,1.0,4.0,FIFA World Cup qualification,Faro,Portugal,True,205,52,0.0,4.0,0,2,4,2,1,1
+2016-09-06,Bosnia and Herzegovina,Estonia,5.0,0.0,FIFA World Cup qualification,Zenica,Bosnia and Herzegovina,False,29,117,1.6,1.0,2,1,1,2,1,2
+2016-09-06,Bulgaria,Luxembourg,4.0,3.0,FIFA World Cup qualification,Sofia,Bulgaria,False,77,145,0.6,0.8,2,0,1,3,0,0
+2016-09-06,Cyprus,Belgium,0.0,3.0,FIFA World Cup qualification,Nicosia,Cyprus,False,86,2,0.2,0.6,0,3,2,2,0,0
+2016-09-06,Faroe Islands,Hungary,0.0,0.0,FIFA World Cup qualification,Tórshavn,Faroe Islands,False,135,19,0.6,0.8,1,1,1,2,0,2
+2016-09-06,Gibraltar,Greece,1.0,4.0,FIFA World Cup qualification,Faro,Portugal,True,205,52,0.0,2.0,0,2,2,1,1,0
 2016-09-06,Sweden,Netherlands,1.0,1.0,FIFA World Cup qualification,Solna,Sweden,False,40,26,0.8,0.6,1,3,2,1,2,1
 2016-09-06,Switzerland,Portugal,2.0,0.0,FIFA World Cup qualification,Basel,Switzerland,False,18,6,1.0,0.6,2,4,0,0,3,1
 2016-10-06,Austria,Wales,2.0,2.0,FIFA World Cup qualification,Vienna,Austria,False,26,10,0.6,1.4,1,4,3,1,1,0
 2016-10-06,Iceland,Finland,3.0,2.0,FIFA World Cup qualification,Reykjavík,Iceland,False,27,84,1.6,1.8,2,0,1,3,2,2
 2016-10-06,Republic of Ireland,Georgia,1.0,0.0,FIFA World Cup qualification,Dublin,Republic of Ireland,False,31,137,1.0,1.6,1,1,2,3,2,1
 2016-10-06,Italy,Spain,1.0,1.0,FIFA World Cup qualification,Turin,Italy,False,13,11,1.4,1.2,2,3,2,2,1,0
-2016-10-06,Kosovo,Croatia,0.0,6.0,FIFA World Cup qualification,Shkodër,Albania,True,168,14,1.2,1.8,1,2,1,1,2,2
+2016-10-06,Kosovo,Croatia,0.0,6.0,FIFA World Cup qualification,Shkodër,Albania,True,168,14,0.6,0.2,1,2,0,1,1,2
 2016-10-06,Liechtenstein,Albania,0.0,2.0,FIFA World Cup qualification,Vaduz,Liechtenstein,False,182,40,0.4,4.0,0,2,4,3,1,0
-2016-10-06,North Macedonia,Israel,1.0,2.0,FIFA World Cup qualification,Skopje,North Macedonia,False,146,98,1.6,1.4,2,0,3,5,0,0
+2016-10-06,North Macedonia,Israel,1.0,2.0,FIFA World Cup qualification,Skopje,North Macedonia,False,146,98,0.8,1.2,1,0,3,3,0,0
 2016-10-06,Moldova,Serbia,0.0,3.0,FIFA World Cup qualification,Chișinău,Moldova,False,161,50,0.4,1.4,1,3,3,0,1,2
 2016-10-06,Turkey,Ukraine,2.0,2.0,FIFA World Cup qualification,Konya,Turkey,False,21,29,0.6,1.0,1,1,2,3,2,1
 2016-10-07,Belgium,Bosnia and Herzegovina,4.0,0.0,FIFA World Cup qualification,Brussels,Belgium,False,2,23,1.8,1.0,3,3,2,1,0,1
-2016-10-07,Estonia,Gibraltar,4.0,0.0,FIFA World Cup qualification,Tallinn,Estonia,False,130,205,0.6,2.6,1,0,2,4,2,1
-2016-10-07,France,Bulgaria,4.0,1.0,FIFA World Cup qualification,Saint-Denis,France,False,8,74,2.0,0.8,3,4,1,1,1,0
-2016-10-07,Greece,Cyprus,2.0,0.0,FIFA World Cup qualification,Piraeus,Greece,False,48,87,2.0,1.2,3,1,1,4,1,0
+2016-10-07,Estonia,Gibraltar,4.0,0.0,FIFA World Cup qualification,Tallinn,Estonia,False,130,205,0.6,2.6,1,0,2,3,2,1
+2016-10-07,France,Bulgaria,4.0,1.0,FIFA World Cup qualification,Saint-Denis,France,False,8,74,2.0,0.8,3,3,1,1,1,0
+2016-10-07,Greece,Cyprus,2.0,0.0,FIFA World Cup qualification,Piraeus,Greece,False,48,87,2.0,1.2,3,0,1,3,0,0
 2016-10-07,Hungary,Switzerland,2.0,3.0,FIFA World Cup qualification,Budapest,Hungary,False,20,16,1.2,1.6,1,2,1,0,3,3
-2016-10-07,Latvia,Faroe Islands,0.0,2.0,FIFA World Cup qualification,Riga,Latvia,False,95,111,2.2,0.4,4,1,0,3,1,1
-2016-10-07,Luxembourg,Sweden,0.0,1.0,FIFA World Cup qualification,Luxembourg,Luxembourg,False,145,41,0.8,2.8,0,1,5,2,0,2
+2016-10-07,Latvia,Faroe Islands,0.0,2.0,FIFA World Cup qualification,Riga,Latvia,False,95,111,2.2,0.4,4,1,0,1,1,1
+2016-10-07,Luxembourg,Sweden,0.0,1.0,FIFA World Cup qualification,Luxembourg,Luxembourg,False,145,41,0.8,2.4,0,1,4,2,0,2
 2016-10-07,Netherlands,Belarus,4.0,1.0,FIFA World Cup qualification,Rotterdam,Netherlands,False,24,57,1.4,1.0,2,2,1,1,2,2
-2016-10-07,Portugal,Andorra,6.0,0.0,FIFA World Cup qualification,Aveiro,Portugal,False,7,203,1.8,0.6,3,0,1,4,1,1
-2016-10-08,Armenia,Romania,0.0,5.0,FIFA World Cup qualification,Yerevan,Armenia,False,112,32,0.0,2.2,0,1,4,2,1,2
-2016-10-08,Azerbaijan,Norway,1.0,0.0,FIFA World Cup qualification,Baku,Azerbaijan,False,133,70,0.8,1.0,2,1,2,4,1,0
+2016-10-07,Portugal,Andorra,6.0,0.0,FIFA World Cup qualification,Aveiro,Portugal,False,7,203,1.8,0.6,3,0,1,3,1,1
+2016-10-08,Armenia,Romania,0.0,5.0,FIFA World Cup qualification,Yerevan,Armenia,False,112,32,0.0,0.8,0,1,2,2,1,2
+2016-10-08,Azerbaijan,Norway,1.0,0.0,FIFA World Cup qualification,Baku,Azerbaijan,False,133,70,0.4,0.8,1,1,2,4,1,0
 2016-10-08,England,Malta,2.0,0.0,FIFA World Cup qualification,London,England,False,12,176,1.0,0.8,2,0,1,3,2,2
 2016-10-08,Germany,Czech Republic,3.0,0.0,FIFA World Cup qualification,Hamburg,Germany,False,3,0,1.8,0.6,3,1,1,2,1,2
-2016-10-08,Montenegro,Kazakhstan,5.0,0.0,FIFA World Cup qualification,Podgorica,Montenegro,False,105,83,0.6,1.6,0,2,3,1,2,2
-2016-10-08,Northern Ireland,San Marino,4.0,0.0,FIFA World Cup qualification,Belfast,Northern Ireland,False,30,201,0.4,0.6,1,0,3,5,1,0
+2016-10-08,Montenegro,Kazakhstan,5.0,0.0,FIFA World Cup qualification,Podgorica,Montenegro,False,105,83,0.4,0.8,0,1,2,0,2,2
+2016-10-08,Northern Ireland,San Marino,4.0,0.0,FIFA World Cup qualification,Belfast,Northern Ireland,False,30,201,0.4,0.6,1,0,3,2,1,0
 2016-10-08,Poland,Denmark,3.0,2.0,FIFA World Cup qualification,Warsaw,Poland,False,17,46,1.0,0.8,1,3,0,1,4,1
 2016-10-08,Scotland,Lithuania,1.0,1.0,FIFA World Cup qualification,Glasgow,Scotland,False,44,117,1.4,1.0,3,1,2,2,0,2
 2016-10-08,Slovenia,Slovakia,1.0,0.0,FIFA World Cup qualification,Ljubljana,Slovenia,False,67,28,0.6,0.8,1,1,2,3,2,1
 2016-10-09,Albania,Spain,0.0,2.0,FIFA World Cup qualification,Shkodër,Albania,False,40,11,1.0,0.8,3,2,2,2,0,1
 2016-10-09,Finland,Croatia,0.0,1.0,FIFA World Cup qualification,Tampere,Finland,False,84,14,0.8,1.8,0,2,3,1,2,2
 2016-10-09,Iceland,Turkey,2.0,0.0,FIFA World Cup qualification,Reykjavík,Iceland,False,27,21,2.0,2.0,3,1,1,1,1,3
-2016-10-09,Israel,Liechtenstein,2.0,1.0,FIFA World Cup qualification,Jerusalem,Israel,False,98,182,1.0,2.4,1,0,4,5,0,0
+2016-10-09,Israel,Liechtenstein,2.0,1.0,FIFA World Cup qualification,Jerusalem,Israel,False,98,182,0.8,1.8,1,0,3,5,0,0
 2016-10-09,North Macedonia,Italy,2.0,3.0,FIFA World Cup qualification,Skopje,North Macedonia,False,146,13,1.0,1.6,1,2,4,1,0,2
 2016-10-09,Moldova,Republic of Ireland,1.0,3.0,FIFA World Cup qualification,Chișinău,Moldova,False,161,31,0.4,2.0,1,2,4,2,0,1
 2016-10-09,Serbia,Austria,3.0,2.0,FIFA World Cup qualification,Belgrade,Serbia,False,50,26,2.2,1.0,3,1,0,2,2,2
-2016-10-09,Ukraine,Kosovo,3.0,0.0,FIFA World Cup qualification,Kraków,Poland,True,29,168,0.6,1.6,0,1,3,2,2,2
+2016-10-09,Ukraine,Kosovo,3.0,0.0,FIFA World Cup qualification,Kraków,Poland,True,29,168,0.6,1.6,0,1,3,1,2,1
 2016-10-09,Wales,Georgia,1.0,1.0,FIFA World Cup qualification,Cardiff,Wales,False,10,137,2.0,1.0,3,1,1,4,1,0
 2016-10-10,Andorra,Switzerland,1.0,2.0,FIFA World Cup qualification,Sant Julià de Lòria,Andorra,False,203,16,0.0,2.0,0,2,4,0,1,3
 2016-10-10,Belarus,Luxembourg,1.0,1.0,FIFA World Cup qualification,Barysaw,Belarus,False,57,145,0.8,1.6,2,0,2,5,1,0
-2016-10-10,Bosnia and Herzegovina,Cyprus,2.0,0.0,FIFA World Cup qualification,Zenica,Bosnia and Herzegovina,False,23,87,2.0,1.8,2,0,2,5,1,0
+2016-10-10,Bosnia and Herzegovina,Cyprus,2.0,0.0,FIFA World Cup qualification,Zenica,Bosnia and Herzegovina,False,23,87,2.0,1.8,2,0,2,4,1,0
 2016-10-10,Estonia,Greece,0.0,2.0,FIFA World Cup qualification,Tallinn,Estonia,False,130,48,1.0,2.6,1,4,2,1,2,0
-2016-10-10,Faroe Islands,Portugal,0.0,6.0,FIFA World Cup qualification,Tórshavn,Faroe Islands,False,111,7,1.0,1.4,2,4,2,1,1,0
+2016-10-10,Faroe Islands,Portugal,0.0,6.0,FIFA World Cup qualification,Tórshavn,Faroe Islands,False,111,7,1.0,0.8,2,4,1,1,1,0
 2016-10-10,Gibraltar,Belgium,0.0,6.0,FIFA World Cup qualification,Faro,Portugal,True,205,2,0.2,3.6,0,3,4,2,1,0
 2016-10-10,Latvia,Hungary,0.0,2.0,FIFA World Cup qualification,Riga,Latvia,False,95,20,1.2,0.8,3,0,1,2,1,3
 2016-10-10,Netherlands,France,0.0,1.0,FIFA World Cup qualification,Amsterdam,Netherlands,False,24,8,2.0,1.0,3,3,1,1,1,1
@@ -652,10 +236,10 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2016-10-11,Czech Republic,Azerbaijan,0.0,0.0,FIFA World Cup qualification,Ostrava,Czech Republic,False,0,133,1.0,1.4,1,2,2,2,2,1
 2016-10-11,Denmark,Montenegro,0.0,1.0,FIFA World Cup qualification,Copenhagen,Denmark,False,46,105,2.8,1.0,3,1,1,2,1,2
 2016-10-11,Germany,Northern Ireland,2.0,0.0,FIFA World Cup qualification,Hanover,Germany,False,3,30,1.8,0.6,3,2,1,2,1,1
-2016-10-11,Kazakhstan,Romania,0.0,0.0,FIFA World Cup qualification,Astana,Kazakhstan,False,83,32,1.0,1.6,2,1,1,2,2,2
+2016-10-11,Kazakhstan,Romania,0.0,0.0,FIFA World Cup qualification,Astana,Kazakhstan,False,83,32,0.8,1.6,1,1,1,2,2,2
 2016-10-11,Lithuania,Malta,2.0,0.0,FIFA World Cup qualification,Vilnius,Lithuania,False,117,176,1.2,1.0,1,0,1,4,3,1
-2016-10-11,Norway,San Marino,4.0,1.0,FIFA World Cup qualification,Oslo,Norway,False,70,201,1.0,2.0,1,0,4,5,0,0
-2016-10-11,Poland,Armenia,2.0,1.0,FIFA World Cup qualification,Warsaw,Poland,False,17,112,1.6,1.2,2,0,0,4,3,1
+2016-10-11,Norway,San Marino,4.0,1.0,FIFA World Cup qualification,Oslo,Norway,False,70,201,1.0,2.0,1,0,4,3,0,0
+2016-10-11,Poland,Armenia,2.0,1.0,FIFA World Cup qualification,Warsaw,Poland,False,17,112,1.6,1.2,2,0,0,3,3,1
 2016-10-11,Slovakia,Scotland,3.0,0.0,FIFA World Cup qualification,Trnava,Slovakia,False,28,44,0.4,1.2,1,2,3,2,1,1
 2016-10-11,Slovenia,England,0.0,0.0,FIFA World Cup qualification,Ljubljana,Slovenia,False,67,12,0.6,0.8,1,3,2,1,2,1
 2016-11-09,Greece,Belarus,0.0,1.0,Friendly,Piraeus,Greece,False,42,77,2.4,1.0,4,2,1,1,0,2
@@ -668,7 +252,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2016-11-11,Malta,Slovenia,0.0,1.0,FIFA World Cup qualification,Attard,Malta,False,178,52,0.6,2.4,0,1,4,1,1,3
 2016-11-11,Northern Ireland,Azerbaijan,4.0,0.0,FIFA World Cup qualification,Belfast,Northern Ireland,False,36,88,0.8,0.8,1,2,3,1,1,2
 2016-11-11,Romania,Poland,0.0,3.0,FIFA World Cup qualification,Bucharest,Romania,False,34,15,1.4,0.6,1,2,1,0,3,3
-2016-11-11,San Marino,Germany,0.0,8.0,FIFA World Cup qualification,Serravalle,San Marino,False,201,2,0.2,4.2,0,4,5,1,0,0
+2016-11-11,San Marino,Germany,0.0,8.0,FIFA World Cup qualification,Serravalle,San Marino,False,201,2,0.2,3.8,0,4,4,1,0,0
 2016-11-11,Slovakia,Lithuania,4.0,0.0,FIFA World Cup qualification,Trnava,Slovakia,False,26,98,0.6,1.0,1,1,3,1,1,3
 2016-11-12,Albania,Israel,0.0,3.0,FIFA World Cup qualification,Elbasan,Albania,False,47,79,1.0,1.0,3,2,2,3,0,0
 2016-11-12,Austria,Republic of Ireland,0.0,1.0,FIFA World Cup qualification,Vienna,Austria,False,30,33,1.4,1.6,1,3,2,1,2,1
@@ -676,7 +260,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2016-11-12,Georgia,Moldova,1.0,1.0,FIFA World Cup qualification,Tbilisi,Georgia,False,122,173,0.8,1.8,1,0,3,5,1,0
 2016-11-12,Liechtenstein,Italy,0.0,4.0,FIFA World Cup qualification,Vaduz,Liechtenstein,False,183,13,0.2,4.2,0,2,5,1,0,2
 2016-11-12,Spain,North Macedonia,4.0,0.0,FIFA World Cup qualification,Granada,Spain,False,10,155,2.6,0.6,3,1,1,4,1,0
-2016-11-12,Turkey,Kosovo,2.0,0.0,FIFA World Cup qualification,Antalya,Turkey,False,25,164,1.0,1.0,1,1,1,2,3,2
+2016-11-12,Turkey,Kosovo,2.0,0.0,FIFA World Cup qualification,Antalya,Turkey,False,25,164,1.0,1.0,1,1,1,2,3,1
 2016-11-12,Ukraine,Finland,1.0,0.0,FIFA World Cup qualification,Odessa,Ukraine,False,29,101,1.2,1.2,1,0,2,4,2,1
 2016-11-12,Wales,Serbia,1.0,1.0,FIFA World Cup qualification,Cardiff,Wales,False,11,43,2.0,1.2,2,3,1,0,2,2
 2016-11-13,Belgium,Estonia,8.0,1.0,FIFA World Cup qualification,Brussels,Belgium,False,4,119,2.8,0.6,3,1,1,3,1,1

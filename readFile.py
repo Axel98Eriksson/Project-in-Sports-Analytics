@@ -16,7 +16,7 @@ csvFile = csvFile[(csvFile['home_team'].isin(euro['home_team'])) & (csvFile['awa
 
 
 #filter to only include rows with date after 1980-01-01
-csvFile = csvFile[csvFile['date'] > '2016-01-01']
+csvFile = csvFile[csvFile['date'] > '2014-01-01']
 csvFile['date'] = pandas.to_datetime(csvFile['date'])
 
 rankings = pandas.read_csv('fifa_rankings/fifa_ranking-2024-04-04.csv')

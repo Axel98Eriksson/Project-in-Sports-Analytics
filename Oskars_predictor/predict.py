@@ -105,9 +105,6 @@ accuracy = accuracy_score(actual_results, predicted_results)
 print(f'Prediction accuracy: {accuracy * 100:.2f}%')
 
 # display a confusion matrix
-
-
 cm = confusion_matrix(actual_results, predicted_results, labels=['Home Win', 'Draw', 'Away Win'])
 cmd = ConfusionMatrixDisplay(cm, display_labels=['Home Win', 'Draw', 'Away Win'])
 cmd.plot()
-
