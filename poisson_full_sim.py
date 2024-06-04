@@ -113,11 +113,11 @@ team_list = [
 fields = ["Team", "Group Stage Exits", "Round of 16 Exits", "Quarterfinal Exits", "Semifinal Exits", "Runner-Up", "Winner"]
 
 # Create and initialize the CSV file
-with open('team_progress.csv', 'w', newline='') as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=fields)
-    writer.writeheader()
-    for team in team_list:
-        writer.writerow({"Team": team, "Group Stage Exits": 0, "Round of 16 Exits": 0, "Quarterfinal Exits": 0, "Semifinal Exits": 0, "Runner-Up": 0, "Winner": 0})
+#with open('team_progress.csv', 'w', newline='') as csvfile:
+    #writer = csv.DictWriter(csvfile, fieldnames=fields)
+    #writer.writeheader()
+    #for team in team_list:
+        #writer.writerow({"Team": team, "Group Stage Exits": 0, "Round of 16 Exits": 0, "Quarterfinal Exits": 0, "Semifinal Exits": 0, "Runner-Up": 0, "Winner": 0})
 
 def update_team_progress(team_name, stage):
     # Read current data
@@ -330,7 +330,7 @@ for match in quarter_final_matches:
     winner = simulate_knockout_match(match[2], match[3])
     quarter_final_winners.append(winner)
     loser = match[3] if winner == match[2] else match[2]
-    update_team_progress(loser, match[1]) # Update the progress for the losing team
+    update_team_progress(loser, "Quarterfinal") # Update the progress for the losing team
 print("Quarter-final winners: ", quarter_final_winners)
 
 # Define semi-finals with debug info
@@ -344,7 +344,7 @@ for match in semi_final_matches:
     winner = simulate_knockout_match(match[2], match[3])
     semi_final_winners.append(winner)
     loser = match[3] if winner == match[2] else match[2]
-    update_team_progress(loser, match[1]) # Update the progress for the losing team
+    update_team_progress(loser, "Semifinal") # Update the progress for the losing team
 print("Semi-final winners: ", semi_final_winners)
 
 # Define Final with debug info
