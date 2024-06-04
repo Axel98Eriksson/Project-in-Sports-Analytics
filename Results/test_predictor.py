@@ -44,7 +44,7 @@ def predict_goals(home_team, away_team, tournament, home_ranking, away_ranking, 
     
     return home_goals, away_goals
 
-file_path = 'Results/results_friendly.csv'
+file_path = 'Results/results_with_rankings_wo_conference.csv'
 data = pd.read_csv(file_path)
 
 for index, row in data.iterrows():
@@ -87,7 +87,9 @@ data['correct_home_goals'] = data['home_goals'] == data['actual_home_goals']
 data['correct_away_goals'] = data['away_goals'] == data['actual_away_goals']
 data['correct_winner'] = data['predicted_winner'] == data['winner']
 
-print(data)
+#print predicted winner and actual winner, predicted score and actual score
+print(data[[ 'home_goals', 'away_goals', 'actual_home_goals', 'actual_away_goals', 'predicted_winner', 'winner', 'correct_winner']])
+
 
 home_goals_accuracy = data['correct_home_goals'].mean()
 away_goals_accuracy = data['correct_away_goals'].mean()

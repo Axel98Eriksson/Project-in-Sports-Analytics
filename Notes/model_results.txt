@@ -39,3 +39,68 @@ Total Correct Away Goals Predictions: 34
 Total Correct Predictions: 50
 Total Correct Winner Predictions: 32
 Model Accuracy: 0.31
+
+
+Tested many different models, the best ones was Xgb/randomForest- regressor 
+
+
+Rank: 1
+File: Results/results_with_rankings_wo_conference.csv
+Model: 1
+Home MSE: 2.241372727272727
+Away MSE: 0.9639181818181819
+
+Rank: 2
+File: Results/results_all.csv
+Model: 1
+Home MSE: 2.3507446601941746
+Away MSE: 1.1812300970873788
+
+Rank: 3
+File: Results/results_with_rankings_wo_conference.csv
+Model: 3
+Home MSE: 2.67868739285419
+Away MSE: 1.2837635038267903
+
+Rank: 4
+File: Results/results_all.csv
+Model: 3
+Home MSE: 2.8552214861010285
+Away MSE: 1.4022758998025715
+
+Rank: 5
+File: Results/results_some.csv
+Model: 1
+Home MSE: 3.4393774102686527
+Away MSE: 1.60256142478355
+
+Rank: 6
+File: Results/results_some.csv
+Model: 3
+Home MSE: 3.6487243507979628
+Away MSE: 1.68579273390876
+
+Rank: 7
+File: Results/results_some.csv
+Model: 5
+Home MSE: 4.201871657754011
+Away MSE: 2.3997326203208558
+Home Accuracy: 0.2887700534759358
+Away Accuracy: 0.35427807486631013
+
+
+
+With regressor evaluation:
+
+Best hyperparameters and scores for home_score predictions:
+RandomForestRegressor: {'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 100} with MSE: 1.4397233198694637
+XGBRegressor: {'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50} with MSE: 1.3644384217858956
+PoissonRegressor: {'alpha': 44.0} with MSE: 1.3083541356591655
+
+Best hyperparameters and scores for away_score predictions:
+RandomForestRegressor: {'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 50} with MSE: 1.1556719747015698
+XGBRegressor: {'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50} with MSE: 1.099387183577502
+PoissonRegressor: {'alpha': 41.0} with MSE: 1.0598158980063186
+
+
+
