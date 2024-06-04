@@ -5,6 +5,16 @@ import random
 import joblib
 from oskars_poisson import simulate_match as oskar_predictor
 
+number_of_iterations = 1
+# team_of_interest = "Denmark"
+
+# team_progress_data = {
+#   "Group Stage": 0,
+#   "Round of 16": 0,
+#   "Quarter-finals": 0,
+#   "Semi-finals": 0,
+#   "Final": 0
+# }
 
 # Define the groups and teams
 teams = {
@@ -94,8 +104,15 @@ group_stage_df = pd.DataFrame(group_stage_matches, columns=["Date", "Stage", "Ho
 
 matches_odds = []
 
-number_of_iterations = 100
+
+team_of_interest_results = []
+
+# quarter_finalists = []
+semi_finalists = []
+finalists = []
 winners = []
+
+
 
 def predict_match_result(home_team, away_team):
 
@@ -201,6 +218,10 @@ for i in range(number_of_iterations):
     for match in quarter_final_matches:
         winner = simulate_knockout_match(match[2], match[3])
         quarter_final_winners.append(winner)
+        semi_finalists.append(winner)
+
+    
+    #add quarter finalists to the list to check probability for later
 
     # Define semi-finals
     semi_final_matches = [
@@ -213,6 +234,10 @@ for i in range(number_of_iterations):
     for match in semi_final_matches:
         winner = simulate_knockout_match(match[2], match[3])
         semi_final_winners.append(winner)
+        #add semi finalists to the list to check probability for later
+        finalists.append(winner)
+    
+    
 
     # Define Final
     final_match = ("2024-07-14", "Final", semi_final_winners[0], semi_final_winners[1], "UEFA Euro")
@@ -228,19 +253,27 @@ for i in range(number_of_iterations):
                         + [(final_match[2], final_match[3], simulate_knockout_match(final_match[2], final_match[3]))]
 
     all_matches_df["Winner"] = [result[2] for result in results_with_winners]
-    winners.append(final_match[2])
+    
+    winners.append(all_matches_df[all_matches_df["Stage"] == "Final"]["Winner"].values[0])
+
+#calculate the quarter finalists and semi finalists probabilities
+semi_finalists_probabilities = [(team, semi_finalists.count(team) / number_of_iterations) for team in set(semi_finalists)]
+semi_finalists_probabilities =sorted(semi_finalists_probabilities, key=lambda x: x[1], reverse=True)
+
+finalists_probabilities = [(team, finalists.count(team) / number_of_iterations) for team in finalists]
+
+finalists_probabilities =sorted(finalists_probabilities, key=lambda x: x[1], reverse=True)
+
+
+
+        
+
+
 
 # Calculate the probability of each team winning the tournament
 winner_probabilities = [(team, winners.count(team) / number_of_iterations) for team in set(winners)]
 # Sort the probabilities in descending order
 winner_probabilities = sorted(winner_probabilities, key=lambda x: x[1], reverse=True)
-
-
-# Print the probabilities of each team winning the tournament
-print("Winner Probabilities:")
-for team, probability in winner_probabilities:
-    print(f"{team}: {probability:.2f}")
-
 
 
 
@@ -286,15 +319,40 @@ def output():
     # Print Final
     print("\nFinal:")
     print(f"{final_match[1]} - {final_match[2]} vs {final_match[3]}")
+    #print odds
+    for odds in matches_odds:
+        if odds[0] == final_match[2] and odds[1] == final_match[3]:
+            print(f"{odds[2]:.2f} - {odds[3]:.2f} - {odds[4]:.2f}")
 
     # Print Winner
-    print(f"\nWinner: {final_match[2]}")
+    print("Winner:")
+    print(all_matches_df[all_matches_df["Stage"] == "Final"]["Winner"].values[0])
+
+
+    print("\nSemi Finalists Probabilities:")
+    for team, probability in semi_finalists_probabilities:
+        print(f"{team}: {probability:.2f}")
+
+    print("\nFinalists Probabilities:")
+    for team, probability in finalists_probabilities:
+        print(f"{team}: {probability:.2f}")
+
+
+    # Print the probabilities of each team winning the tournament
+    print("\nWinner Probabilities:")
+    for team, probability in winner_probabilities:
+        print(f"{team}: {probability:.2f}")
+
+    # print("\nTeam of Interest Results:")
+    # for result in team_of_interest_results:
+    #     print(result)
+   
 
     # Save to CSV
     all_matches_df.to_csv("UEFA_Euro_2024_Simulation.csv", index=False)
 
 
-#output()
+output()
 
 
 
