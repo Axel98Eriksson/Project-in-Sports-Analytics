@@ -113,15 +113,15 @@ team_list = [
 fields = ["Team", "Group Stage Exits", "Round of 16 Exits", "Quarterfinal Exits", "Semifinal Exits", "Runner-Up", "Winner"]
 
 # Create and initialize the CSV file
-#with open('team_progress.csv', 'w', newline='') as csvfile:
-    #writer = csv.DictWriter(csvfile, fieldnames=fields)
-    #writer.writeheader()
-    #for team in team_list:
-        #writer.writerow({"Team": team, "Group Stage Exits": 0, "Round of 16 Exits": 0, "Quarterfinal Exits": 0, "Semifinal Exits": 0, "Runner-Up": 0, "Winner": 0})
+with open('full_simulation.csv', 'w', newline='') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=fields)
+    writer.writeheader()
+    for team in team_list:
+        writer.writerow({"Team": team, "Group Stage Exits": 0, "Round of 16 Exits": 0, "Quarterfinal Exits": 0, "Semifinal Exits": 0, "Runner-Up": 0, "Winner": 0})
 
 def update_team_progress(team_name, stage):
     # Read current data
-    with open('team_progress.csv', 'r') as csvfile:
+    with open('full_simulation.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         teams = list(reader)
     
@@ -143,7 +143,7 @@ def update_team_progress(team_name, stage):
             break
 
     # Write the updated data back to the CSV file
-    with open('team_progress.csv', 'w', newline='') as csvfile:
+    with open('full_simulation.csv', 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fields)
         writer.writeheader()
         writer.writerows(teams)
@@ -237,124 +237,130 @@ def predict_match_result(home_team, away_team, group_stage):
             return (home_team, 0), (away_team, 3), away_team
         else:
             return (home_team, 1), (away_team, 1), random.choice([home_team , away_team])
+#############################################################################
 
-# Simulate the group stage matches
-results = []
-for index, match in group_stage_df.iterrows():
-    result = predict_match_result(match["Home Team"], match["Away Team"],group_stage=True)
-    results.append(result)
+n_simulations = 10000
 
-# Process group stage results
-group_points = {group: {team: 0 for team in teams[group]} for group in teams}
-for result in results:
-    for team, points in result[:2]:
-        for group, group_teams in teams.items():
-            if team in group_teams:
-                group_points[group][team] += points
+for n in range(n_simulations):
+    print("Simulation ", n ,"\n")
 
-# Calculate group standings
-group_standings = {}
-for group in teams:
-    sorted_teams = sorted(group_points[group].items(), key=lambda x: x[1], reverse=True)
-    group_standings[group] = sorted_teams
+    # Simulate the group stage matches
+    results = []
+    for index, match in group_stage_df.iterrows():
+        result = predict_match_result(match["Home Team"], match["Away Team"],group_stage=True)
+        results.append(result)
 
-# Identify and rank third-placed teams
-third_placed_teams = []
-for group in group_standings:
-    third_placed_teams.append(group_standings[group][2])
+    # Process group stage results
+    group_points = {group: {team: 0 for team in teams[group]} for group in teams}
+    for result in results:
+        for team, points in result[:2]:
+            for group, group_teams in teams.items():
+                if team in group_teams:
+                    group_points[group][team] += points
 
-# Sort third-placed teams by points, then by goal difference, then by goals scored
-third_placed_teams.sort(key=lambda x: (x[1]), reverse=True)
+    # Calculate group standings
+    group_standings = {}
+    for group in teams:
+        sorted_teams = sorted(group_points[group].items(), key=lambda x: x[1], reverse=True)
+        group_standings[group] = sorted_teams
 
-# Select top 4 third-placed teams
-top_4_third_placed_teams = third_placed_teams[:4]
+    # Identify and rank third-placed teams
+    third_placed_teams = []
+    for group in group_standings:
+        third_placed_teams.append(group_standings[group][2])
 
-# Determine knockout stage positions
-knockout_positions = {}
-for group in group_standings:
-    knockout_positions[f"1{group}"] = group_standings[group][0][0]
-    knockout_positions[f"2{group}"] = group_standings[group][1][0]
+    # Sort third-placed teams by points, then by goal difference, then by goals scored
+    third_placed_teams.sort(key=lambda x: (x[1]), reverse=True)
 
-# Define knockout stage matches with top 4 third-placed teams
-knockout_stage_matches = [
-    ("2024-06-29", "Round of 16", knockout_positions["1B"], top_4_third_placed_teams[0][0], "UEFA Euro"),
-    ("2024-06-29", "Round of 16", knockout_positions["1A"], knockout_positions["2C"], "UEFA Euro"),
-    ("2024-06-30", "Round of 16", knockout_positions["1F"], top_4_third_placed_teams[1][0], "UEFA Euro"),
-    ("2024-06-30", "Round of 16", knockout_positions["2D"], knockout_positions["2E"], "UEFA Euro"),
-    ("2024-07-01", "Round of 16", knockout_positions["1E"], top_4_third_placed_teams[2][0], "UEFA Euro"),
-    ("2024-07-01", "Round of 16", knockout_positions["1D"], knockout_positions["2F"], "UEFA Euro"),
-    ("2024-07-02", "Round of 16", knockout_positions["1C"], top_4_third_placed_teams[3][0], "UEFA Euro"),
-    ("2024-07-02", "Round of 16", knockout_positions["2A"], knockout_positions["2B"], "UEFA Euro")
-]
+    # Select top 4 third-placed teams
+    top_4_third_placed_teams = third_placed_teams[:4]
 
-knockout_stage_teams = set()
-for match in knockout_stage_matches:
-    knockout_stage_teams.add(match[2])
-    knockout_stage_teams.add(match[3])
+    # Determine knockout stage positions
+    knockout_positions = {}
+    for group in group_standings:
+        knockout_positions[f"1{group}"] = group_standings[group][0][0]
+        knockout_positions[f"2{group}"] = group_standings[group][1][0]
 
-# Update the group stage exits
-for team in team_list:
-    if team not in knockout_stage_teams:
-        update_team_progress(team, "Group Stage")
-    
+    # Define knockout stage matches with top 4 third-placed teams
+    knockout_stage_matches = [
+        ("2024-06-29", "Round of 16", knockout_positions["1B"], top_4_third_placed_teams[0][0], "UEFA Euro"),
+        ("2024-06-29", "Round of 16", knockout_positions["1A"], knockout_positions["2C"], "UEFA Euro"),
+        ("2024-06-30", "Round of 16", knockout_positions["1F"], top_4_third_placed_teams[1][0], "UEFA Euro"),
+        ("2024-06-30", "Round of 16", knockout_positions["2D"], knockout_positions["2E"], "UEFA Euro"),
+        ("2024-07-01", "Round of 16", knockout_positions["1E"], top_4_third_placed_teams[2][0], "UEFA Euro"),
+        ("2024-07-01", "Round of 16", knockout_positions["1D"], knockout_positions["2F"], "UEFA Euro"),
+        ("2024-07-02", "Round of 16", knockout_positions["1C"], top_4_third_placed_teams[3][0], "UEFA Euro"),
+        ("2024-07-02", "Round of 16", knockout_positions["2A"], knockout_positions["2B"], "UEFA Euro")
+    ]
+
+    knockout_stage_teams = set()
+    for match in knockout_stage_matches:
+        knockout_stage_teams.add(match[2])
+        knockout_stage_teams.add(match[3])
+
+    # Update the group stage exits
+    for team in team_list:
+        if team not in knockout_stage_teams:
+            update_team_progress(team, "Group Stage")
+        
 
 
-# Function to simulate knockout match
-def simulate_knockout_match(home_team, away_team):
-    result = predict_match_result(home_team, away_team,group_stage=False)
-    winner = result[2] if result[2] is not None else random.choice([home_team, away_team])
-    
-    return winner
+    # Function to simulate knockout match
+    def simulate_knockout_match(home_team, away_team):
+        result = predict_match_result(home_team, away_team,group_stage=False)
+        winner = result[2] if result[2] is not None else random.choice([home_team, away_team])
+        
+        return winner
 
-# Simulate knockout stage matches with debug info
-round_of_16_winners = []
-print("Ro16 Matches")
-for match in knockout_stage_matches:
-    print(match[2] , " - ", match[3])
-    winner = simulate_knockout_match(match[2], match[3])
-    round_of_16_winners.append(winner)
+    # Simulate knockout stage matches with debug info
+    round_of_16_winners = []
+    print("Ro16 Matches")
+    for match in knockout_stage_matches:
+        print(match[2] , " - ", match[3])
+        winner = simulate_knockout_match(match[2], match[3])
+        round_of_16_winners.append(winner)
+        loser = match[3] if winner == match[2] else match[2]
+        update_team_progress(loser, match[1]) # Update the progress for the losing team
+    print("Round of 16 winners: ", round_of_16_winners)
+
+    # Define quarter-finals with debug info
+    quarter_final_matches = [
+        ("2024-07-05", "Quarter-finals", round_of_16_winners[0], round_of_16_winners[1], "UEFA Euro"),
+        ("2024-07-05", "Quarter-finals", round_of_16_winners[2], round_of_16_winners[3], "UEFA Euro"),
+        ("2024-07-06", "Quarter-finals", round_of_16_winners[4], round_of_16_winners[5], "UEFA Euro"),
+        ("2024-07-06", "Quarter-finals", round_of_16_winners[6], round_of_16_winners[7], "UEFA Euro")
+    ]
+
+    quarter_final_winners = []
+    for match in quarter_final_matches:
+        winner = simulate_knockout_match(match[2], match[3])
+        quarter_final_winners.append(winner)
+        loser = match[3] if winner == match[2] else match[2]
+        update_team_progress(loser, "Quarterfinal") # Update the progress for the losing team
+    print("Quarter-final winners: ", quarter_final_winners)
+
+    # Define semi-finals with debug info
+    semi_final_matches = [
+        ("2024-07-09", "Semi-finals", quarter_final_winners[0], quarter_final_winners[1], "UEFA Euro"),
+        ("2024-07-10", "Semi-finals", quarter_final_winners[2], quarter_final_winners[3], "UEFA Euro")
+    ]
+
+    semi_final_winners = []
+    for match in semi_final_matches:
+        winner = simulate_knockout_match(match[2], match[3])
+        semi_final_winners.append(winner)
+        loser = match[3] if winner == match[2] else match[2]
+        update_team_progress(loser, "Semifinal") # Update the progress for the losing team
+    print("Semi-final winners: ", semi_final_winners)
+
+    # Define Final with debug info
+    final_match = ("2024-07-14", "Final", semi_final_winners[0], semi_final_winners[1], "UEFA Euro")
+    final_winner = simulate_knockout_match(final_match[2], final_match[3])
     loser = match[3] if winner == match[2] else match[2]
-    update_team_progress(loser, match[1]) # Update the progress for the losing team
-print("Round of 16 winners: ", round_of_16_winners)
+    update_team_progress(loser, "Runner-Up") # Update the progress for the losing team
+    update_team_progress(winner, "Winner") # Update the progress for the losing team
+    print("Final winner: ", final_winner)
 
-# Define quarter-finals with debug info
-quarter_final_matches = [
-    ("2024-07-05", "Quarter-finals", round_of_16_winners[0], round_of_16_winners[1], "UEFA Euro"),
-    ("2024-07-05", "Quarter-finals", round_of_16_winners[2], round_of_16_winners[3], "UEFA Euro"),
-    ("2024-07-06", "Quarter-finals", round_of_16_winners[4], round_of_16_winners[5], "UEFA Euro"),
-    ("2024-07-06", "Quarter-finals", round_of_16_winners[6], round_of_16_winners[7], "UEFA Euro")
-]
-
-quarter_final_winners = []
-for match in quarter_final_matches:
-    winner = simulate_knockout_match(match[2], match[3])
-    quarter_final_winners.append(winner)
-    loser = match[3] if winner == match[2] else match[2]
-    update_team_progress(loser, "Quarterfinal") # Update the progress for the losing team
-print("Quarter-final winners: ", quarter_final_winners)
-
-# Define semi-finals with debug info
-semi_final_matches = [
-    ("2024-07-09", "Semi-finals", quarter_final_winners[0], quarter_final_winners[1], "UEFA Euro"),
-    ("2024-07-10", "Semi-finals", quarter_final_winners[2], quarter_final_winners[3], "UEFA Euro")
-]
-
-semi_final_winners = []
-for match in semi_final_matches:
-    winner = simulate_knockout_match(match[2], match[3])
-    semi_final_winners.append(winner)
-    loser = match[3] if winner == match[2] else match[2]
-    update_team_progress(loser, "Semifinal") # Update the progress for the losing team
-print("Semi-final winners: ", semi_final_winners)
-
-# Define Final with debug info
-final_match = ("2024-07-14", "Final", semi_final_winners[0], semi_final_winners[1], "UEFA Euro")
-final_winner = simulate_knockout_match(final_match[2], final_match[3])
-loser = match[3] if winner == match[2] else match[2]
-update_team_progress(loser, "Runner-Up") # Update the progress for the losing team
-update_team_progress(winner, "Winner") # Update the progress for the losing team
-print("Final winner: ", final_winner)
-
-# Combine all matches into a DataFrame
-all_matches = group_stage_df.values.tolist() + knockout_stage_matches + quarter_final_matches + semi_final_matches + [final_match]
-all_matches_df = pd.DataFrame(all_matches, columns=["Date", "Stage", "Home Team", "Away Team", "Tournament"])
+    # Combine all matches into a DataFrame
+    #all_matches = group_stage_df.values.tolist() + knockout_stage_matches + quarter_final_matches + semi_final_matches + [final_match]
+    #all_matches_df = pd.DataFrame(all_matches, columns=["Date", "Stage", "Home Team", "Away Team", "Tournament"])
