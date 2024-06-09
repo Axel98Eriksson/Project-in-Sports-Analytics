@@ -154,8 +154,8 @@ def update_team_progress(team_name, stage):
 group_stage_df = pd.DataFrame(group_stage_matches, columns=["Date", "Stage", "Home Team", "Away Team", "Tournament"])
 
 # Load the Poisson regression models
-poisson_home = joblib.load('models/poisson_home.pkl')
-poisson_away = joblib.load('models/poisson_away.pkl')
+poisson_home = joblib.load('models/new_poisson_home.pkl')
+poisson_away = joblib.load('models/new_poisson_away.pkl')
 
 # Load the label encoders
 label_encoders = joblib.load('models/label_encoders.pkl')
@@ -182,7 +182,6 @@ def match_outcome(home_win_prob, draw_prob, away_win_prob):
     
     # Ensure probabilities sum to 1
     assert sum(probabilities) < 1.05 and sum(probabilities) > 0.95, "Probabilities must sum to 1"
-    
     return random.choices(outcomes, weights=probabilities)[0]
 
 # Function to predict match result using Poisson regression models
@@ -239,10 +238,10 @@ def predict_match_result(home_team, away_team, group_stage):
             return (home_team, 1), (away_team, 1), random.choice([home_team , away_team])
 #############################################################################
 
-n_simulations = 10
+n_simulations = 10000
 
 for n in range(n_simulations):
-    print("Simulation ", n ,"\n")
+    if n_simulations % 100: print("Simulation ", n ,"\n")
 
     # Simulate the group stage matches
     results = []

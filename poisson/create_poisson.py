@@ -41,6 +41,6 @@ models_dir = 'models'
 os.makedirs(models_dir, exist_ok=True)
 
 # Save the models
-joblib.dump(poisson_home, os.path.join(models_dir, 'poisson_home.pkl'))
-joblib.dump(poisson_away, os.path.join(models_dir, 'poisson_away.pkl'))
+joblib.dump(poisson_home, os.path.join(models_dir, 'new_poisson_home.pkl'))
+joblib.dump(poisson_away, os.path.join(models_dir, 'new_poisson_away.pkl'))
 joblib.dump(label_encoders, os.path.join(models_dir, 'label_encoders.pkl'))

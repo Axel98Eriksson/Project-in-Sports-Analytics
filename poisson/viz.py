@@ -23,7 +23,8 @@ def viz_win_percentage(file_path):
 def viz_most_likely_outcome(file_path):
     # Load the CSV file
     df = pd.read_csv(file_path)
-    
+    df = df.sort_values(by='Winner', ascending=False)
+
     # Define color codes for each stage
     color_codes = {
         "Group Stage Exits": "#000000",  # Black
@@ -57,7 +58,7 @@ def viz_most_likely_outcome(file_path):
     plt.show()
 
 
-file_path = '10000_simulations.csv'
+file_path = 'new_10000.csv'
 
 viz_win_percentage(file_path)
 viz_most_likely_outcome(file_path)
