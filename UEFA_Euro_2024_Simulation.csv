@@ -1,94 +1,52 @@
 Date,Stage,Home Team,Away Team,Tournament,Winner
-2024-06-14,Groupstage,Germany,Scotland,UEFA Euro,
+2024-06-14,Groupstage,Germany,Scotland,UEFA Euro,Germany
 2024-06-15,Groupstage,Hungary,Switzerland,UEFA Euro,Hungary
 2024-06-15,Groupstage,Spain,Croatia,UEFA Euro,Spain
-2024-06-15,Groupstage,Italy,Albania,UEFA Euro,Albania
-2024-06-16,Groupstage,Poland,Netherlands,UEFA Euro,
+2024-06-15,Groupstage,Italy,Albania,UEFA Euro,Italy
+2024-06-16,Groupstage,Poland,Netherlands,UEFA Euro,Poland
 2024-06-16,Groupstage,Slovenia,Denmark,UEFA Euro,Slovenia
-2024-06-16,Groupstage,Serbia,England,UEFA Euro,England
-2024-06-17,Groupstage,Romania,Ukraine,UEFA Euro,Romania
+2024-06-16,Groupstage,Serbia,England,UEFA Euro,Serbia
+2024-06-17,Groupstage,Romania,Ukraine,UEFA Euro,Ukraine
 2024-06-17,Groupstage,Belgium,Slovakia,UEFA Euro,Belgium
-<<<<<<< Updated upstream
 2024-06-17,Groupstage,Austria,France,UEFA Euro,
-2024-06-18,Groupstage,Turkey,Georgia,UEFA Euro,Turkey
+2024-06-18,Groupstage,Turkey,Georgia,UEFA Euro,
 2024-06-18,Groupstage,Portugal,Czech Republic,UEFA Euro,Czech Republic
-2024-06-19,Groupstage,Croatia,Albania,UEFA Euro,Croatia
-2024-06-19,Groupstage,Germany,Hungary,UEFA Euro,Germany
-2024-06-19,Groupstage,Scotland,Switzerland,UEFA Euro,
-2024-06-20,Groupstage,Slovenia,Serbia,UEFA Euro,Slovenia
-2024-06-20,Groupstage,Denmark,England,UEFA Euro,Denmark
-2024-06-20,Groupstage,Spain,Italy,UEFA Euro,Spain
-2024-06-21,Groupstage,Slovakia,Ukraine,UEFA Euro,Slovakia
-2024-06-21,Groupstage,Poland,Austria,UEFA Euro,Poland
-2024-06-21,Groupstage,Netherlands,France,UEFA Euro,Netherlands
-2024-06-22,Groupstage,Georgia,Czech Republic,UEFA Euro,Czech Republic
-2024-06-22,Groupstage,Turkey,Portugal,UEFA Euro,Portugal
-2024-06-22,Groupstage,Belgium,Romania,UEFA Euro,Belgium
-=======
-2024-06-17,Groupstage,Austria,France,UEFA Euro,France
-2024-06-18,Groupstage,Turkey,Georgia,UEFA Euro,Turkey
-2024-06-18,Groupstage,Portugal,Czech Republic,UEFA Euro,Czech Republic
-2024-06-19,Groupstage,Croatia,Albania,UEFA Euro,Croatia
+2024-06-19,Groupstage,Croatia,Albania,UEFA Euro,
 2024-06-19,Groupstage,Germany,Hungary,UEFA Euro,
-2024-06-19,Groupstage,Scotland,Switzerland,UEFA Euro,Switzerland
+2024-06-19,Groupstage,Scotland,Switzerland,UEFA Euro,
 2024-06-20,Groupstage,Slovenia,Serbia,UEFA Euro,
 2024-06-20,Groupstage,Denmark,England,UEFA Euro,Denmark
 2024-06-20,Groupstage,Spain,Italy,UEFA Euro,Spain
 2024-06-21,Groupstage,Slovakia,Ukraine,UEFA Euro,Ukraine
-2024-06-21,Groupstage,Poland,Austria,UEFA Euro,Austria
-2024-06-21,Groupstage,Netherlands,France,UEFA Euro,
+2024-06-21,Groupstage,Poland,Austria,UEFA Euro,Poland
+2024-06-21,Groupstage,Netherlands,France,UEFA Euro,Netherlands
 2024-06-22,Groupstage,Georgia,Czech Republic,UEFA Euro,Czech Republic
-2024-06-22,Groupstage,Turkey,Portugal,UEFA Euro,Portugal
-2024-06-22,Groupstage,Belgium,Romania,UEFA Euro,
->>>>>>> Stashed changes
-2024-06-23,Groupstage,Switzerland,Germany,UEFA Euro,Germany
+2024-06-22,Groupstage,Turkey,Portugal,UEFA Euro,Turkey
+2024-06-22,Groupstage,Belgium,Romania,UEFA Euro,Romania
+2024-06-23,Groupstage,Switzerland,Germany,UEFA Euro,Switzerland
 2024-06-23,Groupstage,Scotland,Hungary,UEFA Euro,Hungary
 2024-06-24,Groupstage,Albania,Spain,UEFA Euro,Spain
 2024-06-24,Groupstage,Croatia,Italy,UEFA Euro,Croatia
-2024-06-25,Groupstage,France,Poland,UEFA Euro,
+2024-06-25,Groupstage,France,Poland,UEFA Euro,Poland
 2024-06-25,Groupstage,Netherlands,Austria,UEFA Euro,Austria
-<<<<<<< Updated upstream
 2024-06-25,Groupstage,England,Slovenia,UEFA Euro,England
-2024-06-25,Groupstage,Denmark,Serbia,UEFA Euro,Denmark
-2024-06-26,Groupstage,Ukraine,Belgium,UEFA Euro,Ukraine
-2024-06-26,Groupstage,Slovakia,Romania,UEFA Euro,Slovakia
-2024-06-26,Groupstage,Czech Republic,Turkey,UEFA Euro,Czech Republic
-2024-06-26,Groupstage,Georgia,Portugal,UEFA Euro,Portugal
-2024-06-29,Round of 16,Croatia,Austria,UEFA Euro,Croatia
-2024-06-29,Round of 16,Germany,England,UEFA Euro,Germany
-2024-06-30,Round of 16,Czech Republic,Italy,UEFA Euro,Italy
-2024-06-30,Round of 16,France,Belgium,UEFA Euro,Belgium
-2024-07-01,Round of 16,Slovakia,Slovenia,UEFA Euro,Slovakia
-2024-07-01,Round of 16,Netherlands,Portugal,UEFA Euro,Portugal
-2024-07-02,Round of 16,Denmark,Ukraine,UEFA Euro,Denmark
-2024-07-02,Round of 16,Hungary,Spain,UEFA Euro,Spain
-2024-07-05,Quarter-finals,Croatia,Germany,UEFA Euro,Croatia
-2024-07-05,Quarter-finals,Czech Republic,Belgium,UEFA Euro,Belgium
-2024-07-06,Quarter-finals,Slovenia,Portugal,UEFA Euro,Portugal
-2024-07-06,Quarter-finals,Ukraine,Hungary,UEFA Euro,Hungary
-2024-07-09,Semi-finals,Croatia,Czech Republic,UEFA Euro,Czech Republic
-2024-07-10,Semi-finals,Portugal,Ukraine,UEFA Euro,Portugal
-2024-07-14,Final,Croatia,Portugal,UEFA Euro,Croatia
-=======
-2024-06-25,Groupstage,England,Slovenia,UEFA Euro,
-2024-06-25,Groupstage,Denmark,Serbia,UEFA Euro,Serbia
+2024-06-25,Groupstage,Denmark,Serbia,UEFA Euro,
 2024-06-26,Groupstage,Ukraine,Belgium,UEFA Euro,Belgium
-2024-06-26,Groupstage,Slovakia,Romania,UEFA Euro,
-2024-06-26,Groupstage,Czech Republic,Turkey,UEFA Euro,Turkey
-2024-06-26,Groupstage,Georgia,Portugal,UEFA Euro,Georgia
-2024-06-29,Round of 16,Spain,Serbia,UEFA Euro,Spain
-2024-06-29,Round of 16,Hungary,England,UEFA Euro,Hungary
-2024-06-30,Round of 16,Turkey,Switzerland,UEFA Euro,Switzerland
-2024-06-30,Round of 16,France,Romania,UEFA Euro,France
-2024-07-01,Round of 16,Belgium,Albania,UEFA Euro,Belgium
-2024-07-01,Round of 16,Austria,Czech Republic,UEFA Euro,Austria
-2024-07-02,Round of 16,Slovenia,Ukraine,UEFA Euro,Ukraine
-2024-07-02,Round of 16,Germany,Croatia,UEFA Euro,Germany
-2024-07-05,Quarter-finals,Spain,England,UEFA Euro,England
-2024-07-05,Quarter-finals,Switzerland,France,UEFA Euro,France
-2024-07-06,Quarter-finals,Belgium,Austria,UEFA Euro,Belgium
-2024-07-06,Quarter-finals,Ukraine,Croatia,UEFA Euro,Croatia
-2024-07-09,Semi-finals,Spain,France,UEFA Euro,Spain
-2024-07-10,Semi-finals,Austria,Ukraine,UEFA Euro,Ukraine
-2024-07-14,Final,Spain,Austria,UEFA Euro,Spain
->>>>>>> Stashed changes
+2024-06-26,Groupstage,Slovakia,Romania,UEFA Euro,Romania
+2024-06-26,Groupstage,Czech Republic,Turkey,UEFA Euro,
+2024-06-26,Groupstage,Georgia,Portugal,UEFA Euro,Portugal
+2024-06-29,Round of 16,Spain,Romania,UEFA Euro,Spain
+2024-06-29,Round of 16,Hungary,Slovenia,UEFA Euro,Hungary
+2024-06-30,Round of 16,Czech Republic,Switzerland,UEFA Euro,Czech Republic
+2024-06-30,Round of 16,Austria,Belgium,UEFA Euro,Austria
+2024-07-01,Round of 16,Ukraine,Denmark,UEFA Euro,Denmark
+2024-07-01,Round of 16,Poland,Turkey,UEFA Euro,Turkey
+2024-07-02,Round of 16,Serbia,Italy,UEFA Euro,Italy
+2024-07-02,Round of 16,Germany,Croatia,UEFA Euro,Croatia
+2024-07-05,Quarter-finals,Romania,Hungary,UEFA Euro,Hungary
+2024-07-05,Quarter-finals,Czech Republic,Austria,UEFA Euro,Austria
+2024-07-06,Quarter-finals,Denmark,Poland,UEFA Euro,Denmark
+2024-07-06,Quarter-finals,Serbia,Croatia,UEFA Euro,Croatia
+2024-07-09,Semi-finals,Hungary,Czech Republic,UEFA Euro,Hungary
+2024-07-10,Semi-finals,Poland,Croatia,UEFA Euro,Croatia
+2024-07-14,Final,Czech Republic,Croatia,UEFA Euro,Czech Republic

@@ -4,6 +4,9 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import PoissonRegressor
+import xgboost as xgb
+#randm forest regressor
+from sklearn.ensemble import RandomForestRegressor
 import joblib
 
 # Load your dataset
@@ -22,17 +25,17 @@ data['date'] = pd.to_datetime(data['date'])
 
 
 #filet out the columns that are not needed
-data = data[['home_team', 'away_team', 'country', 'home_ranking', 'away_ranking', 'home_avg_goals', 'away_avg_goals', 'home_wins', 'away_wins', 'home_losses', 'away_losses', 'home_draws', 'away_draws', 'home_score', 'away_score']]
+data = data[['home_team', 'away_team', 'country', 'home_ranking', 'away_ranking', 'home_avg_goals_scored', 'away_avg_goals_scored','home_avg_goals_conceded','away_avg_goals_conceded', 'home_wins', 'away_wins', 'home_losses', 'away_losses', 'home_draws', 'away_draws', 'home_score', 'away_score']]
 
 
 # Features and target
-X = data[['home_team', 'away_team', 'country', 'home_ranking', 'away_ranking', 'home_avg_goals', 'away_avg_goals', 'home_wins', 'away_wins', 'home_losses', 'away_losses', 'home_draws', 'away_draws']]
+X = data[['home_team', 'away_team', 'country', 'home_ranking', 'away_ranking', 'home_avg_goals_scored', 'away_avg_goals_scored','home_avg_goals_conceded','away_avg_goals_conceded', 'home_wins', 'away_wins', 'home_losses', 'away_losses', 'home_draws', 'away_draws']]
 y_home = data['home_score']
 y_away = data['away_score']
 
 # Preprocess categorical and numerical features
 categorical_features = ['home_team', 'away_team']
-numerical_features = ['home_ranking', 'away_ranking', 'home_avg_goals', 'away_avg_goals', 'home_wins', 'away_wins', 'home_losses', 'away_losses', 'home_draws', 'away_draws']
+numerical_features = ['home_ranking', 'away_ranking', 'home_avg_goals_scored', 'away_avg_goals_scored','home_avg_goals_conceded','away_avg_goals_conceded', 'home_wins', 'away_wins', 'home_losses', 'away_losses', 'home_draws', 'away_draws']
 
 preprocessor = ColumnTransformer(
     transformers=[
@@ -46,6 +49,19 @@ pipeline = Pipeline(steps=[
     ('regressor', PoissonRegressor())
 ])
 
+# create a pipeline for xgboost
+pipeline_xgb = Pipeline(steps=[
+    ('preprocessor', preprocessor),
+    ('regressor', xgb.XGBRegressor())
+]) 
+
+pipeline_rf = Pipeline(steps=[
+    ('preprocessor', preprocessor),
+    ('regressor', RandomForestRegressor())
+])
+
+
+
 # Train the model for home goals
 pipeline.fit(X, y_home)
 
@@ -57,6 +73,31 @@ pipeline.fit(X, y_away)
 
 # Save the trained model to a file
 joblib.dump(pipeline, 'Oskars_predictor/away_goals_model.pkl')
+
+# Train the model for home goals
+pipeline_xgb.fit(X, y_home)
+
+# Save the trained model to a file
+joblib.dump(pipeline_xgb, 'Oskars_predictor/home_goals_model_xgb.pkl')
+
+# Train the model for away goals
+pipeline_xgb.fit(X, y_away) 
+
+# Save the trained model to a file
+joblib.dump(pipeline_xgb, 'Oskars_predictor/away_goals_model_xgb.pkl')
+
+# Train the model for home goals
+pipeline_rf.fit(X, y_home)
+
+# Save the trained model to a file
+joblib.dump(pipeline_rf, 'Oskars_predictor/home_goals_model_rf.pkl')
+
+# Train the model for away goals
+pipeline_rf.fit(X, y_away)
+
+# Save the trained model to a file
+joblib.dump(pipeline_rf, 'Oskars_predictor/away_goals_model_rf.pkl')
+
 
 #save the preprocessor to a file
 #joblib.dump(preprocessor, 'Oskars_predictor/preprocessor.pkl')

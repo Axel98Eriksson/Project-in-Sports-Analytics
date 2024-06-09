@@ -16,7 +16,7 @@ csvFile = csvFile[(csvFile['home_team'].isin(euro['home_team'])) & (csvFile['awa
 
 
 #filter to only include rows with date after 1980-01-01
-csvFile = csvFile[csvFile['date'] > '2014-01-01']
+csvFile = csvFile[csvFile['date'] > '2010-01-01']
 csvFile['date'] = pandas.to_datetime(csvFile['date'])
 
 rankings = pandas.read_csv('fifa_rankings/fifa_ranking-2024-04-04.csv')
@@ -29,8 +29,10 @@ csvFile['home_ranking'] = 0
 csvFile['away_ranking'] = 0
 
 #add a column that contains the average goals scored the last 5 games, and how many wins, losses and draws the team has had in the last 5 games
-csvFile['home_avg_goals'] = 0
-csvFile['away_avg_goals'] = 0
+csvFile['home_avg_goals_scored'] = 0
+csvFile['away_avg_goals_scored'] = 0
+csvFile['home_avg_goals_conceded'] = 0
+csvFile['away_avg_goals_conceded'] = 0
 csvFile['home_wins'] = 0
 csvFile['away_wins'] = 0
 csvFile['home_losses'] = 0
@@ -105,9 +107,13 @@ for index, row in csvFile.iterrows():
     csvFile.at[index, 'home_ranking'] = home_ranking
     csvFile.at[index, 'away_ranking'] = away_ranking
 
-    home_avg_goals, away_avg_goals = get_avg_goals(home_team, match_date)
-    csvFile.at[index, 'home_avg_goals'] = home_avg_goals
-    csvFile.at[index, 'away_avg_goals'] = away_avg_goals
+    home_avg_goals_scored, home_average_conceded = get_avg_goals(home_team, match_date)
+    csvFile.at[index, 'home_avg_goals_scored'] = home_avg_goals_scored
+    csvFile.at[index, 'home_avg_goals_conceded'] = home_average_conceded
+
+    away_avg_goals_scored, away_avg_goals_conceded = get_avg_goals(away_team, match_date)
+    csvFile.at[index, 'away_avg_goals_scored'] = away_avg_goals_scored
+    csvFile.at[index, 'away_avg_goals_conceded'] = away_avg_goals_conceded
 
     home_wins, home_losses, home_draws = get_wins_losses_draws(home_team, match_date)
     csvFile.at[index, 'home_wins'] = home_wins
@@ -122,6 +128,6 @@ for index, row in csvFile.iterrows():
 
 
 print(csvFile)
-
+csvFile = csvFile[csvFile['date'] > '2014-01-01']
 #save the updated csvFile to a new file
 csvFile.to_csv('Results/oskars_special_mix.csv', index=False)
