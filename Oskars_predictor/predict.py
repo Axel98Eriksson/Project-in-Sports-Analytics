@@ -14,7 +14,7 @@ away_goals_model_xgb = joblib.load('Oskars_predictor/away_goals_model_xgb.pkl')
 home_goals_model_rf = joblib.load('Oskars_predictor/home_goals_model_rf.pkl')
 away_goals_model_rf = joblib.load('Oskars_predictor/away_goals_model_rf.pkl')
 
-def calibrate_draw_probability(home_win_prob, draw_prob, away_win_prob, factor=1.3):
+def calibrate_draw_probability(home_win_prob, draw_prob, away_win_prob, factor=1):
     # Increase the draw probability by a factor, and re-normalize
     draw_prob *= factor
     total_prob = home_win_prob + draw_prob + away_win_prob
@@ -64,11 +64,11 @@ def simulate_match(home_team, away_team, country, home_ranking, away_ranking, ho
     # away_goals_pred = max(away_goals_pred, 0.1) if np.isnan(away_goals_pred) or away_goals_pred < 0 else away_goals_pred
 
     # Use a weighted average or another method to combine predictions
-    home_goals_pred = max((0.4 * home_goals_pred_po + 0.3 * home_goals_pred_xgb + 0.3 * home_goals_pred_rf), 0)
-    away_goals_pred = max((0.4 * away_goals_pred_po + 0.3 * away_goals_pred_xgb + 0.3 * away_goals_pred_rf), 0)
+    # home_goals_pred = max((0.4 * home_goals_pred_po + 0.3 * home_goals_pred_xgb + 0.3 * home_goals_pred_rf), 0)
+    # away_goals_pred = max((0.4 * away_goals_pred_po + 0.3 * away_goals_pred_xgb + 0.3 * away_goals_pred_rf), 0)
 
-    #home_goals_pred = home_goals_pred_xgb
-    #away_goals_pred = away_goals_pred_xgb
+    home_goals_pred = home_goals_pred_xgb
+    away_goals_pred = away_goals_pred_xgb
 
     home_goals_pred = max(home_goals_pred, 0.1) if np.isnan(home_goals_pred) or home_goals_pred < 0 else home_goals_pred
     away_goals_pred = max(away_goals_pred, 0.1) if np.isnan(away_goals_pred) or away_goals_pred < 0 else away_goals_pred

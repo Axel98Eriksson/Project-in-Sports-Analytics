@@ -15,13 +15,13 @@ data = pd.read_csv('Results\oskars_special_mix.csv')
 # Convert date to datetime
 data['date'] = pd.to_datetime(data['date'])
 
-#save the rows after 2023-01-01
-data_after_2023 = data[data['date'] >= '2023-01-01']
-data_after_2023.to_csv('Oskars_predictor\oskars_special_mix_after_2023.csv', index=False)
+# #save the rows after 2023-01-01
+# data_after_2023 = data[data['date'] >= '2023-01-01']
+# data_after_2023.to_csv('Oskars_predictor\oskars_special_mix_after_2023.csv', index=False)
 
-#filter out rows after 2023-01-01
-data = data[data['date'] < '2023-01-01']
-data['date'] = pd.to_datetime(data['date'])
+# #filter out rows after 2023-01-01
+# data = data[data['date'] < '2023-01-01']
+# data['date'] = pd.to_datetime(data['date'])
 
 
 #filet out the columns that are not needed
@@ -42,7 +42,7 @@ preprocessor = ColumnTransformer(
         ('cat', OneHotEncoder(), categorical_features),
         ('num', StandardScaler(), numerical_features)
     ])
-
+print(preprocessor)
 # Create a pipeline for the Poisson Regressor
 pipeline = Pipeline(steps=[
     ('preprocessor', preprocessor),
@@ -66,37 +66,37 @@ pipeline_rf = Pipeline(steps=[
 pipeline.fit(X, y_home)
 
 # Save the trained model to a file
-joblib.dump(pipeline, 'Oskars_predictor/home_goals_model.pkl')
+joblib.dump(pipeline, 'Oskars_predictor/home_goals_model_full.pkl')
 
 # Train the model for away goals
 pipeline.fit(X, y_away)
 
 # Save the trained model to a file
-joblib.dump(pipeline, 'Oskars_predictor/away_goals_model.pkl')
+joblib.dump(pipeline, 'Oskars_predictor/away_goals_model_full.pkl')
 
 # Train the model for home goals
 pipeline_xgb.fit(X, y_home)
 
 # Save the trained model to a file
-joblib.dump(pipeline_xgb, 'Oskars_predictor/home_goals_model_xgb.pkl')
+joblib.dump(pipeline_xgb, 'Oskars_predictor/home_goals_model_xgb_full.pkl')
 
 # Train the model for away goals
 pipeline_xgb.fit(X, y_away) 
 
 # Save the trained model to a file
-joblib.dump(pipeline_xgb, 'Oskars_predictor/away_goals_model_xgb.pkl')
+joblib.dump(pipeline_xgb, 'Oskars_predictor/away_goals_model_xgb_full.pkl')
 
 # Train the model for home goals
 pipeline_rf.fit(X, y_home)
 
 # Save the trained model to a file
-joblib.dump(pipeline_rf, 'Oskars_predictor/home_goals_model_rf.pkl')
+joblib.dump(pipeline_rf, 'Oskars_predictor/home_goals_model_rf_full.pkl')
 
 # Train the model for away goals
 pipeline_rf.fit(X, y_away)
 
 # Save the trained model to a file
-joblib.dump(pipeline_rf, 'Oskars_predictor/away_goals_model_rf.pkl')
+joblib.dump(pipeline_rf, 'Oskars_predictor/away_goals_model_rf_full.pkl')
 
 
 #save the preprocessor to a file

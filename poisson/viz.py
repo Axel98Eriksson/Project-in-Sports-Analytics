@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def viz_win_percentage(file_path):
     # Calculate the percentage of each team winning the tournament
     df = pd.read_csv(file_path)
-    df['Win Percentage'] = (df['Winner'] / 10000) * 100
+    df['Win Percentage'] = (df['Winner'] / 5000) * 100
 
     # Sort the dataframe by win percentage in descending order
     df = df.sort_values(by='Win Percentage', ascending=False)
@@ -58,7 +58,7 @@ def viz_most_likely_outcome(file_path):
     plt.show()
 
 
-file_path = 'new_10000.csv'
+file_path = 'Oskars_predictor/combined_results.csv'
 
 viz_win_percentage(file_path)
 viz_most_likely_outcome(file_path)

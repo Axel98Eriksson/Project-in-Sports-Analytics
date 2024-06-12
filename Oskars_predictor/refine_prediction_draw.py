@@ -10,9 +10,9 @@ data = pd.read_csv('Results\oskars_special_mix.csv')
 # Convert date to datetime
 data['date'] = pd.to_datetime(data['date'])
 
-#filter out rows after 2023-01-01
-data = data[data['date'] < '2023-01-01']
-data['date'] = pd.to_datetime(data['date'])
+# #filter out rows after 2023-01-01
+# data = data[data['date'] < '2023-01-01']
+# data['date'] = pd.to_datetime(data['date'])
 
 # Create the target variable for draw: 1 if draw, else 0
 data['is_draw'] = (data['home_score'] == data['away_score']).astype(int)
@@ -54,5 +54,5 @@ print("Confusion Matrix on Test Set:")
 print(confusion_matrix(y_test, y_pred_test))
 
 # Save the trained model
-joblib.dump(draw_model, 'Oskars_predictor/draw_model.pkl')
+joblib.dump(draw_model, 'Oskars_predictor/draw_model_full.pkl')
 print("Draw model saved as 'draw_model.pkl'")

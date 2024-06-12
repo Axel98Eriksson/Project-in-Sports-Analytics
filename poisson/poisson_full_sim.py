@@ -238,7 +238,7 @@ def predict_match_result(home_team, away_team, group_stage):
             return (home_team, 1), (away_team, 1), random.choice([home_team , away_team])
 #############################################################################
 
-n_simulations = 10000
+n_simulations = 5
 
 for n in range(n_simulations):
     if n_simulations % 100: print("Simulation ", n ,"\n")
